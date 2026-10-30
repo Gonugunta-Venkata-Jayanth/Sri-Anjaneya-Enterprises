@@ -19,11 +19,12 @@
 - **Brands section** with cards for KSB, Kirloskar, Wilo, Ekki-Deccan, C.R.I., Falcon, Lubi, Crompton and the in-house brand **Aqua Tide**, each showing its dealer status and typical uses.
 - **Company & Products** picker that opens a modal per brand (Agriculture / Domestic categories; product listings are still being added).
 - **Certifications** gallery: dealership and authorisation certificates (Kirloskar, EKKI, DECCAN, Wilo, KSB) and an IndiaMART TrustSeal, viewable in modals or as PDFs.
-- **Customer review form** with a 5-star rating, required-field validation and live review cards. *Reviews are rendered in the browser only and are not stored yet.*
+- **Customer review form** with a 5-star rating, required-field validation and live review cards. Visitor input is inserted with `textContent`, so it is shown as plain text and cannot inject HTML or scripts. *Reviews are rendered in the browser only and are not stored yet.*
 - **Shop gallery** slider with previous / next controls.
 - **Contact** section with click-to-call and email links, the store address, one-tap directions on **Google Maps, Apple Maps and Mappls**, and links to the **IndiaMART** and **TradeIndia** storefronts.
 - **Scroll-reveal animations** using `IntersectionObserver`.
 - **Responsive breakpoints** at 960 px, 720 px and 700 px.
+- **Footer year** set from the visitor's clock by JavaScript, so it never goes stale.
 
 ## 🛠 Tech Stack
 
@@ -59,6 +60,7 @@ flowchart TD
 ```
 Sri-Anjaneya-Enterprises/
 ├── index.html            # The whole site: markup, inline CSS and JS
+├── images/               # Hero image, brand-strip/brand-card logos (WebP) and Kirloskar / EKKI / Deccan certificates (JPEG)
 ├── assets/
 │   ├── certs/            # Dealership certificates (KSB, Wilo)
 │   ├── owners/           # Leadership photos
@@ -66,8 +68,8 @@ Sri-Anjaneya-Enterprises/
 │   └── TrustSeal-IM.pdf  # IndiaMART TrustSeal certificate
 ├── Owners/               # Leadership photos used on the page
 ├── Shop images/          # Shop gallery photos
-├── .vscode/launch.json   # Chrome debug config for localhost:8080
-└── (root)                # Additional logo, certificate and image files
+├── Falcon.png, Gemini_Generated_Image_*.png   # Two images still referenced from the root
+└── .vscode/launch.json   # Chrome debug config for localhost:8080
 ```
 
 ## 🚀 Run Locally
@@ -92,12 +94,10 @@ The site is fully static, so it can go on any static host (GitHub Pages, Netlify
 ## 🔮 Future Work
 
 - Fill in the per-brand **Agriculture / Domestic** product catalogues (currently "coming soon").
-- Store customer reviews (for example Google Sheets, Firebase or Netlify Forms) so they persist and can be moderated; escape user input before rendering.
-- Move the inline base64 images out of `index.html` into compressed files in `assets/` (WebP) to cut page weight.
-- Remove duplicate or unused root-level images and saved `.mhtml` pages.
+- Store customer reviews (for example Google Sheets, Firebase or Netlify Forms) so they persist and can be moderated.
+- Move the two remaining root images into `images/` and drop the unused `assets/owners/Managing Director.jpeg`.
 - Add SEO and Open Graph meta tags, a favicon, `LocalBusiness` structured data and an embedded map.
 - Add a WhatsApp enquiry button and a quotation-request form.
-- Update the footer copyright year.
 
 ## 👤 Author
 
