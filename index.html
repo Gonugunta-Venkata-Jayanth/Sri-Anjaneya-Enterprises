@@ -3105,7 +3105,7 @@
                 </div>
             </div>
             <div class="foot-bottom">
-                <div class="foot-copy">© 2024 Sri Anjaneya Enterprises. All rights reserved.</div>
+                <div class="foot-copy">© <span id="footYear">2026</span> Sri Anjaneya Enterprises. All rights reserved.</div>
                 <div class="foot-gst">GST: 36ASFPG1225Q1ZM</div>
             </div>
         </div>
@@ -3149,6 +3149,9 @@
         function openModal(id) { document.getElementById(id).classList.add('open'); document.body.style.overflow = 'hidden'; }
         function closeModal(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow = ''; }
         document.querySelectorAll('.modal-overlay').forEach(m => m.addEventListener('click', function (e) { if (e.target === this) closeModal(this.id); }));
+
+        // Footer year (always the current year)
+        (function () { const y = document.getElementById('footYear'); if (y) y.textContent = new Date().getFullYear(); })();
 
         // Stars
         let currentRating = 0;
