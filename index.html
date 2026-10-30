@@ -3169,7 +3169,13 @@
             const fs = '<span>★</span>'.repeat(currentRating) + '<span class="empty">★</span>'.repeat(5 - currentRating);
             const nr = document.getElementById('noReviews'); if (nr) nr.remove();
             const card = document.createElement('div'); card.className = 'rcard';
-            card.innerHTML = `<div class="rcard-header"><div><div class="rcard-name">${name}</div><div class="rcard-loc">📍 ${loc}</div></div><div class="rcard-stars">${fs}</div></div><span class="rcard-product">${product}</span><div class="rcard-text">${feedback}</div><div class="rcard-date">${months[now.getMonth()]} ${now.getFullYear()}</div>`;
+            // Static markup only; visitor-entered text is set with textContent so it can never run as HTML/script
+            card.innerHTML = `<div class="rcard-header"><div><div class="rcard-name"></div><div class="rcard-loc"></div></div><div class="rcard-stars">${fs}</div></div><span class="rcard-product"></span><div class="rcard-text"></div><div class="rcard-date"></div>`;
+            card.querySelector('.rcard-name').textContent = name;
+            card.querySelector('.rcard-loc').textContent = '📍 ' + loc;
+            card.querySelector('.rcard-product').textContent = product;
+            card.querySelector('.rcard-text').textContent = feedback;
+            card.querySelector('.rcard-date').textContent = months[now.getMonth()] + ' ' + now.getFullYear();
             document.getElementById('reviewCards').prepend(card);
             const cnt = document.getElementById('reviewCards').querySelectorAll('.rcard').length;
             document.getElementById('reviewCount').textContent = cnt + ' review' + (cnt > 1 ? 's' : '');
