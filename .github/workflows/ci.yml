@@ -1,0 +1,48 @@
+name: CI & Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate brand data and rebuild js/data.js
+        run: |
+          for f in data/brands/*.json; do python -m json.tool "$f" > /dev/null || exit 1; done
+          python tools/build_data.py
+          git diff --exit-code js/data.js || (echo "js/data.js is stale: run python tools/build_data.py" && exit 1)
+      - name: Check every local image the data references exists
+        run: |
+          python - <<'PY'
+          import json, glob, os, sys
+          missing = [p["image_file"] for f in glob.glob("data/brands/*.json") for p in json.load(open(f))["products"]
+                     if p.get("image_file") and not os.path.exists(p["image_file"])]
+          print("missing images:", missing); sys.exit(1 if missing else 0)
+          PY
+      - name: Lint HTML
+        run: npx --yes html-validate@8 --config .htmlvalidate.json index.html
+
+  deploy:
+    needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          exclude_assets: ".github,tools,.vscode,data"
+          enable_jekyll: false

@@ -1,0 +1,355 @@
+{
+ "brand": "DECCAN",
+ "website": "https://www.deccanpumps.com/",
+ "country": "India (Coimbatore, Tamil Nadu)",
+ "founded": "1981",
+ "tagline": "The True Original Always Pumping Ahead",
+ "notes": "Deccan Pumps Pvt Ltd (D-Plus Deccan branding, part of the EKKI Group). Its site lists only openwell submersibles among submersibles (no borewell line). Series names come from the image file names on the brand page, which shows no text names. Phase for some series is inferred. Prices are retailer listings (MRP where shown); HOKVR/HOK/HOT bands are single models whose series is inferred from the model code (DH10R / DH15 / DTH10).",
+ "products": [
+  {
+   "name": "DECCAN HOKVR Series",
+   "series": "HOKVR Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic, value range)",
+   "power_range": "0.5–1 HP",
+   "head_range": "up to 30 m",
+   "flow_range": "up to 10.5 m³/h (≈175 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Corrosion-free SS motor body",
+    "FG 260 cast iron for rigidity",
+    "Sturdy legs and SS forged hook",
+    "Copper winding, minimal maintenance"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Sumps & tanks",
+    "Gardening"
+   ],
+   "price_from": "₹ 15,900",
+   "price_to": "₹ 15,900",
+   "price_source_url": "https://www.thundathiltraders.com/?s=deccan&post_type=product",
+   "image_file": "images/products/deccan/hokvr-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN HOK Series",
+   "series": "HOK Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic)",
+   "power_range": "1–2 HP",
+   "head_range": "up to 40 m",
+   "flow_range": "up to 54 m³/h (≈900 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "SS motor body, SS 410 pump shaft",
+    "Natural rubber seal against leakage",
+    "Runs across wide voltage fluctuation",
+    "Copper winding"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Small farms",
+    "Sumps & tanks"
+   ],
+   "price_from": "₹ 22,200",
+   "price_to": "₹ 22,200",
+   "price_source_url": "https://thundathiltraders.com/product/deccan-dh15ph-horizontal-openwell-submersible-1-5hp-with-3m-cable/",
+   "image_file": "images/products/deccan/hok-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN HOT Series",
+   "series": "HOT Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (tiny)",
+   "power_range": "0.5–1 HP",
+   "head_range": "up to 46 m",
+   "flow_range": "up to 12 m³/h (≈200 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Low-voltage operation",
+    "Vertical or horizontal installation",
+    "99.9% EC-grade copper rotor",
+    "Easy to handle, dismantle and rewind"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Sumps & small open wells"
+   ],
+   "price_from": "₹ 24,700",
+   "price_to": "₹ 24,700",
+   "price_source_url": "https://www.thundathiltraders.com/?s=deccan&post_type=product",
+   "image_file": "images/products/deccan/hot-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN HOSVR Series",
+   "series": "HOSVR Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (small, value range)",
+   "power_range": "3–5 HP",
+   "head_range": "up to 30 m",
+   "flow_range": "up to 66 m³/h (≈1,100 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Bush bearing to minimise vibration",
+    "99.9% EC-grade copper rotor",
+    "High-grade flange for plumbing",
+    "Eye bolts for installation"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Public utilities"
+   ],
+   "price_from": "₹ 30,000",
+   "price_to": "₹ 33,000",
+   "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
+   "image_file": "images/products/deccan/hosvr-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN HOS Series",
+   "series": "HOS Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (small)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 51 m",
+   "flow_range": "up to 108 m³/h (≈1,800 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "99.9% EC-grade copper rotor",
+    "Bush bearing to minimise vibration",
+    "High-grade flange for plumbing",
+    "Eye bolts for installation"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "₹ 34,250",
+   "price_to": "₹ 48,500",
+   "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
+   "image_file": "images/products/deccan/hos-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN HOM Series",
+   "series": "HOM Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (medium)",
+   "power_range": "10–15 HP",
+   "head_range": "up to 58 m",
+   "flow_range": "up to 144 m³/h (≈2,400 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "99.9% EC-grade copper rotor",
+    "Eye bolts for installation",
+    "High-grade flange for plumbing",
+    "Copper winding, minimal maintenance"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/deccan/hom-series.jpg",
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN SUBSEVAK Series",
+   "series": "SUBSEVAK Series",
+   "category": "Domestic",
+   "type": "Mini submersible (6\" borewell / openwell / tank)",
+   "power_range": "1–3 HP",
+   "head_range": "up to 132 m",
+   "flow_range": "up to 60 m³/h (≈1,000 LPM)",
+   "borewell_size": "150 mm (6\") borewell, open well or tank",
+   "phase": "Single",
+   "highlights": [
+    "Suitable for 6\" borewell, open well and water tanks",
+    "Class B insulation for hot conditions",
+    "Corrosion-free SS motor body",
+    "202-grade sheet-metal or steel-cast impeller"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Small farms",
+    "Water tanks"
+   ],
+   "price_from": "₹ 20,820",
+   "price_to": "₹ 32,120",
+   "price_source_url": "https://www.thundathiltraders.com/product/ekki-openwell-borewell-submersible-6cc-6-vertical-horizontal/",
+   "image_file": "images/products/deccan/subsevak-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOK Series",
+   "series": "VOK Series",
+   "category": "Domestic",
+   "type": "Vertical openwell submersible (domestic)",
+   "power_range": "1–2 HP",
+   "head_range": "up to 130 m",
+   "flow_range": "up to 4.2 m³/h (≈70 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "High head up to 130 m",
+    "Corrosion-free SS motor body",
+    "Easy to handle, install, dismantle and rewind"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Overhead tank filling",
+    "Gardening"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/deccan/vok-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOS Series",
+   "series": "VOS Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (small)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 188 m",
+   "flow_range": "up to 132 m³/h (≈2,200 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Both",
+   "highlights": [
+    "Pump and motor coupled for easy installation",
+    "Copper rotor for heavy duty",
+    "CI motor body with cooling fins",
+    "Copper winding, minimal maintenance"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Commercial building services"
+   ],
+   "price_from": "₹ 44,500",
+   "price_to": "₹ 70,500",
+   "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
+   "image_file": "images/products/deccan/vos-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOSVR Series",
+   "series": "VOSVR Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (small, value range)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 77 m",
+   "flow_range": "up to 54 m³/h (≈900 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Totally hardened SS shaft",
+    "Finned body for heat dissipation",
+    "99.9% EC-grade copper rotor",
+    "Dual casing in radial flow for different duties"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/deccan/vosvr-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOM Series",
+   "series": "VOM Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (medium)",
+   "power_range": "10–20 HP",
+   "head_range": "up to 338 m",
+   "flow_range": "up to 264 m³/h (≈4,400 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Pumps water over long distances",
+    "Finned body for heat dissipation",
+    "Special windings for low and high voltage",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Lift irrigation",
+    "Public utilities"
+   ],
+   "price_from": "₹ 80,000",
+   "price_to": "₹ 1,03,000",
+   "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
+   "image_file": "images/products/deccan/vom-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOML Series",
+   "series": "VOML Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (medium-large)",
+   "power_range": "25–45 HP",
+   "head_range": "up to 268 m",
+   "flow_range": "up to 360 m³/h (≈6,000 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Elegant SS body",
+    "Motor and pump coupled together",
+    "SS and bronze impellers on selected models",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture irrigation",
+    "Lift irrigation",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/deccan/voml-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  },
+  {
+   "name": "DECCAN VOL Series",
+   "series": "VOL Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (large)",
+   "power_range": "50–90 HP",
+   "head_range": "up to 265 m",
+   "flow_range": "up to 600 m³/h (≈10,000 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "High discharge up to 600 m³/h",
+    "Totally hardened SS shaft",
+    "Fast-discharge variants from low to high",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Large-scale irrigation",
+    "Lift irrigation",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/deccan/vol-series.jpg",
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+  }
+ ]
+}

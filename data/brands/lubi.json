@@ -1,0 +1,676 @@
+{
+ "brand": "Lubi",
+ "website": "https://www.lubipumps.com",
+ "country": "India",
+ "founded": "1965",
+ "tagline": "Totally Integrated & Sustainable Pumping Solutions",
+ "products": [
+  {
+   "name": "Lubi 3\" Oil-filled Borewell Submersible (LUS Series)",
+   "series": "LUS",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\", oil-filled)",
+   "power_range": "1–1.5 HP (0.75–1.1 kW)",
+   "head_range": "up to 85 m",
+   "flow_range": "up to 4.7 m³/h (~78 LPM)",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Enamelled copper winding for higher efficiency",
+    "Filled with non-toxic food-grade dielectric oil",
+    "Stainless-steel motor casing",
+    "Removable 3-wire cable with watertight connector",
+    "PSC motor – no start capacitor/switch needed"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Gardening",
+    "Small farms"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lus.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/engineering-plastic-submersible-pump/3-oil-filled-borewell-submersible-pumpsets-lus-series/"
+  },
+  {
+   "name": "Lubi 3\" Water-filled Borewell Submersible (LGS Series)",
+   "series": "LGS",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\", water-filled)",
+   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+   "head_range": "up to 90 m",
+   "flow_range": "up to 4.7 m³/h (~78 LPM)",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Enamelled copper winding for higher efficiency",
+    "Stainless-steel motor casing",
+    "Removable 3-wire cable with watertight connector",
+    "PSC motor – lower control-box cost",
+    "Wide voltage operation"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Gardening",
+    "Small farms"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lgs.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/engineering-plastic-submersible-pump/3-water-filled-borewell-submersible-pumpsets-lgs-series/"
+  },
+  {
+   "name": "Lubi 4\" Oil-filled Borewell Submersible (LDS/LDT Series)",
+   "series": "LDS / LDT",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", oil-filled, engineering plastic)",
+   "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
+   "head_range": "up to 435 m",
+   "flow_range": "up to 31.8 m³/h (~530 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Enamelled copper winding for higher efficiency",
+    "Filled with non-toxic food-grade dielectric oil",
+    "Stainless-steel motor casing",
+    "Removable 3-wire cable with watertight connector",
+    "PSC motor – no start capacitor/switch needed"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Gardening",
+    "Irrigation",
+    "Small farms"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lds-ldt.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/engineering-plastic-submersible-pump/4-oil-filled-borewell-submersible-pumpsets-lds-ldt-series/"
+  },
+  {
+   "name": "Lubi 4\" Water-filled Borewell Submersible (LRS/LKT Series, incl. Rainbow)",
+   "series": "LRS / LKT (Rainbow)",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", water-filled, engineering plastic)",
+   "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
+   "head_range": "up to 435 m",
+   "flow_range": "up to 31.8 m³/h (~530 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "CNC-machined components to IS specifications",
+    "Operates under large voltage fluctuations",
+    "Sleeve & thrust bearings for long life",
+    "Vacuum-impregnated, coated stator & rotor",
+    "Compact, slim design for narrow bores"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Gardening",
+    "Irrigation",
+    "Small farms"
+   ],
+   "price_from": "₹ 14,158",
+   "price_to": "₹ 41,752",
+   "price_source_url": "https://www.moglix.com/brands/lubi/pumps-motors/pumps/submersible-pumps/128111200",
+   "image_file": "images/products/lubi/lrs-lkt-rainbow.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/engineering-plastic-submersible-pump/4-water-filled-borewell-submersible-pumpsets-lrs-lkt-series/"
+  },
+  {
+   "name": "Lubi 4\" Oil-filled Stainless Steel Borewell Submersible (LDSW/LDTW Series)",
+   "series": "LDSW / LDTW",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", stainless steel, oil-filled)",
+   "power_range": "0.5–10 HP (0.37–7.5 kW)",
+   "head_range": "up to 547 m",
+   "flow_range": "up to 18.8 m³/h (~313 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Enamelled copper winding for higher efficiency",
+    "Filled with non-toxic food-grade dielectric oil",
+    "Stainless-steel motor casing",
+    "Removable 3-wire cable with watertight connector",
+    "PSC motor – no start capacitor/switch needed"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/ldsw-ldtw.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/stainless-steel-submersible-pumps/4-oil-filled-stainless-steel-borewell-submersible-pumpsets-ldsw-ldtw-series/"
+  },
+  {
+   "name": "Lubi 4\" Water-filled Stainless Steel Borewell Submersible (LRSW/LKTW Series)",
+   "series": "LRSW / LKTW",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", stainless steel, water-filled)",
+   "power_range": "0.5–10 HP (0.37–7.5 kW)",
+   "head_range": "up to 547 m",
+   "flow_range": "up to 18.8 m³/h (~313 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "100% stainless-steel sheet-metal pump, rust-free & hygienic",
+    "Replaceable SS wear rings on impellers",
+    "Better life in sandy, abrasive and saline water",
+    "Permanently fitted strainer",
+    "Built-in non-return valve"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply",
+    "Drinking water"
+   ],
+   "price_from": "₹ 20,639",
+   "price_to": "₹ 63,309",
+   "price_source_url": "https://www.moglix.com/brands/lubi/pumps-motors/pumps/submersible-pumps/128111200",
+   "image_file": "images/products/lubi/lrsw-lktw.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/stainless-steel-submersible-pumps/4-water-filled-stainless-steel-borewell-submersible-pumpsets-lrsw-lktw-series/"
+  },
+  {
+   "name": "Lubi 5\" Water-filled Borewell Submersible (LSA/LSK Series)",
+   "series": "LSA / LSK",
+   "category": "Agriculture",
+   "type": "Borewell submersible (5\", cast iron, water-filled)",
+   "power_range": "3–10 HP (2.2–7.5 kW)",
+   "head_range": "up to 159 m",
+   "flow_range": "up to 43.2 m³/h (~720 LPM)",
+   "borewell_size": "125 mm (5\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lsa-lsk.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/5-water-filled-borewell-submersible-pumpsets-lsa-lsk-series/"
+  },
+  {
+   "name": "Lubi 6\" Water-filled Borewell Submersible (LSM/LSK/LSB/LSF Series)",
+   "series": "LSM / LSK / LSB / LSF",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", cast iron, water-filled)",
+   "power_range": "4–60 HP (3–45 kW)",
+   "head_range": "up to 553 m",
+   "flow_range": "up to 85 m³/h (~1,417 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply",
+    "Fire fighting"
+   ],
+   "price_from": "₹ 48,379",
+   "price_to": "₹ 87,319",
+   "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-lubi-FAM226625",
+   "image_file": "images/products/lubi/lsm-lsk-lsb-lsf.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/6-water-filled-borewell-submersible-pumpsets-lsm-lsk-lsb-lsf-series/"
+  },
+  {
+   "name": "Lubi 7\" Water-filled Borewell Submersible (LSR Series)",
+   "series": "LSR",
+   "category": "Agriculture",
+   "type": "Borewell submersible (7\", cast iron, water-filled)",
+   "power_range": "5–25 HP (3.7–18.5 kW)",
+   "head_range": "up to 140 m",
+   "flow_range": "up to 144 m³/h (~2,400 LPM)",
+   "borewell_size": "175 mm (7\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "₹ 51,919",
+   "price_to": "",
+   "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-lubi-PUM.BOR.826091153",
+   "image_file": "images/products/lubi/lsr.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/7-water-filled-borewell-submersible-pumpsets-lsr-series/"
+  },
+  {
+   "name": "Lubi 8\" Water-filled Borewell Submersible (LMKS/LMF/LBF/LMS/LBS/LPH Series)",
+   "series": "LMKS / LMF / LBF / LMS / LBS / LPH",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", cast iron, water-filled)",
+   "power_range": "7.5–60 HP (5.5–45 kW)",
+   "head_range": "up to 372 m",
+   "flow_range": "up to 172 m³/h (~2,867 LPM)",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lmks-lmf-lbf-lms-lbs-lph.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/8-water-filled-borewell-submersible-pumpsets-lmks-lmf-lbf-lms-lbs-lph-series/"
+  },
+  {
+   "name": "Lubi 9\" Water-filled Borewell Submersible (LSV Series)",
+   "series": "LSV",
+   "category": "Agriculture",
+   "type": "Borewell submersible (9\", cast iron, water-filled)",
+   "power_range": "10–60 HP (7.5–45 kW)",
+   "head_range": "up to 153 m",
+   "flow_range": "up to 177 m³/h (~2,950 LPM)",
+   "borewell_size": "225 mm (9\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lsv.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/9-water-filled-borewell-submersible-pumpsets-lsv-series/"
+  },
+  {
+   "name": "Lubi 10\" Water-filled Borewell Submersible (LSP Series)",
+   "series": "LSP",
+   "category": "Agriculture",
+   "type": "Borewell submersible (10\", cast iron, water-filled)",
+   "power_range": "15–250 HP (11–184 kW)",
+   "head_range": "up to 284 m",
+   "flow_range": "up to 486 m³/h (~8,100 LPM)",
+   "borewell_size": "250 mm (10\")",
+   "phase": "Three",
+   "highlights": [
+    "CNC-machined components to Indian Standard specifications",
+    "Starts at low voltage, works under wide voltage fluctuation",
+    "Vacuum-impregnated, coated stator & rotor for corrosion resistance",
+    "Dynamically balanced rotating assemblies",
+    "Built-in non-return valve reduces water hammer"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lsp.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/cast-iron-submersible-pumps/10-water-filled-borewell-submersible-pumpsets-lsp-series/"
+  },
+  {
+   "name": "Lubi 6\" Stainless Steel Borewell Submersible (LSJ/LSW/SLSJ/SLSW/LSKW/SRW Series)",
+   "series": "LSJ / LSW / SLSJ / SLSW / LSKW / SRW",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", stainless steel, water-filled)",
+   "power_range": "4–60 HP (3–45 kW)",
+   "head_range": "up to 750 m",
+   "flow_range": "up to 78 m³/h (~1,300 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "100% stainless-steel sheet-metal pump, rust-free & hygienic",
+    "Replaceable SS wear rings on impellers",
+    "Better life in sandy, abrasive and saline water",
+    "Permanently fitted strainer",
+    "Built-in non-return valve"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply",
+    "Drinking water"
+   ],
+   "price_from": "₹ 53,099",
+   "price_to": "₹ 61,359",
+   "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-lubi-PUM.BOR.226091084",
+   "image_file": "images/products/lubi/lsj-lsw-slsj-slsw-lskw-srw.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/stainless-steel-submersible-pumps/6-water-filled-stainless-steel-borewell-submersible-pumpsets-lsj-lsw-slsj-slsw-lskw-srw-series/"
+  },
+  {
+   "name": "Lubi 8\" Stainless Steel Borewell Submersible (LSW/SLSW Series)",
+   "series": "LSW / SLSW 8\"",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", stainless steel, water-filled)",
+   "power_range": "7.5–125 HP (5.5–93 kW)",
+   "head_range": "up to 423 m",
+   "flow_range": "up to 123.8 m³/h (~2,063 LPM)",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "100% stainless-steel sheet-metal pump, rust-free & hygienic",
+    "Replaceable SS wear rings on impellers",
+    "Better life in sandy, abrasive and saline water",
+    "Permanently fitted strainer",
+    "Built-in non-return valve"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lsw-slsw-8.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/stainless-steel-submersible-pumps/8-water-filled-stainless-steel-borewell-submersible-pumpsets-lsw-slsw-series/"
+  },
+  {
+   "name": "Lubi 10\" Stainless Steel Borewell Submersible (LSW/SLSW Series)",
+   "series": "LSW / SLSW 10\"",
+   "category": "Agriculture",
+   "type": "Borewell submersible (10\", stainless steel, water-filled)",
+   "power_range": "10–250 HP (7.5–185 kW; site lists \"7.5–18500 kW\", read as 185)",
+   "head_range": "up to 495 m",
+   "flow_range": "up to 280 m³/h (~4,667 LPM)",
+   "borewell_size": "250 mm (10\")",
+   "phase": "Three",
+   "highlights": [
+    "100% stainless-steel sheet-metal pump, rust-free & hygienic",
+    "Replaceable SS wear rings on impellers",
+    "Better life in sandy, abrasive and saline water",
+    "Permanently fitted strainer",
+    "Built-in non-return valve"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lsw-slsw-10.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/stainless-steel-submersible-pumps/10-water-filled-stainless-steel-borewell-submersible-pumpsets-lsw-slsw-series/"
+  },
+  {
+   "name": "Lubi 8\"/10\" Investment Cast Stainless Steel Borewell Submersible",
+   "series": "Investment Cast SS (8\" / 10\")",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\"/10\", investment-cast SS)",
+   "power_range": "7.5–250 HP (5.5–185 kW)",
+   "head_range": "up to 549 m",
+   "flow_range": "up to 3,000–5,000 m³/h (as listed by brand)",
+   "borewell_size": "200 mm (8\") / 250 mm (10\")",
+   "phase": "Three",
+   "highlights": [
+    "Investment-cast stainless-steel hydraulics",
+    "NEMA-standard motor coupling",
+    "BSP screwed pipe connection",
+    "For deep 8\" (DN200) and 10\" (DN250) wells",
+    "Very high head up to 549 m"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Sprinkler & drip irrigation",
+    "Rural & municipal water supply",
+    "Industrial / civil water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/investment-cast-ss-8-10.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/borewell-submersible-pumps/investment-cast-stainless-steel-submersible-pumps/8-investment-cast-stainless-steel-submersible-pumps/"
+  },
+  {
+   "name": "Lubi Horizontal Openwell Submersible (LHS Series)",
+   "series": "LHS",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "0.5–30 HP (0.37–22 kW)",
+   "head_range": "up to 72 m",
+   "flow_range": "up to 310 m³/h (~5,167 LPM)",
+   "borewell_size": "Openwell",
+   "phase": "Both",
+   "highlights": [
+    "Withstands voltage drops to 320 V",
+    "Sleeve & thrust bearings of adequate capacity",
+    "Vacuum-impregnated, epoxy-coated stator & rotor",
+    "Dynamically balanced rotating parts",
+    "CED-coated cast-iron parts (20–30 micron)"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Openwell / sump lifting",
+    "Rural water supply",
+    "Domestic water supply"
+   ],
+   "price_from": "₹ 26,500",
+   "price_to": "",
+   "price_source_url": "https://www.indiamart.com/proddetail/lubi-lhs-series-horizontal-open-well-submersible-pump-24930947355.html",
+   "image_file": "images/products/lubi/lhs.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/openwell-submersible-pumps/horizontal-openwell-submersible-pumpsets-lhs-series/"
+  },
+  {
+   "name": "Lubi Horizontal Openwell Submersible (LHL Series)",
+   "series": "LHL",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "0.5–30 HP (0.37–22 kW)",
+   "head_range": "up to 72 m",
+   "flow_range": "up to 310 m³/h (~5,167 LPM)",
+   "borewell_size": "Openwell",
+   "phase": "Both",
+   "highlights": [
+    "Withstands voltage drops to 320 V",
+    "Sleeve & thrust bearings of adequate capacity",
+    "Vacuum-impregnated, epoxy-coated stator & rotor",
+    "Dynamically balanced rotating parts",
+    "CED-coated cast-iron parts (20–30 micron)"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Openwell / sump lifting",
+    "Rural water supply",
+    "Domestic water supply"
+   ],
+   "price_from": "₹ 10,619",
+   "price_to": "₹ 35,399",
+   "price_source_url": "https://www.industrybuying.com/openwell-submersible-pump-lubi-PUM.BOR.926043758",
+   "image_file": "images/products/lubi/lhl.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/openwell-submersible-pumps/horizontal-openwell-submersible-pumpsets-lhl-series/"
+  },
+  {
+   "name": "Lubi Vertical Multi-stage Openwell Submersible (LCV Series)",
+   "series": "LCV",
+   "category": "Agriculture",
+   "type": "Openwell submersible (vertical multistage)",
+   "power_range": "0.5–20 HP (0.37–14 kW)",
+   "head_range": "up to 141 m",
+   "flow_range": "up to 54 m³/h (~900 LPM)",
+   "borewell_size": "Openwell",
+   "phase": "Both",
+   "highlights": [
+    "Vertical multi-stage design for higher heads",
+    "Withstands voltage drops to 320 V",
+    "Vacuum-impregnated, epoxy-coated stator & rotor",
+    "Every pumpset fully tested before dispatch",
+    "CED-coated cast-iron parts"
+   ],
+   "applications": [
+    "Agricultural irrigation",
+    "Openwell lifting",
+    "Rural water supply",
+    "Domestic water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lcv.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/openwell-submersible-pumps/vertical-multi-stage-openwell-submersible-pumps-lcv-series/"
+  },
+  {
+   "name": "Lubi Horizontal Multistage Submersible (LHMS Series)",
+   "series": "LHMS",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal multistage)",
+   "power_range": "2–3 HP (1.5–2.2 kW)",
+   "head_range": "up to 78 m",
+   "flow_range": "up to 12.6 m³/h (~210 LPM)",
+   "borewell_size": "Openwell / sump",
+   "phase": "Both",
+   "highlights": [
+    "AISI 304 SS closed impellers & bowl diffusers",
+    "FG 260 cast-iron casing",
+    "Carbon/ceramic mechanical seal rated 10 bar",
+    "IP55, F-class TEFC motor",
+    "CED-coated cast-iron parts"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Pressure boosting",
+    "Gardening",
+    "Small irrigation"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lhms.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/openwell-submersible-pumps/horizontal-multistage-submersible-pumps-lhms-series/"
+  },
+  {
+   "name": "Lubi Multistage Openwell Monoset – Horizontal & Vertical Dual Operation (LHMS Series)",
+   "series": "LHMS Dual-operation",
+   "category": "Domestic",
+   "type": "Openwell submersible (multistage, horizontal/vertical)",
+   "power_range": "not listed on brand site",
+   "head_range": "up to 65 m",
+   "flow_range": "up to 107 LPM",
+   "borewell_size": "Openwell / sump",
+   "phase": "Single",
+   "highlights": [
+    "Can be installed horizontally or vertically",
+    "Multistage hydraulics for higher head",
+    "Max ambient +50 °C",
+    "Liquid temperature 0–50 °C",
+    "Strict quality assurance"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "Sump to overhead tank",
+    "Gardening"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/lubi/lhms-dual-operation.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/openwell-submersible-pumps/multistage-open-well-monoset-horizontal-vertical-dual-operations-lhms-series/"
+  },
+  {
+   "name": "Lubi DC Solar Submersible Borewell Pump (LSZ Series)",
+   "series": "LSZ DC Solar",
+   "category": "Agriculture",
+   "type": "Solar submersible (DC)",
+   "power_range": "1–10 HP",
+   "head_range": "30–100 m",
+   "flow_range": "18,000–3,42,000 LPD",
+   "borewell_size": "100 mm (4\") and above",
+   "phase": "DC (solar)",
+   "highlights": [
+    "MNRE 2023 compliant, subsidy-scheme eligible",
+    "SS304 stainless-steel construction",
+    "Zero electricity running cost",
+    "Low maintenance, long service life",
+    "Easy installation"
+   ],
+   "applications": [
+    "Farm irrigation",
+    "Drip & flood irrigation",
+    "Drinking water supply",
+    "Cattle watering"
+   ],
+   "price_from": "₹ 1,14,993",
+   "price_to": "",
+   "price_source_url": "https://www.enerzykart.com/product-page/lubi-5hp-dc-solar-pump-with-controller",
+   "image_file": "images/products/lubi/lsz-dc-solar.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/solar-pumps-controller/dc-solar-submersible-pumps/"
+  },
+  {
+   "name": "Lubi AC Solar Submersible Borewell Pump (LSZ Series)",
+   "series": "LSZ AC Solar",
+   "category": "Agriculture",
+   "type": "Solar submersible (AC)",
+   "power_range": "1–10 HP",
+   "head_range": "30–100 m",
+   "flow_range": "16,800–3,15,000 LPD",
+   "borewell_size": "100 mm (4\") and above",
+   "phase": "Three (AC via solar controller)",
+   "highlights": [
+    "MNRE 2023 compliant, subsidy-scheme eligible",
+    "SS304 stainless-steel construction",
+    "Solar controller with MPPT",
+    "Zero electricity running cost",
+    "Strong ROI"
+   ],
+   "applications": [
+    "Farm irrigation",
+    "Drip & flood irrigation",
+    "Drinking water supply",
+    "Cattle watering"
+   ],
+   "price_from": "₹ 89,438",
+   "price_to": "₹ 1,08,604",
+   "price_source_url": "https://www.enerzykart.com/product-page/lubi-3hp-ac-solar-pump-with-controller",
+   "image_file": "images/products/lubi/lsz-ac-solar.jpg",
+   "source_url": "https://www.lubipumps.com/product-category/solar-pumps-controller/ac-solar-submersible-pumps/"
+  }
+ ]
+}

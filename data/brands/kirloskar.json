@@ -1,0 +1,652 @@
+{
+ "brand": "Kirloskar Brothers",
+ "website": "https://www.kirloskarpumps.com",
+ "country": "India (Pune)",
+ "founded": "1888",
+ "tagline": "Enriching Lives",
+ "products": [
+  {
+   "name": "Kirloskar KS3 / KS3 Purna",
+   "series": "KS3",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\", water-filled)",
+   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+   "head_range": "Up to 131 m",
+   "flow_range": "Up to 95 LPM",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Stainless-steel pump & motor housing, Noryl impellers",
+    "100% copper rotor, wide voltage 160–240 V",
+    "Designed to prevent overloading",
+    "Easy-maintenance water-cooled motor"
+   ],
+   "applications": [
+    "Domestic & community water supply",
+    "Rural water supply",
+    "Gardening & small farms",
+    "High-rise buildings"
+   ],
+   "price_from": "₹ 23,520",
+   "price_to": "₹ 26,850",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS3",
+   "image_file": "images/products/kirloskar/ks3.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/ks3/"
+  },
+  {
+   "name": "Kirloskar KP3S",
+   "series": "KP3S",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\", oil-filled)",
+   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+   "head_range": "Up to 87 m",
+   "flow_range": "Up to 96 LPM",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Oil-cooled F-class motor with ball bearings",
+    "Splined shaft, flatter efficiency curve",
+    "Suitable for horizontal installation",
+    "Wide voltage 160–240 V"
+   ],
+   "applications": [
+    "Domestic water supply",
+    "High-rise buildings",
+    "Gardening",
+    "Construction sites"
+   ],
+   "price_from": "₹ 42,920",
+   "price_to": "",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KP3",
+   "image_file": "images/products/kirloskar/kp3s.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kp3/"
+  },
+  {
+   "name": "Kirloskar LEHR",
+   "series": "LEHR",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", water-cooled)",
+   "power_range": "0.5–2 HP (0.37–1.5 kW)",
+   "head_range": "Up to 165 m",
+   "flow_range": "Up to 105 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Single",
+   "highlights": [
+    "Wide voltage 140–240 V operability",
+    "Sand-fighter design",
+    "Stainless-steel construction, Noryl hydraulics",
+    "CED-coated cast-iron parts"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "Rural water supply",
+    "Gardening & small farms",
+    "High-rise buildings"
+   ],
+   "price_from": "₹ 20,900",
+   "price_to": "₹ 30,190",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=LEHR",
+   "image_file": "images/products/kirloskar/lehr.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-lehr/"
+  },
+  {
+   "name": "Kirloskar NEO",
+   "series": "NEO",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", water-cooled)",
+   "power_range": "0.5–2 HP (0.37–1.5 kW)",
+   "head_range": "Up to 165 m",
+   "flow_range": "Up to 105 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Single",
+   "highlights": [
+    "Wide voltage 180–240 V",
+    "Sand-fighter design",
+    "Carbon + SS thrust bearing",
+    "Available with control panel"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "Rural water supply",
+    "Gardening",
+    "High-rise buildings"
+   ],
+   "price_from": "₹ 30,040",
+   "price_to": "₹ 39,610",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=NEO",
+   "image_file": "images/products/kirloskar/neo.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-neo/"
+  },
+  {
+   "name": "Kirloskar KS4",
+   "series": "KS4",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", water-filled)",
+   "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
+   "head_range": "Up to 520 m",
+   "flow_range": "Up to 420 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "99.99% pure EC-grade copper winding, 100% copper rotor",
+    "Wide voltage (160–240 V 1-ph / 280–440 V 3-ph)",
+    "Multiple hydraulics: AN, BN, C, HF, BigFlow",
+    "CED-coated cast-iron parts"
+   ],
+   "applications": [
+    "Small farm irrigation",
+    "Rural & community water supply",
+    "High-rise buildings",
+    "Construction sites"
+   ],
+   "price_from": "₹ 27,560",
+   "price_to": "₹ 67,610",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS4",
+   "image_file": "images/products/kirloskar/ks4.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/ks4/"
+  },
+  {
+   "name": "Kirloskar KU4",
+   "series": "KU4",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", oil-filled)",
+   "power_range": "0.5–5 HP (0.37–3.7 kW)",
+   "head_range": "Up to 251 m",
+   "flow_range": "Up to 350 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Oil-cooled F-class motor with ball bearings",
+    "Wide voltage 150–240 V / 280–440 V",
+    "Stainless-steel NRV and suction",
+    "Suitable for horizontal installation"
+   ],
+   "applications": [
+    "Farming & irrigation",
+    "Domestic & community supply",
+    "High-rise buildings",
+    "Rural water supply"
+   ],
+   "price_from": "₹ 27,290",
+   "price_to": "₹ 49,790",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KU4",
+   "image_file": "images/products/kirloskar/ku4.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/ku4/"
+  },
+  {
+   "name": "Kirloskar KP4",
+   "series": "KP4",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", oil-filled)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "Up to 132 m",
+   "flow_range": "Up to 350 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Oil-cooled F-class motor",
+    "Splined shaft, flatter efficiency curve",
+    "Lightweight, compact design",
+    "Designed to prevent overloading"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "High-rise buildings",
+    "Gardening & small farms",
+    "Construction sites"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/kirloskar/kp4.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kp4-/"
+  },
+  {
+   "name": "Kirloskar KP4 Jalraaj UVA",
+   "series": "KP4 Jalraaj UVA",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", oil-filled)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "Up to 169 m",
+   "flow_range": "Up to 350 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Single",
+   "highlights": [
+    "\"Unstoppable flow\" oil-cooled pump set",
+    "Wide voltage 160–240 V",
+    "Dynamically balanced rotating parts",
+    "Available with control panel"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "High-rise buildings",
+    "Gardening & small farms",
+    "Construction sites"
+   ],
+   "price_from": "₹ 17,400",
+   "price_to": "₹ 43,760",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KP4",
+   "image_file": "images/products/kirloskar/kp4-jalraaj-uva.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kp4-jalraaj-uva/"
+  },
+  {
+   "name": "Kirloskar KU6i",
+   "series": "KU6i",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", oil-filled)",
+   "power_range": "3–20 HP (2.2–15 kW)",
+   "head_range": "Up to 325 m",
+   "flow_range": "Up to 530 LPM",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "Oil-filled F-class motor with ball bearings",
+    "Stainless-steel construction, Noryl hydraulics",
+    "Suited to low-voltage operation (200–440 V)",
+    "Suitable for horizontal installation"
+   ],
+   "applications": [
+    "Agriculture & gardening",
+    "High-rise buildings",
+    "Bungalows & hotels",
+    "Domestic water supply"
+   ],
+   "price_from": "₹ 57,270",
+   "price_to": "₹ 1,29,420",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KU6i",
+   "image_file": "images/products/kirloskar/ku6i.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ku6i/"
+  },
+  {
+   "name": "Kirloskar KS6",
+   "series": "KS6",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", water-filled)",
+   "power_range": "3–25 HP (2.2–18.5 kW)",
+   "head_range": "Up to 276 m",
+   "flow_range": "Up to 1540 LPM",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Both",
+   "highlights": [
+    "Wide voltage motor with 100% copper rotor",
+    "Water-filled rewindable motor",
+    "CED-coated cast-iron bowls",
+    "Many hydraulics (KS6A–KS6J)"
+   ],
+   "applications": [
+    "Irrigation",
+    "Rural & community supply",
+    "High-rise buildings",
+    "Construction sites"
+   ],
+   "price_from": "₹ 61,080",
+   "price_to": "₹ 1,37,470",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS6",
+   "image_file": "images/products/kirloskar/ks6.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ks6-/"
+  },
+  {
+   "name": "Kirloskar HHF / HHN (High Head)",
+   "series": "HHF / HHN",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", high head)",
+   "power_range": "3–25 HP (2.2–18.5 kW)",
+   "head_range": "Up to 427 m",
+   "flow_range": "Up to 650 LPM",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "High-head design for deep borewells",
+    "HHN: Noryl hydraulics; HHF: full stainless steel",
+    "Sand-fighter design, 100% copper rotor",
+    "Designed to prevent overloading"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "Rural water supply",
+    "Water works"
+   ],
+   "price_from": "₹ 60,680",
+   "price_to": "₹ 1,38,830",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=HHN",
+   "image_file": "images/products/kirloskar/hhf-hhn.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/hhf-hhn/"
+  },
+  {
+   "name": "Kirloskar KU7P",
+   "series": "KU7P",
+   "category": "Agriculture",
+   "type": "Borewell submersible (7\", oil-cooled)",
+   "power_range": "6–25 HP (4.5–18.5 kW)",
+   "head_range": "Up to 81 m",
+   "flow_range": "Up to 1850 LPM",
+   "borewell_size": "175 mm (7\")",
+   "phase": "Three",
+   "highlights": [
+    "Oil-cooled F-class motor",
+    "Stainless-steel impellers",
+    "Low-voltage tolerant (200–440 V)",
+    "Suitable for horizontal installation"
+   ],
+   "applications": [
+    "Agriculture & gardening",
+    "High-rise buildings",
+    "Bungalows & hotels",
+    "Domestic water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/kirloskar/ku7p.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ku7p/"
+  },
+  {
+   "name": "Kirloskar KS7",
+   "series": "KS7",
+   "category": "Agriculture",
+   "type": "Borewell submersible (7\", water-filled)",
+   "power_range": "6–25 HP (4.5–18.5 kW)",
+   "head_range": "Up to 81 m",
+   "flow_range": "Up to 2100 LPM",
+   "borewell_size": "175 mm (7\")",
+   "phase": "Three",
+   "highlights": [
+    "Sand-fighter design",
+    "Wide voltage motor with 100% copper rotor",
+    "Glycol-mixed water-filled motor",
+    "Stainless-steel impellers"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "Rural water supply",
+    "Water works"
+   ],
+   "price_from": "₹ 94,780",
+   "price_to": "₹ 94,780",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS7",
+   "image_file": "images/products/kirloskar/ks7.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ks7/"
+  },
+  {
+   "name": "Kirloskar KS8",
+   "series": "KS8",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", water-filled)",
+   "power_range": "6–60 HP (4.5–45 kW)",
+   "head_range": "Up to 270 m",
+   "flow_range": "Up to 2700 LPM",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "High discharge for large irrigation",
+    "Sand-fighter design, 100% copper rotor",
+    "Glycol-mixed water-filled motor",
+    "CED coating against corrosion"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "Rural water supply",
+    "Water works"
+   ],
+   "price_from": "₹ 1,40,510",
+   "price_to": "₹ 2,18,880",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS8",
+   "image_file": "images/products/kirloskar/ks8.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ks8/"
+  },
+  {
+   "name": "Kirloskar KS9",
+   "series": "KS9",
+   "category": "Agriculture",
+   "type": "Borewell submersible (9\", water-filled)",
+   "power_range": "20–60 HP (15–45 kW)",
+   "head_range": "Up to 114 m",
+   "flow_range": "Up to 3150 LPM",
+   "borewell_size": "225 mm (9\")",
+   "phase": "Three",
+   "highlights": [
+    "Very high discharge for lift irrigation",
+    "Wide voltage motor (350–440 V), copper rotor",
+    "Stainless-steel impellers",
+    "Designed to prevent overloading"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "Rural water supply",
+    "Water works"
+   ],
+   "price_from": "₹ 1,87,390",
+   "price_to": "₹ 2,64,630",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KS9",
+   "image_file": "images/products/kirloskar/ks9.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/borewell-submersible-pump-ks9-/"
+  },
+  {
+   "name": "Kirloskar KOSi",
+   "series": "KOSi",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal, single phase)",
+   "power_range": "0.5–2 HP (0.37–1.5 kW)",
+   "head_range": "Up to 42 m",
+   "flow_range": "Up to 582 LPM (9.7 LPS)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Wide voltage 160–240 V",
+    "Advanced water-cooled motor",
+    "Replaceable wearing parts",
+    "Supplied with control panel"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "Gardening & small farms",
+    "Fountains",
+    "Overhead tank filling"
+   ],
+   "price_from": "₹ 18,380",
+   "price_to": "₹ 27,190",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=KOSi",
+   "image_file": "images/products/kirloskar/kosi.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/open-well-submersible-pumps-kosi-/"
+  },
+  {
+   "name": "Kirloskar KOSi Ultra",
+   "series": "KOSi Ultra",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal, single phase)",
+   "power_range": "1 HP (0.75 kW)",
+   "head_range": "Up to 28 m",
+   "flow_range": "Up to 168 LPM (2.8 LPS)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "High-efficiency water-cooled motor",
+    "Wide voltage 160–260 V",
+    "Compact, lightweight design",
+    "Easy-to-maintain construction"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "Gardening",
+    "Fountains",
+    "Overhead tank filling"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/kirloskar/kosi-ultra.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kosi-ultra/"
+  },
+  {
+   "name": "Kirloskar KOS M (three phase)",
+   "series": "KOS M",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal, three phase)",
+   "power_range": "0.5–2 HP (0.37–1.5 kW)",
+   "head_range": "Up to 38 m",
+   "flow_range": "",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Wide voltage 300–440 V",
+    "Lightweight, compact design",
+    "CED-coated cast-iron body",
+    "Replaceable wearing parts"
+   ],
+   "applications": [
+    "Domestic & community supply",
+    "Small farm irrigation",
+    "Fountains",
+    "Overhead tank filling"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/kirloskar/kos-m.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kos-m-three-phase-/"
+  },
+  {
+   "name": "Kirloskar KOS (three phase)",
+   "series": "KOS",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal, three phase)",
+   "power_range": "3–15 HP (2.2–11.2 kW)",
+   "head_range": "Up to 76 m",
+   "flow_range": "Up to 2280 LPM (38 LPS)",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Flatter efficiency curve",
+    "Wide voltage 200–440 V",
+    "Water-cooled cast-iron motor",
+    "CED coating, replaceable wear parts"
+   ],
+   "applications": [
+    "Irrigation from open wells",
+    "Pressure boosting",
+    "Cooling towers",
+    "Fire-fighting"
+   ],
+   "price_from": "₹ 44,020",
+   "price_to": "₹ 99,420",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=openwell",
+   "image_file": "images/products/kirloskar/kos.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kos-three-phase-/"
+  },
+  {
+   "name": "Kirloskar JOS",
+   "series": "JOS",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal, three phase)",
+   "power_range": "3–20 HP (2.2–15 kW)",
+   "head_range": "Up to 64 m",
+   "flow_range": "Up to 2910 LPM (48.5 LPS)",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Wide voltage motor with 100% copper rotor",
+    "Designed to prevent overloading",
+    "Cast-iron construction, SS shaft",
+    "High-head applications"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "High-rise buildings",
+    "Rural water supply"
+   ],
+   "price_from": "₹ 1,29,770",
+   "price_to": "",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=JOS",
+   "image_file": "images/products/kirloskar/jos.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/jos-/"
+  },
+  {
+   "name": "Kirloskar JOS Ultra",
+   "series": "JOS Ultra",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal, three phase)",
+   "power_range": "3–10 HP (2.2–7.5 kW)",
+   "head_range": "Up to 64 m",
+   "flow_range": "Up to 1320 LPM (22 LPS)",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Withstands wide voltage fluctuation (200–440 V)",
+    "Advanced water-cooled motor",
+    "Cast-iron pump, SS 410 shaft",
+    "Easy maintenance"
+   ],
+   "applications": [
+    "Irrigation",
+    "Sprinkler & drip",
+    "High-rise buildings",
+    "Rural & community supply"
+   ],
+   "price_from": "₹ 32,820",
+   "price_to": "₹ 53,270",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=JOS",
+   "image_file": "images/products/kirloskar/jos-ultra.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/jos-ultra/"
+  },
+  {
+   "name": "Kirloskar JVS / JVSN",
+   "series": "JVS",
+   "category": "Agriculture",
+   "type": "Openwell submersible (vertical, three phase)",
+   "power_range": "3–20 HP (2.2–15 kW)",
+   "head_range": "Up to 147 m",
+   "flow_range": "Up to 840 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Vertical multistage for high heads",
+    "JVS: SS impellers; JVSN: cast iron",
+    "Wide voltage 200–440 V",
+    "Water-cooled, easy-maintenance motor"
+   ],
+   "applications": [
+    "Horticulture & agriculture",
+    "Sprinkler & drip irrigation",
+    "High-rise buildings",
+    "Rural water supply"
+   ],
+   "price_from": "₹ 59,380",
+   "price_to": "₹ 1,39,010",
+   "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=openwell",
+   "image_file": "images/products/kirloskar/jvs.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/jvs/"
+  },
+  {
+   "name": "Kirloskar Solar Pumping System (with Jalverter)",
+   "series": "Solar Pumping System",
+   "category": "Agriculture",
+   "type": "Solar submersible pumping system",
+   "power_range": "Up to 30 HP standard (up to 50 HP on request)",
+   "head_range": "",
+   "flow_range": "",
+   "borewell_size": "100–200 mm borewells / open wells",
+   "phase": "Three (variable-frequency AC)",
+   "highlights": [
+    "Jalverter controller runs AC motor on variable frequency",
+    "120 V (≤2 HP), 230 V (3 HP), 415 V (4–30 HP) motors",
+    "Fail-safe, fool-proof operation",
+    "Hybrid solar options available"
+   ],
+   "applications": [
+    "Lift irrigation",
+    "Drinking water supply",
+    "Pressure boosting"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/kirloskar/solar-pumping-system.jpg",
+   "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/solar-pumping-system-/"
+  }
+ ]
+}

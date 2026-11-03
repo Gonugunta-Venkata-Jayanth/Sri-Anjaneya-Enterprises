@@ -1,0 +1,761 @@
+{
+ "brand": "EKKI",
+ "website": "https://www.ekkigroup.com/",
+ "country": "India (Coimbatore, Tamil Nadu)",
+ "founded": "1981",
+ "tagline": "EKKI Water Technologies — 40+ Into the Golden Era",
+ "notes": "ekkipumps.com redirects to ekkigroup.com. EKKI Group owns two product brands, EKKI (borehole submersibles, multistage, solar systems) and DECCAN (openwell, mini submersibles, monoblocs). Phase per series is inferred from typical power ratings where the brand page does not state it. Prices are retailer/dealer listings, not brand MRP; 6C and 8C bands come from a dealer's generic EKKI V6/V8 listings that do not name the series.",
+ "products": [
+  {
+   "name": "EKKI 4N Series",
+   "series": "4N Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\")",
+   "power_range": "0.5–6 HP",
+   "head_range": "up to 370 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Radial-flow Noryl impellers resist clogging after idle periods",
+    "SS sleeve for longer life",
+    "Valve disc protects pump from excess hydrostatic pressure",
+    "Improved diffuser for higher discharge"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/4n-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4n-series/"
+  },
+  {
+   "name": "EKKI 4NVR Series",
+   "series": "4NVR Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", value range)",
+   "power_range": "0.5–2 HP",
+   "head_range": "up to 250 m",
+   "flow_range": "up to 12 m³/h (≈200 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Value-range 4\" pump with radial-flow Noryl impellers",
+    "Compact, modular design",
+    "Performance equivalent to seamless SS-body models",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "₹ 16,300",
+   "price_to": "₹ 37,200",
+   "price_source_url": "https://www.moglix.com/ekki-er-41-hvr-15-20-15hp-borewell-submersible-pump-with-control-panel/mp/msnz526y031m9x",
+   "image_file": "images/products/ekki/4nvr-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4nvr-series/"
+  },
+  {
+   "name": "EKKI 4J Series",
+   "series": "4J Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", jacketed)",
+   "power_range": "0.5–6 HP",
+   "head_range": "up to 370 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Single-piece stainless steel barrel casing (jacketed)",
+    "Noryl impellers and diffusers",
+    "High reliability and efficiency",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/4j-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4j-series/"
+  },
+  {
+   "name": "EKKI 4S Series",
+   "series": "4S Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", stainless steel)",
+   "power_range": "0.5–7.5 HP",
+   "head_range": "up to 340 m",
+   "flow_range": "up to 18 m³/h (≈300 LPM)",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "Sheet-metal stainless steel impellers and diffusers",
+    "Withstands corrosive water",
+    "Longer life than Noryl-type pumps",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/4s-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4s-series/"
+  },
+  {
+   "name": "EKKI 5C Series",
+   "series": "5C Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (5\")",
+   "power_range": "3–10 HP",
+   "head_range": "up to 330 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "125 mm (5\")",
+   "phase": "Three",
+   "highlights": [
+    "Wide performance range",
+    "Heavy-duty bearing rated ~100,000 running hours",
+    "Energy-efficient customised diffuser",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities",
+    "Commercial building services"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/5c-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/5-borehole-submersibles/5c-series/"
+  },
+  {
+   "name": "EKKI 6C Series",
+   "series": "6C Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", cast iron)",
+   "power_range": "3–30 HP",
+   "head_range": "up to 520 m",
+   "flow_range": "up to 72 m³/h (≈1,200 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "Radial-flow impellers with high-precision motors",
+    "Heavy-duty bearing rated ~100,000 running hours",
+    "Energy-efficient diffuser for better discharge",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "₹ 26,000",
+   "price_to": "₹ 92,000",
+   "price_source_url": "https://www.pavanienterprises.net/ekki-deccan-pumps.html",
+   "image_file": "images/products/ekki/6c-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6c-series/"
+  },
+  {
+   "name": "EKKI 6CVR Series",
+   "series": "6CVR Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", value range)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 290 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "Value-range 6\" radial-flow pump",
+    "Up to 20% energy savings vs conventional models (brand claim)",
+    "Compact, modular design",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/6cvr-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6cvr-series/"
+  },
+  {
+   "name": "EKKI 6I Series",
+   "series": "6I Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", SS high head)",
+   "power_range": "3–30 HP",
+   "head_range": "up to 450 m",
+   "flow_range": "up to 49 m³/h (≈817 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "Stainless steel impellers and diffusers",
+    "Built for harsh, corrosive water",
+    "High head and pressure for long-distance transfer",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/6i-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6i-series/"
+  },
+  {
+   "name": "EKKI 6S Series",
+   "series": "6S Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", stainless steel)",
+   "power_range": "3–30 HP",
+   "head_range": "up to 400 m",
+   "flow_range": "up to 65 m³/h (≈1,083 LPM)",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Three",
+   "highlights": [
+    "Lightweight sheet-metal SS impellers and diffusers",
+    "Corrosion resistant",
+    "Longer life than cast-iron series",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/6s-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6s-series/"
+  },
+  {
+   "name": "EKKI 8C Series",
+   "series": "8C Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", cast iron)",
+   "power_range": "10–50 HP",
+   "head_range": "up to 300 m",
+   "flow_range": "up to 132 m³/h (≈2,200 LPM)",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "LTB radial-flow impellers with cast-iron diffusers",
+    "High head and high discharge",
+    "Heavy-duty bearing rated ~100,000 running hours",
+    "Low-voltage operation"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "₹ 55,000",
+   "price_to": "₹ 1,95,000",
+   "price_source_url": "https://www.pavanienterprises.net/ekki-higher-hp-pumps.html",
+   "image_file": "images/products/ekki/8c-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8c-series/"
+  },
+  {
+   "name": "EKKI 8S Series",
+   "series": "8S Series",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", stainless steel)",
+   "power_range": "7.5–75 HP",
+   "head_range": "up to 300 m",
+   "flow_range": "up to 110 m³/h (≈1,833 LPM)",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "Stainless steel construction for corrosive water",
+    "3\" (80 mm) outlet for high discharge",
+    "Low-voltage operation",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/8s-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8s-series/"
+  },
+  {
+   "name": "EKKI 54N Series",
+   "series": "54N Series",
+   "category": "Agriculture",
+   "type": "Combo borewell submersible (5\" motor + 4\" pump)",
+   "power_range": "1–10 HP",
+   "head_range": "up to 600 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
+   "phase": "Both",
+   "highlights": [
+    "Combo of 125 mm motor with 100 mm pump",
+    "Very high head (up to 600 m)",
+    "High discharge with different outlet sizes",
+    "Easy to handle and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/54n-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54n-series/"
+  },
+  {
+   "name": "EKKI 54S Series",
+   "series": "54S Series",
+   "category": "Agriculture",
+   "type": "Combo borewell submersible (5\" motor + 4\" SS pump)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 480 m",
+   "flow_range": "up to 24 m³/h (≈400 LPM)",
+   "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
+   "phase": "Three",
+   "highlights": [
+    "5\" motor paired with 4\" stainless steel pump",
+    "High reliability and flexibility",
+    "Multiple outlet sizes",
+    "Easy to handle and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/54s-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54s-series/"
+  },
+  {
+   "name": "EKKI 67C Series",
+   "series": "67C Series",
+   "category": "Agriculture",
+   "type": "Combo borewell submersible (7\" pump + 6\" motor)",
+   "power_range": "7.5–30 HP",
+   "head_range": "up to 92 m",
+   "flow_range": "up to 90 m³/h (≈1,500 LPM)",
+   "borewell_size": "150–175 mm (6\"–7\")",
+   "phase": "Three",
+   "highlights": [
+    "Combo 6\"/7\" construction for high discharge",
+    "Low-voltage operation",
+    "Easy to handle, dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/67c-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/67c-series/"
+  },
+  {
+   "name": "EKKI 68C Series",
+   "series": "68C Series",
+   "category": "Agriculture",
+   "type": "Combo borewell submersible (8\" pump + 6\" motor)",
+   "power_range": "10–30 HP",
+   "head_range": "up to 200 m",
+   "flow_range": "up to 132 m³/h (≈2,200 LPM)",
+   "borewell_size": "150–200 mm (6\"–8\")",
+   "phase": "Three",
+   "highlights": [
+    "Combo 6\"/8\" construction, up to 132 m³/h",
+    "Low-voltage operation",
+    "Easy to handle, dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/68c-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/68c-series/"
+  },
+  {
+   "name": "EKKI HOT Series",
+   "series": "HOT Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (tiny)",
+   "power_range": "0.5–1 HP",
+   "head_range": "up to 28 m",
+   "flow_range": "up to 10 m³/h (≈167 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Compact, lightweight design for small open wells and sumps",
+    "Vertical or horizontal installation",
+    "Low-voltage operation",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Domestic building services",
+    "Commercial building services"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/hot-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hot-series/"
+  },
+  {
+   "name": "EKKI HOKVR Series",
+   "series": "HOKVR Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic, value range)",
+   "power_range": "0.5–1 HP",
+   "head_range": "up to 28 m",
+   "flow_range": "up to 9 m³/h (≈150 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Corrosion-free SS motor body",
+    "FG 260 cast iron for rigidity",
+    "Runs across wide voltage fluctuation",
+    "SS forged hook for easy installation"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services"
+   ],
+   "price_from": "₹ 12,979",
+   "price_to": "₹ 12,979",
+   "price_source_url": "https://www.industrybuying.com/brands/ekki-20829/pumps-1160/openwell-submersible-pump-1176",
+   "image_file": "images/products/ekki/hokvr-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hokvr-series/"
+  },
+  {
+   "name": "EKKI HOK Series",
+   "series": "HOK Series",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic)",
+   "power_range": "1–2 HP",
+   "head_range": "up to 39 m",
+   "flow_range": "up to 48 m³/h (≈800 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "All-stainless-steel motor body",
+    "High-efficiency volute casing with good suction",
+    "Low-voltage operation",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/hok-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hok-series/"
+  },
+  {
+   "name": "EKKI HOSVR Series",
+   "series": "HOSVR Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (small, value range)",
+   "power_range": "3–5 HP",
+   "head_range": "up to 29 m",
+   "flow_range": "up to 54 m³/h (≈900 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Cast-iron volute casing and impellers",
+    "Bush bearing designed to minimise vibration",
+    "High-grade flange for plumbing",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/hosvr-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hosvr-series/"
+  },
+  {
+   "name": "EKKI HOS Series",
+   "series": "HOS Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (small)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 46 m",
+   "flow_range": "up to 108 m³/h (≈1,800 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Cast-iron volute casing and impellers",
+    "Bush bearing designed to minimise vibration",
+    "Two eye bolts for easy installation",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/hos-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hos-series/"
+  },
+  {
+   "name": "EKKI HOM Series",
+   "series": "HOM Series",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (medium)",
+   "power_range": "10–15 HP",
+   "head_range": "up to 52 m",
+   "flow_range": "up to 120 m³/h (≈2,000 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Cast-iron volute casing for tough conditions",
+    "Bush bearing to minimise vibration",
+    "Two eye bolts for installation",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/hom-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hom-series/"
+  },
+  {
+   "name": "EKKI SUBSEVAK (6CC) Series",
+   "series": "SUBSEVAK (6CC) Series",
+   "category": "Domestic",
+   "type": "Mini closely-coupled submersible (6\" borewell / openwell)",
+   "power_range": "1–3 HP",
+   "head_range": "up to 100 m",
+   "flow_range": "up to 48 m³/h (≈800 LPM)",
+   "borewell_size": "150 mm (6\") or open well",
+   "phase": "Single",
+   "highlights": [
+    "Closely coupled mini submersible, works in borewell or open well",
+    "Complete SS 304 motor body",
+    "99.9% EC-grade copper rotor",
+    "Mono rotor shaft up to certain stages"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/subsevak-6cc-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/6cc-series/"
+  },
+  {
+   "name": "EKKI VOK Series",
+   "series": "VOK Series",
+   "category": "Domestic",
+   "type": "Vertical openwell submersible (domestic)",
+   "power_range": "1–2 HP",
+   "head_range": "up to 133 m",
+   "flow_range": "up to 4.2 m³/h (≈70 LPM)",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Full SS motor body with copper rotor",
+    "High head (up to 133 m)",
+    "Radial and mixed-flow impellers",
+    "Easy to dismantle, rewind and install"
+   ],
+   "applications": [
+    "Agriculture",
+    "Domestic building services"
+   ],
+   "price_from": "₹ 16,800",
+   "price_to": "₹ 19,200",
+   "price_source_url": "https://www.thundathiltraders.com/shop/vertical-openwell-submersible/",
+   "image_file": "images/products/ekki/vok-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vok-series/"
+  },
+  {
+   "name": "EKKI VOSVR Series",
+   "series": "VOSVR Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (small, value range)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 118 m",
+   "flow_range": "up to 54 m³/h (≈900 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Totally hardened SS shaft",
+    "Finned body for heat dissipation",
+    "Dual casing in radial flow for different duties",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/vosvr-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vosvr-series/"
+  },
+  {
+   "name": "EKKI VOS Series",
+   "series": "VOS Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (small)",
+   "power_range": "3–7.5 HP",
+   "head_range": "up to 165 m",
+   "flow_range": "up to 120 m³/h (≈2,000 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Both",
+   "highlights": [
+    "Totally hardened SS shaft",
+    "Finned body for heat dissipation",
+    "Dual casing for different duty conditions",
+    "High discharge and head"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/vos-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vos-series-2/"
+  },
+  {
+   "name": "EKKI VOM Series",
+   "series": "VOM Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (medium)",
+   "power_range": "10–20 HP",
+   "head_range": "up to 304 m",
+   "flow_range": "up to 192 m³/h (≈3,200 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Pumps water over long distances",
+    "Finned body for better heat dissipation",
+    "Special windings for low and high voltage",
+    "Sturdy body for reduced vibration"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/vom-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vom-series/"
+  },
+  {
+   "name": "EKKI VOML Series",
+   "series": "VOML Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (medium-large)",
+   "power_range": "25–45 HP",
+   "head_range": "up to 250 m",
+   "flow_range": "up to 330 m³/h (≈5,500 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Elegant SS body, motor and pump coupled together",
+    "SS and bronze impellers on selected models",
+    "Near-zero maintenance (brand claim)",
+    "99.9% EC-grade copper rotor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Commercial building services",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/voml-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/voml-series/"
+  },
+  {
+   "name": "EKKI VOL Series",
+   "series": "VOL Series",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (large)",
+   "power_range": "50–90 HP",
+   "head_range": "up to 230 m",
+   "flow_range": "up to 540 m³/h (≈9,000 LPM)",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "High discharge up to 540 m³/h",
+    "Totally hardened SS shaft",
+    "Special-grade castings",
+    "Fast discharge variants from low to high"
+   ],
+   "applications": [
+    "Agriculture",
+    "Public utilities"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/ekki/vol-series.jpg",
+   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vol-series/"
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+{
+ "brand": "Falcon",
+ "website": "https://falconpumps.in/",
+ "country": "India (Rajkot, Gujarat)",
+ "founded": "1994",
+ "tagline": "A Machine For Mankind",
+ "notes": "Falcon Pumps Pvt. Ltd. is at falconpumps.in. falconpumps.com is a different company (Falcon Vacuum Pumps, Faridabad), so it was not used. Solar flow is in litres/day as the brand states it. Prices are dealer/retailer listings (shreenathind.com dealer store, IndiaMART, TradeIndia), not brand MRP; V5 and domestic SS bands each rest on a single dealer quote.",
+ "products": [
+  {
+   "name": "Falcon 3\" Submersible Pumpset (V3)",
+   "series": "3\" Submersible Pumpset (V3)",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\")",
+   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+   "head_range": "14–96 m",
+   "flow_range": "15–70 LPM",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Slim 3\" pumpset for narrow bores",
+    "Corrosion-resistant SS J4 motor shell",
+    "Thrust bearing built for high axial load",
+    "Wide-voltage design (160–230 V)",
+    "Alternative to jet and compressor pumps"
+   ],
+   "applications": [
+    "Farming",
+    "Gardening",
+    "Domestic",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/3-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/3-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon 4\" Submersible Pumpset (V4)",
+   "series": "4\" Submersible Pumpset (V4)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\")",
+   "power_range": "0.5–6 HP (0.37–4.4 kW)",
+   "head_range": "10–340 m",
+   "flow_range": "12–450 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Both",
+   "highlights": [
+    "SS J4 motor shell for durability and hygiene",
+    "Water-lubricated hard-wearing bearings",
+    "Deep-drawn pump for accurate alignment",
+    "Wide-voltage operation",
+    "Extra intermediate bearing on higher-stage pumps"
+   ],
+   "applications": [
+    "Farming",
+    "Gardening",
+    "Domestic",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "₹ 11,862",
+   "price_to": "₹ 30,717",
+   "price_source_url": "https://shreenathind.com/collections/all",
+   "image_file": "images/products/falcon/4-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/4-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon 5\" Submersible Pumpset (V5)",
+   "series": "5\" Submersible Pumpset (V5)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (5\")",
+   "power_range": "3–12.5 HP (2.2–9.3 kW)",
+   "head_range": "12–640 m",
+   "flow_range": "80–690 LPM",
+   "borewell_size": "125 mm (5\")",
+   "phase": "Both",
+   "highlights": [
+    "SS 304 investment-cast bowl and impeller (GRS radial series)",
+    "9 m head per stage in radial-flow series",
+    "SS-420 tilting-pad thrust bearing with carbon plate",
+    "Dynamically balanced rotating parts"
+   ],
+   "applications": [
+    "Farming",
+    "High-depth borewell",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "₹ 36,000",
+   "price_to": "₹ 36,000",
+   "price_source_url": "https://www.tradeindia.com/products/falcon-5-submersible-pumpset-c12729877.html",
+   "image_file": "images/products/falcon/5-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/5-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon 6\" Submersible Pumpset (V6)",
+   "series": "6\" Submersible Pumpset (V6)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\")",
+   "power_range": "3–40 HP (2.2–30 kW)",
+   "head_range": "12–600 m",
+   "flow_range": "170–1,080 LPM",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Both",
+   "highlights": [
+    "60 ft (18 m) head per stage in radial-flow series (brand claim: industry first)",
+    "SS 304 investment-cast bowl and impeller",
+    "SS-420 tilting-pad thrust bearing",
+    "Corrosion-resistant SS J4 motor shell"
+   ],
+   "applications": [
+    "Farming",
+    "High-depth borewell",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "₹ 35,347",
+   "price_to": "₹ 95,760",
+   "price_source_url": "https://shreenathind.com/collections/all",
+   "image_file": "images/products/falcon/6-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/6-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon 7\" Submersible Pumpset (V7)",
+   "series": "7\" Submersible Pumpset (V7)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (7\", mixed flow)",
+   "power_range": "15–50 HP (11.2–37.3 kW)",
+   "head_range": "18–650 m",
+   "flow_range": "55–1,860 LPM",
+   "borewell_size": "175 mm (7\")",
+   "phase": "Three",
+   "highlights": [
+    "Cast-iron bowl with SS-410 impeller in mixed-flow series",
+    "SS-420 tilting-pad thrust bearing (8,000 lbs)",
+    "Dynamically balanced rotating parts",
+    "SS J4 motor shell"
+   ],
+   "applications": [
+    "Farming",
+    "Deep well",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/7-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/7-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon 8\" Submersible Pumpset (V8)",
+   "series": "8\" Submersible Pumpset (V8)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\")",
+   "power_range": "10–100 HP (7.5–75 kW)",
+   "head_range": "12–440 m",
+   "flow_range": "300–2,400 LPM",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "SS 304 investment-cast bowl and impeller",
+    "20 m head per stage in radial-flow series",
+    "SS-420 tilting-pad thrust bearing (10,000 lbs)",
+    "Star-delta starting for large farms"
+   ],
+   "applications": [
+    "Large-scale farming",
+    "High-depth borewell",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/8-inch-submersible-pumpset.webp",
+   "source_url": "https://falconpumps.in/products/8-submersible-pumpset/"
+  },
+  {
+   "name": "Falcon AC Solar Submersible Pump",
+   "series": "AC Solar Submersible Pump",
+   "category": "Agriculture",
+   "type": "Solar borewell submersible (AC, with controller)",
+   "power_range": "1–20 HP (custom up to 100 HP)",
+   "head_range": "30–220 m",
+   "flow_range": "10,000–4,20,000 litres/day",
+   "borewell_size": "100–150 mm (4\"–6\")",
+   "phase": "Three",
+   "highlights": [
+    "Runs on 900–20,000 Wp solar array, zero running cost",
+    "Starts at low sunlight, wide voltage range",
+    "Low-maintenance 'fit & forget' design",
+    "Customised designs up to 100 HP / 330 m"
+   ],
+   "applications": [
+    "Farming",
+    "Livestock watering",
+    "Drinking water supply",
+    "Gardening"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/ac-solar-submersible-pump.webp",
+   "source_url": "https://falconpumps.in/products/ac-submersible-pump/"
+  },
+  {
+   "name": "Falcon AC Solar Openwell Pump",
+   "series": "AC Solar Openwell Pump",
+   "category": "Agriculture",
+   "type": "Solar openwell submersible (AC)",
+   "power_range": "3–10 HP",
+   "head_range": "10–50 m",
+   "flow_range": "1,26,000–4,25,000 litres/day",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "Runs on 3,000–10,000 Wp solar array",
+    "Zero running cost, eco-friendly",
+    "Easy start at low sunlight",
+    "Simple installation, low maintenance"
+   ],
+   "applications": [
+    "Farming",
+    "Livestock watering",
+    "Drinking water supply",
+    "Gardening"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/ac-solar-openwell-pump.webp",
+   "source_url": "https://falconpumps.in/products/ac-openwell-pump/"
+  },
+  {
+   "name": "Falcon Agriculture Horizontal CI Openwell (HMA)",
+   "series": "Agriculture Horizontal CI Openwell (HMA)",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (cast iron)",
+   "power_range": "3–15 HP (2.2–11.2 kW)",
+   "head_range": "up to 65 m",
+   "flow_range": "up to 2,200 LPM",
+   "borewell_size": "Open well",
+   "phase": "Both",
+   "highlights": [
+    "High efficiency, noiseless operation",
+    "No pump house needed",
+    "Easy to dismantle and repair",
+    "Motor designed for higher cooling and longer life"
+   ],
+   "applications": [
+    "Farming",
+    "Deep well",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "₹ 22,050",
+   "price_to": "₹ 37,825",
+   "price_source_url": "https://shreenathind.com/collections/all",
+   "image_file": "images/products/falcon/agriculture-horizontal-ci-openwell.webp",
+   "source_url": "https://falconpumps.in/products/agriculture-horizontal-ci-openwell/"
+  },
+  {
+   "name": "Falcon Agriculture Horizontal SS Openwell",
+   "series": "Agriculture Horizontal SS Openwell",
+   "category": "Agriculture",
+   "type": "Horizontal openwell submersible (stainless steel)",
+   "power_range": "3–15 HP (2.2–11.2 kW)",
+   "head_range": "up to 65 m",
+   "flow_range": "up to 2,200 LPM",
+   "borewell_size": "Open well",
+   "phase": "Both",
+   "highlights": [
+    "Stainless steel body",
+    "High efficiency, noiseless operation",
+    "No pump house needed",
+    "Easy to dismantle and repair"
+   ],
+   "applications": [
+    "Farming",
+    "Deep well",
+    "Water supply",
+    "Industrial"
+   ],
+   "price_from": "₹ 25,330",
+   "price_to": "₹ 25,330",
+   "price_source_url": "https://shreenathind.com/collections/all",
+   "image_file": "images/products/falcon/agriculture-horizontal-ss-openwell.webp",
+   "source_url": "https://falconpumps.in/products/agriculture-horizontal-ss-openwell/"
+  },
+  {
+   "name": "Falcon VMC Agriculture Vertical Openwell",
+   "series": "VMC Agriculture Vertical Openwell",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (mixed flow)",
+   "power_range": "5–60 HP (3.7–45 kW)",
+   "head_range": "up to 150 m",
+   "flow_range": "up to 3,600 LPM",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "No suction or priming problems",
+    "Lubricated journal bearings",
+    "Dynamically balanced rotating parts",
+    "Designed for wide voltage fluctuation"
+   ],
+   "applications": [
+    "Farming",
+    "Lifting water from lakes",
+    "Lifting from dams / reservoirs",
+    "Water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/vmc-agriculture-vertical-openwell.webp",
+   "source_url": "https://falconpumps.in/products/vmc-agriculture-vertical-openwell/"
+  },
+  {
+   "name": "Falcon VRS Agriculture Vertical Openwell",
+   "series": "VRS Agriculture Vertical Openwell",
+   "category": "Agriculture",
+   "type": "Vertical openwell submersible (radial)",
+   "power_range": "5–60 HP (3.7–45 kW)",
+   "head_range": "up to 150 m",
+   "flow_range": "up to 3,600 LPM",
+   "borewell_size": "Open well",
+   "phase": "Three",
+   "highlights": [
+    "No suction or priming problems",
+    "Noiseless, high-efficiency operation",
+    "No pump house needed",
+    "Hard-wearing construction"
+   ],
+   "applications": [
+    "Farming",
+    "Lifting water from lakes",
+    "Lifting from dams / reservoirs",
+    "Water supply"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/vrs-agriculture-vertical-openwell.webp",
+   "source_url": "https://falconpumps.in/products/vrs-agriculture-vertical-openwell/"
+  },
+  {
+   "name": "Falcon Domestic Horizontal CI Openwell",
+   "series": "Domestic Horizontal CI Openwell",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic, cast iron)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "up to 30 m",
+   "flow_range": "up to 910 LPM",
+   "borewell_size": "Open well / underground tank",
+   "phase": "Both",
+   "highlights": [
+    "No suction or priming problems",
+    "Noiseless, high-efficiency operation",
+    "No pump house needed",
+    "Tough, hard-wearing build"
+   ],
+   "applications": [
+    "Domestic",
+    "Underground water tank",
+    "Gardening",
+    "Farming"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/domestic-horizontal-ci-openwell.webp",
+   "source_url": "https://falconpumps.in/products/domestic-horizontal-ci-openwell/"
+  },
+  {
+   "name": "Falcon Domestic Horizontal SS Openwell (DSH)",
+   "series": "Domestic Horizontal SS Openwell (DSH)",
+   "category": "Domestic",
+   "type": "Horizontal openwell submersible (domestic, stainless steel)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "up to 30 m",
+   "flow_range": "up to 910 LPM",
+   "borewell_size": "Open well / underground tank",
+   "phase": "Both",
+   "highlights": [
+    "Stainless steel body",
+    "No suction or priming problems",
+    "Noiseless, high-efficiency operation",
+    "No pump house needed"
+   ],
+   "applications": [
+    "Domestic",
+    "Underground water tank",
+    "Gardening",
+    "Farming"
+   ],
+   "price_from": "₹ 10,500",
+   "price_to": "₹ 10,500",
+   "price_source_url": "https://dir.indiamart.com/hyderabad/falcon-submersible-pump.html",
+   "image_file": "images/products/falcon/domestic-horizontal-ss-openwell.webp",
+   "source_url": "https://falconpumps.in/products/domestic-horizontal-ss-openwell/"
+  },
+  {
+   "name": "Falcon Domestic Vertical SS Openwell (DSV)",
+   "series": "Domestic Vertical SS Openwell (DSV)",
+   "category": "Domestic",
+   "type": "Vertical openwell submersible (domestic, stainless steel)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "up to 60 m",
+   "flow_range": "up to 430 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Both",
+   "highlights": [
+    "Stainless steel construction",
+    "No suction or priming problems",
+    "Noiseless, high-efficiency operation",
+    "Tough, hard-wearing build"
+   ],
+   "applications": [
+    "Domestic",
+    "Lifting water from lakes",
+    "Gardening",
+    "Farming"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/falcon/domestic-vertical-ss-openwell.webp",
+   "source_url": "https://falconpumps.in/products/domestic-vertical-ss-openwell/"
+  }
+ ]
+}
