@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sri Anjaneya Enterprises · Submersible Pumps & Motors, Secunderabad</title>
+<meta name="description" content="Authorised dealer of KSB, Kirloskar, Wilo, Ekki-Deccan, CRI, Falcon, Lubi and Crompton submersible pumps for agriculture and homes. Old Boiguda, Secunderabad. Home of Aqua Tide." />
+<meta name="theme-color" content="#04101f" />
+<meta property="og:title" content="Sri Anjaneya Enterprises" />
+<meta property="og:description" content="Submersible pumps from 8 trusted brands, plus our own Aqua Tide. Secunderabad, Hyderabad." />
+<meta property="og:image" content="images/hero-hanuman.webp" />
+<link rel="icon" href="images/logo-aqua-tide.webp" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link media="print" onload="this.media='all'" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<script type="importmap">
+{ "imports": { "three": "./js/vendor/three.module.min.js" } }
+</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="pl-drop"><span></span></div>
+  <div class="pl-name">Sri Anjaneya <em>Enterprises</em></div>
+  <div class="pl-bar"><i id="plBar"></i></div>
+</div>
+
+<div class="cursor" id="cursor"></div><div class="cursor-dot" id="cursorDot"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#home" class="nav-brand"><img src="images/logo-aqua-tide.webp" alt="" /><span>Sri Anjaneya<b>Enterprises</b></span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a><a href="#brands">Brands</a><a href="#pumps">Pumps</a><a href="#finder">Pump Finder</a><a href="#certificates">Certificates</a><a href="#reviews">Reviews</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-cta">
+    <button class="icon-btn" id="compareBtn" title="Compare pumps" aria-label="Compare pumps">⇄<span class="badge" id="compareCount">0</span></button>
+    <button class="icon-btn" id="enqBtn" title="Enquiry list" aria-label="Enquiry list">✉<span class="badge" id="enqCount">0</span></button>
+    <a href="tel:9246607214" class="btn btn-gold btn-sm magnetic">📞 9246607214</a>
+    <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-fallback" aria-hidden="true"><img src="images/hero-hanuman.webp" alt="" /><i style="left:10%;animation-delay:0s;width:8px;height:8px"></i><i style="left:25%;animation-delay:1.5s;width:14px;height:14px"></i><i style="left:40%;animation-delay:3s;width:6px;height:6px"></i><i style="left:55%;animation-delay:0.8s;width:10px;height:10px"></i><i style="left:70%;animation-delay:2.2s;width:16px;height:16px"></i><i style="left:85%;animation-delay:4s;width:7px;height:7px"></i><i style="left:35%;animation-delay:5s;width:12px;height:12px"></i><i style="left:62%;animation-delay:3.6s;width:9px;height:9px"></i></div>
+  <div class="hero-grad"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="chip reveal"><span class="pulse"></span> 8+ years · Old Boiguda, Secunderabad</div>
+      <h1 class="hero-title">
+        <span class="line"><span class="word">Water,</span></span>
+        <span class="line"><span class="word">raised</span> <span class="word grad">right.</span></span>
+      </h1>
+      <p class="hero-sub reveal">Submersible pumps and motors from <b data-typed>KSB</b> and seven more trusted brands, plus our own <b>Aqua Tide</b>. Matched to your borewell, your field and your budget.</p>
+      <div class="hero-actions reveal">
+        <a href="#pumps" class="btn btn-gold magnetic">Explore pumps →</a>
+        <a href="#finder" class="btn btn-ghost magnetic">Find my pump</a>
+      </div>
+      <div class="hero-meta reveal">
+        <div><b class="count" data-to="8">0</b><span>+ years</span></div>
+        <div><b class="count" data-to="9">0</b><span>brands</span></div>
+        <div><b class="count" data-to="0" id="pumpCountHero">0</b><span>pump series</span></div>
+      </div>
+    </div>
+    <div class="hero-card glass tilt reveal">
+      <div class="hc-top"><span>Live pump</span><span class="dot-live">● spinning</span></div>
+      <div class="hc-spec"><small>Head</small><b id="hcHead">— m</b></div>
+      <div class="hc-spec"><small>Flow</small><b id="hcFlow">— LPM</b></div>
+      <div class="hc-spec"><small>Power</small><b id="hcHp">— HP</b></div>
+      <p>Drag to spin the pump. Scroll to dive.</p>
+    </div>
+  </div>
+  <div class="scroll-hint"><span></span>Scroll</div>
+</section>
+
+<!-- MARQUEE -->
+<section class="marquee-wrap" aria-label="Brands">
+  <div class="marquee" id="marquee"></div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Who we are</span>
+      <h2 class="split">Trusted water solutions for <em>every</em> field and home</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Our business has been running successfully for over 8 years, serving customers across India and worldwide. We serve corporates, retail outlets, industries, agriculture, pharmaceuticals, real estate and households that depend on reliable water every single day.</p>
+        <p>We deal with submersible water motors from KSB, Kirloskar, Wilo, Crompton, Falcon, Lubi, CRI and Ekki-Deccan, and our own brand <b class="gold">Aqua Tide</b>, at comfortable, competitive prices.</p>
+        <div class="flow-steps">
+          <span>Search</span><i>→</i><span>Find</span><i>→</i><span>Plan</span><i>→</i><span>Deal</span><i>→</i><span>Purchase</span>
+        </div>
+        <div class="gst glass"><small>GST Registration</small><b>36ASFPG1225Q1ZM</b></div>
+      </div>
+      <div class="bento">
+        <div class="b-card glass tilt reveal"><b class="count" data-to="8">0</b><span>+ years in business</span></div>
+        <div class="b-card glass tilt reveal"><b class="count" data-to="9">0</b><span>+ premium brands</span></div>
+        <div class="b-card glass tilt reveal wide video-card">
+          <video autoplay muted loop playsinline preload="metadata" poster="media/water-stream.jpg"><source src="media/water-stream.mp4" type="video/mp4" /></video>
+          <div><b>🌐</b><span>Worldwide service</span></div>
+        </div>
+        <div class="b-card glass tilt reveal accent"><b>AQUA TIDE</b><span>Registered own brand</span></div>
+      </div>
+    </div>
+    <div class="sectors reveal">
+      <span>🏢 Corporates</span><span>🛍 Retail</span><span>🌾 Agriculture</span><span>💊 Pharmaceuticals</span><span>🏗 Real Estate</span><span>🏠 Household</span>
+    </div>
+
+    <div class="leaders">
+      <div class="leader glass reveal">
+        <div class="leader-img"><img src="Owners/1.jpeg" alt="Gonugunta Venkata Sailaja" loading="lazy" /></div>
+        <div class="leader-body">
+          <span class="eyebrow">Chief Executive Officer</span>
+          <h3>Gonugunta Venkata Sailaja</h3>
+          <ul>
+            <li>Founded the firm to put customer satisfaction first and distribute products worldwide.</li>
+            <li>Leads strategy, global market expansion and long-term partner relationships.</li>
+            <li>Drove the launch of the Aqua Tide proprietary brand.</li>
+            <li>Champions a customer-first approach and water-conservation CSR work.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="leader glass reveal">
+        <div class="leader-img"><img src="Owners/2.jpeg" alt="Gonugunta Venkata Sathyanarayana" loading="lazy" /></div>
+        <div class="leader-body">
+          <span class="eyebrow">Managing Director</span>
+          <h3>Gonugunta Venkata Sathyanarayana</h3>
+          <ul>
+            <li>22 years as a sales engineer, with start-to-tail knowledge of domestic and agriculture motors.</li>
+            <li>Solves real-world pump problems with practical, proactive fixes.</li>
+            <li>Gives quotations with the best deals against the marketplace.</li>
+            <li>Ensures safe delivery with proper packaging and heavy safeguards.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<section class="section dark" id="brands">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Brands we trust & supply</span>
+      <h2 class="split">Eight global names. <em>One</em> of our own.</h2>
+      <p class="sec-sub">Tap a brand to see its full submersible range.</p>
+    </div>
+    <div class="brand-grid" id="brandGrid"></div>
+  </div>
+</section>
+
+<!-- VIDEO BAND -->
+<section class="video-band">
+  <video autoplay muted loop playsinline preload="metadata" poster="media/river-flow.jpg"><source src="media/river-flow.mp4" type="video/mp4" /></video>
+  <div class="vb-overlay"></div>
+  <div class="vb-text">
+    <h2 class="split">From deep borewells to rooftop tanks, <em>we keep water moving.</em></h2>
+    <div class="vb-stats">
+      <div><b class="count" data-to="0" id="vbPumps">0</b><small>pump series listed</small></div>
+      <div><b>3"–10"</b><small>borewell sizes</small></div>
+      <div><b>0.5–30+ HP</b><small>power range</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- PUMPS EXPLORER -->
+<section class="section" id="pumps">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">All brands · one catalogue</span>
+      <h2 class="split">Agricultural & domestic <em>submersibles</em></h2>
+      <p class="sec-sub">Prices are indicative bands. Call us for today's best quote.</p>
+    </div>
+
+    <div class="filters glass" id="filters">
+      <div class="search"><span>⌕</span><input id="q" type="search" placeholder="Search pump, series, HP, borewell size…" autocomplete="off" /></div>
+      <div class="seg" id="catSeg">
+        <button class="on" data-cat="all">All</button><button data-cat="Agriculture">🌾 Agriculture</button><button data-cat="Domestic">🏠 Domestic</button>
+      </div>
+      <div class="brand-pills" id="brandPills"></div>
+      <div class="filter-row">
+        <select id="typeSel"><option value="all">All pump types</option></select>
+        <select id="sortSel">
+          <option value="brand">Sort: Brand</option>
+          <option value="priceAsc">Price: low → high</option>
+          <option value="priceDesc">Price: high → low</option>
+          <option value="name">Name A–Z</option>
+        </select>
+        <div class="view-toggle"><button class="on" data-view="grid">▦</button><button data-view="list">☰</button></div>
+      </div>
+    </div>
+    <div class="result-bar"><span id="resultCount">Loading pumps…</span><button class="link-btn" id="resetFilters">Reset filters</button></div>
+    <div class="pump-grid" id="pumpGrid"></div>
+    <div class="load-more-wrap"><button class="btn btn-ghost" id="loadMore">Show more</button></div>
+  </div>
+</section>
+
+<!-- PUMP FINDER -->
+<section class="section dark" id="finder">
+  <div class="container finder">
+    <div class="sec-head left">
+      <span class="eyebrow">Pump finder</span>
+      <h2 class="split">Tell us your well. <em>We'll size the pump.</em></h2>
+      <p class="sec-sub">A quick estimate from depth and daily water need. Our engineer confirms it on a call.</p>
+    </div>
+    <div class="finder-card glass">
+      <div class="flabel">Use <div class="seg small" id="fUse"><button class="on" data-v="Agriculture">Farm</button><button data-v="Domestic">Home</button></div></div>
+      <label>Borewell / well depth <output id="fDepthOut">150 m</output><input type="range" id="fDepth" min="10" max="400" value="150" step="5" /></label>
+      <label>Water level (pumping) <output id="fLevelOut">60 m</output><input type="range" id="fLevel" min="5" max="300" value="60" step="5" /></label>
+      <label>Water needed per day <output id="fNeedOut">20,000 L</output><input type="range" id="fNeed" min="1000" max="200000" value="20000" step="1000" /></label>
+      <label>Bore size <select id="fBore"><option>4"</option><option selected>6"</option><option>8"</option><option>Open well</option></select></label>
+      <div class="finder-out">
+        <div><small>Estimated head</small><b id="fHead">—</b></div>
+        <div><small>Flow rate</small><b id="fFlow">—</b></div>
+        <div><small>Suggested power</small><b id="fHp">—</b></div>
+      </div>
+      <button class="btn btn-gold" id="fShow">Show matching pumps →</button>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="section" id="certificates">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Trust & credibility</span>
+      <h2 class="split">Authorised. <em>Certified.</em> Verified.</h2>
+    </div>
+    <div class="cert-grid">
+      <article class="cert glass tilt reveal" data-img="images/cert-kirloskar.jpg"><div class="cert-img"><img src="images/cert-kirloskar.jpg" alt="Kirloskar certificate" loading="lazy" /></div><h3>Kirloskar · Certificate of Authorisation</h3><p>Dealer for original Kirloskar SPB-range pumps from Dewas, Sanand and Kaniyur plants.</p><span class="valid">✓ Valid till 30.06.2027</span></article>
+      <article class="cert glass tilt reveal" data-img="assets/certs/ksb-certificate-2026.jpeg"><div class="cert-img"><img src="assets/certs/ksb-certificate-2026.jpeg" alt="KSB certificate" loading="lazy" /></div><h3>KSB · Certificate of Authorization</h3><p>KSB authorised dealer certificate for Sri Anjaneya Enterprises.</p><span class="valid">✓ Valid till 31-12-2026</span></article>
+      <article class="cert glass tilt reveal" data-img="images/cert-ekki.jpg"><div class="cert-img"><img src="images/cert-ekki.jpg" alt="EKKI certificate" loading="lazy" /></div><h3>EKKI Water Technologies · Dealership</h3><p>Authorised ADBS dealer for EKKI product lines in Secunderabad.</p><span class="valid">✓ 2023 – 2025</span></article>
+      <article class="cert glass tilt reveal" data-img="images/cert-deccan.jpg"><div class="cert-img"><img src="images/cert-deccan.jpg" alt="Deccan certificate" loading="lazy" /></div><h3>D-Plus Pumptech / DECCAN · Dealership</h3><p>Authorised ADBS dealer for DECCAN product lines in Secunderabad.</p><span class="valid">✓ 2023 – 2025</span></article>
+      <article class="cert glass tilt reveal" data-pdf="assets/certs/wilo-certificate.pdf"><div class="cert-img pdf"><img src="images/brands/wilo.svg" alt="Wilo" loading="lazy" /><span>PDF</span></div><h3>Wilo · Certificate of Dealership</h3><p>Official Wilo dealership and authorisation certificate.</p><span class="valid">📄 Open PDF</span></article>
+      <article class="cert glass tilt reveal" data-pdf="assets/TrustSeal-IM.pdf"><div class="cert-img pdf"><img src="assets/india mart.png" alt="IndiaMART" loading="lazy" /><span>PDF</span></div><h3>IndiaMART · TrustSeal</h3><p>IndiaMART verified the business details, reliability and legal existence of the firm.</p><span class="valid">📄 Open PDF</span></article>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section dark" id="reviews">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">What customers say</span>
+      <h2 class="split">Your experience <em>matters</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <div>
+        <div class="rating-summary glass"><b id="avgRating">–</b><div><div class="stars-static" id="avgStars"></div><small id="reviewCount">0 reviews</small></div></div>
+        <div class="review-list" id="reviewList"></div>
+      </div>
+      <form class="review-form glass" id="reviewForm" novalidate>
+        <h3>Share your experience</h3>
+        <div class="row2"><input type="text" id="rName" placeholder="Your name *" required maxlength="60" /><input id="rPhone" type="tel" placeholder="Phone (optional)" maxlength="15" /></div>
+        <input type="text" id="rLoc" placeholder="City / location *" required maxlength="60" />
+        <input type="text" id="rProduct" placeholder="Product & model *" required maxlength="80" />
+        <textarea id="rText" rows="4" placeholder="Your feedback *" required maxlength="600"></textarea>
+        <div class="star-input" id="starInput" role="radiogroup" aria-label="Rating"><button type="button" data-v="1">★</button><button type="button" data-v="2">★</button><button type="button" data-v="3">★</button><button type="button" data-v="4">★</button><button type="button" data-v="5">★</button></div>
+        <p class="form-err" id="rErr"></p>
+        <button class="btn btn-gold" type="submit">Submit review ✓</button>
+        <small class="muted">Reviews are saved on this device.</small>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Our shop</span>
+      <h2 class="split">Step inside <em>the store</em></h2>
+    </div>
+    <div class="coverflow" id="coverflow">
+      <img src="Shop images/1.jpeg" alt="Shop photo 1" loading="lazy" />
+      <img src="Shop images/2.jpeg" alt="Shop photo 2" loading="lazy" />
+      <img src="Shop images/WhatsApp Image 2026-05-02 at 11.21.41 AM.jpeg" alt="Shop photo 3" loading="lazy" />
+      <img src="Shop images/WhatsApp Image 2026-05-02 at 11.21.42 AM.jpeg" alt="Shop photo 4" loading="lazy" />
+      <img src="assets/Agri.jpg" alt="Agriculture pumps" loading="lazy" />
+    </div>
+    <div class="cf-nav"><button id="cfPrev" class="icon-btn">❮</button><div id="cfDots" class="cf-dots"></div><button id="cfNext" class="icon-btn">❯</button></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section dark" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="sec-head left">
+        <span class="eyebrow">Get in touch</span>
+        <h2 class="split">Let's get your <em>water flowing</em></h2>
+      </div>
+      <div class="contact-cards">
+        <a class="c-card glass" href="tel:9246607214"><span>📞</span><div><small>Call</small><b>9246607214</b></div></a>
+        <a class="c-card glass" href="tel:9704157350"><span>📱</span><div><small>Call</small><b>9704157350</b></div></a>
+        <a class="c-card glass" href="https://wa.me/919246607214" target="_blank" rel="noopener"><span>💬</span><div><small>WhatsApp</small><b>Chat with us</b></div></a>
+        <a class="c-card glass" href="mailto:sae.sathya@gmail.com"><span>✉</span><div><small>Email</small><b>sae.sathya@gmail.com</b></div></a>
+      </div>
+      <div class="address glass">
+        <small>📍 Address</small>
+        <p>Plot No. 84 & 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad – 500003, Telangana</p>
+        <div class="nav-apps">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Plot+No.84+%265-3-273+Jeera+Compound+Secunderabad+Hyderabad+Telangana+500003" target="_blank" rel="noopener"><img src="assets/google-maps.png" alt="" />Google Maps</a>
+          <a href="https://maps.apple.com/?daddr=Plot+No.+84+%265-3-273+Jeera+Compound+Secunderabad+Hyderabad+Telangana+500003" target="_blank" rel="noopener"><img src="assets/apple.svg" alt="" />Apple Maps</a>
+          <a href="https://www.mappls.com/search?query=Plot+No.+84+%265-3-273+Jeera+Compound+Secunderabad+Hyderabad+Telangana+500003" target="_blank" rel="noopener"><img src="assets/mappls.svg" alt="" />Mappls</a>
+        </div>
+        <div class="nav-apps">
+          <a href="https://www.indiamart.com/srianjaneyaenterprises/" target="_blank" rel="noopener"><img src="assets/india mart.png" alt="" />IndiaMART store</a>
+          <a href="https://www.tradeindia.com/sri-anjaneya-enterprises-29753900/" target="_blank" rel="noopener"><img src="assets/trade india.png" alt="" />TradeIndia store</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form class="enquiry glass" id="enquiryForm" novalidate>
+        <h3>Request a quote</h3>
+        <div class="row2"><input type="text" id="eName" placeholder="Your name *" required /><input id="ePhone" type="tel" placeholder="Phone *" required /></div>
+        <select id="eUse"><option>Agriculture</option><option>Domestic</option><option>Industrial / Commercial</option></select>
+        <div class="enq-items" id="enqItems"><small class="muted">Add pumps with “+ Enquire” to include them here.</small></div>
+        <textarea id="eMsg" rows="3" placeholder="Borewell depth, HP, location…"></textarea>
+        <div class="row2"><button class="btn btn-gold" type="submit" data-via="wa">Send on WhatsApp</button><button class="btn btn-ghost" type="submit" data-via="mail">Send by email</button></div>
+        <p class="form-err" id="eErr"></p>
+      </form>
+      <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Sri Anjaneya Enterprises location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.232862080667!2d78.49565487516484!3d17.444043983434656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99d7f7d7a74f%3A0x8e5c16f547c97073!2sJeera+Compound%2C+Old+Boiguda%2C+Secunderabad%2C+Telangana+500003!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <div class="nav-brand"><img src="images/logo-aqua-tide.webp" alt="" /><span>Sri Anjaneya<b>Enterprises</b></span></div>
+    <p>Authorised dealer · Submersible pumps & motors · GST 36ASFPG1225Q1ZM</p>
+    <p class="muted small">Brand names, logos and product data belong to their owners and are shown for dealer reference. Prices are indicative ranges; final price on quotation.</p>
+    <p class="muted small">© <span id="year"></span> Sri Anjaneya Enterprises. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="wa-float magnetic" href="https://wa.me/919246607214" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<!-- Modals -->
+<div class="modal" id="pumpModal" aria-hidden="true"><div class="modal-box glass" role="dialog" aria-modal="true"><button class="modal-x" data-close>✕</button><div id="pumpModalBody"></div></div></div>
+<div class="modal" id="brandModal" aria-hidden="true"><div class="modal-box glass wide" role="dialog" aria-modal="true"><button class="modal-x" data-close>✕</button><div id="brandModalBody"></div></div></div>
+<div class="modal" id="imgModal" aria-hidden="true"><div class="modal-box bare"><button class="modal-x" data-close>✕</button><img id="imgModalImg" src="images/hero-hanuman.webp" alt="Enlarged view" /></div></div>
+<div class="drawer" id="compareDrawer" aria-hidden="true"><div class="drawer-box glass"><div class="drawer-head"><h3>Compare pumps</h3><button class="modal-x" data-close>✕</button></div><div id="compareBody"></div></div></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/app.js"></script>
+<script type="module" src="js/scene.js"></script>
+</body>
+</html>

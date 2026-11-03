@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+
+# Deploy tool folders
+.netlify/
+.vercel/
+
+# Dependencies (if tooling is added later)
+node_modules/
+
+# OS / editor junk (keep .vscode/launch.json, which is tracked)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
