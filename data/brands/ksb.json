@@ -1,516 +1,2005 @@
 {
- "brand": "KSB",
- "website": "https://www.ksb.com/en-in",
- "country": "Germany (KSB SE & Co. KGaA; Indian arm KSB Limited, Pune)",
- "founded": "1871",
- "tagline": "Our technology. Your success.",
- "products": [
-  {
-   "name": "KSB Cora 75",
-   "series": "Cora 75",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\")",
-   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
-   "head_range": "Up to 120 m",
-   "flow_range": "Up to ~92 LPM (5.5 m³/h)",
-   "borewell_size": "80 mm (3\") and above",
-   "phase": "Both",
-   "highlights": [
-    "Stainless-steel shroud with Noryl hydraulics",
-    "Fits narrow 3-inch bores",
-    "Single-phase or three-phase motor with motor lead",
-    "Wide voltage operation for rural supply"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "₹ 14,864",
-   "price_to": "₹ 19,396",
-   "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/ksb/cora-75.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-75/C54A"
-  },
-  {
-   "name": "KSB Cora 100",
-   "series": "Cora 100",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\")",
-   "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
-   "head_range": "Up to 540 m",
-   "flow_range": "Up to ~400 LPM (24 m³/h)",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "Both",
-   "highlights": [
-    "Stainless-steel jacket, Noryl impellers/diffusers",
-    "Wide range of hydraulics (Cora 1C–18C, AH/CH, AA oil-filled)",
-    "BEE star-rated models available",
-    "Special thrust bearing design, noiseless running"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management",
-    "Pressure boosting",
-    "Fountains"
-   ],
-   "price_from": "₹ 16,657",
-   "price_to": "₹ 31,226",
-   "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/ksb/cora-100.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-100/C55A"
-  },
-  {
-   "name": "KSB CORA 2HH / 3HH / 4HH (High Head)",
-   "series": "CORA HH",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", high head)",
-   "power_range": "Up to 7.5 HP",
-   "head_range": "Up to 550 m",
-   "flow_range": "Up to ~100 LPM (6 m³/h)",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "Both",
-   "highlights": [
-    "Built for deep bores and depleting water tables",
-    "Up to 75 stages; stainless steel and Noryl construction",
-    "Hook-bolt construction for reliable operation",
-    "Single- or three-phase motors"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/cora-hh.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-3hh/C44A"
-  },
-  {
-   "name": "KSB CORACHROM 100 – Solar",
-   "series": "CORACHROM 100 Solar",
-   "category": "Agriculture",
-   "type": "Solar borewell submersible (4\", stainless steel)",
-   "power_range": "",
-   "head_range": "Up to 451 m",
-   "flow_range": "Up to ~200 LPM (12 m³/h)",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "Both",
-   "highlights": [
-    "Full stainless-steel pump, suits saline borewells",
-    "AC single-/three-phase or DC motor for solar pumping",
-    "Motor tuned to maximise litres per Wp, works in low sun",
-    "Ring-section multistage design"
-   ],
-   "applications": [
-    "Solar irrigation",
-    "Spray irrigation",
-    "Domestic water supply",
-    "Groundwater management"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/corachrom-100-solar.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/corachrom-100---solar/C59A"
-  },
-  {
-   "name": "KSB CORACHROM 150 (6\")",
-   "series": "CORACHROM 150",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", stainless steel)",
-   "power_range": "",
-   "head_range": "Up to 480 m",
-   "flow_range": "Up to ~1300 LPM (78 m³/h)",
-   "borewell_size": "150 mm (6\") and above",
-   "phase": "Both",
-   "highlights": [
-    "All-stainless-steel multistage pump",
-    "Radial and mixed-flow hydraulics",
-    "Suitable for saline / corrosive borewell water",
-    "Solar-compatible AC motor option"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/corachrom-150.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/corachrom-150---6-inch/C60A"
-  },
-  {
-   "name": "KSB UPA C 100 (UPAchrom 100)",
-   "series": "UPA C 100",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", stainless steel)",
-   "power_range": "",
-   "head_range": "Up to 632 m",
-   "flow_range": "Up to ~367 LPM (22 m³/h)",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "Both",
-   "highlights": [
-    "Stainless-steel sheet ring-section pump",
-    "Optimised hydraulics for high efficiency",
-    "Motors rated for maximum pump output",
-    "ISO 9001-certified quality"
-   ],
-   "applications": [
-    "Groundwater extraction",
-    "Agricultural irrigation",
-    "Pressure boosting",
-    "Drinking/service water for homes"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/upa-c-100.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-100/U04A"
-  },
-  {
-   "name": "KSB UPA C 150",
-   "series": "UPA C 150",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", stainless steel)",
-   "power_range": "",
-   "head_range": "Up to 627 m",
-   "flow_range": "Up to ~1583 LPM (95 m³/h)",
-   "borewell_size": "150 mm (6\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Stainless-steel sheet construction, vertical or horizontal install",
-    "Individually configured stages, motors and cables",
-    "Smooth surfaces for low energy use",
-    "Max working pressure 60 bar"
-   ],
-   "applications": [
-    "Groundwater extraction",
-    "Agricultural irrigation",
-    "Municipal drinking water",
-    "Industrial service water"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/upa-c-150.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-150/U16A"
-  },
-  {
-   "name": "KSB UPC (5\", radial flow)",
-   "series": "UPC",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\")",
-   "power_range": "3–10 HP (2.2–7.5 kW)",
-   "head_range": "Up to 270 m",
-   "flow_range": "Up to ~410 LPM (24.6 m³/h)",
-   "borewell_size": "130 mm (5\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Radial hydraulics with trimmable impellers",
-    "Water-filled, easily rewindable motor",
-    "Suitable for low-voltage conditions",
-    "BEE-label qualified models"
-   ],
-   "applications": [
-    "Irrigation",
-    "Drinking water supply",
-    "Farm house",
-    "Pressure boosting",
-    "Fountains"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/upc.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/upc/U47A"
-  },
-  {
-   "name": "KSB BPC (5\", mixed flow)",
-   "series": "BPC",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\")",
-   "power_range": "3–10 HP (2.2–7.5 kW)",
-   "head_range": "Up to ~78 m",
-   "flow_range": "Up to ~717 LPM (43 m³/h)",
-   "borewell_size": "130 mm (5\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Mixed-flow hydraulics for high discharge",
-    "Energy-efficient, water-filled rewindable motor",
-    "Special thrust bearing design",
-    "Easy installation and service"
-   ],
-   "applications": [
-    "Irrigation",
-    "Drinking water supply",
-    "Farm house",
-    "Fountains"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/bpc.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpc/B82A"
-  },
-  {
-   "name": "KSB UQD (6\", radial flow)",
-   "series": "UQD",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\")",
-   "power_range": "2–30 HP (1.5–22 kW)",
-   "head_range": "Up to 410 m",
-   "flow_range": "Up to ~400 LPM (24 m³/h)",
-   "borewell_size": "150 mm (6\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Radial-flow pump for high heads",
-    "Water-filled, water-lubricated, rewindable motor",
-    "Low power consumption, noiseless",
-    "Paired with UMA / UMA I 150 motors"
-   ],
-   "applications": [
-    "Irrigation",
-    "Drinking water supply",
-    "Industrial water supply",
-    "Farm house"
-   ],
-   "price_from": "₹ 43,424",
-   "price_to": "₹ 52,116",
-   "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/ksb/uqd.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/uqd/U25A"
-  },
-  {
-   "name": "KSB UPF / UPFN (6\", high-head radial)",
-   "series": "UPF",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\")",
-   "power_range": "Up to 30 HP (22 kW)",
-   "head_range": "Up to 485 m",
-   "flow_range": "Up to ~667 LPM (40 m³/h)",
-   "borewell_size": "150 mm (6\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Radial hydraulics for very high heads",
-    "Vertical or horizontal installation",
-    "BEE-label qualified pump sets",
-    "UMA I / H 150 motor options"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/upf.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/upf/U48A"
-  },
-  {
-   "name": "KSB BPD / BPDN (6\", mixed flow)",
-   "series": "BPD",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\")",
-   "power_range": "3–25 HP (2.2–18.5 kW)",
-   "head_range": "6–160 m",
-   "flow_range": "200–1080 LPM",
-   "borewell_size": "150 mm (6\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Mixed-flow hydraulics for high-yield bores",
-    "Energy-saving, BEE-label qualified",
-    "Water-filled rewindable motor",
-    "Vertical or horizontal installation"
-   ],
-   "applications": [
-    "Irrigation",
-    "Drinking water supply",
-    "Industrial water supply",
-    "Farm house"
-   ],
-   "price_from": "₹ 51,147",
-   "price_to": "₹ 1,10,399",
-   "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/ksb/bpd.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpd/B55A"
-  },
-  {
-   "name": "KSB BPI (7\", mixed flow)",
-   "series": "BPI",
-   "category": "Agriculture",
-   "type": "Borewell submersible (7\")",
-   "power_range": "5–7.5 HP (3.7–5.5 kW)",
-   "head_range": "Up to 102 m",
-   "flow_range": "Up to ~1833 LPM (110 m³/h)",
-   "borewell_size": "180 mm (7\") and above (150 mm motor)",
-   "phase": "Three",
-   "highlights": [
-    "175 mm pump with 150 mm motor for 7-inch bores",
-    "Mixed-flow hydraulics",
-    "UMA I / UMA H 150 motors",
-    "BEE-label qualified"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "₹ 35,360",
-   "price_to": "",
-   "price_source_url": "https://www.indiamart.com/goodluckmarketing/ksb-submersible-pump.html",
-   "image_file": "images/products/ksb/bpi.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpi/B57A"
-  },
-  {
-   "name": "KSB UPH (8\", radial flow)",
-   "series": "UPH",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\")",
-   "power_range": "",
-   "head_range": "Up to 300 m",
-   "flow_range": "Up to ~917 LPM (55 m³/h)",
-   "borewell_size": "200 mm (8\") and above",
-   "phase": "Three",
-   "highlights": [
-    "Radial hydraulics for high heads in 8-inch bores",
-    "Vertical or horizontal installation",
-    "Three-phase motor with motor lead",
-    "BEE-label qualified"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ksb/uph.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/uph/U24A"
-  },
-  {
-   "name": "KSB BPH / BPHA (8\", mixed flow)",
-   "series": "BPH",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\")",
-   "power_range": "From 7.5 HP (5.5 kW)",
-   "head_range": "Up to 160 m",
-   "flow_range": "Up to ~3333 LPM (200 m³/h)",
-   "borewell_size": "200 mm (8\") and above (150 mm motor)",
-   "phase": "Three",
-   "highlights": [
-    "200 mm pump with 150 mm motor for 8-inch bores",
-    "Mixed-flow, trimmable impellers",
-    "High discharge for large farms",
-    "BEE-label qualified"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "General irrigation",
-    "Spray / sprinkler irrigation",
-    "Groundwater management"
-   ],
-   "price_from": "₹ 37,810",
-   "price_to": "",
-   "price_source_url": "https://www.indiamart.com/goodluckmarketing/ksb-submersible-pump.html",
-   "image_file": "images/products/ksb/bph.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/bph/B56A"
-  },
-  {
-   "name": "KSB Monosub R (MR / MR(S))",
-   "series": "Monosub R",
-   "category": "Agriculture",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "0.5–5 HP single-phase; 3–15 HP three-phase",
-   "head_range": "Up to 77 m",
-   "flow_range": "Up to ~2870 LPM (172 m³/h)",
-   "borewell_size": "Open well / sump",
-   "phase": "Both",
-   "highlights": [
-    "Wide voltage range (250–440 V three-phase)",
-    "Dynamically balanced rotating assembly",
-    "Water-cooled rewindable motor, double counter bearing",
-    "No foundation needed – installs under water"
-   ],
-   "applications": [
-    "Irrigation via sprinkler/drip",
-    "Community water supply",
-    "Bungalows and high-rise buildings",
-    "Fountains"
-   ],
-   "price_from": "₹ 17,489",
-   "price_to": "₹ 19,257",
-   "price_source_url": "https://www.moglix.com/ksb-mrs-15-15hp-phase-openwell-submersible-monoblock-pump/mp/msnekpqdxp0y52",
-   "image_file": "images/products/ksb/monosub-r.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/monosub-r/M61A"
-  },
-  {
-   "name": "KSB Opal i",
-   "series": "Opal i",
-   "category": "Domestic",
-   "type": "Openwell submersible (compact, single phase)",
-   "power_range": "0.5–2 HP",
-   "head_range": "Up to 38 m",
-   "flow_range": "Up to ~175 LPM (10.5 m³/h)",
-   "borewell_size": "Open well / sump",
-   "phase": "Single",
-   "highlights": [
-    "Pre-filled motor with 10 m KSB cable",
-    "Supplied with control panel for motor protection",
-    "Stainless-steel motor jacket, Noryl impellers",
-    "Wide voltage 160–260 V; BEE star-rated models"
-   ],
-   "applications": [
-    "Household water supply",
-    "Bungalows / high-rise",
-    "Sprinklers & drip",
-    "Fountains"
-   ],
-   "price_from": "₹ 7,758",
-   "price_to": "",
-   "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/ksb/opal-i.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/opali/O13A"
-  },
-  {
-   "name": "KSB Multi Sub",
-   "series": "Multi Sub",
-   "category": "Domestic",
-   "type": "Openwell submersible (vertical multistage)",
-   "power_range": "~1 HP (single phase)",
-   "head_range": "Up to 60 m",
-   "flow_range": "Up to ~100 LPM (6 m³/h)",
-   "borewell_size": "Open well / sump / borehole",
-   "phase": "Single",
-   "highlights": [
-    "High-head vertical multistage for sumps and wells",
-    "Stainless-steel jacket, single shaft",
-    "Wide voltage 160–260 V",
-    "Supplied with control panel"
-   ],
-   "applications": [
-    "Basement tank to overhead tank",
-    "Wells and boreholes",
-    "Sprinklers",
-    "General irrigation"
-   ],
-   "price_from": "₹ 11,000",
-   "price_to": "",
-   "price_source_url": "https://www.sdelectricalsenggworks.com/ksb-water-pump.html",
-   "image_file": "images/products/ksb/multi-sub.jpg",
-   "source_url": "https://www.ksb.com/en-in/lc/products/pump/multi-sub/MA3A"
-  }
- ]
+  "brand": "KSB",
+  "website": "https://www.ksb.com/en-in",
+  "country": "Germany (KSB SE & Co. KGaA; Indian arm KSB Limited, Pune)",
+  "founded": "1871",
+  "tagline": "Our technology. Your success.",
+  "products": [
+    {
+      "name": "KSB Cora 75",
+      "series": "Cora 75",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\")",
+      "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+      "head_range": "Up to 120 m",
+      "flow_range": "Up to ~92 LPM (5.5 m³/h)",
+      "borewell_size": "80 mm (3\") and above",
+      "phase": "Both",
+      "highlights": [
+        "Stainless-steel shroud with Noryl hydraulics",
+        "Fits narrow 3-inch bores",
+        "Single-phase or three-phase motor with motor lead",
+        "Wide voltage operation for rural supply"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "₹ 14,864",
+      "price_to": "₹ 19,396",
+      "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/ksb/cora-75.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-75/C54A",
+      "description": "Multistage centrifugal pump in ring-section design. Shroud made of stainless steel; hydraulic components made of Noryl.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage centrifugal pump in ring-section design",
+        "Shroud made of stainless steel; hydraulic components made of Noryl",
+        "For well diameters of 80 mm (3 inches) and above",
+        "Available with single-phase AC motor or three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 5.5 m³/h; Max. head 120 m; Max. fluid temp 33 °C",
+      "materials": {
+        "shroud": "Stainless steel",
+        "hydraulics": "Noryl"
+      },
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/cora-75/C54A"
+      ]
+    },
+    {
+      "name": "KSB Cora 100",
+      "series": "Cora 100",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\")",
+      "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
+      "head_range": "Up to 540 m",
+      "flow_range": "Up to ~400 LPM (24 m³/h)",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "Both",
+      "highlights": [
+        "Stainless-steel jacket, Noryl impellers/diffusers",
+        "Wide range of hydraulics (Cora 1C–18C, AH/CH, AA oil-filled)",
+        "BEE star-rated models available",
+        "Special thrust bearing design, noiseless running"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management",
+        "Pressure boosting",
+        "Fountains"
+      ],
+      "price_from": "₹ 16,657",
+      "price_to": "₹ 31,226",
+      "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/ksb/cora-100.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-100/C55A",
+      "description": "Multistage centrifugal pump in ring-section design. Shroud made of stainless steel; hydraulic components made of Noryl.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage centrifugal pump in ring-section design",
+        "Shroud made of stainless steel; hydraulic components made of Noryl",
+        "For well diameters of 100 mm (4 inches) and above",
+        "Available with single-phase AC motor or three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 24 m³/h; Max. head 540 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "CORA 1C/21",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "21",
+          "phase": "3",
+          "head_m": "48–117",
+          "flow_lpm": "0–30",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORA 2C/11",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "11",
+          "phase": "3",
+          "head_m": "24–66",
+          "flow_lpm": "0–47",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORA 2C/45",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "45",
+          "phase": "3",
+          "head_m": "98–270",
+          "flow_lpm": "0–47",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORA 2CH/10",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "32–76",
+          "flow_lpm": "0–50",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORA 3C/8",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "8",
+          "phase": "3",
+          "head_m": "10–50",
+          "flow_lpm": "0–90",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3C/45",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "45",
+          "phase": "3",
+          "head_m": "90–270",
+          "flow_lpm": "0–90",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3CH/10",
+          "hp": "1.5",
+          "kw": "1.10",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "30–79",
+          "flow_lpm": "0–83",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 4C/6",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "19–36",
+          "flow_lpm": "0–100",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 7C & 7D/12",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "12",
+          "phase": "1",
+          "head_m": "30–84",
+          "flow_lpm": "0–167",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 7C & 7D/22",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "22",
+          "phase": "3",
+          "head_m": "54–155",
+          "flow_lpm": "0–167",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 18C/8",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "8",
+          "phase": "1",
+          "head_m": "13–48",
+          "flow_lpm": "0–400",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "CORA 18C/20",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "20",
+          "phase": "3",
+          "head_m": "32–119",
+          "flow_lpm": "0–400",
+          "outlet": "65 mm"
+        }
+      ],
+      "materials": {
+        "shroud": "Stainless steel",
+        "hydraulics": "Noryl"
+      },
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/cora-100/C55A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB CORA 2HH / 3HH / 4HH (High Head)",
+      "series": "CORA HH",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", high head)",
+      "power_range": "Up to 7.5 HP",
+      "head_range": "Up to 550 m",
+      "flow_range": "Up to ~100 LPM (6 m³/h)",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "Both",
+      "highlights": [
+        "Built for deep bores and depleting water tables",
+        "Up to 75 stages; stainless steel and Noryl construction",
+        "Hook-bolt construction for reliable operation",
+        "Single- or three-phase motors"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/cora-hh.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/cora-3hh/C44A",
+      "description": "Multistage centrifugal pump in ring-section design. Outer casing made of stainless steel.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage centrifugal pump in ring-section design",
+        "Outer casing made of stainless steel",
+        "For applications with a high head",
+        "For well diameters of 100 mm (4 inches) and above",
+        "Available with single-phase AC motor or three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 5.5 m³/h; Max. head 550 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "CORA 2HH/30",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "30",
+          "phase": "3",
+          "head_m": "110–216",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/40",
+          "hp": "4",
+          "kw": "3.00",
+          "stages": "40",
+          "phase": "3",
+          "head_m": "147–288",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/45",
+          "hp": "4",
+          "kw": "3.00",
+          "stages": "45",
+          "phase": "3",
+          "head_m": "165–324",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/55",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "55",
+          "phase": "3",
+          "head_m": "202–396",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/60",
+          "hp": "6",
+          "kw": "4.50",
+          "stages": "60",
+          "phase": "3",
+          "head_m": "220–432",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/70",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "70",
+          "phase": "3",
+          "head_m": "257–504",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 2HH/75",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "75",
+          "phase": "3",
+          "head_m": "275–540",
+          "flow_lpm": "0–92"
+        },
+        {
+          "model": "CORA 3HH/35",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "35",
+          "phase": "3",
+          "head_m": "46–270",
+          "flow_lpm": "0–92",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3HH/40",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "40",
+          "phase": "3",
+          "head_m": "52–308",
+          "flow_lpm": "0–92",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3HH/50",
+          "hp": "6",
+          "kw": "4.50",
+          "stages": "50",
+          "phase": "3",
+          "head_m": "65–385",
+          "flow_lpm": "0–92",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3HH/55",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "55",
+          "phase": "3",
+          "head_m": "72–424",
+          "flow_lpm": "0–92",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORA 3HH/65",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "65",
+          "phase": "3",
+          "head_m": "85–501",
+          "flow_lpm": "0–92",
+          "outlet": "38 mm"
+        }
+      ],
+      "materials": {
+        "outer_casing": "Stainless steel"
+      },
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/cora-3hh/C44A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+        "https://ksbindia.in/pdf/AgriSubmersiblePumpsBrochure.pdf"
+      ]
+    },
+    {
+      "name": "KSB CORACHROM 100 – Solar",
+      "series": "CORACHROM 100 Solar",
+      "category": "Agriculture",
+      "type": "Solar borewell submersible (4\", stainless steel)",
+      "power_range": "",
+      "head_range": "Up to 451 m",
+      "flow_range": "Up to ~200 LPM (12 m³/h)",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "Both",
+      "highlights": [
+        "Full stainless-steel pump, suits saline borewells",
+        "AC single-/three-phase or DC motor for solar pumping",
+        "Motor tuned to maximise litres per Wp, works in low sun",
+        "Ring-section multistage design"
+      ],
+      "applications": [
+        "Solar irrigation",
+        "Spray irrigation",
+        "Domestic water supply",
+        "Groundwater management"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/corachrom-100-solar.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/corachrom-100---solar/C59A",
+      "description": "Multistage centrifugal pump in ring-section design, made of stainless steel. For well diameters of 100 mm (4 inches) and above.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage centrifugal pump in ring-section design, made of stainless steel",
+        "For well diameters of 100 mm (4 inches) and above",
+        "Available with single-phase AC motor, three-phase motor or DC motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 12 m³/h; Max. head 451 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "CORAchrom 100-2/6",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": "6",
+          "phase": "1",
+          "head_m": "8–37",
+          "flow_lpm": "0–45",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORAchrom 100-2/6",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": "6",
+          "phase": "1",
+          "head_m": "8–37",
+          "flow_lpm": "0–45"
+        },
+        {
+          "model": "CORAchrom 100-2/13",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "13",
+          "phase": "3",
+          "head_m": "20–79",
+          "flow_lpm": "0–45"
+        },
+        {
+          "model": "CORAchrom 100-3/8",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": "8",
+          "phase": "1",
+          "head_m": "21–52",
+          "flow_lpm": "0–67",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORAchrom 100-3/9",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": "9",
+          "phase": "1",
+          "head_m": "24–58",
+          "flow_lpm": "0–67",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORAchrom 100-3/12",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "33–77",
+          "flow_lpm": "0–67",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "CORAchrom 100-5/4",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": "4",
+          "phase": "1",
+          "head_m": "6–27",
+          "flow_lpm": "0–113",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORAchrom 100-5/12",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": "12",
+          "phase": "1",
+          "head_m": "22–76",
+          "flow_lpm": "0–113",
+          "outlet": "38 mm"
+        },
+        {
+          "model": "CORAchrom 100-5/33",
+          "hp": "4",
+          "kw": "3.0",
+          "stages": "33",
+          "phase": "3",
+          "head_m": "64–207",
+          "flow_lpm": "0–113"
+        },
+        {
+          "model": "CORAchrom 100-8/5",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": "5",
+          "phase": "1",
+          "head_m": "12–30",
+          "flow_lpm": "0–183",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "CORAchrom 100-8/7",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": "7",
+          "phase": "3",
+          "head_m": "17–42",
+          "flow_lpm": "0–183",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "CORAchrom 100-8/37",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": "37",
+          "phase": "3",
+          "head_m": "84–221",
+          "flow_lpm": "0–183",
+          "outlet": "50 mm"
+        }
+      ],
+      "materials": {
+        "pump": "Stainless steel"
+      },
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/corachrom-100---solar/C59A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB CORACHROM 150 (6\")",
+      "series": "CORACHROM 150",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", stainless steel)",
+      "power_range": "",
+      "head_range": "Up to 480 m",
+      "flow_range": "Up to ~1300 LPM (78 m³/h)",
+      "borewell_size": "150 mm (6\") and above",
+      "phase": "Both",
+      "highlights": [
+        "All-stainless-steel multistage pump",
+        "Radial and mixed-flow hydraulics",
+        "Suitable for saline / corrosive borewell water",
+        "Solar-compatible AC motor option"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/corachrom-150.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/corachrom-150---6-inch/C60A",
+      "description": "Multistage centrifugal pump in ring-section design, made of stainless steel. For well diameters of 150 mm (6 inches) and above.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage centrifugal pump in ring-section design, made of stainless steel",
+        "For well diameters of 150 mm (6 inches) and above",
+        "Available with single-phase AC motor or three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 78 m³/h; Max. head 480 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "CORAchrom 150-17/4",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "20–45",
+          "flow_lpm": "0–367",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "CORAchrom 150-17/9",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": "9",
+          "phase": "3",
+          "head_m": "46–101",
+          "flow_lpm": "0–367",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "CORAchrom 150-17/16",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": "16",
+          "phase": "3",
+          "head_m": "82–179",
+          "flow_lpm": "0–367",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "CORAchrom 150-17/32",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": "32",
+          "phase": "3",
+          "head_m": "164–359",
+          "flow_lpm": "0–367",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "CORAchrom 150-30/4",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "17–46",
+          "flow_lpm": "0–650",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-30/12",
+          "hp": "15",
+          "kw": "11.0",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "51–137",
+          "flow_lpm": "0–650",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-30/17",
+          "hp": "20",
+          "kw": "15.0",
+          "stages": "17",
+          "phase": "3",
+          "head_m": "73–195",
+          "flow_lpm": "0–650",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-46/4",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "26–54",
+          "flow_lpm": "0–917",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-46/9",
+          "hp": "20",
+          "kw": "15.0",
+          "stages": "9",
+          "phase": "3",
+          "head_m": "58–122",
+          "flow_lpm": "0–917",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-60/2",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "12–29",
+          "flow_lpm": "0–1300",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-60/6",
+          "hp": "15",
+          "kw": "11.0",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "35–87",
+          "flow_lpm": "0–1300",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "CORAchrom 150-60/12",
+          "hp": "30",
+          "kw": "22.0",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "70–174",
+          "flow_lpm": "0–1300",
+          "outlet": "75 mm"
+        }
+      ],
+      "materials": {
+        "pump": "Stainless steel"
+      },
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/corachrom-150---6-inch/C60A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB UPA C 100 (UPAchrom 100)",
+      "series": "UPA C 100",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", stainless steel)",
+      "power_range": "",
+      "head_range": "Up to 632 m",
+      "flow_range": "Up to ~367 LPM (22 m³/h)",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "Both",
+      "highlights": [
+        "Stainless-steel sheet ring-section pump",
+        "Optimised hydraulics for high efficiency",
+        "Motors rated for maximum pump output",
+        "ISO 9001-certified quality"
+      ],
+      "applications": [
+        "Groundwater extraction",
+        "Agricultural irrigation",
+        "Pressure boosting",
+        "Drinking/service water for homes"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/upa-c-100.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-100/U04A",
+      "description": "Multistage centrifugal pump in ring-section design made of stainless steel sheet for well diameters of 100 mm (4 inches) and above, available with single-phase AC motor or three-phase motor with motor lead.",
+      "features": [
+        "Multistage ring-section design made of stainless steel sheet",
+        "For well diameters of 100 mm (4 inches) and above",
+        "Single-phase AC or three-phase motor with motor lead",
+        "Max. allowed working pressure 60 bar"
+      ],
+      "operating_limits": "Max. flow 22 m³/h; Max. head 632 m; Max. working pressure 60 bar; Max. fluid temp 30 °C",
+      "materials": {
+        "pump": "Stainless steel sheet"
+      },
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-100/U04A"
+      ]
+    },
+    {
+      "name": "KSB UPA C 150",
+      "series": "UPA C 150",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", stainless steel)",
+      "power_range": "",
+      "head_range": "Up to 627 m",
+      "flow_range": "Up to ~1583 LPM (95 m³/h)",
+      "borewell_size": "150 mm (6\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Stainless-steel sheet construction, vertical or horizontal install",
+        "Individually configured stages, motors and cables",
+        "Smooth surfaces for low energy use",
+        "Max working pressure 60 bar"
+      ],
+      "applications": [
+        "Groundwater extraction",
+        "Agricultural irrigation",
+        "Municipal drinking water",
+        "Industrial service water"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/upa-c-150.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-150/U16A",
+      "description": "Single-stage or multistage centrifugal pump in ring-section design made of stainless steel sheet, suitable for vertical or horizontal installation, for well diameters of 150 mm (6 inches) and above.",
+      "features": [
+        "Optimised hydraulics and smooth surfaces for high efficiency and low energy consumption",
+        "Individually configured stages, motors, cables and accessories per application",
+        "Stainless steel sheet construction; vertical or horizontal installation",
+        "For well diameters of 150 mm (6 inches) and above",
+        "Approved under French drinking water regulation; ISO 9001 quality management"
+      ],
+      "operating_limits": "Max. flow 95 m³/h; Max. head 627 m; Max. working pressure 60 bar; Max. fluid temp 50 °C",
+      "materials": {
+        "pump": "Stainless steel sheet"
+      },
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-c-150/U16A"
+      ]
+    },
+    {
+      "name": "KSB UPC (5\", radial flow)",
+      "series": "UPC",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\")",
+      "power_range": "3–10 HP (2.2–7.5 kW)",
+      "head_range": "Up to 270 m",
+      "flow_range": "Up to ~410 LPM (24.6 m³/h)",
+      "borewell_size": "130 mm (5\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Radial hydraulics with trimmable impellers",
+        "Water-filled, easily rewindable motor",
+        "Suitable for low-voltage conditions",
+        "BEE-label qualified models"
+      ],
+      "applications": [
+        "Irrigation",
+        "Drinking water supply",
+        "Farm house",
+        "Pressure boosting",
+        "Fountains"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/upc.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/upc/U47A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical installation. Radial hydraulic systems with trimmable impellers.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical installation",
+        "Radial hydraulic systems with trimmable impellers",
+        "For well diameters of 5 inches (130 mm) and above"
+      ],
+      "operating_limits": "Max. flow 24.6 m³/h; Max. head 270 m; Max. fluid temp 33 °C",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/upc/U47A"
+      ]
+    },
+    {
+      "name": "KSB BPC (5\", mixed flow)",
+      "series": "BPC",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\")",
+      "power_range": "3–10 HP (2.2–7.5 kW)",
+      "head_range": "Up to ~78 m",
+      "flow_range": "Up to ~717 LPM (43 m³/h)",
+      "borewell_size": "130 mm (5\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Mixed-flow hydraulics for high discharge",
+        "Energy-efficient, water-filled rewindable motor",
+        "Special thrust bearing design",
+        "Easy installation and service"
+      ],
+      "applications": [
+        "Irrigation",
+        "Drinking water supply",
+        "Farm house",
+        "Fountains"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/bpc.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpc/B82A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical installation. Mixed flow hydraulic systems with standard impellers.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical installation",
+        "Mixed flow hydraulic systems with standard impellers",
+        "For well diameters of 5 inches (130 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 43 m³/h; Max. fluid temp 33 °C",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/bpc/B82A"
+      ]
+    },
+    {
+      "name": "KSB UQD (6\", radial flow)",
+      "series": "UQD",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\")",
+      "power_range": "2–30 HP (1.5–22 kW)",
+      "head_range": "Up to 410 m",
+      "flow_range": "Up to ~400 LPM (24 m³/h)",
+      "borewell_size": "150 mm (6\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Radial-flow pump for high heads",
+        "Water-filled, water-lubricated, rewindable motor",
+        "Low power consumption, noiseless",
+        "Paired with UMA / UMA I 150 motors"
+      ],
+      "applications": [
+        "Irrigation",
+        "Drinking water supply",
+        "Industrial water supply",
+        "Farm house"
+      ],
+      "price_from": "₹ 43,424",
+      "price_to": "₹ 52,116",
+      "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/ksb/uqd.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/uqd/U25A",
+      "description": "Submersible borehole pumps for borehole diameters of 80-350 mm.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Submersible borehole pumps for borehole diameters of 80-350 mm"
+      ],
+      "operating_limits": "Max. flow 24 m³/h; Max. head 410 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "UQD 112/10",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "40–110",
+          "flow_lpm": "0–150"
+        },
+        {
+          "model": "UQD 112/25",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "25",
+          "phase": "3",
+          "head_m": "120–270",
+          "flow_lpm": "0–150"
+        },
+        {
+          "model": "UQD 152/6",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "30–58",
+          "flow_lpm": "0–233",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 152/9",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": "9",
+          "phase": "3",
+          "head_m": "45–87",
+          "flow_lpm": "0–233",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 152/14",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": "14",
+          "phase": "3",
+          "head_m": "70–135",
+          "flow_lpm": "0–233",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 152/26",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": "26",
+          "phase": "3",
+          "head_m": "129–250",
+          "flow_lpm": "0–233",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 182/4",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "27–46",
+          "flow_lpm": "0–300",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 182/16",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": "16",
+          "phase": "3",
+          "head_m": "110–182",
+          "flow_lpm": "0–300",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 212/3",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "23–34",
+          "flow_lpm": "0–400",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 212/7",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": "7",
+          "phase": "3",
+          "head_m": "52–80",
+          "flow_lpm": "0–400",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 212/17",
+          "hp": "17.5",
+          "kw": "13.0",
+          "stages": "17",
+          "phase": "3",
+          "head_m": "126–194",
+          "flow_lpm": "0–400",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UQD 212/28",
+          "hp": "30",
+          "kw": "22.0",
+          "stages": "28",
+          "phase": "3",
+          "head_m": "210–327",
+          "flow_lpm": "0–400",
+          "outlet": "50 mm"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/uqd/U25A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB UPF / UPFN (6\", high-head radial)",
+      "series": "UPF",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\")",
+      "power_range": "Up to 30 HP (22 kW)",
+      "head_range": "Up to 485 m",
+      "flow_range": "Up to ~667 LPM (40 m³/h)",
+      "borewell_size": "150 mm (6\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Radial hydraulics for very high heads",
+        "Vertical or horizontal installation",
+        "BEE-label qualified pump sets",
+        "UMA I / H 150 motor options"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/upf.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/upf/U48A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation. Radial hydraulic systems available for various ranges.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation",
+        "Radial hydraulic systems available for various ranges",
+        "For applications with high heads",
+        "For well diameters of 6 inches (150 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 40 m³/h; Max. head 485 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "UPF 60/5",
+          "hp": "3",
+          "kw": "2.20",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "10–83",
+          "flow_lpm": "0–260",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF 60/16",
+          "hp": "10",
+          "kw": "7.50",
+          "stages": "16",
+          "phase": "3",
+          "head_m": "33–267",
+          "flow_lpm": "0–260",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF 80/6",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "12–96",
+          "flow_lpm": "0–270",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF 80/19",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "19",
+          "phase": "3",
+          "head_m": "38–304",
+          "flow_lpm": "0–270",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF 100/5",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "10–88",
+          "flow_lpm": "0–375",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF 100/15",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "15",
+          "phase": "3",
+          "head_m": "30–263",
+          "flow_lpm": "0–375",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "UPF125/4",
+          "hp": "5",
+          "kw": "3.70",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "8–70",
+          "flow_lpm": "0–500",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "UPF125/12",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "24–210",
+          "flow_lpm": "0–500",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "UPF 150/4",
+          "hp": "6",
+          "kw": "4.50",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "9–75",
+          "flow_lpm": "0–535",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "UPF 150/12",
+          "hp": "17.5",
+          "kw": "13.00",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "26–226",
+          "flow_lpm": "0–535",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "UPF 200/5",
+          "hp": "10",
+          "kw": "7.50",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "16–84",
+          "flow_lpm": "0–725",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "UPF 200/13",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "13",
+          "phase": "3",
+          "head_m": "41–219",
+          "flow_lpm": "0–725",
+          "outlet": "65 mm"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/upf/U48A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB BPD / BPDN (6\", mixed flow)",
+      "series": "BPD",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\")",
+      "power_range": "3–25 HP (2.2–18.5 kW)",
+      "head_range": "6–160 m",
+      "flow_range": "200–1080 LPM",
+      "borewell_size": "150 mm (6\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Mixed-flow hydraulics for high-yield bores",
+        "Energy-saving, BEE-label qualified",
+        "Water-filled rewindable motor",
+        "Vertical or horizontal installation"
+      ],
+      "applications": [
+        "Irrigation",
+        "Drinking water supply",
+        "Industrial water supply",
+        "Farm house"
+      ],
+      "price_from": "₹ 51,147",
+      "price_to": "₹ 1,10,399",
+      "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/ksb/bpd.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpd/B55A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation. Mixed flow hydraulic systems available for various ranges.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation",
+        "Mixed flow hydraulic systems available for various ranges",
+        "For well diameters of 6 inches (150 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "models": [
+        {
+          "model": "BPD 242A/2",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "13.5–25",
+          "flow_lpm": "0–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "BPD 242A/12A",
+          "hp": "15",
+          "kw": "11.0",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "59–149",
+          "flow_lpm": "0–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "BPD 262A/10A",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "30–102",
+          "flow_lpm": "0–750"
+        },
+        {
+          "model": "BPD 262/7",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "7",
+          "phase": "3",
+          "head_m": "25–77",
+          "flow_lpm": "0–750"
+        },
+        {
+          "model": "BPD 273/2",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "10–23",
+          "flow_lpm": "0–833",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "BPD 273/8A",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": "8",
+          "phase": "3",
+          "head_m": "34–81",
+          "flow_lpm": "0–833",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "BPD 273/12",
+          "hp": "20",
+          "kw": "15.0",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "61–137",
+          "flow_lpm": "0–833",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "BPD 302/5",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "21–60",
+          "flow_lpm": "0–1250",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "BPD 302/9",
+          "hp": "20",
+          "kw": "15.0",
+          "stages": "9",
+          "phase": "3",
+          "head_m": "37–107",
+          "flow_lpm": "0–1250",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "BPD 312A/6A",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "28–75",
+          "flow_lpm": "0–1417"
+        },
+        {
+          "model": "BPD 312/4",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "18–52",
+          "flow_lpm": "0–1500"
+        },
+        {
+          "model": "BPD 312/12",
+          "hp": "30",
+          "kw": "22.0",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "54–156",
+          "flow_lpm": "0–1500"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/bpd/B55A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB BPI (7\", mixed flow)",
+      "series": "BPI",
+      "category": "Agriculture",
+      "type": "Borewell submersible (7\")",
+      "power_range": "5–7.5 HP (3.7–5.5 kW)",
+      "head_range": "Up to 102 m",
+      "flow_range": "Up to ~1833 LPM (110 m³/h)",
+      "borewell_size": "180 mm (7\") and above (150 mm motor)",
+      "phase": "Three",
+      "highlights": [
+        "175 mm pump with 150 mm motor for 7-inch bores",
+        "Mixed-flow hydraulics",
+        "UMA I / UMA H 150 motors",
+        "BEE-label qualified"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "₹ 35,360",
+      "price_to": "",
+      "price_source_url": "https://www.indiamart.com/goodluckmarketing/ksb-submersible-pump.html",
+      "image_file": "images/products/ksb/bpi.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpi/B57A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation. Mixed flow hydraulic systems available for various ranges.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation",
+        "Mixed flow hydraulic systems available for various ranges",
+        "For well diameters of 7 inches (180 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 110 m³/h; Max. head 102 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "BPI 322/2D",
+          "hp": "6",
+          "kw": "4.50",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "8–22",
+          "flow_lpm": "667–1417",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 322/3D",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "12–33",
+          "flow_lpm": "667–1417",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 322/3C",
+          "hp": "12.5",
+          "kw": "9.30",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "28–45",
+          "flow_lpm": "667–1417",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 322/4C",
+          "hp": "17.5",
+          "kw": "13.00",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "37–60",
+          "flow_lpm": "667–1417",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 322/6C",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "56–90",
+          "flow_lpm": "667–1417",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/2B",
+          "hp": "6",
+          "kw": "4.50",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "10–22",
+          "flow_lpm": "834–1834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/2",
+          "hp": "12.5",
+          "kw": "9.30",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "17–33",
+          "flow_lpm": "1000–2000",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/3B",
+          "hp": "10",
+          "kw": "7.50",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "15–33",
+          "flow_lpm": "834–1834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/4A",
+          "hp": "10",
+          "kw": "7.50",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "16–36",
+          "flow_lpm": "834–1667",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/3",
+          "hp": "17.5",
+          "kw": "13.00",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "26–50",
+          "flow_lpm": "1000–2000",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/5B",
+          "hp": "17.5",
+          "kw": "13.00",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "25–55",
+          "flow_lpm": "834–1834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPI 343/6D",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "36–72",
+          "flow_lpm": "1000–2000",
+          "outlet": "100 mm"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/bpi/B57A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB UPH (8\", radial flow)",
+      "series": "UPH",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\")",
+      "power_range": "",
+      "head_range": "Up to 300 m",
+      "flow_range": "Up to ~917 LPM (55 m³/h)",
+      "borewell_size": "200 mm (8\") and above",
+      "phase": "Three",
+      "highlights": [
+        "Radial hydraulics for high heads in 8-inch bores",
+        "Vertical or horizontal installation",
+        "Three-phase motor with motor lead",
+        "BEE-label qualified"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/uph.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/uph/U24A",
+      "description": "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation. Radial hydraulic systems available for various ranges.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation",
+        "Radial hydraulic systems available for various ranges",
+        "For well diameters of 8 inches (200 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 55 m³/h; Max. head 300 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "UPHA 233/6",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "66–111",
+          "flow_lpm": "167–667",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 233/10",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "110–185",
+          "flow_lpm": "167–667",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 233/14",
+          "hp": "33",
+          "kw": "24.50",
+          "stages": "14",
+          "phase": "3",
+          "head_m": "154–259",
+          "flow_lpm": "167–667",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 263/7",
+          "hp": "20",
+          "kw": "15.00",
+          "stages": "7",
+          "phase": "3",
+          "head_m": "70–133",
+          "flow_lpm": "250–917",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 263/9",
+          "hp": "30",
+          "kw": "22.00",
+          "stages": "9",
+          "phase": "3",
+          "head_m": "90–171",
+          "flow_lpm": "250–917",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 263/12",
+          "hp": "33",
+          "kw": "24.50",
+          "stages": "12",
+          "phase": "3",
+          "head_m": "120–228",
+          "flow_lpm": "250–917",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "UPHA 293/4",
+          "hp": "20",
+          "kw": "15.00",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "71–81",
+          "flow_lpm": "417–750",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "UPHA 293/5A",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "65–92",
+          "flow_lpm": "417–917",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "UPHA 293/6A",
+          "hp": "30",
+          "kw": "22.00",
+          "stages": "6",
+          "phase": "3",
+          "head_m": "78–110",
+          "flow_lpm": "417–917",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "UPHA 293/7",
+          "hp": "33",
+          "kw": "24.50",
+          "stages": "7",
+          "phase": "3",
+          "head_m": "119–141",
+          "flow_lpm": "417–834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "UPHA 293/8",
+          "hp": "33",
+          "kw": "24.50",
+          "stages": "8",
+          "phase": "3",
+          "head_m": "154–162",
+          "flow_lpm": "417–583",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "UPHA 293/10A",
+          "hp": "41",
+          "kw": "30.00",
+          "stages": "10",
+          "phase": "3",
+          "head_m": "130–183",
+          "flow_lpm": "417–917",
+          "outlet": "100 mm"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/uph/U24A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB BPH / BPHA (8\", mixed flow)",
+      "series": "BPH",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\")",
+      "power_range": "From 7.5 HP (5.5 kW)",
+      "head_range": "Up to 160 m",
+      "flow_range": "Up to ~3333 LPM (200 m³/h)",
+      "borewell_size": "200 mm (8\") and above (150 mm motor)",
+      "phase": "Three",
+      "highlights": [
+        "200 mm pump with 150 mm motor for 8-inch bores",
+        "Mixed-flow, trimmable impellers",
+        "High discharge for large farms",
+        "BEE-label qualified"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "General irrigation",
+        "Spray / sprinkler irrigation",
+        "Groundwater management"
+      ],
+      "price_from": "₹ 37,810",
+      "price_to": "",
+      "price_source_url": "https://www.indiamart.com/goodluckmarketing/ksb-submersible-pump.html",
+      "image_file": "images/products/ksb/bph.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/bph/B56A",
+      "description": "Single-stage or multistage single-entry centrifugal pump in ring-section design for vertical or horizontal installation. Mixed flow hydraulic systems with trimmable impellers.",
+      "features": [
+        "Various hydraulic systems for different head and flow rate requirements",
+        "Energy-saving pump set qualified for rating to the Indian BEE energy-efficiency label (3 to 5 stars)",
+        "Pump easy to install",
+        "Single-stage or multistage ring-section design for vertical or horizontal installation",
+        "Mixed flow hydraulic systems with trimmable impellers",
+        "For well diameters of 8 inches (200 mm) and above",
+        "Available with three-phase motor with motor lead"
+      ],
+      "operating_limits": "Max. flow 200 m³/h; Max. head 160 m; Max. fluid temp 33 °C",
+      "models": [
+        {
+          "model": "BPHA/2E",
+          "hp": "7.5",
+          "kw": "5.50",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "16–27",
+          "flow_lpm": "834–1500"
+        },
+        {
+          "model": "BPHA/3D",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "38–52",
+          "flow_lpm": "834–1500"
+        },
+        {
+          "model": "BPHA 384/1D",
+          "hp": "10",
+          "kw": "7.50",
+          "stages": "1",
+          "phase": "3",
+          "head_m": "18–22",
+          "flow_lpm": "1167–1667"
+        },
+        {
+          "model": "BPHA 384/3H",
+          "hp": "20",
+          "kw": "15.00",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "56–62",
+          "flow_lpm": "834–1334"
+        },
+        {
+          "model": "BPHA 373/1D",
+          "hp": "12.5",
+          "kw": "9.30",
+          "stages": "1",
+          "phase": "3",
+          "head_m": "12–18",
+          "flow_lpm": "1334–2834",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "BPHA 373/3C",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "20–44",
+          "flow_lpm": "1334–2834",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "BPH 383/2",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "20–42",
+          "flow_lpm": "1334–3334",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "BPHA 333/4F",
+          "hp": "25",
+          "kw": "18.50",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "38–74",
+          "flow_lpm": "667–1834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPHA 333/5F",
+          "hp": "33",
+          "kw": "24.50",
+          "stages": "5",
+          "phase": "3",
+          "head_m": "48–92",
+          "flow_lpm": "667–1834",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "BPHA 384/2G",
+          "hp": "15",
+          "kw": "11.00",
+          "stages": "2",
+          "phase": "3",
+          "head_m": "24–39",
+          "flow_lpm": "834–1834"
+        },
+        {
+          "model": "BPHA 373/3B",
+          "hp": "30",
+          "kw": "22.00",
+          "stages": "3",
+          "phase": "3",
+          "head_m": "30–52",
+          "flow_lpm": "1334–2834"
+        },
+        {
+          "model": "BPH 383/4A",
+          "hp": "41",
+          "kw": "30.00",
+          "stages": "4",
+          "phase": "3",
+          "head_m": "20–72",
+          "flow_lpm": "1334–3334"
+        }
+      ],
+      "datasheet_url": "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/bph/B56A",
+        "https://5.imimg.com/data5/SELLER/Doc/2023/6/313094926/XF/PJ/JY/8618822/ksb-pump.pdf"
+      ]
+    },
+    {
+      "name": "KSB Monosub R (MR / MR(S))",
+      "series": "Monosub R",
+      "category": "Agriculture",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "0.5–5 HP single-phase; 3–15 HP three-phase",
+      "head_range": "Up to 77 m",
+      "flow_range": "Up to ~2870 LPM (172 m³/h)",
+      "borewell_size": "Open well / sump",
+      "phase": "Both",
+      "highlights": [
+        "Wide voltage range (250–440 V three-phase)",
+        "Dynamically balanced rotating assembly",
+        "Water-cooled rewindable motor, double counter bearing",
+        "No foundation needed – installs under water"
+      ],
+      "applications": [
+        "Irrigation via sprinkler/drip",
+        "Community water supply",
+        "Bungalows and high-rise buildings",
+        "Fountains"
+      ],
+      "price_from": "₹ 17,489",
+      "price_to": "₹ 19,257",
+      "price_source_url": "https://www.moglix.com/ksb-mrs-15-15hp-phase-openwell-submersible-monoblock-pump/mp/msnekpqdxp0y52",
+      "image_file": "images/products/ksb/monosub-r.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/monosub-r/M61A",
+      "description": "Monosub R is a type series of horizontal submersible pump sets with single-phase AC motor or three-phase motor developed for open-well applications in agriculture, building services and industry. Suitable for a wide voltage range of 250-440 V.",
+      "features": [
+        "Sturdy design for reliable operation over an extended period of time, also under tough operating conditions",
+        "Wide voltage range – The motor is designed to withstand voltage fluctuations from 250-440 V",
+        "Dynamically balanced rotating components minimise vibrations",
+        "Horizontal open-well submersible pump set with single-phase or three-phase motor"
+      ],
+      "operating_limits": "Max. flow 172 m³/h; Max. head 77 m; Max. fluid temp 33 °C",
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/monosub-r/M61A"
+      ]
+    },
+    {
+      "name": "KSB Opal i",
+      "series": "Opal i",
+      "category": "Domestic",
+      "type": "Openwell submersible (compact, single phase)",
+      "power_range": "0.5–2 HP",
+      "head_range": "Up to 38 m",
+      "flow_range": "Up to ~175 LPM (10.5 m³/h)",
+      "borewell_size": "Open well / sump",
+      "phase": "Single",
+      "highlights": [
+        "Pre-filled motor with 10 m KSB cable",
+        "Supplied with control panel for motor protection",
+        "Stainless-steel motor jacket, Noryl impellers",
+        "Wide voltage 160–260 V; BEE star-rated models"
+      ],
+      "applications": [
+        "Household water supply",
+        "Bungalows / high-rise",
+        "Sprinklers & drip",
+        "Fountains"
+      ],
+      "price_from": "₹ 7,758",
+      "price_to": "",
+      "price_source_url": "https://www.moglix.com/brands/ksb/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/ksb/opal-i.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/opali/O13A",
+      "description": "Opal i is an open-well submersible motor pump in compact design for efficient, low-noise operation. It offers unique features such as a pre-filled motor, a 10-metre long KSB power cable, and a control panel for motor protection.",
+      "features": [
+        "Wide voltage range – The motor is designed to withstand voltage fluctuations from 160-260 V",
+        "Dynamically balanced rotating components minimise vibrations",
+        "Replaceable wear parts – All internal wear parts are easily accessible and replaceable",
+        "Compact open-well submersible for efficient, low-noise operation",
+        "Pre-filled motor, 10 m KSB power cable and control panel for motor protection",
+        "A motor jacket made of stainless steel and Noryl impellers ensure a long pump life",
+        "BEE star rating for selected models"
+      ],
+      "operating_limits": "Max. flow 10.5 m³/h; Max. head 38 m; Max. fluid temp 33 °C",
+      "materials": {
+        "motor_jacket": "Stainless steel",
+        "impellers": "Noryl"
+      },
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/opali/O13A"
+      ]
+    },
+    {
+      "name": "KSB Multi Sub",
+      "series": "Multi Sub",
+      "category": "Domestic",
+      "type": "Openwell submersible (vertical multistage)",
+      "power_range": "~1 HP (single phase)",
+      "head_range": "Up to 60 m",
+      "flow_range": "Up to ~100 LPM (6 m³/h)",
+      "borewell_size": "Open well / sump / borehole",
+      "phase": "Single",
+      "highlights": [
+        "High-head vertical multistage for sumps and wells",
+        "Stainless-steel jacket, single shaft",
+        "Wide voltage 160–260 V",
+        "Supplied with control panel"
+      ],
+      "applications": [
+        "Basement tank to overhead tank",
+        "Wells and boreholes",
+        "Sprinklers",
+        "General irrigation"
+      ],
+      "price_from": "₹ 11,000",
+      "price_to": "",
+      "price_source_url": "https://www.sdelectricalsenggworks.com/ksb-water-pump.html",
+      "image_file": "images/products/ksb/multi-sub.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/multi-sub/MA3A",
+      "description": "Multisub is a vertical multistage submersible borehole pump with single-phase AC motor, designed for high-head open-well applications such as pumping water from basement storage tanks, wells and boreholes. Sturdy motor design, stainless steel pump jacket and single shaft for enhanced reliability and higher efficiency Suitable for operation in a wide voltage range of 160-260 V.",
+      "features": [
+        "Wide voltage range – The motor is designed to withstand voltage fluctuations from 160-260 V",
+        "Cast iron components, stainless steel shaft, Noryl impellers and bronze bushes",
+        "The product is supplied with a control panel for motor protection",
+        "Vertical multistage submersible pump with single-phase AC motor",
+        "Sturdy motor design, stainless steel pump jacket and single shaft"
+      ],
+      "operating_limits": "Max. flow 6 m³/h; Max. head 60 m; Max. fluid temp 33 °C",
+      "materials": {
+        "pump_jacket": "Stainless steel",
+        "components": "Cast iron",
+        "shaft": "Stainless steel",
+        "impellers": "Noryl",
+        "bushes": "Bronze",
+        "thrust_plates": "Carbon and stainless steel"
+      },
+      "sources": [
+        "https://www.ksb.com/en-in/lc/products/pump/multi-sub/MA3A"
+      ]
+    }
+  ]
 }

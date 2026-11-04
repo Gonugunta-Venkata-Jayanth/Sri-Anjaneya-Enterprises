@@ -4,7 +4,7 @@
  "country": "India (Coimbatore, Tamil Nadu)",
  "founded": "1981",
  "tagline": "The True Original Always Pumping Ahead",
- "notes": "Deccan Pumps Pvt Ltd (D-Plus Deccan branding, part of the EKKI Group). Its site lists only openwell submersibles among submersibles (no borewell line). Series names come from the image file names on the brand page, which shows no text names. Phase for some series is inferred. Prices are retailer listings (MRP where shown); HOKVR/HOK/HOT bands are single models whose series is inferred from the model code (DH10R / DH15 / DTH10).",
+ "notes": "Deccan Pumps Pvt Ltd (D-Plus Deccan branding, part of the EKKI Group). Its site lists only openwell submersibles among submersibles (no borewell line). Series names come from the image file names on the brand page, which shows no text names. Phase for some series is inferred. Prices are retailer listings (MRP where shown); HOKVR/HOK/HOT bands are single models whose series is inferred from the model code (DH10R / DH15 / DTH10). Model rows come from a third-party-hosted Deccan/EKKI performance chart (IndiaMART seller upload, datasheet_url); features and operating limits are from deccanpumps.com; descriptions are composed from those page figures.",
  "products": [
   {
    "name": "DECCAN HOKVR Series",
@@ -31,7 +31,82 @@
    "price_to": "₹ 15,900",
    "price_source_url": "https://www.thundathiltraders.com/?s=deccan&post_type=product",
    "image_file": "images/products/deccan/hokvr-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "0.5–1.0 HP",
+    "max_flow": "10.5 m³/hr",
+    "max_head": "30 m",
+    "max_operating_pressure": "3 bar"
+   },
+   "features": [
+    "Motor body is made of SS which is corrosion free",
+    "FG 260 grade cast iron is used for high rigidity",
+    "Sturdy leg construction to hold and balance heavy weight",
+    "SS forged hook ensures easy installation",
+    "Copper winding requires minimal inspection and maintenance"
+   ],
+   "description": "Deccan HOKVR Series horizontal open-well submersible pump: 0.5–1.0 HP power range, max. flow 10.5 m³/hr, max. head 30 m, max. operating pressure 3 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOKVR DH05",
+     "hp": "0.5",
+     "kw": "0.37",
+     "phase": "Single",
+     "head_m": "10–23",
+     "flow_lpm": "30–130",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOKVR DH10",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single",
+     "head_m": "10–32",
+     "flow_lpm": "30–210",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOKVR DH05R",
+     "hp": "0.5",
+     "kw": "0.37",
+     "phase": "Single",
+     "head_m": "10–23",
+     "flow_lpm": "30–130",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOKVR DH10R",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single",
+     "head_m": "10–32",
+     "flow_lpm": "30–210",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOKVR DH05 VR",
+     "hp": "0.5",
+     "kw": "0.37",
+     "phase": "Single",
+     "head_m": "10–23",
+     "flow_lpm": "12–85",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOKVR DH10 VR",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single",
+     "head_m": "10–35",
+     "flow_lpm": "12–160",
+     "outlet": "32x25 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN HOK Series",
@@ -58,7 +133,136 @@
    "price_to": "₹ 22,200",
    "price_source_url": "https://thundathiltraders.com/product/deccan-dh15ph-horizontal-openwell-submersible-1-5hp-with-3m-cable/",
    "image_file": "images/products/deccan/hok-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "1.0–2.0 HP",
+    "max_flow": "54 m³/hr",
+    "max_head": "40 m",
+    "max_operating_pressure": "4 bar"
+   },
+   "features": [
+    "Motor body is made of SS which is corrosion free",
+    "Pump shaft made of SS 410 is durable",
+    "Natural high quality rubber seal prevents leakage and corrosion",
+    "Copper winding requires minimal inspection and maintenance",
+    "Can run in wide range of voltage fluctuation"
+   ],
+   "description": "Deccan HOK Series horizontal open-well submersible pump: 1.0–2.0 HP power range, max. flow 54 m³/hr, max. head 40 m, max. operating pressure 4 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOK DH10LH",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single/Three",
+     "head_m": "5–14",
+     "flow_lpm": "125–450",
+     "outlet": "40x40 mm"
+    },
+    {
+     "model": "HOK DH10MH",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single/Three",
+     "head_m": "9–16",
+     "flow_lpm": "125–300",
+     "outlet": "40x40 mm"
+    },
+    {
+     "model": "HOK DH10PH",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single/Three",
+     "head_m": "19–30",
+     "flow_lpm": "40–100",
+     "outlet": "32x25 mm"
+    },
+    {
+     "model": "HOK DH15LH",
+     "hp": "1.5",
+     "kw": "1.1",
+     "phase": "Single/Three",
+     "head_m": "6.5–14",
+     "flow_lpm": "300–600",
+     "outlet": "65x65 mm"
+    },
+    {
+     "model": "HOK DH15MH",
+     "hp": "1.5",
+     "kw": "1.1",
+     "phase": "Single/Three",
+     "head_m": "8–16",
+     "flow_lpm": "250–500",
+     "outlet": "65x50 mm"
+    },
+    {
+     "model": "HOK DH15HH",
+     "hp": "1.5",
+     "kw": "1.1",
+     "phase": "Single/Three",
+     "head_m": "9.5–24",
+     "flow_lpm": "80–350",
+     "outlet": "50x40 mm"
+    },
+    {
+     "model": "HOK DH15PH",
+     "hp": "1.5",
+     "kw": "1.1",
+     "phase": "Single/Three",
+     "head_m": "20.5–33",
+     "flow_lpm": "60–200",
+     "outlet": "40x32 mm"
+    },
+    {
+     "model": "HOK DH20LH",
+     "hp": "2",
+     "kw": "1.5",
+     "phase": "Single/Three",
+     "head_m": "6.5–14.5",
+     "flow_lpm": "500–900",
+     "outlet": "80x80 mm"
+    },
+    {
+     "model": "HOK DH20MH",
+     "hp": "2",
+     "kw": "1.5",
+     "phase": "Single/Three",
+     "head_m": "12–19",
+     "flow_lpm": "250–600",
+     "outlet": "65x50 mm"
+    },
+    {
+     "model": "HOK DH20MH2",
+     "hp": "2",
+     "kw": "1.5",
+     "phase": "Single/Three",
+     "head_m": "12–20.5",
+     "flow_lpm": "225–450",
+     "outlet": "50x50 mm"
+    },
+    {
+     "model": "HOK DH20PH",
+     "hp": "2",
+     "kw": "1.5",
+     "phase": "Single/Three",
+     "head_m": "17–34",
+     "flow_lpm": "90–250",
+     "outlet": "50x40 mm"
+    },
+    {
+     "model": "HOK DH20PH2",
+     "hp": "2",
+     "kw": "1.5",
+     "phase": "Single/Three",
+     "head_m": "24–40",
+     "flow_lpm": "40–250",
+     "outlet": "40x32 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN HOT Series",
@@ -84,7 +288,46 @@
    "price_to": "₹ 24,700",
    "price_source_url": "https://www.thundathiltraders.com/?s=deccan&post_type=product",
    "image_file": "images/products/deccan/hot-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "0.5–1.0 HP",
+    "max_flow": "12 m³/hr",
+    "max_head": "46 m",
+    "max_operating_pressure": "3 bar"
+   },
+   "features": [
+    "Low voltage operation",
+    "Both vertical and horizontal installation is possible",
+    "Rotor made of 99.9% EC grade copper",
+    "Easy to handle and install",
+    "Easy to dismantle and rewind"
+   ],
+   "description": "Deccan HOT Series horizontal open-well submersible pump: 0.5–1.0 HP power range, max. flow 12 m³/hr, max. head 46 m, max. operating pressure 3 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOT DTH05",
+     "hp": "0.5",
+     "kw": "0.37",
+     "phase": "Single",
+     "head_m": "7–23",
+     "flow_lpm": "50–175",
+     "outlet": "25 mm"
+    },
+    {
+     "model": "HOT DTH10",
+     "hp": "1",
+     "kw": "0.75",
+     "phase": "Single/Three",
+     "head_m": "5–33",
+     "flow_lpm": "50–200",
+     "outlet": "25 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN HOSVR Series",
@@ -110,7 +353,99 @@
    "price_to": "₹ 33,000",
    "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
    "image_file": "images/products/deccan/hosvr-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "3.0–5.0 HP",
+    "max_flow": "66 m³/hr",
+    "max_head": "30 m",
+    "max_operating_pressure": "3 bar"
+   },
+   "features": [
+    "Specially designed bush bearing to minimize the vibration",
+    "Rotor made of 99.9% EC grade copper",
+    "High foundry grade flange for better plumbing works",
+    "Provision of eye bolts for easy installation"
+   ],
+   "description": "Deccan HOSVR Series horizontal open-well submersible pump: 3.0–5.0 HP power range, max. flow 66 m³/hr, max. head 30 m, max. operating pressure 3 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOSVR DH30MHVR",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Single",
+     "head_m": "12.5–22.5",
+     "flow_lpm": "500–800",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOSVR DH30MHVR",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Three",
+     "head_m": "8.5–24",
+     "flow_lpm": "500–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOSVR DH30HHVR",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Single",
+     "head_m": "15–25.5",
+     "flow_lpm": "250–650",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOSVR DH30HHVR",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Three",
+     "head_m": "18.5–29.5",
+     "flow_lpm": "250–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOSVR DH50MHVR",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Single",
+     "head_m": "13.5–23.5",
+     "flow_lpm": "500–1100",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOSVR DH50MHVR",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Three",
+     "head_m": "16–27",
+     "flow_lpm": "500–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOSVR DH50HHVR",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Single",
+     "head_m": "19–27.5",
+     "flow_lpm": "250–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOSVR DH50HHVR",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Three",
+     "head_m": "20–30",
+     "flow_lpm": "500–1000",
+     "outlet": "50 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN HOS Series",
@@ -137,7 +472,135 @@
    "price_to": "₹ 48,500",
    "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
    "image_file": "images/products/deccan/hos-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "3.0–7.5 HP",
+    "max_flow": "108 m³/hr",
+    "max_head": "51 m",
+    "max_operating_pressure": "5 bar"
+   },
+   "features": [
+    "Rotor made of 99.9% EC grade copper",
+    "Specially designed bush bearing to minimize the vibration",
+    "High foundry grade flange for better plumbing works",
+    "Provision of eye bolts for easy installation"
+   ],
+   "description": "Deccan HOS Series horizontal open-well submersible pump: 3.0–7.5 HP power range, max. flow 108 m³/hr, max. head 51 m, max. operating pressure 5 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOS DH30MH",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Three",
+     "head_m": "11.5–23",
+     "flow_lpm": "500–1100",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOS DH30HH-R(O)",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Three",
+     "head_m": "14–26",
+     "flow_lpm": "250–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH30PH-R(O)",
+     "hp": "3",
+     "kw": "2.2",
+     "phase": "Three",
+     "head_m": "14–34",
+     "flow_lpm": "125–350",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH50MH",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Three",
+     "head_m": "18–30",
+     "flow_lpm": "700–1200",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOS DH50HH",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Three",
+     "head_m": "16–32",
+     "flow_lpm": "550–1200",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH50PH",
+     "hp": "5",
+     "kw": "3.7",
+     "phase": "Three",
+     "head_m": "21–46",
+     "flow_lpm": "250–750",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH60LH",
+     "hp": "6",
+     "kw": "4.5",
+     "phase": "Three",
+     "head_m": "16–28",
+     "flow_lpm": "900–1400",
+     "outlet": "80 mm"
+    },
+    {
+     "model": "HOS DH60HH",
+     "hp": "6",
+     "kw": "4.5",
+     "phase": "Three",
+     "head_m": "23–37",
+     "flow_lpm": "550–1000",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH75LH",
+     "hp": "7.5",
+     "kw": "5.5",
+     "phase": "Three",
+     "head_m": "13–29",
+     "flow_lpm": "900–1800",
+     "outlet": "80 mm"
+    },
+    {
+     "model": "HOS DH75MH-R(O)",
+     "hp": "7.5",
+     "kw": "5.5",
+     "phase": "Three",
+     "head_m": "20–33.5",
+     "flow_lpm": "600–1000",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOS DH75HH-R(O)",
+     "hp": "7.5",
+     "kw": "5.5",
+     "phase": "Three",
+     "head_m": "25–35",
+     "flow_lpm": "350–750",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOS DH75PH-R(O)",
+     "hp": "7.5",
+     "kw": "5.5",
+     "phase": "Three",
+     "head_m": "30–48",
+     "flow_lpm": "300–700",
+     "outlet": "50 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN HOM Series",
@@ -163,7 +626,108 @@
    "price_to": "",
    "price_source_url": "",
    "image_file": "images/products/deccan/hom-series.jpg",
-   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "10.0–15.0 HP",
+    "max_flow": "144 m³/hr",
+    "max_head": "58 m",
+    "max_operating_pressure": "6.5 bar"
+   },
+   "features": [
+    "Rotor made of 99.9% EC grade copper",
+    "Provision of eye bolts for easy installation",
+    "Copper winding requires minimal inspection and maintenance",
+    "High foundry grade flange for better plumbing works"
+   ],
+   "description": "Deccan HOM Series horizontal open-well submersible pump: 10.0–15.0 HP power range, max. flow 144 m³/hr, max. head 58 m, max. operating pressure 6.5 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "HOM DH100LH",
+     "hp": "10",
+     "kw": "7.5",
+     "phase": "Three",
+     "head_m": "20–36",
+     "flow_lpm": "900–1700",
+     "outlet": "80 mm"
+    },
+    {
+     "model": "HOM DH100MH",
+     "hp": "10",
+     "kw": "7.5",
+     "phase": "Three",
+     "head_m": "23.5–48",
+     "flow_lpm": "650–1200",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOM DH100HH",
+     "hp": "10",
+     "kw": "7.5",
+     "phase": "Three",
+     "head_m": "28.5–57",
+     "flow_lpm": "550–1200",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "HOM DH125LH",
+     "hp": "12.5",
+     "kw": "9.3",
+     "phase": "Three",
+     "head_m": "24–43",
+     "flow_lpm": "1000–2000",
+     "outlet": "80 mm"
+    },
+    {
+     "model": "HOM DH125MH",
+     "hp": "12.5",
+     "kw": "9.3",
+     "phase": "Three",
+     "head_m": "25.5–49",
+     "flow_lpm": "900–1600",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOM DH150LH",
+     "hp": "15",
+     "kw": "11",
+     "phase": "Three",
+     "head_m": "22.5–42",
+     "flow_lpm": "1200–2400",
+     "outlet": "80 mm"
+    },
+    {
+     "model": "HOM DH150MH",
+     "hp": "15",
+     "kw": "11",
+     "phase": "Three",
+     "head_m": "35.5–58",
+     "flow_lpm": "1100–1400",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "HOM DH125PH",
+     "hp": "13",
+     "kw": "9",
+     "phase": "Three",
+     "head_m": "40–76",
+     "flow_lpm": "260–865",
+     "outlet": "65x50 mm"
+    },
+    {
+     "model": "HOM DH150PH",
+     "hp": "13",
+     "kw": "9",
+     "phase": "Three",
+     "head_m": "40–83.5",
+     "flow_lpm": "390–910",
+     "outlet": "65x50 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/products/horizontal-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN SUBSEVAK Series",
@@ -190,7 +754,148 @@
    "price_to": "₹ 32,120",
    "price_source_url": "https://www.thundathiltraders.com/product/ekki-openwell-borewell-submersible-6cc-6-vertical-horizontal/",
    "image_file": "images/products/deccan/subsevak-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "1.0–3.0 HP",
+    "max_flow": "60 m³/hr",
+    "max_head": "132 m",
+    "max_operating_pressure": "12 bar"
+   },
+   "features": [
+    "Class B Motor Insulation ensures continuous running in high temperature conditions",
+    "Motor body is made of SS which is corrosion free",
+    "Suitable for 6 inch Borewell, Open-well & Water tanks",
+    "Specially designed sheet metal impeller 202 grade or steel cast impeller provides sustainable hydraulic performance",
+    "Easy to Handle, Install, Dismantle and Rewind"
+   ],
+   "description": "Deccan SUBSEVAK Series vertical open-well submersible pump: 1.0–3.0 HP power range, max. flow 60 m³/hr, max. head 132 m, max. operating pressure 12 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "SUBSEVAK 10D1/1",
+     "hp": "1",
+     "kw": "0.75",
+     "stages": 1,
+     "phase": "Single/Three",
+     "head_m": "6.4–10.5",
+     "flow_lpm": "175–400",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 10D4/4",
+     "hp": "1",
+     "kw": "0.75",
+     "stages": 4,
+     "phase": "Single/Three",
+     "head_m": "13.2–35",
+     "flow_lpm": "60–140",
+     "outlet": "40 mm"
+    },
+    {
+     "model": "SUBSEVAK 15D2/2",
+     "hp": "1.5",
+     "kw": "1.1",
+     "stages": 2,
+     "phase": "Single/Three",
+     "head_m": "10–20",
+     "flow_lpm": "175–350",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 15D5/5",
+     "hp": "1.5",
+     "kw": "1.1",
+     "stages": 5,
+     "phase": "Single/Three",
+     "head_m": "28–43",
+     "flow_lpm": "40–120",
+     "outlet": "40 mm"
+    },
+    {
+     "model": "SUBSEVAK 20D2/2",
+     "hp": "2",
+     "kw": "1.5",
+     "stages": 2,
+     "phase": "Single/Three",
+     "head_m": "16–25",
+     "flow_lpm": "175–350",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 20D5/5",
+     "hp": "2",
+     "kw": "1.5",
+     "stages": 5,
+     "phase": "Single/Three",
+     "head_m": "22–44",
+     "flow_lpm": "60–140",
+     "outlet": "40 mm"
+    },
+    {
+     "model": "SUBSEVAK 21D6/6",
+     "hp": "2",
+     "kw": "1.5",
+     "stages": 6,
+     "phase": "Single/Three",
+     "head_m": "25–54",
+     "flow_lpm": "80–220",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 20D10/10",
+     "hp": "2",
+     "kw": "1.5",
+     "stages": 10,
+     "phase": "Single/Three",
+     "head_m": "28–84",
+     "flow_lpm": "40–120",
+     "outlet": "40 mm"
+    },
+    {
+     "model": "SUBSEVAK 30D2/2",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 2,
+     "phase": "Single/Three",
+     "head_m": "11.6–22",
+     "flow_lpm": "300–600",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "SUBSEVAK 30D5/5",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 5,
+     "phase": "Single/Three",
+     "head_m": "26–54",
+     "flow_lpm": "80–220",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 30D8/8",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 8,
+     "phase": "Single/Three",
+     "head_m": "40–70",
+     "flow_lpm": "80–180",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "SUBSEVAK 30D16/16",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 16,
+     "phase": "Single/Three",
+     "head_m": "66–129",
+     "flow_lpm": "40–100",
+     "outlet": "40 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOK Series",
@@ -216,7 +921,50 @@
    "price_to": "",
    "price_source_url": "",
    "image_file": "images/products/deccan/vok-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "1.0–2.0 HP",
+    "max_flow": "4.2 m³/hr",
+    "max_head": "130 m",
+    "max_operating_pressure": "14 bar"
+   },
+   "features": [
+    "High discharge and High head",
+    "Motor body is made of SS which is corrosion free",
+    "Easy to Handle, Install, Dismantle and Rewind"
+   ],
+   "description": "Deccan VOK Series vertical open-well submersible pump: 1.0–2.0 HP power range, max. flow 4.2 m³/hr, max. head 130 m, max. operating pressure 14 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOK ER542H-OW (10 stg)",
+     "hp": "1",
+     "kw": "0.75",
+     "stages": 10,
+     "head_m": "38–83",
+     "flow_lpm": "20–70"
+    },
+    {
+     "model": "VOK ER542H-OW (14 stg)",
+     "hp": "1.5",
+     "kw": "1.1",
+     "stages": 14,
+     "head_m": "53–116",
+     "flow_lpm": "20–70"
+    },
+    {
+     "model": "VOK ER542H-OW (16 stg)",
+     "hp": "2",
+     "kw": "1.5",
+     "stages": 16,
+     "head_m": "60–133",
+     "flow_lpm": "20–70"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOS Series",
@@ -242,7 +990,147 @@
    "price_to": "₹ 70,500",
    "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
    "image_file": "images/products/deccan/vos-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "3.0–7.5 HP",
+    "max_flow": "132 m³/hr",
+    "max_head": "188 m",
+    "max_operating_pressure": "21 bar"
+   },
+   "features": [
+    "Pump and motor is coupled for easy installation and maintenance",
+    "Rotor is made of copper for heavy duty applications",
+    "Motor body is made up CI with cooling fins prevents from over heating",
+    "Copper winding requires minimal inspection and maintenance"
+   ],
+   "description": "Deccan VOS Series vertical open-well submersible pump: 3.0–7.5 HP power range, max. flow 132 m³/hr, max. head 188 m, max. operating pressure 21 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOS 3DO/1",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "10–29",
+     "flow_lpm": "200–900",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOS 3DT-R(O)/2",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "15–38",
+     "flow_lpm": "200–650",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOS 5DO/1",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "12–28",
+     "flow_lpm": "400–1000",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOS 5DT/2",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "18–47",
+     "flow_lpm": "300–800",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOS 5DQM/4",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "34–85",
+     "flow_lpm": "75–275",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOS 5DX/6",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "29–125",
+     "flow_lpm": "75–275",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOS 6DSM/7",
+     "hp": "6",
+     "kw": "4.5",
+     "stages": 7,
+     "phase": "Three",
+     "head_m": "34–145",
+     "flow_lpm": "75–275",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOS 7DT-R(O)/2",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "24–46",
+     "flow_lpm": "200–700",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOS 7DE-R(O)/3",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "18–67",
+     "flow_lpm": "200–700",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOS 7DQ/4",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "40–80",
+     "flow_lpm": "200–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOS 7DX/6",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "84–120",
+     "flow_lpm": "75–300",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOS 7DIM/9",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 9,
+     "phase": "Three",
+     "head_m": "44–188",
+     "flow_lpm": "75–275",
+     "outlet": "50 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOSVR Series",
@@ -268,7 +1156,137 @@
    "price_to": "",
    "price_source_url": "",
    "image_file": "images/products/deccan/vosvr-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "3.0–7.5 HP",
+    "max_flow": "54 m³/hr",
+    "max_head": "77 m",
+    "max_operating_pressure": "15 bar"
+   },
+   "features": [
+    "Total hardened SS shaft",
+    "Fins body for better heat dissipation",
+    "Rotor made of 99.9% EC grade copper",
+    "Dual casing available for in radial flow for different duty conditions"
+   ],
+   "description": "Deccan VOSVR Series vertical open-well submersible pump: 3.0–7.5 HP power range, max. flow 54 m³/hr, max. head 77 m, max. operating pressure 15 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOSVR 3DTVR/2",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 2,
+     "phase": "Single",
+     "head_m": "18–37",
+     "flow_lpm": "200–600",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 3DTVR/2",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "10–40",
+     "flow_lpm": "200–600",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 3DEVR/3",
+     "hp": "3",
+     "kw": "2.2",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "29–56",
+     "flow_lpm": "100–300",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOSVR 5DTVR/2",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 2,
+     "phase": "Single",
+     "head_m": "19–40.5",
+     "flow_lpm": "200–700",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 5DTVR/2",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "21–40.5",
+     "flow_lpm": "200–700",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 5DEVR/3",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 3,
+     "phase": "Single",
+     "head_m": "23–52",
+     "flow_lpm": "100–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOSVR 5DEVR/3",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "30–54",
+     "flow_lpm": "100–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOSVR 5DQVR/4",
+     "hp": "5",
+     "kw": "3.7",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "19–64",
+     "flow_lpm": "100–600",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOSVR 7DTVR/2",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "18–44",
+     "flow_lpm": "200–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 7DEVR/3",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "34–66",
+     "flow_lpm": "200–700",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOSVR 7DQVR/4",
+     "hp": "7.5",
+     "kw": "5.5",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "38–77",
+     "flow_lpm": "150–600",
+     "outlet": "50 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOM Series",
@@ -295,7 +1313,148 @@
    "price_to": "₹ 1,03,000",
    "price_source_url": "https://rathinamcorp.in/product-category/motors-pumps/ekki-pumps/",
    "image_file": "images/products/deccan/vom-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "10.0–20.0 HP",
+    "max_flow": "264 m³/hr",
+    "max_head": "338 m",
+    "max_operating_pressure": "38 bar"
+   },
+   "features": [
+    "Can pump water through long distances",
+    "Total hardened SS shaft for specific model",
+    "Fins body for better heat dissipation",
+    "Special winding design for low and high voltage operations",
+    "Rotor made of 99.9 EC grade copper"
+   ],
+   "description": "Deccan VOM Series vertical open-well submersible pump: 10.0–20.0 HP power range, max. flow 264 m³/hr, max. head 338 m, max. operating pressure 38 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOM 10DAM/1",
+     "hp": "10",
+     "kw": "7.5",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "6–26",
+     "flow_lpm": "1600–3200",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOM 10DQ/4",
+     "hp": "10",
+     "kw": "7.5",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "21–84",
+     "flow_lpm": "200–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOM 10DXM/6",
+     "hp": "10",
+     "kw": "7.5",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "46–138",
+     "flow_lpm": "100–400",
+     "outlet": "50 mm"
+    },
+    {
+     "model": "VOM 12DP/2",
+     "hp": "12.5",
+     "kw": "9.3",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "23–48",
+     "flow_lpm": "700–1800",
+     "outlet": "100 mm"
+    },
+    {
+     "model": "VOM 12DV/5",
+     "hp": "12.5",
+     "kw": "9.3",
+     "stages": 5,
+     "phase": "Three",
+     "head_m": "44–110",
+     "flow_lpm": "400–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOM 12DNEM/13",
+     "hp": "12.5",
+     "kw": "9.3",
+     "stages": 13,
+     "phase": "Three",
+     "head_m": "100–276",
+     "flow_lpm": "75–275",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOM 15DT/2",
+     "hp": "15",
+     "kw": "11",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "20–54",
+     "flow_lpm": "800–1600",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOM 15DV/5",
+     "hp": "15",
+     "kw": "11",
+     "stages": 5,
+     "phase": "Three",
+     "head_m": "74–112",
+     "flow_lpm": "250–600",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOM 15DG2M/16",
+     "hp": "15",
+     "kw": "11",
+     "stages": 16,
+     "phase": "Three",
+     "head_m": "123–338",
+     "flow_lpm": "75–275",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOM 20DEH/3",
+     "hp": "20",
+     "kw": "15",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "37–90",
+     "flow_lpm": "600–1400",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOM 20DX/6",
+     "hp": "20",
+     "kw": "15",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "52–140",
+     "flow_lpm": "400–900",
+     "outlet": "65 mm"
+    },
+    {
+     "model": "VOM 20DG2/16",
+     "hp": "20",
+     "kw": "15",
+     "stages": 16,
+     "phase": "Three",
+     "head_m": "108–276",
+     "flow_lpm": "100–600",
+     "outlet": "75 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOML Series",
@@ -322,7 +1481,148 @@
    "price_to": "",
    "price_source_url": "",
    "image_file": "images/products/deccan/voml-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "25.0–45.0 HP",
+    "max_flow": "360 m³/hr",
+    "max_head": "268 m",
+    "max_operating_pressure": "31 bar"
+   },
+   "features": [
+    "Elegantly constructed SS body",
+    "Rotor made of 99.9 EC grade copper",
+    "Motor and pump coupled together",
+    "SS & Bronze impeller for selective models",
+    "Easy to Handle, Install, Dismantle and Rewind"
+   ],
+   "description": "Deccan VOML Series vertical open-well submersible pump: 25.0–45.0 HP power range, max. flow 360 m³/hr, max. head 268 m, max. operating pressure 31 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOML 25DAM/1",
+     "hp": "25",
+     "kw": "18.5",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "12–35",
+     "flow_lpm": "1600–4400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOML 25DQ/4",
+     "hp": "25",
+     "kw": "18.5",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "46–83",
+     "flow_lpm": "700–1800",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOML 25DN/10",
+     "hp": "25",
+     "kw": "18.5",
+     "stages": 10,
+     "phase": "Three",
+     "head_m": "64–220",
+     "flow_lpm": "300–700",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOML 30DE/3",
+     "hp": "30",
+     "kw": "22",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "27–73",
+     "flow_lpm": "1000–2200",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOML 30DG/8",
+     "hp": "30",
+     "kw": "22",
+     "stages": 8,
+     "phase": "Three",
+     "head_m": "68–206",
+     "flow_lpm": "300–1000",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOML 35DT/2",
+     "hp": "35",
+     "kw": "26",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "24–56",
+     "flow_lpm": "2200–3400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOML 35DG/8",
+     "hp": "35",
+     "kw": "26",
+     "stages": 8,
+     "phase": "Three",
+     "head_m": "72–196",
+     "flow_lpm": "500–1000",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOML 40DT/2",
+     "hp": "40",
+     "kw": "30",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "24–60",
+     "flow_lpm": "2000–4400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOML 40DX/6",
+     "hp": "40",
+     "kw": "30",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "78–140",
+     "flow_lpm": "800–1600",
+     "outlet": "100 mm"
+    },
+    {
+     "model": "VOML 45DAM/1",
+     "hp": "45",
+     "kw": "33",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "20–42",
+     "flow_lpm": "3000–6000",
+     "outlet": "200 mm"
+    },
+    {
+     "model": "VOML 45DQ/4",
+     "hp": "45",
+     "kw": "33",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "61–105",
+     "flow_lpm": "1200–2200",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOML 45DN/10",
+     "hp": "45",
+     "kw": "33",
+     "stages": 10,
+     "phase": "Three",
+     "head_m": "135–268",
+     "flow_lpm": "200–800",
+     "outlet": "75 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   },
   {
    "name": "DECCAN VOL Series",
@@ -349,7 +1649,148 @@
    "price_to": "",
    "price_source_url": "",
    "image_file": "images/products/deccan/vol-series.jpg",
-   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/"
+   "source_url": "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+   "operating_limits": {
+    "power_range": "50.0–90.0 HP",
+    "max_flow": "600 m³/hr",
+    "max_head": "265 m",
+    "max_operating_pressure": "29 bar"
+   },
+   "features": [
+    "High discharge and High head",
+    "Rotor made of 99.9 EC grade copper",
+    "Fast discharge variant from low to high",
+    "Total hardened SS shaft",
+    "Easy to Handle, Install, Dismantle and Rewind"
+   ],
+   "description": "Deccan VOL Series vertical open-well submersible pump: 50.0–90.0 HP power range, max. flow 600 m³/hr, max. head 265 m, max. operating pressure 29 bar (per deccanpumps.com).",
+   "models": [
+    {
+     "model": "VOL 50DAM/1",
+     "hp": "50",
+     "kw": "37",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "20–41",
+     "flow_lpm": "3000–7000",
+     "outlet": "200 mm"
+    },
+    {
+     "model": "VOL 50DE/3",
+     "hp": "50",
+     "kw": "37",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "40–72",
+     "flow_lpm": "2000–3400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 50DQ/4",
+     "hp": "50",
+     "kw": "37",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "32–89",
+     "flow_lpm": "1600–3400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 50DG/8",
+     "hp": "50",
+     "kw": "37",
+     "stages": 8,
+     "phase": "Three",
+     "head_m": "92–166",
+     "flow_lpm": "700–1800",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOL 50DN/10",
+     "hp": "50",
+     "kw": "37",
+     "stages": 10,
+     "phase": "Three",
+     "head_m": "125–254",
+     "flow_lpm": "500–1000",
+     "outlet": "75 mm"
+    },
+    {
+     "model": "VOL 75DT/2",
+     "hp": "75",
+     "kw": "55",
+     "stages": 2,
+     "phase": "Three",
+     "head_m": "32–72",
+     "flow_lpm": "3000–5500",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 75DE/3",
+     "hp": "75",
+     "kw": "55",
+     "stages": 3,
+     "phase": "Three",
+     "head_m": "18–98",
+     "flow_lpm": "2500–5000",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 75DX/6",
+     "hp": "75",
+     "kw": "55",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "60–136",
+     "flow_lpm": "2000–3400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 75DG/8",
+     "hp": "75",
+     "kw": "55",
+     "stages": 8,
+     "phase": "Three",
+     "head_m": "68–178",
+     "flow_lpm": "1000–2200",
+     "outlet": "100 mm"
+    },
+    {
+     "model": "VOL 80DQ/4",
+     "hp": "80",
+     "kw": "60",
+     "stages": 4,
+     "phase": "Three",
+     "head_m": "48–115",
+     "flow_lpm": "2000–4400",
+     "outlet": "150 mm"
+    },
+    {
+     "model": "VOL 90DAM/1",
+     "hp": "90",
+     "kw": "66",
+     "stages": 1,
+     "phase": "Three",
+     "head_m": "21–47",
+     "flow_lpm": "5000–10000",
+     "outlet": "200 mm"
+    },
+    {
+     "model": "VOL 90DX/6",
+     "hp": "90",
+     "kw": "66",
+     "stages": 6,
+     "phase": "Three",
+     "head_m": "96–140",
+     "flow_lpm": "2000–3200",
+     "outlet": "150 mm"
+    }
+   ],
+   "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf",
+   "sources": [
+    "https://www.deccanpumps.com/vertical-open-well-submersibles-2/",
+    "http://5.imimg.com/data5/SELLER/Doc/2025/9/545300108/EP/ML/GG/2758088/50-hp-vertical-openwell-submersible-deccan-ekki.pdf"
+   ]
   }
  ]
 }

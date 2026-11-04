@@ -1,761 +1,4364 @@
 {
- "brand": "EKKI",
- "website": "https://www.ekkigroup.com/",
- "country": "India (Coimbatore, Tamil Nadu)",
- "founded": "1981",
- "tagline": "EKKI Water Technologies — 40+ Into the Golden Era",
- "notes": "ekkipumps.com redirects to ekkigroup.com. EKKI Group owns two product brands, EKKI (borehole submersibles, multistage, solar systems) and DECCAN (openwell, mini submersibles, monoblocs). Phase per series is inferred from typical power ratings where the brand page does not state it. Prices are retailer/dealer listings, not brand MRP; 6C and 8C bands come from a dealer's generic EKKI V6/V8 listings that do not name the series.",
- "products": [
-  {
-   "name": "EKKI 4N Series",
-   "series": "4N Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\")",
-   "power_range": "0.5–6 HP",
-   "head_range": "up to 370 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Radial-flow Noryl impellers resist clogging after idle periods",
-    "SS sleeve for longer life",
-    "Valve disc protects pump from excess hydrostatic pressure",
-    "Improved diffuser for higher discharge"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/4n-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4n-series/"
-  },
-  {
-   "name": "EKKI 4NVR Series",
-   "series": "4NVR Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", value range)",
-   "power_range": "0.5–2 HP",
-   "head_range": "up to 250 m",
-   "flow_range": "up to 12 m³/h (≈200 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Value-range 4\" pump with radial-flow Noryl impellers",
-    "Compact, modular design",
-    "Performance equivalent to seamless SS-body models",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "₹ 16,300",
-   "price_to": "₹ 37,200",
-   "price_source_url": "https://www.moglix.com/ekki-er-41-hvr-15-20-15hp-borewell-submersible-pump-with-control-panel/mp/msnz526y031m9x",
-   "image_file": "images/products/ekki/4nvr-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4nvr-series/"
-  },
-  {
-   "name": "EKKI 4J Series",
-   "series": "4J Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", jacketed)",
-   "power_range": "0.5–6 HP",
-   "head_range": "up to 370 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Single-piece stainless steel barrel casing (jacketed)",
-    "Noryl impellers and diffusers",
-    "High reliability and efficiency",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/4j-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4j-series/"
-  },
-  {
-   "name": "EKKI 4S Series",
-   "series": "4S Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", stainless steel)",
-   "power_range": "0.5–7.5 HP",
-   "head_range": "up to 340 m",
-   "flow_range": "up to 18 m³/h (≈300 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Sheet-metal stainless steel impellers and diffusers",
-    "Withstands corrosive water",
-    "Longer life than Noryl-type pumps",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/4s-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4s-series/"
-  },
-  {
-   "name": "EKKI 5C Series",
-   "series": "5C Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\")",
-   "power_range": "3–10 HP",
-   "head_range": "up to 330 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "125 mm (5\")",
-   "phase": "Three",
-   "highlights": [
-    "Wide performance range",
-    "Heavy-duty bearing rated ~100,000 running hours",
-    "Energy-efficient customised diffuser",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities",
-    "Commercial building services"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/5c-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/5-borehole-submersibles/5c-series/"
-  },
-  {
-   "name": "EKKI 6C Series",
-   "series": "6C Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", cast iron)",
-   "power_range": "3–30 HP",
-   "head_range": "up to 520 m",
-   "flow_range": "up to 72 m³/h (≈1,200 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Radial-flow impellers with high-precision motors",
-    "Heavy-duty bearing rated ~100,000 running hours",
-    "Energy-efficient diffuser for better discharge",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "₹ 26,000",
-   "price_to": "₹ 92,000",
-   "price_source_url": "https://www.pavanienterprises.net/ekki-deccan-pumps.html",
-   "image_file": "images/products/ekki/6c-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6c-series/"
-  },
-  {
-   "name": "EKKI 6CVR Series",
-   "series": "6CVR Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", value range)",
-   "power_range": "3–7.5 HP",
-   "head_range": "up to 290 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Value-range 6\" radial-flow pump",
-    "Up to 20% energy savings vs conventional models (brand claim)",
-    "Compact, modular design",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/6cvr-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6cvr-series/"
-  },
-  {
-   "name": "EKKI 6I Series",
-   "series": "6I Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", SS high head)",
-   "power_range": "3–30 HP",
-   "head_range": "up to 450 m",
-   "flow_range": "up to 49 m³/h (≈817 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Stainless steel impellers and diffusers",
-    "Built for harsh, corrosive water",
-    "High head and pressure for long-distance transfer",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/6i-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6i-series/"
-  },
-  {
-   "name": "EKKI 6S Series",
-   "series": "6S Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", stainless steel)",
-   "power_range": "3–30 HP",
-   "head_range": "up to 400 m",
-   "flow_range": "up to 65 m³/h (≈1,083 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Lightweight sheet-metal SS impellers and diffusers",
-    "Corrosion resistant",
-    "Longer life than cast-iron series",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/6s-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6s-series/"
-  },
-  {
-   "name": "EKKI 8C Series",
-   "series": "8C Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\", cast iron)",
-   "power_range": "10–50 HP",
-   "head_range": "up to 300 m",
-   "flow_range": "up to 132 m³/h (≈2,200 LPM)",
-   "borewell_size": "200 mm (8\")",
-   "phase": "Three",
-   "highlights": [
-    "LTB radial-flow impellers with cast-iron diffusers",
-    "High head and high discharge",
-    "Heavy-duty bearing rated ~100,000 running hours",
-    "Low-voltage operation"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "₹ 55,000",
-   "price_to": "₹ 1,95,000",
-   "price_source_url": "https://www.pavanienterprises.net/ekki-higher-hp-pumps.html",
-   "image_file": "images/products/ekki/8c-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8c-series/"
-  },
-  {
-   "name": "EKKI 8S Series",
-   "series": "8S Series",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\", stainless steel)",
-   "power_range": "7.5–75 HP",
-   "head_range": "up to 300 m",
-   "flow_range": "up to 110 m³/h (≈1,833 LPM)",
-   "borewell_size": "200 mm (8\")",
-   "phase": "Three",
-   "highlights": [
-    "Stainless steel construction for corrosive water",
-    "3\" (80 mm) outlet for high discharge",
-    "Low-voltage operation",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/8s-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8s-series/"
-  },
-  {
-   "name": "EKKI 54N Series",
-   "series": "54N Series",
-   "category": "Agriculture",
-   "type": "Combo borewell submersible (5\" motor + 4\" pump)",
-   "power_range": "1–10 HP",
-   "head_range": "up to 600 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
-   "phase": "Both",
-   "highlights": [
-    "Combo of 125 mm motor with 100 mm pump",
-    "Very high head (up to 600 m)",
-    "High discharge with different outlet sizes",
-    "Easy to handle and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/54n-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54n-series/"
-  },
-  {
-   "name": "EKKI 54S Series",
-   "series": "54S Series",
-   "category": "Agriculture",
-   "type": "Combo borewell submersible (5\" motor + 4\" SS pump)",
-   "power_range": "3–7.5 HP",
-   "head_range": "up to 480 m",
-   "flow_range": "up to 24 m³/h (≈400 LPM)",
-   "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
-   "phase": "Three",
-   "highlights": [
-    "5\" motor paired with 4\" stainless steel pump",
-    "High reliability and flexibility",
-    "Multiple outlet sizes",
-    "Easy to handle and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/54s-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54s-series/"
-  },
-  {
-   "name": "EKKI 67C Series",
-   "series": "67C Series",
-   "category": "Agriculture",
-   "type": "Combo borewell submersible (7\" pump + 6\" motor)",
-   "power_range": "7.5–30 HP",
-   "head_range": "up to 92 m",
-   "flow_range": "up to 90 m³/h (≈1,500 LPM)",
-   "borewell_size": "150–175 mm (6\"–7\")",
-   "phase": "Three",
-   "highlights": [
-    "Combo 6\"/7\" construction for high discharge",
-    "Low-voltage operation",
-    "Easy to handle, dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/67c-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/67c-series/"
-  },
-  {
-   "name": "EKKI 68C Series",
-   "series": "68C Series",
-   "category": "Agriculture",
-   "type": "Combo borewell submersible (8\" pump + 6\" motor)",
-   "power_range": "10–30 HP",
-   "head_range": "up to 200 m",
-   "flow_range": "up to 132 m³/h (≈2,200 LPM)",
-   "borewell_size": "150–200 mm (6\"–8\")",
-   "phase": "Three",
-   "highlights": [
-    "Combo 6\"/8\" construction, up to 132 m³/h",
-    "Low-voltage operation",
-    "Easy to handle, dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/68c-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/68c-series/"
-  },
-  {
-   "name": "EKKI HOT Series",
-   "series": "HOT Series",
-   "category": "Domestic",
-   "type": "Horizontal openwell submersible (tiny)",
-   "power_range": "0.5–1 HP",
-   "head_range": "up to 28 m",
-   "flow_range": "up to 10 m³/h (≈167 LPM)",
-   "borewell_size": "Open well / sump",
-   "phase": "Single",
-   "highlights": [
-    "Compact, lightweight design for small open wells and sumps",
-    "Vertical or horizontal installation",
-    "Low-voltage operation",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Domestic building services",
-    "Commercial building services"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/hot-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hot-series/"
-  },
-  {
-   "name": "EKKI HOKVR Series",
-   "series": "HOKVR Series",
-   "category": "Domestic",
-   "type": "Horizontal openwell submersible (domestic, value range)",
-   "power_range": "0.5–1 HP",
-   "head_range": "up to 28 m",
-   "flow_range": "up to 9 m³/h (≈150 LPM)",
-   "borewell_size": "Open well / sump",
-   "phase": "Single",
-   "highlights": [
-    "Corrosion-free SS motor body",
-    "FG 260 cast iron for rigidity",
-    "Runs across wide voltage fluctuation",
-    "SS forged hook for easy installation"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services"
-   ],
-   "price_from": "₹ 12,979",
-   "price_to": "₹ 12,979",
-   "price_source_url": "https://www.industrybuying.com/brands/ekki-20829/pumps-1160/openwell-submersible-pump-1176",
-   "image_file": "images/products/ekki/hokvr-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hokvr-series/"
-  },
-  {
-   "name": "EKKI HOK Series",
-   "series": "HOK Series",
-   "category": "Domestic",
-   "type": "Horizontal openwell submersible (domestic)",
-   "power_range": "1–2 HP",
-   "head_range": "up to 39 m",
-   "flow_range": "up to 48 m³/h (≈800 LPM)",
-   "borewell_size": "Open well / sump",
-   "phase": "Single",
-   "highlights": [
-    "All-stainless-steel motor body",
-    "High-efficiency volute casing with good suction",
-    "Low-voltage operation",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/hok-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hok-series/"
-  },
-  {
-   "name": "EKKI HOSVR Series",
-   "series": "HOSVR Series",
-   "category": "Agriculture",
-   "type": "Horizontal openwell submersible (small, value range)",
-   "power_range": "3–5 HP",
-   "head_range": "up to 29 m",
-   "flow_range": "up to 54 m³/h (≈900 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Cast-iron volute casing and impellers",
-    "Bush bearing designed to minimise vibration",
-    "High-grade flange for plumbing",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/hosvr-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hosvr-series/"
-  },
-  {
-   "name": "EKKI HOS Series",
-   "series": "HOS Series",
-   "category": "Agriculture",
-   "type": "Horizontal openwell submersible (small)",
-   "power_range": "3–7.5 HP",
-   "head_range": "up to 46 m",
-   "flow_range": "up to 108 m³/h (≈1,800 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Cast-iron volute casing and impellers",
-    "Bush bearing designed to minimise vibration",
-    "Two eye bolts for easy installation",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/hos-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hos-series/"
-  },
-  {
-   "name": "EKKI HOM Series",
-   "series": "HOM Series",
-   "category": "Agriculture",
-   "type": "Horizontal openwell submersible (medium)",
-   "power_range": "10–15 HP",
-   "head_range": "up to 52 m",
-   "flow_range": "up to 120 m³/h (≈2,000 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Cast-iron volute casing for tough conditions",
-    "Bush bearing to minimise vibration",
-    "Two eye bolts for installation",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/hom-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hom-series/"
-  },
-  {
-   "name": "EKKI SUBSEVAK (6CC) Series",
-   "series": "SUBSEVAK (6CC) Series",
-   "category": "Domestic",
-   "type": "Mini closely-coupled submersible (6\" borewell / openwell)",
-   "power_range": "1–3 HP",
-   "head_range": "up to 100 m",
-   "flow_range": "up to 48 m³/h (≈800 LPM)",
-   "borewell_size": "150 mm (6\") or open well",
-   "phase": "Single",
-   "highlights": [
-    "Closely coupled mini submersible, works in borewell or open well",
-    "Complete SS 304 motor body",
-    "99.9% EC-grade copper rotor",
-    "Mono rotor shaft up to certain stages"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/subsevak-6cc-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/6cc-series/"
-  },
-  {
-   "name": "EKKI VOK Series",
-   "series": "VOK Series",
-   "category": "Domestic",
-   "type": "Vertical openwell submersible (domestic)",
-   "power_range": "1–2 HP",
-   "head_range": "up to 133 m",
-   "flow_range": "up to 4.2 m³/h (≈70 LPM)",
-   "borewell_size": "Open well / sump",
-   "phase": "Single",
-   "highlights": [
-    "Full SS motor body with copper rotor",
-    "High head (up to 133 m)",
-    "Radial and mixed-flow impellers",
-    "Easy to dismantle, rewind and install"
-   ],
-   "applications": [
-    "Agriculture",
-    "Domestic building services"
-   ],
-   "price_from": "₹ 16,800",
-   "price_to": "₹ 19,200",
-   "price_source_url": "https://www.thundathiltraders.com/shop/vertical-openwell-submersible/",
-   "image_file": "images/products/ekki/vok-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vok-series/"
-  },
-  {
-   "name": "EKKI VOSVR Series",
-   "series": "VOSVR Series",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (small, value range)",
-   "power_range": "3–7.5 HP",
-   "head_range": "up to 118 m",
-   "flow_range": "up to 54 m³/h (≈900 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Totally hardened SS shaft",
-    "Finned body for heat dissipation",
-    "Dual casing in radial flow for different duties",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/vosvr-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vosvr-series/"
-  },
-  {
-   "name": "EKKI VOS Series",
-   "series": "VOS Series",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (small)",
-   "power_range": "3–7.5 HP",
-   "head_range": "up to 165 m",
-   "flow_range": "up to 120 m³/h (≈2,000 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Both",
-   "highlights": [
-    "Totally hardened SS shaft",
-    "Finned body for heat dissipation",
-    "Dual casing for different duty conditions",
-    "High discharge and head"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/vos-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vos-series-2/"
-  },
-  {
-   "name": "EKKI VOM Series",
-   "series": "VOM Series",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (medium)",
-   "power_range": "10–20 HP",
-   "head_range": "up to 304 m",
-   "flow_range": "up to 192 m³/h (≈3,200 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Pumps water over long distances",
-    "Finned body for better heat dissipation",
-    "Special windings for low and high voltage",
-    "Sturdy body for reduced vibration"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/vom-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vom-series/"
-  },
-  {
-   "name": "EKKI VOML Series",
-   "series": "VOML Series",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (medium-large)",
-   "power_range": "25–45 HP",
-   "head_range": "up to 250 m",
-   "flow_range": "up to 330 m³/h (≈5,500 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Elegant SS body, motor and pump coupled together",
-    "SS and bronze impellers on selected models",
-    "Near-zero maintenance (brand claim)",
-    "99.9% EC-grade copper rotor"
-   ],
-   "applications": [
-    "Agriculture",
-    "Commercial building services",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/voml-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/voml-series/"
-  },
-  {
-   "name": "EKKI VOL Series",
-   "series": "VOL Series",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (large)",
-   "power_range": "50–90 HP",
-   "head_range": "up to 230 m",
-   "flow_range": "up to 540 m³/h (≈9,000 LPM)",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "High discharge up to 540 m³/h",
-    "Totally hardened SS shaft",
-    "Special-grade castings",
-    "Fast discharge variants from low to high"
-   ],
-   "applications": [
-    "Agriculture",
-    "Public utilities"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/ekki/vol-series.jpg",
-   "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vol-series/"
-  }
- ]
+  "brand": "EKKI",
+  "website": "https://www.ekkigroup.com/",
+  "country": "India (Coimbatore, Tamil Nadu)",
+  "founded": "1981",
+  "tagline": "EKKI Water Technologies — 40+ Into the Golden Era",
+  "notes": "ekkipumps.com redirects to ekkigroup.com. EKKI Group owns two product brands, EKKI (borehole submersibles, multistage, solar systems) and DECCAN (openwell, mini submersibles, monoblocs). Phase per series is inferred from typical power ratings where the brand page does not state it. Prices are retailer/dealer listings, not brand MRP; 6C and 8C bands come from a dealer's generic EKKI V6/V8 listings that do not name the series.",
+  "products": [
+    {
+      "name": "EKKI 4N Series",
+      "series": "4N Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\")",
+      "power_range": "0.5–6 HP",
+      "head_range": "up to 370 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Radial-flow Noryl impellers resist clogging after idle periods",
+        "SS sleeve for longer life",
+        "Valve disc protects pump from excess hydrostatic pressure",
+        "Improved diffuser for higher discharge"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/4n-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4n-series/",
+      "models": [
+        {
+          "model": "ER40H-15 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 15,
+          "phase": "Single",
+          "head_m": "30–95",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41H-9 stg",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": 9,
+          "phase": "Single",
+          "head_m": "32–69",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42H-10 stg",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": 10,
+          "phase": "Single",
+          "head_m": "38–83",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER42-28 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 28,
+          "phase": "Single",
+          "head_m": "70–154",
+          "flow_lpm": "40–90",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER45-7 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 7,
+          "phase": "Single",
+          "head_m": "14–36",
+          "flow_lpm": "75–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER40H-35 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 35,
+          "phase": "Three",
+          "head_m": "82–220",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41H-40 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "126–280",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42H-50 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 50,
+          "phase": "Three",
+          "head_m": "190–400",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER43K-21 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 21,
+          "phase": "Three",
+          "head_m": "49–121",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER43-24 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 24,
+          "phase": "Three",
+          "head_m": "62–150",
+          "flow_lpm": "60–160",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER46-40 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "63–220",
+          "flow_lpm": "50–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "EM41K-14 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 14,
+          "phase": "Three",
+          "head_m": "27–75",
+          "flow_lpm": "150–400",
+          "outlet": "65 mm"
+        }
+      ],
+      "description": "Submersible borehole pumps for 4\"(100mm) deep wells with radial flow Impellers coupled with our high precision motors give splendid performance. Improvised diffuser design gives better discharge properties.",
+      "features": [
+        "SS Sleeve increases the life span",
+        "Easy to dismantle, rewind and install",
+        "Valve disc designed to protect the pump from excessive hydrostatic pressure",
+        "Improvised diffuser design for high discharge",
+        "Available with three phase models",
+        "Winding designs for different voltage supplies",
+        "Construction with required metals",
+        "Stainless steel motor housing and base"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "Cast Iron FG 200",
+          "Diffuser": "Noryl, GF30%",
+          "Impeller": "Noryl, GF30%",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "Cast Iron",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "SG Iron",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 220V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +33°C",
+        "max_operating_pressure": "max. 44 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4N-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4N-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-4N.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-4N-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4n-series/"
+      ]
+    },
+    {
+      "name": "EKKI 4NVR Series",
+      "series": "4NVR Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", value range)",
+      "power_range": "0.5–2 HP",
+      "head_range": "up to 250 m",
+      "flow_range": "up to 12 m³/h (≈200 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Value-range 4\" pump with radial-flow Noryl impellers",
+        "Compact, modular design",
+        "Performance equivalent to seamless SS-body models",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "₹ 16,300",
+      "price_to": "₹ 37,200",
+      "price_source_url": "https://www.moglix.com/ekki-er-41-hvr-15-20-15hp-borewell-submersible-pump-with-control-panel/mp/msnz526y031m9x",
+      "image_file": "images/products/ekki/4nvr-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4nvr-series/",
+      "models": [
+        {
+          "model": "ER40HVR-15 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 15,
+          "phase": "Single",
+          "head_m": "30–95",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41VR-10 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 10,
+          "phase": "Single",
+          "head_m": "27–50",
+          "flow_lpm": "25–50",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41HVR-9 stg",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": 9,
+          "phase": "Single",
+          "head_m": "32–69",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41HVR-25 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 25,
+          "phase": "Single",
+          "head_m": "79–174",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42VR-6 stg",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": 6,
+          "phase": "Single",
+          "head_m": "15–34",
+          "flow_lpm": "40–90",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER43KVR-9 stg",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": 9,
+          "phase": "Single",
+          "head_m": "21–54",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER45VR-7 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 7,
+          "phase": "Single",
+          "head_m": "14–36",
+          "flow_lpm": "75–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER40HVR-40 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "94–252",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41HVR-18 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 18,
+          "phase": "Three",
+          "head_m": "57–129",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42HVR-14 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 14,
+          "phase": "Three",
+          "head_m": "53–116",
+          "flow_lpm": "20–70",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER43KVR-12 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "28–72",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER45VR-10 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "20–54",
+          "flow_lpm": "75–200",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Borehole submersible value range pumps for 4\" (100mm) deep wells with radial flow Impellers coupled with our high precision motors give splendid performance. Improvised diffuser design gives better discharge properties.",
+      "features": [
+        "Easy to dismantle, rewind and install",
+        "Compact and modular design",
+        "Optimized design for an equivalent performance with regular seamless tubular Stainless steel body model",
+        "Discharge outlet variants from 1.25” (32mm) to 2” (50mm)",
+        "Available for Single & Three phase power systems",
+        "Special Winding designs for low and high voltage operations",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +33°C",
+        "max_operating_pressure": "max. 44 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4NVR-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4NVR-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-4NVR-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4nvr-series/"
+      ]
+    },
+    {
+      "name": "EKKI 4J Series",
+      "series": "4J Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", jacketed)",
+      "power_range": "0.5–6 HP",
+      "head_range": "up to 370 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Single-piece stainless steel barrel casing (jacketed)",
+        "Noryl impellers and diffusers",
+        "High reliability and efficiency",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/4j-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4j-series/",
+      "models": [
+        {
+          "model": "ER40HJ-15 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 15,
+          "phase": "Single",
+          "head_m": "30–95",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41J-25 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 25,
+          "phase": "Single",
+          "head_m": "70–128",
+          "flow_lpm": "25–50",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42HJ-8 stg",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": 8,
+          "phase": "Single",
+          "head_m": "30–66",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER42J-28 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 28,
+          "phase": "Single",
+          "head_m": "70–154",
+          "flow_lpm": "40–90",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER45J-7 stg",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 7,
+          "phase": "Single",
+          "head_m": "14–36",
+          "flow_lpm": "75–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER40HJ-35 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 35,
+          "phase": "Three",
+          "head_m": "82–220",
+          "flow_lpm": "10–35",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER41HJ-35 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 35,
+          "phase": "Three",
+          "head_m": "110–242",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER42HJ-40 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "150–320",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER43KJ-18 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 18,
+          "phase": "Three",
+          "head_m": "42–104",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER43J-24 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 24,
+          "phase": "Three",
+          "head_m": "62–150",
+          "flow_lpm": "60–160",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER46J-40 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "63–220",
+          "flow_lpm": "50–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "EM41KJ-14 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 14,
+          "phase": "Three",
+          "head_m": "27–75",
+          "flow_lpm": "150–400",
+          "outlet": "65 mm"
+        }
+      ],
+      "description": "Submersible borehole pumps for 4\"(100mm) deep wells comes with various impellers and diffusers made of noryl material. A single piece stainless steel barrel casing prevents the pump from all robust conditions and all types of water corrosions.",
+      "features": [
+        "Stainless Steel jacket prevents the pump from corrosion",
+        "High level of reliability and efficiency",
+        "Easy to dismantle, rewind and install",
+        "Designed for better durability",
+        "Available with three phase models",
+        "Winding designs for different voltage supplies",
+        "Construction with required metals",
+        "Stainless steel motor housing and base"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "Cast Iron FG 200",
+          "Diffuser": "Noryl, GF30%",
+          "Impeller": "Noryl, GF30%",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "Cast Iron",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "SG Iron",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 230V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +33°C",
+        "max_operating_pressure": "max. 44 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4J-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4J-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-4J.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-4J-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4j-series/"
+      ]
+    },
+    {
+      "name": "EKKI 4S Series",
+      "series": "4S Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", stainless steel)",
+      "power_range": "0.5–7.5 HP",
+      "head_range": "up to 340 m",
+      "flow_range": "up to 18 m³/h (≈300 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Sheet-metal stainless steel impellers and diffusers",
+        "Withstands corrosive water",
+        "Longer life than Noryl-type pumps",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/4s-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4s-series/",
+      "models": [
+        {
+          "model": "ERS42-6 stg",
+          "hp": "0.5",
+          "kw": "0.37",
+          "stages": 6,
+          "phase": "Single",
+          "head_m": "10–36",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS42-28 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 28,
+          "phase": "Single",
+          "head_m": "48–167",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS43-9 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 9,
+          "phase": "Single",
+          "head_m": "15–66",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS43-22 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 22,
+          "phase": "Single",
+          "head_m": "38–139",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS45-6 stg",
+          "hp": "0.75",
+          "kw": "0.55",
+          "stages": 6,
+          "phase": "Single",
+          "head_m": "10–39",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS45-25 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 25,
+          "phase": "Single",
+          "head_m": "45–160",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS42-40 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "63–245",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS42-90 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 90,
+          "phase": "Three",
+          "head_m": "130–545",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS43-25 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "41–158",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS43-45 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 45,
+          "phase": "Three",
+          "head_m": "99–282",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS45-17 stg",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 17,
+          "phase": "Three",
+          "head_m": "30–109",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS45-44 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 44,
+          "phase": "Three",
+          "head_m": "80–281",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        }
+      ],
+      "description": "Submersible borehole pumps for 4\"(100mm) deep wells comes with various model impellers. The Elegant, sleek and light weight Sheet metal Diffuser and Impeller can with stand all types of water corrosions.",
+      "features": [
+        "Stainless steel material for high reliability and longer lifetime even in a corrosive environment",
+        "Easy to dismantle, rewind and install",
+        "Available with three phase models",
+        "Winding designs for different voltage supplies",
+        "Construction with required metals",
+        "Stainless steel motor housing and base",
+        "Discharge outlet variants from 1.25” (32mm) to 2” (50mm)",
+        "Available to NEMA standards"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "SS 304",
+          "Diffuser": "SS 304 Fabricated",
+          "Impeller": "SS 304 Fabricated",
+          "Pump Shaft": "SS 304",
+          "Sleeve": "SS 410",
+          "NRV Body": "SG Iron",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "SG Iron",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 230V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +33°C",
+        "max_operating_pressure": "max. 44 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4S-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-4S-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-4S.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-4S-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/4-borehole-submersibles/4s-series/"
+      ]
+    },
+    {
+      "name": "EKKI 5C Series",
+      "series": "5C Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\")",
+      "power_range": "3–10 HP",
+      "head_range": "up to 330 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "125 mm (5\")",
+      "phase": "Three",
+      "highlights": [
+        "Wide performance range",
+        "Heavy-duty bearing rated ~100,000 running hours",
+        "Energy-efficient customised diffuser",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities",
+        "Commercial building services"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/5c-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/5-borehole-submersibles/5c-series/",
+      "models": [
+        {
+          "model": "ER60-10 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "37–93",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60-25 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "64–220",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60-35 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 35,
+          "phase": "Three",
+          "head_m": "96–290",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER61-8 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "49–87",
+          "flow_lpm": "100–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER61-16 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 16,
+          "phase": "Three",
+          "head_m": "98–174",
+          "flow_lpm": "100–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62-10 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "45–99",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62-16 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 16,
+          "phase": "Three",
+          "head_m": "72–151",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62-25 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "113–216",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER63-6 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "40–68",
+          "flow_lpm": "125–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER63-10 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "68–108",
+          "flow_lpm": "125–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER64-5 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "22–57",
+          "flow_lpm": "200–450",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER64-10 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "45–116",
+          "flow_lpm": "200–450",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Borehole submersible pumps for 5\" deep wells with radial flow Impellers coupled with our high precision motors give splendid performance. Improvised diffuser design gives better discharge properties.",
+      "features": [
+        "Wider performance range",
+        "Heavy duty bearing enables 100000 hrs of running under normal conditions",
+        "Easy to dismantle, rewind and install",
+        "Customized energy efficient diffuser for better discharge",
+        "Stainless steel motor housing and base",
+        "Discharge outlet variants from 1.5” (40mm) to 2” (50mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Versions of Star/Delta start"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 62 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-5C-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-5C-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-5C-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/5-borehole-submersibles/5c-series/"
+      ]
+    },
+    {
+      "name": "EKKI 6C Series",
+      "series": "6C Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", cast iron)",
+      "power_range": "3–30 HP",
+      "head_range": "up to 520 m",
+      "flow_range": "up to 72 m³/h (≈1,200 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Radial-flow impellers with high-precision motors",
+        "Heavy-duty bearing rated ~100,000 running hours",
+        "Energy-efficient diffuser for better discharge",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "₹ 26,000",
+      "price_to": "₹ 92,000",
+      "price_source_url": "https://www.pavanienterprises.net/ekki-deccan-pumps.html",
+      "image_file": "images/products/ekki/6c-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6c-series/",
+      "models": [
+        {
+          "model": "ER60-10 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "37–93",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60H-8 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "53–112",
+          "flow_lpm": "25–120",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER61-16 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 16,
+          "phase": "Three",
+          "head_m": "98–174",
+          "flow_lpm": "100–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62-25 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "113–216",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62H-25 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "175–360",
+          "flow_lpm": "100–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER63-18 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 18,
+          "phase": "Three",
+          "head_m": "119–191",
+          "flow_lpm": "125–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER64-12 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "55–139",
+          "flow_lpm": "200–450",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "EM61-4 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "17–47",
+          "flow_lpm": "200–700",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "EM62-8 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "38–92",
+          "flow_lpm": "300–800",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "EM63-14 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 14,
+          "phase": "Three",
+          "head_m": "81–160",
+          "flow_lpm": "300–800",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "EM64-9 stg",
+          "hp": "22.5",
+          "stages": 9,
+          "phase": "Three",
+          "head_m": "38–94",
+          "flow_lpm": "500–1100",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "EM65-8 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "40–92",
+          "flow_lpm": "650–1300",
+          "outlet": "80 mm"
+        }
+      ],
+      "description": "Submersible borehole pumps for 6\"(150mm) deep wells with radial flow Impellers coupled with our high precision motors give splendid performance. Improvised diffuser design gives better discharge properties.",
+      "features": [
+        "Wider performance range",
+        "Heavy duty bearing enables 100000 hrs of running under normal conditions",
+        "Easy to dismantle, rewind and install",
+        "Customized energy efficient diffuser for better discharge",
+        "Available with three phase models",
+        "Winding designs for different voltage supplies",
+        "Construction with required metals",
+        "Stainless steel motor housing and base"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "Cast Iron FG 200",
+          "Diffuser": "Noryl, GF30%",
+          "Impeller": "Noryl, GF30%",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "Cast Iron",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "SG Iron",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 220V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 62 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6C-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6C-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-6C.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6C-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6c-series/"
+      ]
+    },
+    {
+      "name": "EKKI 6CVR Series",
+      "series": "6CVR Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", value range)",
+      "power_range": "3–7.5 HP",
+      "head_range": "up to 290 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Value-range 6\" radial-flow pump",
+        "Up to 20% energy savings vs conventional models (brand claim)",
+        "Compact, modular design",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/6cvr-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6cvr-series/",
+      "models": [
+        {
+          "model": "ER60VR-10 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "37–93",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60VR-20 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 20,
+          "phase": "Three",
+          "head_m": "72–187",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60HVR-8 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "53–112",
+          "flow_lpm": "25–120",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER60HVR-18 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 18,
+          "phase": "Three",
+          "head_m": "119–252",
+          "flow_lpm": "25–120",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER61VR-10 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "61–109",
+          "flow_lpm": "100–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62VR-8 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "37–81",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62VR-15 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 15,
+          "phase": "Three",
+          "head_m": "68–148",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER62HVR-8 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "56–115",
+          "flow_lpm": "50–175",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER63VR-5 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "32–50",
+          "flow_lpm": "125–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER63VR-10 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "67–107",
+          "flow_lpm": "125–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER64VR-6 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "27–70",
+          "flow_lpm": "200–450",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "EM60VR-8 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "28–96",
+          "flow_lpm": "150–500",
+          "outlet": "65 mm"
+        }
+      ],
+      "description": "Borehole submersible value range pumps for 6\" (150mm) deep wells with radial flow Impellers coupled with our high precision motors give splendid performance. Improvised diffuser design gives better discharge properties.",
+      "features": [
+        "Easy to dismantle, rewind and install",
+        "Energy savings of up to 20% when compared to conventional models",
+        "Compact and modular design",
+        "Discharge outlet variants from 1.5” (40mm) to 2.5” (65mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Versions of Star/Delta start",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 62 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6CVR-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6CVR-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6CVR-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6cvr-series/"
+      ]
+    },
+    {
+      "name": "EKKI 6I Series",
+      "series": "6I Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", SS high head)",
+      "power_range": "3–30 HP",
+      "head_range": "up to 450 m",
+      "flow_range": "up to 49 m³/h (≈817 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Stainless steel impellers and diffusers",
+        "Built for harsh, corrosive water",
+        "High head and pressure for long-distance transfer",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/6i-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6i-series/",
+      "models": [
+        {
+          "model": "ERSS50-6 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "40–90",
+          "flow_lpm": "50–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ERSS50-25 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "138–368",
+          "flow_lpm": "50–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ERSS60-12 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "65–185",
+          "flow_lpm": "80–225",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ERSS80-6 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "30–95",
+          "flow_lpm": "80–330",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ERSS80-22 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 22,
+          "phase": "Three",
+          "head_m": "115–335",
+          "flow_lpm": "80–330",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ERSS100-10 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "50–155",
+          "flow_lpm": "100–400",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS100-30 stg",
+          "hp": "30",
+          "kw": "22",
+          "stages": 30,
+          "phase": "Three",
+          "head_m": "170–455",
+          "flow_lpm": "100–400",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS125-12 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "60–185",
+          "flow_lpm": "120–500",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS150-3 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "15–49",
+          "flow_lpm": "130–650",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS150-12 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "62–184",
+          "flow_lpm": "130–650",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS200-4 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "15–64",
+          "flow_lpm": "135–820",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "ERSS200-15 stg",
+          "hp": "30",
+          "kw": "22",
+          "stages": 15,
+          "phase": "Three",
+          "head_m": "48–229",
+          "flow_lpm": "135–820",
+          "outlet": "65 mm"
+        }
+      ],
+      "description": "Submersible borehole pumps for 6\"(150mm) deep wells with various type of impellers made of Stainless Steel (SS). The specially designed robust and light weight SS Diffuser and Impeller can withstand all types of water corrosions.",
+      "features": [
+        "Robust reliable and efficient pump design for operating on harsh environment",
+        "Easy to dismantle, rewind and install",
+        "High discharge and pressure enables transfer of water over longer distances",
+        "Construction as per NEMA Standard",
+        "Three phase with DOL, S/D connection 440V",
+        "Versions for star/delta start (SD)",
+        "Special Winding designs for different voltage supplies",
+        "Construction with required metals"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "SS 304",
+          "Diffuser": "SS 304",
+          "Impeller": "SS 410",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "SS 304",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4, Rubber",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon , SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 54 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6I-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6I-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-6I.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6I-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6i-series/"
+      ]
+    },
+    {
+      "name": "EKKI 6S Series",
+      "series": "6S Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", stainless steel)",
+      "power_range": "3–30 HP",
+      "head_range": "up to 400 m",
+      "flow_range": "up to 65 m³/h (≈1,083 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Lightweight sheet-metal SS impellers and diffusers",
+        "Corrosion resistant",
+        "Longer life than cast-iron series",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/6s-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6s-series/",
+      "description": "Submersible borehole pumps for 6\"(150mm) deep wells comes with various model impellers. The Elegant, sleek and light weight Sheet metal Diffuser and Impeller can with stand all types of water corrosions.",
+      "features": [
+        "Stainless steel material for high reliability and longer lifetime even in a corrosive environment",
+        "Easy to dismantle, rewind and install",
+        "Versions for star/delta start (SD)",
+        "Three phase with DOL, S/D connection 440V up to 5.5kW",
+        "Special Winding designs for different voltage supplies",
+        "Construction with required metals",
+        "Stainless steel motor housing and base",
+        "Discharge outlet variants from 2.5” (65mm) to 3” (80mm)"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "SS 304",
+          "Diffuser": "SS 304",
+          "Impeller": "SS 304",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "SS 304",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "Rubber",
+          "Strainer": "SS 304"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon , SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 54 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6S-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-6S.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6S-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/6-borehole-submersibles/6s-series/"
+      ]
+    },
+    {
+      "name": "EKKI 8C Series",
+      "series": "8C Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\", cast iron)",
+      "power_range": "10–50 HP",
+      "head_range": "up to 300 m",
+      "flow_range": "up to 132 m³/h (≈2,200 LPM)",
+      "borewell_size": "200 mm (8\")",
+      "phase": "Three",
+      "highlights": [
+        "LTB radial-flow impellers with cast-iron diffusers",
+        "High head and high discharge",
+        "Heavy-duty bearing rated ~100,000 running hours",
+        "Low-voltage operation"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "₹ 55,000",
+      "price_to": "₹ 1,95,000",
+      "price_source_url": "https://www.pavanienterprises.net/ekki-higher-hp-pumps.html",
+      "image_file": "images/products/ekki/8c-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8c-series/",
+      "models": [
+        {
+          "model": "ER81-5 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "63–110",
+          "flow_lpm": "140–540",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER81-14 stg",
+          "hp": "35",
+          "kw": "26",
+          "stages": 14,
+          "phase": "Three",
+          "head_m": "176–308",
+          "flow_lpm": "140–540",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER82-10 stg",
+          "hp": "35",
+          "kw": "26",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "122–208",
+          "flow_lpm": "300–750",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER83-6 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "78–124",
+          "flow_lpm": "320–900",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER84-3 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "35–62",
+          "flow_lpm": "500–1200",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "EM81-2 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "17–40",
+          "flow_lpm": "800–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM81-4 stg",
+          "hp": "20",
+          "kw": "15",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "34–80",
+          "flow_lpm": "800–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM82-2 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "23–42",
+          "flow_lpm": "950–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM82-6 stg",
+          "hp": "35",
+          "kw": "26",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "70–126",
+          "flow_lpm": "950–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM83-2 stg",
+          "hp": "20",
+          "kw": "15",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "28–52",
+          "flow_lpm": "1200–2200",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM83-5 stg",
+          "hp": "40",
+          "kw": "30",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "45–113",
+          "flow_lpm": "1200–2200",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM83-8 stg",
+          "hp": "75",
+          "kw": "55",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "110–205",
+          "flow_lpm": "1200–2200",
+          "outlet": "100 mm"
+        }
+      ],
+      "description": "Submersible borehole 8\"(200mm) pumps for deep wells are constructed with LTB Radial flow impellers and cast iron diffusers. The specially designed Impeller and diffuser achieve both high head and discharge performances.",
+      "features": [
+        "Heavy duty bearing enables 100000 hrs of running under normal conditions",
+        "Low voltage operation",
+        "Customized energy efficient diffuser for better discharge",
+        "Easy to dismantle, rewind and install",
+        "Versions for star/delta start (SD)",
+        "Special Winding designs for different voltage supplies",
+        "Stainless steel motor housing and base",
+        "Available to NEMA standards"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "Cast Iron FG 200",
+          "Diffuser": "Cast Iron FG 200",
+          "Impeller": "SS 410/Gun Metal",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "Cast Iron",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4, Rubber",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 230V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 37 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-8C-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-8C-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-8C.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-8C-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8c-series/"
+      ]
+    },
+    {
+      "name": "EKKI 8S Series",
+      "series": "8S Series",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\", stainless steel)",
+      "power_range": "7.5–75 HP",
+      "head_range": "up to 300 m",
+      "flow_range": "up to 110 m³/h (≈1,833 LPM)",
+      "borewell_size": "200 mm (8\")",
+      "phase": "Three",
+      "highlights": [
+        "Stainless steel construction for corrosive water",
+        "3\" (80 mm) outlet for high discharge",
+        "Low-voltage operation",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/8s-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8s-series/",
+      "description": "Submersible borehole 8\"(200mm) pumps for deep wells are constructed with LTB various flow impellers and diffusers. The specially designed Impeller and diffuser achieve both high head and discharge performances.",
+      "features": [
+        "Low voltage operation",
+        "Stainless steel material for high reliability and longer lifetime even in a corrosive environment",
+        "Easy to dismantle, rewind and install",
+        "Discharge outlet size 3” (80mm) enables high discharge",
+        "Versions for star/delta start (SD)",
+        "Special Winding designs for different voltage supplies",
+        "Stainless steel motor housing and base",
+        "Available to NEMA standards"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "SS 304",
+          "Diffuser": "SS 304",
+          "Impeller": "SS 410",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "SS 304",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4, Rubber",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 230V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 37 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-8S-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-8S.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-8S-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/8-borehole-submersibles/8s-series/"
+      ]
+    },
+    {
+      "name": "EKKI 54N Series",
+      "series": "54N Series",
+      "category": "Agriculture",
+      "type": "Combo borewell submersible (5\" motor + 4\" pump)",
+      "power_range": "1–10 HP",
+      "head_range": "up to 600 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
+      "phase": "Both",
+      "highlights": [
+        "Combo of 125 mm motor with 100 mm pump",
+        "Very high head (up to 600 m)",
+        "High discharge with different outlet sizes",
+        "Easy to handle and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/54n-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54n-series/",
+      "models": [
+        {
+          "model": "ER541H-35 stg",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 35,
+          "phase": "Three",
+          "head_m": "113–245",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER541H-50 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 50,
+          "phase": "Three",
+          "head_m": "161–353",
+          "flow_lpm": "15–40",
+          "outlet": "32 mm"
+        },
+        {
+          "model": "ER542H-40 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 40,
+          "phase": "Three",
+          "head_m": "153–323",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER542H-80 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 80,
+          "phase": "Three",
+          "head_m": "306–646",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER543-25 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "68–161",
+          "flow_lpm": "60–160",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER543-36 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 36,
+          "phase": "Three",
+          "head_m": "99–230",
+          "flow_lpm": "60–160",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER543K-30 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 30,
+          "phase": "Three",
+          "head_m": "73–176",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER545-25 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 25,
+          "phase": "Three",
+          "head_m": "53–140",
+          "flow_lpm": "75–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "ER546-37 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 37,
+          "phase": "Three",
+          "head_m": "61–207",
+          "flow_lpm": "50–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ER546-54 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 54,
+          "phase": "Three",
+          "head_m": "87–300",
+          "flow_lpm": "50–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "EM541K-12 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 12,
+          "phase": "Three",
+          "head_m": "25–66",
+          "flow_lpm": "150–400",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "EM541K-18 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 18,
+          "phase": "Three",
+          "head_m": "37–98",
+          "flow_lpm": "150–400",
+          "outlet": "65 mm"
+        }
+      ],
+      "features": [
+        "High reliability and flexibility",
+        "High discharge with different outlet sizes",
+        "Easy to handle and Install",
+        "Stainless steel motor housing and base",
+        "Discharge outlet variants from 1.25” (32mm) to 2.5” (65mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Available for Single & Three phase power systems",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 53 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-54N-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-54N-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-54N-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54n-series/"
+      ]
+    },
+    {
+      "name": "EKKI 54S Series",
+      "series": "54S Series",
+      "category": "Agriculture",
+      "type": "Combo borewell submersible (5\" motor + 4\" SS pump)",
+      "power_range": "3–7.5 HP",
+      "head_range": "up to 480 m",
+      "flow_range": "up to 24 m³/h (≈400 LPM)",
+      "borewell_size": "100 mm (4\") pump with 125 mm (5\") motor",
+      "phase": "Three",
+      "highlights": [
+        "5\" motor paired with 4\" stainless steel pump",
+        "High reliability and flexibility",
+        "Multiple outlet sizes",
+        "Easy to handle and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/54s-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54s-series/",
+      "models": [
+        {
+          "model": "ERS542-55 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 55,
+          "phase": "Three",
+          "head_m": "85–335",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS542-65 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 65,
+          "phase": "Three",
+          "head_m": "94–395",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS542-90 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 90,
+          "phase": "Three",
+          "head_m": "130–545",
+          "flow_lpm": "10–45",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS543-39 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 39,
+          "phase": "Three",
+          "head_m": "89–245",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS543-45 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 45,
+          "phase": "Three",
+          "head_m": "99–282",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS543-52 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 52,
+          "phase": "Three",
+          "head_m": "120–328",
+          "flow_lpm": "10–75",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-33 stg",
+          "hp": "4",
+          "kw": "3",
+          "stages": 33,
+          "phase": "Three",
+          "head_m": "59–211",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-38 stg",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 38,
+          "phase": "Three",
+          "head_m": "72–250",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-44 stg",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 44,
+          "phase": "Three",
+          "head_m": "80–281",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-52 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 52,
+          "phase": "Three",
+          "head_m": "95–330",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-75 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 75,
+          "phase": "Three",
+          "head_m": "138–480",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "ERS545-85 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 85,
+          "phase": "Three",
+          "head_m": "156–544",
+          "flow_lpm": "25–115",
+          "outlet": "40 mm"
+        }
+      ],
+      "features": [
+        "High reliability and flexibility",
+        "High discharge with different outlet sizes",
+        "Easy to handle and Install",
+        "Stainless steel motor housing and base",
+        "Discharge outlet variants from 1.25” (32mm) to 2.0” (50mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Available for Single & Three phase power systems",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 53 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-54S-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-54S-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-54S-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/54s-series/"
+      ]
+    },
+    {
+      "name": "EKKI 67C Series",
+      "series": "67C Series",
+      "category": "Agriculture",
+      "type": "Combo borewell submersible (7\" pump + 6\" motor)",
+      "power_range": "7.5–30 HP",
+      "head_range": "up to 92 m",
+      "flow_range": "up to 90 m³/h (≈1,500 LPM)",
+      "borewell_size": "150–175 mm (6\"–7\")",
+      "phase": "Three",
+      "highlights": [
+        "Combo 6\"/7\" construction for high discharge",
+        "Low-voltage operation",
+        "Easy to handle, dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/67c-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/67c-series/",
+      "models": [
+        {
+          "model": "EM71-2 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "16–32",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-4 stg",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "11–41",
+          "flow_lpm": "600–1300",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-3 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "20–46",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-4 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "23–58",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-4 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "32–62",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-5 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "28–67",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-5 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "33–71",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-6 stg",
+          "hp": "20",
+          "kw": "15",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "35–87",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM71-7 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 7,
+          "phase": "Three",
+          "head_m": "46–100",
+          "flow_lpm": "600–1400",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM72-2 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "24–39",
+          "flow_lpm": "600–1500",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM72-2 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "29.5–43",
+          "flow_lpm": "600–1500",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM73-3 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "27–54",
+          "flow_lpm": "600–1500",
+          "outlet": "100 mm"
+        }
+      ],
+      "features": [
+        "Low voltage operation",
+        "Easy to handle, dismantle, rewind and install",
+        "Stainless Steel Motor Housing & Base",
+        "Discharge outlet variants from 3.0” (80mm) to 4.0” (100mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 11 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-67C-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-67C-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-67C-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/67c-series/"
+      ]
+    },
+    {
+      "name": "EKKI 68C Series",
+      "series": "68C Series",
+      "category": "Agriculture",
+      "type": "Combo borewell submersible (8\" pump + 6\" motor)",
+      "power_range": "10–30 HP",
+      "head_range": "up to 200 m",
+      "flow_range": "up to 132 m³/h (≈2,200 LPM)",
+      "borewell_size": "150–200 mm (6\"–8\")",
+      "phase": "Three",
+      "highlights": [
+        "Combo 6\"/8\" construction, up to 132 m³/h",
+        "Low-voltage operation",
+        "Easy to handle, dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/68c-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/68c-series/",
+      "models": [
+        {
+          "model": "ER681-5 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "63–110",
+          "flow_lpm": "140–540",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER681-10 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "126–220",
+          "flow_lpm": "140–540",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER682-5 stg",
+          "hp": "15",
+          "kw": "11",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "62–104",
+          "flow_lpm": "300–750",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER683-3 stg",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "39–62",
+          "flow_lpm": "320–900",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "ER683-6 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "78–124",
+          "flow_lpm": "320–900",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "EM681-3 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "11–52",
+          "flow_lpm": "800–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM681-4 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "33–73",
+          "flow_lpm": "800–1600",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM681-5 stg",
+          "hp": "20",
+          "kw": "15",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "46–89",
+          "flow_lpm": "800–1600",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM682-3 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "24–56",
+          "flow_lpm": "950–1800",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM683-1 stg",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "16–26",
+          "flow_lpm": "1200–2200",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM683-2 stg",
+          "hp": "17.5",
+          "kw": "13",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "27–47",
+          "flow_lpm": "1200–2000",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "EM683-3 stg",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "40.5–71",
+          "flow_lpm": "1200–2000",
+          "outlet": "100 mm"
+        }
+      ],
+      "features": [
+        "Low voltage operation",
+        "Easy to handle, dismantle, rewind and install",
+        "Stainless Steel Motor Housing & Base",
+        "Discharge outlet variants from 3.0” (80mm) to 4.0” (100mm)",
+        "Special Winding designs for low and high voltage operations",
+        "Available with installation accessories"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 23 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-68C-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-68C-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-68C-Series.pdf",
+        "https://www.ekkigroup.com/products/borehole-submersibles/combo-series-borehole-submersibles/68c-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOT Series",
+      "series": "HOT Series",
+      "category": "Domestic",
+      "type": "Horizontal openwell submersible (tiny)",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 28 m",
+      "flow_range": "up to 10 m³/h (≈167 LPM)",
+      "borewell_size": "Open well / sump",
+      "phase": "Single",
+      "highlights": [
+        "Compact, lightweight design for small open wells and sumps",
+        "Vertical or horizontal installation",
+        "Low-voltage operation",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Domestic building services",
+        "Commercial building services"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hot-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hot-series/",
+      "models": [
+        {
+          "model": "H1P2003NMPM5AP1CI01",
+          "hp": "0.5",
+          "kw": "0.37",
+          "phase": "Single",
+          "head_m": "7–23",
+          "flow_lpm": "50–175",
+          "outlet": "25 mm"
+        },
+        {
+          "model": "H1P2007NMPM5AP1CI01",
+          "hp": "1",
+          "kw": "0.75",
+          "phase": "Single",
+          "head_m": "5–33",
+          "flow_lpm": "50–200",
+          "outlet": "25 mm"
+        },
+        {
+          "model": "H1P2007NTSM5AP1CI01",
+          "hp": "1",
+          "kw": "0.75",
+          "phase": "Three",
+          "head_m": "5–33",
+          "flow_lpm": "50–200",
+          "outlet": "25 mm"
+        }
+      ],
+      "description": "Horizontal sump Tiny Submersible pumps are designed to work in small open wells. Horizontal openwell tiny pump sets are sleek compact and light in weight for easy portability.",
+      "features": [
+        "Easy to handle and install",
+        "Easy to dismantle and Rewind",
+        "Low voltage operation",
+        "Both vertical and horizontal installation is possible",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Available with bronze Impeller",
+        "Available for Single & Three phase power systems",
+        "Available with installation accessories"
+      ],
+      "materials": {
+        "pump": {
+          "DOL": "Cast Iron FG 200",
+          "Volute Casing": "Cast Iron FG 200",
+          "Impeller": "LTB-2 / Cast iron",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "Cast iron FG 200",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust bearing": "Carbon + SS 410",
+          "Bearing bush": "LTB4",
+          "Seal": "Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 220V and for three-phase 415V (50 Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 3.5 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOT-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOT-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-HOT.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-HOT-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hot-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOKVR Series",
+      "series": "HOKVR Series",
+      "category": "Domestic",
+      "type": "Horizontal openwell submersible (domestic, value range)",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 28 m",
+      "flow_range": "up to 9 m³/h (≈150 LPM)",
+      "borewell_size": "Open well / sump",
+      "phase": "Single",
+      "highlights": [
+        "Corrosion-free SS motor body",
+        "FG 260 cast iron for rigidity",
+        "Runs across wide voltage fluctuation",
+        "SS forged hook for easy installation"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services"
+      ],
+      "price_from": "₹ 12,979",
+      "price_to": "₹ 12,979",
+      "price_source_url": "https://www.industrybuying.com/brands/ekki-20829/pumps-1160/openwell-submersible-pump-1176",
+      "image_file": "images/products/ekki/hokvr-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hokvr-series/",
+      "description": "Horizontal Open-well submersible domestic series pumps give excellent performance with a high degree of reliability. The hydraulic materials used prevent the impellers from clogging even after long stationary periods.",
+      "features": [
+        "The motor body is made of SS which is corrosion free",
+        "FG 260 grade cast Iron is used for high rigidity",
+        "Silicon steel stamping is used for high efficiency",
+        "Can run in a wide range of voltage fluctuation",
+        "Sturdy leg construction to hold and balance heavyweight",
+        "Copper winding requires minimal inspection and maintenance",
+        "SS forged hook ensures easy installation"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 3 bar"
+      },
+      "sources": [
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hokvr-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOK Series",
+      "series": "HOK Series",
+      "category": "Domestic",
+      "type": "Horizontal openwell submersible (domestic)",
+      "power_range": "1–2 HP",
+      "head_range": "up to 39 m",
+      "flow_range": "up to 48 m³/h (≈800 LPM)",
+      "borewell_size": "Open well / sump",
+      "phase": "Single",
+      "highlights": [
+        "All-stainless-steel motor body",
+        "High-efficiency volute casing with good suction",
+        "Low-voltage operation",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hok-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hok-series/",
+      "description": "Horizontal Open-well submersible domestic series pumps give excellent performance with high degree of reliability. The hydraulic materials used prevent the impellers from clogging even after long stationary periods.",
+      "features": [
+        "Total stainless steel motor body",
+        "Easy to handle and install",
+        "Easy to dismantle and Rewind",
+        "Low voltage operation",
+        "Rotor made of 99.9 % EC grade Copper"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 4.3 bar"
+      },
+      "sources": [
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hok-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOSVR Series",
+      "series": "HOSVR Series",
+      "category": "Agriculture",
+      "type": "Horizontal openwell submersible (small, value range)",
+      "power_range": "3–5 HP",
+      "head_range": "up to 29 m",
+      "flow_range": "up to 54 m³/h (≈900 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Cast-iron volute casing and impellers",
+        "Bush bearing designed to minimise vibration",
+        "High-grade flange for plumbing",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hosvr-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hosvr-series/",
+      "models": [
+        {
+          "model": "DH30MHVR",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Single",
+          "head_m": "12.5–22.5",
+          "flow_lpm": "500–800",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH30MHVR",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Three",
+          "head_m": "8.5–24",
+          "flow_lpm": "500–900",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH30HHVR",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Single",
+          "head_m": "15–25.5",
+          "flow_lpm": "250–650",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH30HHVR",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Three",
+          "head_m": "18.5–29.5",
+          "flow_lpm": "250–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH50MHVR",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Single",
+          "head_m": "13.5–23.5",
+          "flow_lpm": "500–1100",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH50MHVR",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "16–27",
+          "flow_lpm": "500–900",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH50HHVR",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Single",
+          "head_m": "19–27.5",
+          "flow_lpm": "250–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH50HHVR",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "20–30",
+          "flow_lpm": "500–1000",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Horizontal Open-well submersible small series pumps with volute casing and impellers made of cast iron material gives excellent performance with high degree of reliability. The hydraulic materials used prevents the impellers from clogging even after long stationary periods.",
+      "features": [
+        "Easy to dismantle and Rewind",
+        "Specially designed bush bearing to minimize the vibration",
+        "High foundry grade flange for better plumbing works",
+        "Provision of eye bolt for easy installation",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Verisions of DOL & Star/Delta Start",
+        "Available with installation accessories",
+        "Available with SS Impeller"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 4 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOSVR-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOSVR-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-HOSVR-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hosvr-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOS Series",
+      "series": "HOS Series",
+      "category": "Agriculture",
+      "type": "Horizontal openwell submersible (small)",
+      "power_range": "3–7.5 HP",
+      "head_range": "up to 46 m",
+      "flow_range": "up to 108 m³/h (≈1,800 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Cast-iron volute casing and impellers",
+        "Bush bearing designed to minimise vibration",
+        "Two eye bolts for easy installation",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hos-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hos-series/",
+      "models": [
+        {
+          "model": "DH30MH",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Three",
+          "head_m": "11.5–23",
+          "flow_lpm": "500–1100",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH30HH",
+          "hp": "3",
+          "kw": "2.2",
+          "phase": "Three",
+          "head_m": "16–25",
+          "flow_lpm": "400–650",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH50LH",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "16–28",
+          "flow_lpm": "700–1300",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "DH50MH",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "18–30",
+          "flow_lpm": "700–1200",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH50HH",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "16–32",
+          "flow_lpm": "550–1200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH50PH",
+          "hp": "5",
+          "kw": "3.7",
+          "phase": "Three",
+          "head_m": "21–46",
+          "flow_lpm": "250–750",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH60MH",
+          "hp": "6",
+          "kw": "4.5",
+          "phase": "Three",
+          "head_m": "20–33",
+          "flow_lpm": "650–1100",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH60HH",
+          "hp": "6",
+          "kw": "4.5",
+          "phase": "Three",
+          "head_m": "23–37",
+          "flow_lpm": "550–1000",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH60PH",
+          "hp": "6",
+          "kw": "4.5",
+          "phase": "Three",
+          "head_m": "23–48",
+          "flow_lpm": "400–750",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH75LH",
+          "hp": "7.5",
+          "kw": "5.5",
+          "phase": "Three",
+          "head_m": "13–29",
+          "flow_lpm": "900–1800",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "DH75HH",
+          "hp": "7.5",
+          "kw": "5.5",
+          "phase": "Three",
+          "head_m": "23–44",
+          "flow_lpm": "500–1000",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH75PH",
+          "hp": "7.5",
+          "kw": "5.5",
+          "phase": "Three",
+          "head_m": "28–51",
+          "flow_lpm": "300–750",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Submersible horizontal sump small series pumps with volute casing and impellers made of cast iron material gives excellent performance with high degree of reliability. The hydraulic materials used prevents the impellers from clogging even after long stationary periods.",
+      "features": [
+        "Specially designed bush bearing to minimize the vibration",
+        "Easy to dismantle and Rewind",
+        "High foundry grade range for better plumbing works",
+        "Provision of 2 eye bolts for easy installation",
+        "Rotor made of 99.9 % EC grade Copper",
+        "High foundry grade flange for better plumbing works",
+        "Also available in value range",
+        "Verisions of DOL & Star/Delta Start"
+      ],
+      "materials": {
+        "pump": {
+          "Volute Casing": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200",
+          "Flange": "SG 400/12",
+          "Tie-Rod": "SS 410",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "Cast Iron FG 200",
+          "Back Housing": "Cast Iron FG 200",
+          "Front Housing": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 5.5 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOS-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOS-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-HOS.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-HOS-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hos-series/"
+      ]
+    },
+    {
+      "name": "EKKI HOM Series",
+      "series": "HOM Series",
+      "category": "Agriculture",
+      "type": "Horizontal openwell submersible (medium)",
+      "power_range": "10–15 HP",
+      "head_range": "up to 52 m",
+      "flow_range": "up to 120 m³/h (≈2,000 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Cast-iron volute casing for tough conditions",
+        "Bush bearing to minimise vibration",
+        "Two eye bolts for installation",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hom-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hom-series/",
+      "models": [
+        {
+          "model": "DH100LH",
+          "hp": "10",
+          "kw": "7.5",
+          "phase": "Three",
+          "head_m": "20–36",
+          "flow_lpm": "900–1700",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "DH100MH",
+          "hp": "10",
+          "kw": "7.5",
+          "phase": "Three",
+          "head_m": "23.5–48",
+          "flow_lpm": "650–1200",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH100HH",
+          "hp": "10",
+          "kw": "7.5",
+          "phase": "Three",
+          "head_m": "28.5–57",
+          "flow_lpm": "550–1200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "DH125LH",
+          "hp": "12.5",
+          "kw": "9.3",
+          "phase": "Three",
+          "head_m": "24–43",
+          "flow_lpm": "1000–2000",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "DH125MH",
+          "hp": "12.5",
+          "kw": "9.3",
+          "phase": "Three",
+          "head_m": "25.5–49",
+          "flow_lpm": "900–1600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "DH150LH",
+          "hp": "15",
+          "kw": "11",
+          "phase": "Three",
+          "head_m": "22.5–42",
+          "flow_lpm": "1200–2400",
+          "outlet": "80 mm"
+        },
+        {
+          "model": "DH150MH",
+          "hp": "15",
+          "kw": "11",
+          "phase": "Three",
+          "head_m": "35.5–58",
+          "flow_lpm": "1100–1400",
+          "outlet": "65 mm"
+        }
+      ],
+      "description": "Submersible horizontal sump medium series pumps with volute casing made of cast iron material gives superior durability even in robust operating conditions.",
+      "features": [
+        "Easy to dismantle, Rewind and install",
+        "Provision of 2 eye bolts for easy installation",
+        "Specially designed bush bearing to minimize the vibration",
+        "High foundry grade flange for better plumbing works",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Available with installation accessories",
+        "Available with SS Impeller"
+      ],
+      "materials": {
+        "pump": {
+          "Volute Casing": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200",
+          "Flange": "SG 400/12",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "Cast Iron FG 200",
+          "Back Housing": "Cast Iron FG 200",
+          "Front Housing": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 6.5 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOM-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-HOM-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-HOM.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-HOM-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/horizontal-open-well-submersibles/hom-series/"
+      ]
+    },
+    {
+      "name": "EKKI SUBSEVAK (6CC) Series",
+      "series": "SUBSEVAK (6CC) Series",
+      "category": "Domestic",
+      "type": "Mini closely-coupled submersible (6\" borewell / openwell)",
+      "power_range": "1–3 HP",
+      "head_range": "up to 100 m",
+      "flow_range": "up to 48 m³/h (≈800 LPM)",
+      "borewell_size": "150 mm (6\") or open well",
+      "phase": "Single",
+      "highlights": [
+        "Closely coupled mini submersible, works in borewell or open well",
+        "Complete SS 304 motor body",
+        "99.9% EC-grade copper rotor",
+        "Mono rotor shaft up to certain stages"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/subsevak-6cc-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/6cc-series/",
+      "models": [
+        {
+          "model": "10D1/1",
+          "hp": "1",
+          "kw": "0.75",
+          "stages": 1,
+          "phase": "Single",
+          "head_m": "6.4–11.5",
+          "flow_lpm": "175–400",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "6CCTS20075RNF03",
+          "hp": "1",
+          "kw": "0.75",
+          "phase": "Three",
+          "head_m": "13.5–26",
+          "flow_lpm": "80–160",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "15D2/2",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "10–21",
+          "flow_lpm": "175–350",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "15D5/5",
+          "hp": "1.5",
+          "kw": "1.1",
+          "stages": 5,
+          "phase": "Single",
+          "head_m": "28–43",
+          "flow_lpm": "40–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "20D1/1",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "6.5–11.5",
+          "flow_lpm": "600–1000",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "20D4/4",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "20–42",
+          "flow_lpm": "80–200",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "21D6/6",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 6,
+          "phase": "Single",
+          "head_m": "24–54",
+          "flow_lpm": "80–220",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "20D10/10",
+          "hp": "2",
+          "kw": "1.5",
+          "stages": 10,
+          "phase": "Single",
+          "head_m": "28–84",
+          "flow_lpm": "40–120",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "30D1/1",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "7.2–12",
+          "flow_lpm": "600–1000",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "30D6/6",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 6,
+          "phase": "Single",
+          "head_m": "26–57",
+          "flow_lpm": "80–220",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "30D10/10",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 10,
+          "phase": "Single",
+          "head_m": "45–82",
+          "flow_lpm": "40–140",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "30D16/16",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 16,
+          "phase": "Three",
+          "head_m": "90–129",
+          "flow_lpm": "40–80",
+          "outlet": "40 mm"
+        }
+      ],
+      "description": "Mini Submersible borehole pumps for 6\"(150mm) deep wells with various type of impellers gives superior durability with best in class performance. Closely coupled mini submersible pumps are designed in such a way that it can be used in openwell operations as well with better efficiency.",
+      "features": [
+        "Mono rotor shaft up to a particular stages",
+        "Easy to dismantle, rewind and install",
+        "Complete SS 304 motor body",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Available with three phase models",
+        "Winding designs for different voltage supplies",
+        "Special Winding designs for low and high voltage operations",
+        "Available for Single & Three phase power systems"
+      ],
+      "materials": {
+        "pump": {
+          "Suction Housing": "Cast Iron FG 200",
+          "Diffuser": "Cast Iron FG 200",
+          "Guide vanes": "Noryl, GF30%",
+          "Impeller": "LTB-2 / SS 410",
+          "Pump Shaft": "SS 420",
+          "Sleeve": "SS 410",
+          "NRV Body": "Cast Iron FG 200",
+          "Locking Strip": "SS 304",
+          "Guide Bushes": "LTB4",
+          "Delivery Flange": "Cast Iron FG 200",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Body": "SS 304",
+          "Housings": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420 (Hardened)",
+          "Thrust Bearing": "Carbon, SS 410",
+          "Bearing Bush": "LTB4",
+          "Seal": "Oil Seal, Nitrile Rubber"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; single-phase 220V and for three-phase 440V; voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 12 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6CC-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-6CC-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-6CC.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-6CC-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/6cc-series/"
+      ]
+    },
+    {
+      "name": "EKKI VOK Series",
+      "series": "VOK Series",
+      "category": "Domestic",
+      "type": "Vertical openwell submersible (domestic)",
+      "power_range": "1–2 HP",
+      "head_range": "up to 133 m",
+      "flow_range": "up to 4.2 m³/h (≈70 LPM)",
+      "borewell_size": "Open well / sump",
+      "phase": "Single",
+      "highlights": [
+        "Full SS motor body with copper rotor",
+        "High head (up to 133 m)",
+        "Radial and mixed-flow impellers",
+        "Easy to dismantle, rewind and install"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic building services"
+      ],
+      "price_from": "₹ 16,800",
+      "price_to": "₹ 19,200",
+      "price_source_url": "https://www.thundathiltraders.com/shop/vertical-openwell-submersible/",
+      "image_file": "images/products/ekki/vok-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vok-series/",
+      "models": [
+        {
+          "model": "V1V2007MP5500744VNNR003010",
+          "hp": "1",
+          "kw": "0.75",
+          "phase": "Single",
+          "head_m": "38–83",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "V1V2011MP5501144VNNR003014",
+          "hp": "1.5",
+          "kw": "1.1",
+          "phase": "Single",
+          "head_m": "53–116",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        },
+        {
+          "model": "V1V2015MP5501544VNNR003016",
+          "hp": "2",
+          "kw": "1.5",
+          "phase": "Single",
+          "head_m": "60–133",
+          "flow_lpm": "20–70",
+          "outlet": "40 mm"
+        }
+      ],
+      "description": "Vertical Open-well Submersible domestic series pumps with radial and mixed flow impellers gives excellent performance with higher degree of reliability. The improved precise design ensures longer life span with minimum efforts for maintenance.",
+      "features": [
+        "Full SS Motor body with Copper Rotor",
+        "High discharge and high head",
+        "Easy to dismantle, Rewind and install",
+        "Available in Single & Three Phase",
+        "Available with installation accessories",
+        "Domestic Building Services"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +33°C",
+        "max_operating_pressure": "max. 16 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOK-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOK-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOK-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vok-series/"
+      ]
+    },
+    {
+      "name": "EKKI VOSVR Series",
+      "series": "VOSVR Series",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (small, value range)",
+      "power_range": "3–7.5 HP",
+      "head_range": "up to 118 m",
+      "flow_range": "up to 54 m³/h (≈900 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Totally hardened SS shaft",
+        "Finned body for heat dissipation",
+        "Dual casing in radial flow for different duties",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/vosvr-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vosvr-series/",
+      "models": [
+        {
+          "model": "3DTVR/2",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 2,
+          "phase": "Single",
+          "head_m": "18–37",
+          "flow_lpm": "200–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "3DTVR/2",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "10–40",
+          "flow_lpm": "200–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "5DTVR/2",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 2,
+          "phase": "Single",
+          "head_m": "19–40.5",
+          "flow_lpm": "200–700",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "5DTVR/2",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "21–40.5",
+          "flow_lpm": "200–700",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "5DEVR/3",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 3,
+          "phase": "Single",
+          "head_m": "23–52",
+          "flow_lpm": "100–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "5DQVR/4",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "19–64",
+          "flow_lpm": "100–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "5DXVR/6",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "54–110",
+          "flow_lpm": "75–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DTVR/2",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "18–44",
+          "flow_lpm": "200–900",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "7DEVR/3",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "34–66",
+          "flow_lpm": "200–700",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "7DQMVR/4",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "55–96",
+          "flow_lpm": "75–300",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DXVR/6",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "72–112",
+          "flow_lpm": "75–250",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DSMVR/7",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 7,
+          "phase": "Three",
+          "head_m": "46–131",
+          "flow_lpm": "75–300",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Vertical Open-well Submersible small series Value range pumps with radial and mixed flow impellers gives excellent performance with higher degree of reliability. The improved precise design ensures longer life span with minimum efforts for maintenance.",
+      "features": [
+        "Easy to dismantle, Rewind and install",
+        "Total Hardened SS Shaft",
+        "Fins body for better heat dissipation",
+        "Dual casing available for in radial flow for different duty conditions",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Available with Bronze & SS Impeller",
+        "Available for Single & Three phase power systems",
+        "Suitable Winding designs for low and high voltage operations"
+      ],
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 15 bar"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOSVR-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOSVR-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOSVR-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vosvr-series/"
+      ]
+    },
+    {
+      "name": "EKKI VOS Series",
+      "series": "VOS Series",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (small)",
+      "power_range": "3–7.5 HP",
+      "head_range": "up to 165 m",
+      "flow_range": "up to 120 m³/h (≈2,000 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Both",
+      "highlights": [
+        "Totally hardened SS shaft",
+        "Finned body for heat dissipation",
+        "Dual casing for different duty conditions",
+        "High discharge and head"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/vos-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vos-series-2/",
+      "models": [
+        {
+          "model": "3DO/1",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "10–29",
+          "flow_lpm": "200–900",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "3DT/2",
+          "hp": "3",
+          "kw": "2.2",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "8–41",
+          "flow_lpm": "200–800",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "5DO/1",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "12–28",
+          "flow_lpm": "400–1000",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "5DT/2",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "18–47",
+          "flow_lpm": "300–800",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "5DE/3",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "29–62",
+          "flow_lpm": "100–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "5DX/6",
+          "hp": "5",
+          "kw": "3.7",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "29–125",
+          "flow_lpm": "75–275",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "6DVM/5",
+          "hp": "6",
+          "kw": "4.5",
+          "stages": 5,
+          "phase": "Three",
+          "head_m": "63–95",
+          "flow_lpm": "75–300",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DOK/1",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "12–29",
+          "flow_lpm": "800–1600",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "7DE/3",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "21–67",
+          "flow_lpm": "200–800",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "7DQ/4",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "40–80",
+          "flow_lpm": "200–600",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DXM/6",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "56–136",
+          "flow_lpm": "75–275",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "7DIM/9",
+          "hp": "7.5",
+          "kw": "5.5",
+          "stages": 9,
+          "phase": "Three",
+          "head_m": "44–188",
+          "flow_lpm": "75–275",
+          "outlet": "50 mm"
+        }
+      ],
+      "description": "Submersible vertical sump small series pumps with radial and mixed flow impellers gives excellent performance with higher degree of reliability. The improved precise design ensures longer life span with minimum efforts for maintenance.",
+      "features": [
+        "Easy to dismantle, Rewind and install",
+        "Total Hardened SS Shaft",
+        "Fins body for better heat dissipation",
+        "Dual casing available for different duty conditions",
+        "High discharge and head",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Single phase available for particular model",
+        "Available with Bronze & SS Impeller"
+      ],
+      "materials": {
+        "pump": {
+          "Diffuser": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200, Gun Metal, SS 304",
+          "Sleeve": "SS 410",
+          "NRV": "Cast Iron FG 200",
+          "Flange": "SG 400/12, MS",
+          "Tie-Rod": "SS 410",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "SS 304 + MS",
+          "Lower": "Cast Iron FG 200",
+          "Upper": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 21 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOS-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOS-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-VOS.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOS-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vos-series-2/"
+      ]
+    },
+    {
+      "name": "EKKI VOM Series",
+      "series": "VOM Series",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (medium)",
+      "power_range": "10–20 HP",
+      "head_range": "up to 304 m",
+      "flow_range": "up to 192 m³/h (≈3,200 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Pumps water over long distances",
+        "Finned body for better heat dissipation",
+        "Special windings for low and high voltage",
+        "Sturdy body for reduced vibration"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/vom-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vom-series/",
+      "models": [
+        {
+          "model": "10DAM/1",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "6–26",
+          "flow_lpm": "1600–3200",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "10DX/6",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "64–122",
+          "flow_lpm": "250–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "10DLM/11",
+          "hp": "10",
+          "kw": "7.5",
+          "stages": 11,
+          "phase": "Three",
+          "head_m": "53–229",
+          "flow_lpm": "75–275",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "12DE/3",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "32–76",
+          "flow_lpm": "200–1000",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "12DXM/6",
+          "hp": "12.5",
+          "kw": "9.3",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "70–142",
+          "flow_lpm": "100–400",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "15DAM/1",
+          "hp": "15",
+          "kw": "11",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "10–24",
+          "flow_lpm": "2000–4400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "15DE/3",
+          "hp": "15",
+          "kw": "11",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "19–78",
+          "flow_lpm": "400–1200",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "15DX/6",
+          "hp": "15",
+          "kw": "11",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "88–140",
+          "flow_lpm": "250–600",
+          "outlet": "65 mm"
+        },
+        {
+          "model": "20DAM/1",
+          "hp": "20",
+          "kw": "15",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "10–31",
+          "flow_lpm": "1600–3600",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "20DQ/4",
+          "hp": "20",
+          "kw": "15",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "42–105",
+          "flow_lpm": "400–1200",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "20DG/8",
+          "hp": "20",
+          "kw": "15",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "118–186",
+          "flow_lpm": "200–500",
+          "outlet": "50 mm"
+        },
+        {
+          "model": "20DG2/16",
+          "hp": "20",
+          "kw": "15",
+          "stages": 16,
+          "phase": "Three",
+          "head_m": "108–276",
+          "flow_lpm": "100–600",
+          "outlet": "75 mm"
+        }
+      ],
+      "description": "Submersible vertical sump medium series pumps with radial and mixed flow impellers made with higher tolerance level gives superior performance with higher degree of reliability even in robust operating conditions. Three decades of experience combined with the improved diffuser design ensures good discharge properties.",
+      "features": [
+        "Can pump water through long distances",
+        "Total Hardened SS Shaft for specific model",
+        "Easy to dismantle, Rewind and install",
+        "Fins body for better heat dissipation",
+        "Suitable Winding designs for low and high voltage operations",
+        "Sturdy body for reduced vibration",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Special Winding designs for low and high voltage operations"
+      ],
+      "materials": {
+        "pump": {
+          "Diffuser": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200, Gun Metal, SS 304",
+          "Sleeve": "SS 410",
+          "NRV": "Cast Iron FG 200",
+          "Flange": "SG 400/12,",
+          "Tie-Rod": "SS 410",
+          "Strainer": "SS 202"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "Cast Iron FG 200",
+          "Lower": "Cast Iron FG 200",
+          "Upper": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 38 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOM-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOM-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-VOM.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOM-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vom-series/"
+      ]
+    },
+    {
+      "name": "EKKI VOML Series",
+      "series": "VOML Series",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (medium-large)",
+      "power_range": "25–45 HP",
+      "head_range": "up to 250 m",
+      "flow_range": "up to 330 m³/h (≈5,500 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Elegant SS body, motor and pump coupled together",
+        "SS and bronze impellers on selected models",
+        "Near-zero maintenance (brand claim)",
+        "99.9% EC-grade copper rotor"
+      ],
+      "applications": [
+        "Agriculture",
+        "Commercial building services",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/voml-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/voml-series/",
+      "models": [
+        {
+          "model": "25DAM/1",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "12–35",
+          "flow_lpm": "1600–4400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "25DQ/4",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "46–83",
+          "flow_lpm": "700–1800",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "25DN/10",
+          "hp": "25",
+          "kw": "18.5",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "64–220",
+          "flow_lpm": "300–700",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "30DE/3",
+          "hp": "30",
+          "kw": "22",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "27–73",
+          "flow_lpm": "1000–2200",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "30DG/8",
+          "hp": "30",
+          "kw": "22",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "68–206",
+          "flow_lpm": "300–1000",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "35DT/2",
+          "hp": "35",
+          "kw": "26",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "24–56",
+          "flow_lpm": "2200–3400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "35DX/6",
+          "hp": "35",
+          "kw": "26",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "64–142",
+          "flow_lpm": "800–1400",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "40DAM/1",
+          "hp": "40",
+          "kw": "30",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "18–41",
+          "flow_lpm": "3000–5500",
+          "outlet": "200 mm"
+        },
+        {
+          "model": "40DX/6",
+          "hp": "40",
+          "kw": "30",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "78–140",
+          "flow_lpm": "800–1600",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "40DN/10",
+          "hp": "40",
+          "kw": "30",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "93.3–236.7",
+          "flow_lpm": "300–1000",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "45DQ/4",
+          "hp": "45",
+          "kw": "33",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "61–105",
+          "flow_lpm": "1200–2200",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "45DN/10",
+          "hp": "45",
+          "kw": "33",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "135–268",
+          "flow_lpm": "200–800",
+          "outlet": "75 mm"
+        }
+      ],
+      "description": "Submersible vertical sump medium-large series pumps with radial and mixed flow impellers gives splendid performance with almost zero maintenance. The life span of the pump set is comparatively higher than its competitors with superior discharge properties.",
+      "features": [
+        "Elegantly constructed SS body",
+        "Can pump water through long distances",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Motor and pump coupled together",
+        "Special grade casting materials",
+        "SS & Bronze impeller for selective models",
+        "Easy to dismantle, Rewind and install",
+        "Total Hardened SS Shaft"
+      ],
+      "materials": {
+        "pump": {
+          "Diffuser": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200, Gun Metal, SS 304",
+          "Sleeve": "SS 410",
+          "Flange": "SG 400/12, MS",
+          "Tie-Rod": "SS 410",
+          "Strainer": "SS 202",
+          "Intermediate piece": "Cast Iron FG 200"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "SS 304 + MS",
+          "Lower": "Cast Iron FG 200",
+          "Upper": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 31 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOML-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOML-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-VOML.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOML-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/voml-series/"
+      ]
+    },
+    {
+      "name": "EKKI VOL Series",
+      "series": "VOL Series",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (large)",
+      "power_range": "50–90 HP",
+      "head_range": "up to 230 m",
+      "flow_range": "up to 540 m³/h (≈9,000 LPM)",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "High discharge up to 540 m³/h",
+        "Totally hardened SS shaft",
+        "Special-grade castings",
+        "Fast discharge variants from low to high"
+      ],
+      "applications": [
+        "Agriculture",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/vol-series.jpg",
+      "source_url": "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vol-series/",
+      "models": [
+        {
+          "model": "50DAM/1",
+          "hp": "50",
+          "kw": "37",
+          "stages": 1,
+          "phase": "Three",
+          "head_m": "20–41",
+          "flow_lpm": "3000–7000",
+          "outlet": "200 mm"
+        },
+        {
+          "model": "50DE/3",
+          "hp": "50",
+          "kw": "37",
+          "stages": 3,
+          "phase": "Three",
+          "head_m": "40–72",
+          "flow_lpm": "2000–3400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "50DX/6",
+          "hp": "50",
+          "kw": "37",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "76–149",
+          "flow_lpm": "1000–2200",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "50DN/10",
+          "hp": "50",
+          "kw": "37",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "125–254",
+          "flow_lpm": "500–1000",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "60DT/2",
+          "hp": "60",
+          "kw": "45",
+          "stages": 2,
+          "phase": "Three",
+          "head_m": "26–78",
+          "flow_lpm": "3000–5000",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "60DQ/4",
+          "hp": "60",
+          "kw": "45",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "36–93",
+          "flow_lpm": "2000–4400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "60DX/6",
+          "hp": "60",
+          "kw": "45",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "54–147",
+          "flow_lpm": "1000–2200",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "60DN/10",
+          "hp": "60",
+          "kw": "45",
+          "stages": 10,
+          "phase": "Three",
+          "head_m": "135–262",
+          "flow_lpm": "700–1200",
+          "outlet": "75 mm"
+        },
+        {
+          "model": "75DQ/4",
+          "hp": "75",
+          "kw": "55",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "44–105",
+          "flow_lpm": "2000–4400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "75DG/8",
+          "hp": "75",
+          "kw": "55",
+          "stages": 8,
+          "phase": "Three",
+          "head_m": "68–178",
+          "flow_lpm": "1000–2200",
+          "outlet": "100 mm"
+        },
+        {
+          "model": "80DQ/4",
+          "hp": "80",
+          "kw": "60",
+          "stages": 4,
+          "phase": "Three",
+          "head_m": "48–115",
+          "flow_lpm": "2000–4400",
+          "outlet": "150 mm"
+        },
+        {
+          "model": "90DX/6",
+          "hp": "90",
+          "kw": "66",
+          "stages": 6,
+          "phase": "Three",
+          "head_m": "96–140",
+          "flow_lpm": "2000–3200",
+          "outlet": "150 mm"
+        }
+      ],
+      "description": "Submersible vertical sump large series pumps with radial and mixed flow impellers materials gives high discharge properties. The life span of the pump set is comparatively higher than its competitors with higher durability.",
+      "features": [
+        "High discharge and high head",
+        "Total Hardened SS Shaft",
+        "Can pump water through long distances",
+        "Fast discharge variant from low to high",
+        "Special grade casting materials",
+        "Rotor made of 99.9 % EC grade Copper",
+        "Easy to dismantle, Rewind and install",
+        "Available with Bronze & SS Impeller"
+      ],
+      "materials": {
+        "pump": {
+          "Diffuser": "Cast Iron FG 200",
+          "Impeller": "Cast Iron FG 200, Gun Metal, SS 304",
+          "Sleeve": "SS 410",
+          "Flange": "SG 400/12, MS",
+          "Tie-Rod": "SS 410",
+          "Strainer": "SS 202",
+          "Intermediate piece": "Cast Iron FG 200"
+        },
+        "motor": {
+          "Base": "Cast Iron FG 200",
+          "Body": "MS",
+          "Lower": "Cast Iron FG 200",
+          "Upper": "Cast Iron FG 200",
+          "Rotor shaft": "SS 420",
+          "Thrust bearing": "Carbon + SS 410",
+          "Seal": "Natural Rubber",
+          "Bearing bush": "LTB4"
+        }
+      },
+      "motor": "Water-filled rewindable 2-pole induction motor, 50 Hz, 2900 rpm; three-phase 415V (50Hz); voltage tolerance +6% / -15%; insulation Class B",
+      "operating_limits": {
+        "liquid_temperature": "max. +50°C",
+        "max_operating_pressure": "max. 29 bar",
+        "total_solids": "max. 3000 ppm",
+        "silica_scale": "max. 50 ppm",
+        "duty": "Continuous"
+      },
+      "datasheet_url": "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOL-Series.pdf",
+      "sources": [
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Performance-Chart-VOL-Series.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Technical-Literature-VOL.pdf",
+        "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOL-Series.pdf",
+        "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vol-series/"
+      ]
+    }
+  ]
 }

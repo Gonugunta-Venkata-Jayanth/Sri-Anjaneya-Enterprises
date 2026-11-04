@@ -1,664 +1,1260 @@
 {
- "brand": "C.R.I. Pumps",
- "website": "https://www.crigroups.com",
- "country": "India",
- "founded": "1961",
- "tagline": "Commitment. Reliability. Innovation. – Pumping Trust, Worldwide",
- "products": [
-  {
-   "name": "C.R.I. 80 mm Borewell Submersible – Lena Series",
-   "series": "Lena (80 mm)",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\", water-filled)",
-   "power_range": "1–1.5 HP (0.75–1.1 kW)",
-   "head_range": "up to 155 m",
-   "flow_range": "up to 1.5 lps (90 LPM)",
-   "borewell_size": "80 mm (3\")",
-   "phase": "Single",
-   "highlights": [
-    "SS304 motor shell resists corrosion",
-    "Specially designed thrust bearing",
-    "Hard-wearing water-lubricated bearing",
-    "Thread-type motor for easy service",
-    "Wide voltage operation"
-   ],
-   "applications": [
-    "Domestic",
-    "Gardens",
-    "Irrigation",
-    "Farms"
-   ],
-   "price_from": "₹ 18,949",
-   "price_to": "₹ 28,708",
-   "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/cri/lena-80-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-lena-series/"
-  },
-  {
-   "name": "C.R.I. 80 mm Borewell Submersible – Zuno Lite Series",
-   "series": "Zuno Lite (80 mm)",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\", water-filled)",
-   "power_range": "1–1.5 HP (0.75–1.1 kW)",
-   "head_range": "up to 70 m",
-   "flow_range": "up to 1.5 lps (90 LPM)",
-   "borewell_size": "80 mm (3\")",
-   "phase": "Single",
-   "highlights": [
-    "SS304 motor shell",
-    "Thermoplastic hydraulics with SS431 shaft",
-    "Built-in check valve",
-    "Intermediate bearing in higher-stage pumps",
-    "Wide voltage operation"
-   ],
-   "applications": [
-    "Domestic",
-    "Gardens",
-    "Irrigation",
-    "Farms"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/zuno-lite-80-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-zuno-lite-series/"
-  },
-  {
-   "name": "C.R.I. 85 mm Borewell Submersible – Lena Series",
-   "series": "Lena (85 mm)",
-   "category": "Domestic",
-   "type": "Borewell submersible (3.5\", water-filled)",
-   "power_range": "1–2 HP (0.75–1.5 kW)",
-   "head_range": "up to 214 m",
-   "flow_range": "up to 0.9 lps (54 LPM)",
-   "borewell_size": "85 mm (3.5\")",
-   "phase": "Single",
-   "highlights": [
-    "SS304 motor shell",
-    "Specially designed thrust bearing",
-    "Water-lubricated bearings",
-    "Thread-type motor construction",
-    "Wide voltage operation"
-   ],
-   "applications": [
-    "Domestic",
-    "Gardens",
-    "Irrigation",
-    "Farms"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/lena-85-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/85mm-borewell-submersible-pumps-lenaseries/"
-  },
-  {
-   "name": "C.R.I. 100 mm Borewell Submersible – Zuno Series",
-   "series": "Zuno (100 mm)",
-   "category": "Domestic",
-   "type": "Borewell submersible (4\", pre-filled liquid motor)",
-   "power_range": "0.5–3 HP (0.37–2.2 kW)",
-   "head_range": "up to 220 m",
-   "flow_range": "up to 7 lps (420 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "SS304 motor shell",
-    "Angular-contact thrust bearing",
-    "Non-toxic pre-filled liquid motor for low-voltage performance",
-    "Easy stator removal for service",
-    "Built-in check valve"
-   ],
-   "applications": [
-    "Domestic & municipal water supply",
-    "Rural water supply",
-    "Sprinkler systems",
-    "Pressure boosting"
-   ],
-   "price_from": "₹ 17,897",
-   "price_to": "₹ 27,207",
-   "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/cri/zuno-100-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-zuno-series/"
-  },
-  {
-   "name": "C.R.I. 100 mm Borewell Submersible – Genie Series",
-   "series": "Genie (100 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", water-filled)",
-   "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
-   "head_range": "up to 568 m",
-   "flow_range": "up to 7 lps (420 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "SS304 motor shell",
-    "Thrust bearing for high axial loads",
-    "Hard-wearing water-lubricated bearings",
-    "Thread-type motor for rigidity & service",
-    "Built-in check valve"
-   ],
-   "applications": [
-    "Domestic & municipal water supply",
-    "Rural water supply",
-    "Sprinkler systems",
-    "Fire fighting",
-    "Fountains"
-   ],
-   "price_from": "₹ 14,649",
-   "price_to": "₹ 79,619",
-   "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/cri/genie-100-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-genie-series/"
-  },
-  {
-   "name": "C.R.I. 100 mm Stainless Steel Borewell Submersible – Steelix Series",
-   "series": "Steelix (100 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", stainless steel)",
-   "power_range": "0.5–10 HP (0.37–7.5 kW)",
-   "head_range": "up to 535 m",
-   "flow_range": "up to 5 lps (300 LPM)",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "SS304/SS316 pump and motor shell",
-    "Best for saline water & industrial use",
-    "Intermediate bearing on higher-stage pumps",
-    "High operating efficiency",
-    "Hygienic for drinking water"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Food processing",
-    "Fountains",
-    "Fire fighting",
-    "Desalination plants"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/steelix-100-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/"
-  },
-  {
-   "name": "C.R.I. 150 mm Stainless Steel Borewell Submersible – Steelix Series",
-   "series": "Steelix (150 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", stainless steel)",
-   "power_range": "3–35 HP (2.2–26 kW)",
-   "head_range": "up to 566 m",
-   "flow_range": "up to 22.22 lps (~1,333 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Both",
-   "highlights": [
-    "SS304/SS316 pump and motor shell",
-    "Best for saline water & industrial use",
-    "Intermediate bearing on higher-stage pumps",
-    "High operating efficiency",
-    "Hygienic for drinking water"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Food processing",
-    "Fire fighting",
-    "Desalination plants",
-    "Sprinkler systems"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/steelix-150-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/"
-  },
-  {
-   "name": "C.R.I. 125/100 mm Borewell Submersible – Nile+ Series",
-   "series": "Nile+ (125/100 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\" motor / 4\" pump)",
-   "power_range": "3–10 HP (2.2–7.5 kW)",
-   "head_range": "up to 650 m",
-   "flow_range": "up to 4.5 lps (270 LPM)",
-   "borewell_size": "150 mm (6\") undersize borewells",
-   "phase": "Both",
-   "highlights": [
-    "T-bolt motor design for rigidity",
-    "Deep-drawn pump for perfect alignment",
-    "Thermoplastic hydraulics, SS410/431 shaft",
-    "Thrust bearings for high axial loads",
-    "Wide voltage operation"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Sprinkler & drip irrigation",
-    "Domestic water supply",
-    "Civil & industrial water supply",
-    "Rural water supply"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/nile-125-100-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/125-100mm-borewell-submersible-pumps-nile-series/"
-  },
-  {
-   "name": "C.R.I. 125/100 mm Stainless Steel Borewell Submersible – Nile+ SS Series",
-   "series": "Nile+ SS (125/100 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\" motor / 4\" SS pump)",
-   "power_range": "3–10 HP (2.2–7.5 kW)",
-   "head_range": "up to 535 m",
-   "flow_range": "up to 5 lps (300 LPM)",
-   "borewell_size": "150 mm (6\") undersize borewells",
-   "phase": "Both",
-   "highlights": [
-    "SS304 pump parts for long life",
-    "T-bolt motor design",
-    "Smooth finish for friction-free flow",
-    "Thrust bearings for high axial loads",
-    "Wide voltage operation"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Sprinkler & drip irrigation",
-    "Domestic water supply",
-    "Civil & industrial water supply",
-    "Rural water supply"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/nile-ss-125-100-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/125-100mm-stainless-steel-nile-series-ss/"
-  },
-  {
-   "name": "C.R.I. 125 mm Borewell Submersible – Nile Series",
-   "series": "Nile (125 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\", cast iron)",
-   "power_range": "4–10 HP (2.9–7.5 kW)",
-   "head_range": "up to 60 m",
-   "flow_range": "up to 13 lps (780 LPM)",
-   "borewell_size": "125 mm (5\") / 150 mm undersize",
-   "phase": "Three",
-   "highlights": [
-    "T-bolt motor design",
-    "Anti-corrosive SS410 cast impellers",
-    "Optimised high-flow hydraulics",
-    "Copper rotor motor",
-    "Thrust bearing for high axial loads"
-   ],
-   "applications": [
-    "Irrigation",
-    "Drip & sprinkler",
-    "Civil & industrial water supply",
-    "Farms & gardens",
-    "Rural water supply"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/nile-125-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/125mm-borewell-submersible-pumps-nile-series/"
-  },
-  {
-   "name": "C.R.I. 150 mm Borewell Submersible – Delma Series",
-   "series": "Delma (150 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", water-filled)",
-   "power_range": "2–35 HP (1.5–26 kW)",
-   "head_range": "up to 516 m",
-   "flow_range": "up to 22 lps (1,320 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Both",
-   "highlights": [
-    "SS304 stage casings & impellers (radial flow)",
-    "SS410 / bronze impellers in mixed-flow models",
-    "T-bolt motor design",
-    "Wide voltage operation",
-    "Horizontal-application models available"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Sprinkler & drip irrigation",
-    "Domestic water supply",
-    "Civil & industrial water supply",
-    "Rural water supply",
-    "Fire fighting"
-   ],
-   "price_from": "₹ 41,545",
-   "price_to": "₹ 90,845",
-   "price_source_url": "https://indusuno.com/pumps/borewell-submersible-pumps.html",
-   "image_file": "images/products/cri/delma-150-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-delma-series/"
-  },
-  {
-   "name": "C.R.I. 150 mm Borewell Submersible – Binda 6D+ Series",
-   "series": "Binda 6D+ (150 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", high-head)",
-   "power_range": "3–25 HP (2.2–22 kW)",
-   "head_range": "up to 500 m",
-   "flow_range": "up to 20 lps (1,200 LPM)",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Double working capacity vs conventional sets",
-    "SS304 stage casing & SS410 impellers",
-    "Lifts from depth with fewer stages",
-    "Carbon-Teflon pads for up-thrust",
-    "Enlarged housing for better motor cooling"
-   ],
-   "applications": [
-    "Agriculture & irrigation",
-    "Sprinkler & drip irrigation",
-    "Domestic water supply",
-    "Civil & industrial water supply",
-    "Rural water supply"
-   ],
-   "price_from": "₹ 29,265",
-   "price_to": "₹ 93,501",
-   "price_source_url": "https://indusuno.com/pumps/borewell-submersible-pumps.html",
-   "image_file": "images/products/cri/binda-6d-150-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-binda-6d-series/"
-  },
-  {
-   "name": "C.R.I. 150/175, 150/200 & 200/250 mm Borewell Submersible – Congo Series",
-   "series": "Congo",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\"–10\", mixed flow)",
-   "power_range": "6–100 HP (4.5–75 kW)",
-   "head_range": "up to 162 m",
-   "flow_range": "up to 60 lps (3,600 LPM)",
-   "borewell_size": "175 mm / 200 mm / 250 mm (7\"–10\")",
-   "phase": "Three",
-   "highlights": [
-    "High-discharge design",
-    "SS410 impellers with hard-chrome SS sleeves",
-    "SS420 + graphite-carbon thrust bearing",
-    "SS304 motor shell",
-    "Designed for wide voltage fluctuations"
-   ],
-   "applications": [
-    "Agriculture",
-    "Irrigation",
-    "Fountains & ponds",
-    "Civil & industrial water supply",
-    "Fire fighting"
-   ],
-   "price_from": "₹ 42,654",
-   "price_to": "₹ 76,435",
-   "price_source_url": "https://www.indiamart.com/proddetail/cri-submersible-borewell-150mm-175mm-150mm-200mm-200mm-250mm-congo-series-2851706268948.html",
-   "image_file": "images/products/cri/congo.jpg",
-   "source_url": "https://www.crigroups.com/pumps/150mm-175mm-150mm-200mm-200mm-250mm-congo-series/"
-  },
-  {
-   "name": "C.R.I. 200 mm Borewell Submersible – Bhima Series",
-   "series": "Bhima (200 mm)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\", water-filled)",
-   "power_range": "10–75 HP (7.5–55 kW)",
-   "head_range": "up to 397 m",
-   "flow_range": "up to 53.33 lps (3,200 LPM)",
-   "borewell_size": "200 mm (8\")",
-   "phase": "Three",
-   "highlights": [
-    "SS410 impellers with hard-chrome sleeves",
-    "SS420 + graphite-carbon thrust bearing",
-    "Dynamically balanced rotating parts",
-    "Best suited to sprinkler applications",
-    "Fully-SS and horizontal models available"
-   ],
-   "applications": [
-    "Agriculture",
-    "Irrigation",
-    "Rural water supply",
-    "Fire fighting",
-    "Pressure boosting"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/bhima-200-mm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/200mm-borewell-submersible-pumps-bhima-series/"
-  },
-  {
-   "name": "C.R.I. Horizontal Openwell Submersible – Plano Series",
-   "series": "Plano",
-   "category": "Domestic",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "0.5–2 HP (0.37–1.5 kW)",
-   "head_range": "up to 45 m",
-   "flow_range": "up to 8.5 lps (510 LPM)",
-   "borewell_size": "Openwell / sump",
-   "phase": "Single",
-   "highlights": [
-    "Stainless-steel motor body",
-    "Rigid construction, long durability",
-    "Pressure-equalising rubber diaphragm",
-    "Sand guard & oil-seal motor sealing",
-    "High operating efficiency"
-   ],
-   "applications": [
-    "Domestic",
-    "Gardens",
-    "Multi-storey buildings",
-    "Irrigation",
-    "Rural water supply"
-   ],
-   "price_from": "₹ 9,797",
-   "price_to": "₹ 11,799",
-   "price_source_url": "https://www.industrybuying.com/openwell-submersible-pump-cri-FAM189482",
-   "image_file": "images/products/cri/plano.jpg",
-   "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumpsets-plano-series/"
-  },
-  {
-   "name": "C.R.I. Horizontal Openwell Submersible – CSS / CSS-J / Selfy Series",
-   "series": "CSS / CSS-J / Selfy",
-   "category": "Domestic",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "0.5–3 HP (0.37–2.2 kW)",
-   "head_range": "up to 56.5 m",
-   "flow_range": "up to 17 lps (1,020 LPM)",
-   "borewell_size": "Openwell / sump",
-   "phase": "Both",
-   "highlights": [
-    "SS304 motor body",
-    "Choice of SS304, CI or Noryl impellers",
-    "Higher-cooling motor design",
-    "Easy to dismantle and repair",
-    "3 m or 10 m cable options"
-   ],
-   "applications": [
-    "Domestic",
-    "Irrigation",
-    "Gardens",
-    "Rural water supply",
-    "Multi-storey buildings"
-   ],
-   "price_from": "₹ 19,649",
-   "price_to": "₹ 25,965",
-   "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/cri/css-css-j-selfy.jpg",
-   "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-css-css-j-selfy-series/"
-  },
-  {
-   "name": "C.R.I. Horizontal Openwell Submersible – CSM Series",
-   "series": "CSM",
-   "category": "Agriculture",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "3–20 HP (2.2–15 kW)",
-   "head_range": "up to 80 m",
-   "flow_range": "up to 54 lps (3,240 LPM)",
-   "borewell_size": "Openwell",
-   "phase": "Three",
-   "highlights": [
-    "Higher-cooling motor for longer life",
-    "Hard-wearing lubricated journal bearings",
-    "Dynamically balanced rotating parts",
-    "Rigid cast-iron body",
-    "Designed for wide voltage fluctuations"
-   ],
-   "applications": [
-    "Agriculture",
-    "Irrigation",
-    "Domestic",
-    "Industrial",
-    "Rural water supply"
-   ],
-   "price_from": "₹ 37,759",
-   "price_to": "₹ 46,019",
-   "price_source_url": "https://www.industrybuying.com/brands/cri-784/pumps-1160/openwell-submersible-pump-1176",
-   "image_file": "images/products/cri/csm.jpg",
-   "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-csm-series/"
-  },
-  {
-   "name": "C.R.I. Horizontal Openwell Submersible – Ryker Series",
-   "series": "Ryker (Horizontal)",
-   "category": "Agriculture",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "3–10 HP (2.2–7.5 kW)",
-   "head_range": "13–47 m",
-   "flow_range": "not listed on brand site",
-   "borewell_size": "Openwell",
-   "phase": "Three",
-   "highlights": [
-    "Strongly built with enhanced stability",
-    "CED coat for rust prevention",
-    "Portable design for easy installation",
-    "Friction-free carbon journal bearings",
-    "SS420 + graphite-carbon thrust assembly"
-   ],
-   "applications": [
-    "Agriculture",
-    "Irrigation",
-    "Domestic",
-    "Gardens",
-    "Rural water supply"
-   ],
-   "price_from": "₹ 25,959",
-   "price_to": "₹ 30,679",
-   "price_source_url": "https://www.industrybuying.com/brands/cri-784/pumps-1160/openwell-submersible-pump-1176",
-   "image_file": "images/products/cri/ryker-horizontal.jpg",
-   "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-ryker-series/"
-  },
-  {
-   "name": "C.R.I. Vertical Openwell Submersible – CV Series",
-   "series": "CV",
-   "category": "Agriculture",
-   "type": "Openwell submersible (vertical multistage)",
-   "power_range": "3–50 HP (2.2–37 kW)",
-   "head_range": "up to 341 m",
-   "flow_range": "up to 54 lps (3,240 LPM)",
-   "borewell_size": "Openwell",
-   "phase": "Three",
-   "highlights": [
-    "No suction or priming problems",
-    "Noiseless operation, no pump house needed",
-    "Higher-cooling motor for long life",
-    "Easily dismantled and repaired",
-    "High operating efficiency"
-   ],
-   "applications": [
-    "Agriculture",
-    "Irrigation",
-    "Domestic",
-    "Industrial",
-    "Rural water supply"
-   ],
-   "price_from": "₹ 34,038",
-   "price_to": "₹ 44,053",
-   "price_source_url": "https://kumaranco.com/product-category/agri-pumps/cri-vertical-open-well-pumps",
-   "image_file": "images/products/cri/cv.jpg",
-   "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-cv-series/"
-  },
-  {
-   "name": "C.R.I. Vertical Openwell Submersible – Ryker Series",
-   "series": "Ryker (Vertical)",
-   "category": "Agriculture",
-   "type": "Openwell submersible (vertical)",
-   "power_range": "3–20 HP (2.2–15 kW)",
-   "head_range": "up to 153 m",
-   "flow_range": "up to 16 lps (960 LPM)",
-   "borewell_size": "Openwell",
-   "phase": "Three",
-   "highlights": [
-    "Rigid construction, long durability",
-    "Wide voltage operation",
-    "DOL or star-delta starting",
-    "S1 continuous duty",
-    "High operating efficiency"
-   ],
-   "applications": [
-    "Agriculture",
-    "Sprinkler & drip irrigation",
-    "Rural water supply",
-    "Industries"
-   ],
-   "price_from": "₹ 29,499",
-   "price_to": "₹ 34,077",
-   "price_source_url": "https://www.industrybuying.com/openwell-submersible-pump-cri-FAM189495",
-   "image_file": "images/products/cri/ryker-vertical.jpg",
-   "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ryker-series/"
-  },
-  {
-   "name": "C.R.I. Vertical Openwell Submersible – LTK Series",
-   "series": "LTK",
-   "category": "Domestic",
-   "type": "Openwell submersible (vertical)",
-   "power_range": "1–1.5 HP (0.75–1.1 kW)",
-   "head_range": "up to 89 m",
-   "flow_range": "up to 1.6 lps (96 LPM)",
-   "borewell_size": "Openwell / sump",
-   "phase": "Single",
-   "highlights": [
-    "Higher-cooling motor design",
-    "Noiseless operation",
-    "Easy to dismantle and repair",
-    "Noryl impellers, SS casing",
-    "High operating efficiency"
-   ],
-   "applications": [
-    "Domestic",
-    "Multi-storey buildings",
-    "Gardens",
-    "Rural water supply",
-    "Irrigation"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/ltk.jpg",
-   "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ltk-series/"
-  },
-  {
-   "name": "C.R.I. Solar Submersible Pumping System (AC & DC)",
-   "series": "CRI Solar Pumping System",
-   "category": "Agriculture",
-   "type": "Solar submersible (AC & DC)",
-   "power_range": "1–10 HP (MNRE range; brand cites 1–20 HP overall)",
-   "head_range": "not listed on brand site",
-   "flow_range": "not listed on brand site",
-   "borewell_size": "100 mm (4\") and above (inferred)",
-   "phase": "AC & DC (solar)",
-   "highlights": [
-    "MNRE-empanelled; PM-KUSUM approved models",
-    "Stainless-steel pumpset for long life",
-    "Dry-run protection; optional remote monitoring (RMS)",
-    "Solar + grid power-sharing provision",
-    "40,000+ solar pumpsets supplied (brand claim)"
-   ],
-   "applications": [
-    "Agricultural irrigation & sprinklers",
-    "Farm & municipal water supply",
-    "Rural water supply",
-    "Cattle feeding"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/cri/cri-solar-pumping-system.jpg",
-   "source_url": "https://www.crigroups.com/solar-pump/"
-  }
- ]
+  "brand": "C.R.I. Pumps",
+  "website": "https://www.crigroups.com",
+  "country": "India",
+  "founded": "1961",
+  "tagline": "Commitment. Reliability. Innovation. – Pumping Trust, Worldwide",
+  "products": [
+    {
+      "name": "C.R.I. 80 mm Borewell Submersible – Lena Series",
+      "series": "Lena (80 mm)",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\", water-filled)",
+      "power_range": "1–1.5 HP (0.75–1.1 kW)",
+      "head_range": "up to 155 m",
+      "flow_range": "up to 1.5 lps (90 LPM)",
+      "borewell_size": "80 mm (3\")",
+      "phase": "Single",
+      "highlights": [
+        "SS304 motor shell resists corrosion",
+        "Specially designed thrust bearing",
+        "Hard-wearing water-lubricated bearing",
+        "Thread-type motor for easy service",
+        "Wide voltage operation"
+      ],
+      "applications": [
+        "Domestic",
+        "Gardens",
+        "Irrigation",
+        "Farms"
+      ],
+      "price_from": "₹ 18,949",
+      "price_to": "₹ 28,708",
+      "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/cri/lena-80-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-lena-series/",
+      "description": "C.R.I. LENA 80 mm Borewell Submersible pump is firmly coupled to a submersible electric motor which operates submerged beneath the surface of water. All vital components of these pumps are made up of corrosive resistance thermo plastic & SS 304. The optimal design of impeller and diffuser enables the best possible hydraulic efficiency. C.R.I. products are engineered to perfection with utmost care and stringent quality control at all stages to ensure a trouble free service.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/06/80mm-Lena.pdf",
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless Steel (SS304) shell",
+        "High operating efficiency",
+        "Specially designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures service feasibility",
+        "Designed for wide voltage operation"
+      ],
+      "operating_limits": {
+        "power": "0.75 kW – 1.1 kW (1 HP-1.5 HP)",
+        "voltage": "Single-phase, 220V, 50Hz, AC supply",
+        "max_head": "155 Metre",
+        "max_flow": "1.5 lps (5.40 m3 /h)"
+      },
+      "materials": {
+        "Impeller": "Noryl",
+        "Diffuser Chamber": "Noryl",
+        "Pump Shaft": "SS 304",
+        "Motor Base": "Cast Iron",
+        "Shaft": "SS-304/431/410"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-lena-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/06/80mm-Lena.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 80 mm Borewell Submersible – Zuno Lite Series",
+      "series": "Zuno Lite (80 mm)",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\", water-filled)",
+      "power_range": "1–1.5 HP (0.75–1.1 kW)",
+      "head_range": "up to 70 m",
+      "flow_range": "up to 1.5 lps (90 LPM)",
+      "borewell_size": "80 mm (3\")",
+      "phase": "Single",
+      "highlights": [
+        "SS304 motor shell",
+        "Thermoplastic hydraulics with SS431 shaft",
+        "Built-in check valve",
+        "Intermediate bearing in higher-stage pumps",
+        "Wide voltage operation"
+      ],
+      "applications": [
+        "Domestic",
+        "Gardens",
+        "Irrigation",
+        "Farms"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/zuno-lite-80-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-zuno-lite-series/",
+      "description": "C.R.I. ZUNO Lite 80 mm Borewell submersible motors are pre-filled with non-toxic liquid for best performance in low voltage and high efficiency. The pump is firmly coupled to a submersible electric motor which operates submerged beneath the surface of water. The optimal design of impeller and diffuser enables the best possible hydraulic efficiency. Built-in check valve prevents back flow and reduces the risk of water hammering. All vital components of these pumps are made up of corrosive resistance thermoplastic and the shaft is of SS 431.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 80mm Zuno Lite.pdf",
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless Steel (SS 304) shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Designed for wide voltage operation",
+        "Additional intermediate bearing in higher stage pumps"
+      ],
+      "operating_limits": {
+        "power": "0.75kW - 1.1kW (1.0HP - 1.5HP)",
+        "voltage": "Single-Phase, 220V, 50Hz, AC Supply",
+        "max_head": "70 Metre",
+        "max_flow": "1.5 lps (5.40 m 3/h)"
+      },
+      "materials": {
+        "Impeller": "Noryl",
+        "Diffuser Chamber": "Noryl",
+        "Pump Shaft": "SS 304",
+        "Shaft": "SS 431",
+        "Motor Base": "Cast Iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/80mm-borewell-submersible-pumps-zuno-lite-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 80mm Zuno Lite.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 85 mm Borewell Submersible – Lena Series",
+      "series": "Lena (85 mm)",
+      "category": "Domestic",
+      "type": "Borewell submersible (3.5\", water-filled)",
+      "power_range": "1–2 HP (0.75–1.5 kW)",
+      "head_range": "up to 214 m",
+      "flow_range": "up to 0.9 lps (54 LPM)",
+      "borewell_size": "85 mm (3.5\")",
+      "phase": "Single",
+      "highlights": [
+        "SS304 motor shell",
+        "Specially designed thrust bearing",
+        "Water-lubricated bearings",
+        "Thread-type motor construction",
+        "Wide voltage operation"
+      ],
+      "applications": [
+        "Domestic",
+        "Gardens",
+        "Irrigation",
+        "Farms"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/lena-85-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/85mm-borewell-submersible-pumps-lenaseries/",
+      "description": "C.R.I. LENA+ 85mm Borewell Submersible pump is firmly coupled to a submersible electric motor which operates submerged beneath the surface of water.The optimal design of impeller and diffuser enables the best possible hydraulic efficiency. C.R.I. products are engineered to perfection with utmost case and stringent quality control at tall stages to ensure a trouble free service. All vital components fo these pumps are made up of corrosive resistance thermo plastic & SS304.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/06/85mm-Lena-.pdf",
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless steel (SS304) shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Specially designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures service feasibility",
+        "Designed for wide voltage operation"
+      ],
+      "operating_limits": {
+        "power": "0.75 kW – 1.5 kW (1HP-2 HP)",
+        "voltage": "Single-phase, 220V, 50Hz, AC supply",
+        "max_head": "214 Metre",
+        "max_flow": "0.9 lps (3.4 m3 /h)"
+      },
+      "materials": {
+        "Impeller": "Noryl",
+        "Diffuser Chamber": "Noryl",
+        "Pump Shaft": "SS-304/ 431/ 410",
+        "Motor Base": "Cast Iron",
+        "Shaft": "SS 431"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/85mm-borewell-submersible-pumps-lenaseries/",
+        "https://www.crigroups.com/wp-content/uploads/2021/06/85mm-Lena-.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 100 mm Borewell Submersible – Zuno Series",
+      "series": "Zuno (100 mm)",
+      "category": "Domestic",
+      "type": "Borewell submersible (4\", pre-filled liquid motor)",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 220 m",
+      "flow_range": "up to 7 lps (420 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "SS304 motor shell",
+        "Angular-contact thrust bearing",
+        "Non-toxic pre-filled liquid motor for low-voltage performance",
+        "Easy stator removal for service",
+        "Built-in check valve"
+      ],
+      "applications": [
+        "Domestic & municipal water supply",
+        "Rural water supply",
+        "Sprinkler systems",
+        "Pressure boosting"
+      ],
+      "price_from": "₹ 17,897",
+      "price_to": "₹ 27,207",
+      "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/cri/zuno-100-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-zuno-series/",
+      "description": "C.R.I. Zuno 100 mm Borewell submersible motors are pre-filled with non-toxic liquid for best performance in low voltage and high efficiency. The pump is firmly coupled to a submersible electric motor which operates submerged beneath the surface of water. The optimal design of impeller and diffuser enables the best possible hydraulic efficiency. Built-in check valve prevents back flow and reduces the risk of water hammering.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 100mm Zuno.pdf",
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless steel (SS 304) shell",
+        "More durable and hygiene",
+        "High operating efficiency",
+        "Specially designed angular contact bearing to withstand high axial thrust load",
+        "Easy removal of stator ensures service feasibility",
+        "Designed for wide voltage operation",
+        "Non-toxic pre filled liquid motor ensures low voltage performance"
+      ],
+      "operating_limits": {
+        "power": "0.37 kW - 2.2 kW (0.5 HP - 3 HP)",
+        "voltage": "Single phase 230 V; Three phase 415V, 50Hz, AC Supply",
+        "max_head": "220 metre",
+        "max_flow": "7 lps (25.2 m³/h)"
+      },
+      "materials": {
+        "Impeller": "Noryl",
+        "Diffuser Chamber": "Noryl",
+        "Pump Shaft": "SS 304",
+        "Shaft": "SS 431",
+        "Motor Base": "Cast Iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-zuno-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 100mm Zuno.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 100 mm Borewell Submersible – Genie Series",
+      "series": "Genie (100 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", water-filled)",
+      "power_range": "0.5–7.5 HP (0.37–5.5 kW)",
+      "head_range": "up to 568 m",
+      "flow_range": "up to 7 lps (420 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "SS304 motor shell",
+        "Thrust bearing for high axial loads",
+        "Hard-wearing water-lubricated bearings",
+        "Thread-type motor for rigidity & service",
+        "Built-in check valve"
+      ],
+      "applications": [
+        "Domestic & municipal water supply",
+        "Rural water supply",
+        "Sprinkler systems",
+        "Fire fighting",
+        "Fountains"
+      ],
+      "price_from": "₹ 14,649",
+      "price_to": "₹ 79,619",
+      "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/cri/genie-100-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-genie-series/",
+      "description": "C.R.I. Genie 100 mm Borewell submersible pump is firmly coupled to a submersible electric motor which operates submerged beneath the surface of water. The optimal design of impeller and diffuser enables the best possible hydraulic efficiency. Built-in check valve prevents back flow and reduces the risk of water hammering. All vital components of these pumps are made up of corrosive resistance thermoplastic and with stainless steel shaft.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/07/Borewell Submersible - 100mm Genie.pdf",
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless steel (SS 304) shell",
+        "More durability & hygiene",
+        "High operating efficiency",
+        "Specially designed thrustbearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures rigidity & service feasibility"
+      ],
+      "operating_limits": {
+        "power": "0.37 kW - 5.5 kW (0.5 HP - 7.5 HP)",
+        "voltage": "Single Phase 220V, Three Phase 380 - 400V, 50Hz, AC Supply",
+        "max_head": "568 Metre",
+        "max_flow": "7 lps (25.20 m³/h)"
+      },
+      "materials": {
+        "Shaft": "SS - 410 / 431",
+        "Motor Base": "Cast Iron",
+        "Impeller": "Noryl / Delrin",
+        "Diffuser Chamber": "SS 304 / Cast Iron / Noryl",
+        "Pump Shaft": "SS -304/ 410/SS 431"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-genie-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/07/Borewell Submersible - 100mm Genie.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 100 mm Stainless Steel Borewell Submersible – Steelix Series",
+      "series": "Steelix (100 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", stainless steel)",
+      "power_range": "0.5–10 HP (0.37–7.5 kW)",
+      "head_range": "up to 535 m",
+      "flow_range": "up to 5 lps (300 LPM)",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "SS304/SS316 pump and motor shell",
+        "Best for saline water & industrial use",
+        "Intermediate bearing on higher-stage pumps",
+        "High operating efficiency",
+        "Hygienic for drinking water"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Food processing",
+        "Fountains",
+        "Fire fighting",
+        "Desalination plants"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/steelix-100-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/",
+      "description": "C.R.I. Stainless Steel – Steelix Series 100mm & 150mm Borewell Submersible pumps are made of corrosion resistance stainless steel with built in check valve. All vital components of these pump models are made of high quality 304/316 grade stainless steel and the shaft is of SS 304/329/431. The Optimal design of impellers and diffusers enables the best possible hydraulic efficiency.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 150mm Steelix 6 SS.pdf",
+      "features": [
+        "Pump components are made up of corrosive resistant SS 304/SS 316",
+        "Motor portion covered with corrosive resistance stainless steel SS 304/SS 316 shell",
+        "Best suitable for saline water and industrial applications",
+        "High operating efficiency",
+        "More longevity & hygiene",
+        "Additional intermediate bearing on higher stage pump to ensure the deflection free rotation of pump."
+      ],
+      "operating_limits": {
+        "power": "2.2 kW – 26 kW (3 HP - 35 HP)",
+        "voltage": "Single Phase 200-240V; Three Phase 380-415V; 50Hz, AC Supply",
+        "max_head": "566 metre",
+        "max_flow": "22.22 lps (80 m³/hr)"
+      },
+      "materials": {
+        "Diffuser Chamber": "Cast Iron",
+        "Impeller": "SS 304",
+        "Pump Shaft": "SS 431/SS 304",
+        "Motor Base": "Cast Iron",
+        "Shaft": "SS 410/431 with EN-9"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 150mm Steelix 6 SS.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 150 mm Stainless Steel Borewell Submersible – Steelix Series",
+      "series": "Steelix (150 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", stainless steel)",
+      "power_range": "3–35 HP (2.2–26 kW)",
+      "head_range": "up to 566 m",
+      "flow_range": "up to 22.22 lps (~1,333 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Both",
+      "highlights": [
+        "SS304/SS316 pump and motor shell",
+        "Best for saline water & industrial use",
+        "Intermediate bearing on higher-stage pumps",
+        "High operating efficiency",
+        "Hygienic for drinking water"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Food processing",
+        "Fire fighting",
+        "Desalination plants",
+        "Sprinkler systems"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/steelix-150-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/",
+      "description": "C.R.I. Stainless Steel – Steelix Series 100mm & 150mm Borewell Submersible pumps are made of corrosion resistance stainless steel with built in check valve. All vital components of these pump models are made of high quality 304/316 grade stainless steel and the shaft is of SS 304/329/431. The Optimal design of impellers and diffusers enables the best possible hydraulic efficiency.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 150mm Steelix 6 SS.pdf",
+      "features": [
+        "Pump components are made up of corrosive resistant SS 304/SS 316",
+        "Motor portion covered with corrosive resistance stainless steel SS 304/SS 316 shell",
+        "Best suitable for saline water and industrial applications",
+        "High operating efficiency",
+        "More longevity & hygiene",
+        "Additional intermediate bearing on higher stage pump to ensure the deflection free rotation of pump."
+      ],
+      "operating_limits": {
+        "power": "2.2 kW – 26 kW (3 HP - 35 HP)",
+        "voltage": "Single Phase 200-240V; Three Phase 380-415V; 50Hz, AC Supply",
+        "max_head": "566 metre",
+        "max_flow": "22.22 lps (80 m³/hr)"
+      },
+      "materials": {
+        "Diffuser Chamber": "Cast Iron",
+        "Impeller": "SS 304",
+        "Pump Shaft": "SS 431/SS 304",
+        "Motor Base": "Cast Iron",
+        "Shaft": "SS 410/431 with EN-9"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/100mm-borewell-submersible-pumps-steelix-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Borewell Submersible Pumps - 150mm Steelix 6 SS.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 125/100 mm Borewell Submersible – Nile+ Series",
+      "series": "Nile+ (125/100 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\" motor / 4\" pump)",
+      "power_range": "3–10 HP (2.2–7.5 kW)",
+      "head_range": "up to 650 m",
+      "flow_range": "up to 4.5 lps (270 LPM)",
+      "borewell_size": "150 mm (6\") undersize borewells",
+      "phase": "Both",
+      "highlights": [
+        "T-bolt motor design for rigidity",
+        "Deep-drawn pump for perfect alignment",
+        "Thermoplastic hydraulics, SS410/431 shaft",
+        "Thrust bearings for high axial loads",
+        "Wide voltage operation"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Sprinkler & drip irrigation",
+        "Domestic water supply",
+        "Civil & industrial water supply",
+        "Rural water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/nile-125-100-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/125-100mm-borewell-submersible-pumps-nile-series/",
+      "description": "C.R.I. Nile+ 125mm/100mm Borewell submersible pump is ﬁrmly coupled to a submersible electric motor which operates submerged beneath the surface of water.The optimal design of the impeller and diffuser enables the best possible hydraulic efﬁciency. Built-in check valve prevents back ﬂow and reduces the risk of water hammering. All vital components of these pumps are made up of corrosive resistance thermoplastic and the shaft is of SS 410/431.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125_100mm.pdf",
+      "features": [
+        "T – Bolt design in all motor ensures rigid construction",
+        "Specially designed deep drawn type pump ensures perfect alignment and thereby increases the life of the pump set",
+        "High operating efficiency and more durability",
+        "Specially designed thrust bearings to withstand high axial thrust loads",
+        "Designed for Wide Voltage operation",
+        "Best suitable for 150mm under size borewell"
+      ],
+      "operating_limits": {
+        "variant": "125mm NILE+",
+        "power": "2.2kW to 7.5kW (3 HP to 10 HP)",
+        "voltage": "Single phase 220-240V; Three Phase 380-415V; 50Hz, AC Supply",
+        "max_head": "650 Metre",
+        "max_flow": "4.5 lps (16.2 m3/h)"
+      },
+      "materials": {
+        "Pump Shaft": "SS304",
+        "Impeller": "Noryl / SS 304",
+        "Stage Casing": "SS304",
+        "Upper & Lower Housing": "Cast iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/125-100mm-borewell-submersible-pumps-nile-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125_100mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 125/100 mm Stainless Steel Borewell Submersible – Nile+ SS Series",
+      "series": "Nile+ SS (125/100 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\" motor / 4\" SS pump)",
+      "power_range": "3–10 HP (2.2–7.5 kW)",
+      "head_range": "up to 535 m",
+      "flow_range": "up to 5 lps (300 LPM)",
+      "borewell_size": "150 mm (6\") undersize borewells",
+      "phase": "Both",
+      "highlights": [
+        "SS304 pump parts for long life",
+        "T-bolt motor design",
+        "Smooth finish for friction-free flow",
+        "Thrust bearings for high axial loads",
+        "Wide voltage operation"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Sprinkler & drip irrigation",
+        "Domestic water supply",
+        "Civil & industrial water supply",
+        "Rural water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/nile-ss-125-100-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/125-100mm-stainless-steel-nile-series-ss/",
+      "description": "C.R.I. Nile+ Series 125/100mm fully stainless steel Borewell submersible pumps are made of high quality SS 304/431 grade corrosion resistance stainless steel. The Optimal design of impellers and diffusers enables the best possible hydraulic efficiency. These pumps are of multistage centrifugal type, which is powered by water filled, rewindable submersible motor suitable for continuous duty. Motor Stator is made up of low watt loss Silicon Steel Laminations and wound with high grade copper windings wires for ensuring high efficiency of the Motor.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125_100mm-SS.pdf",
+      "features": [
+        "T – Bolt design in all motor ensures rigid construction",
+        "Corrosion resistant stainless steel 304 grade pump parts ensures longer life",
+        "Smooth surface finish results friction free flow of fluids",
+        "High operating efficiency ensures more power savings",
+        "Specially designed thrust bearings to withstand high axial thrust loads",
+        "Designed for Wide voltage operation",
+        "Best suitable for 150mm under size borewell."
+      ],
+      "operating_limits": {
+        "variant": "125mm NILE+",
+        "power": "2.2kW- 7.5kW (3 HP to 10 HP)",
+        "voltage": "Single phase 220 - 240V; Three phase 380 - 415V; 50HZ AC Supply",
+        "max_head": "535 Metre",
+        "max_flow": "5 lps (18 m3/h)"
+      },
+      "materials": {
+        "Pump Shaft": "SS304",
+        "Impeller": "Noryl / SS 304",
+        "Stage Casing": "SS304",
+        "Upper & Lower Housing": "Cast Iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/125-100mm-stainless-steel-nile-series-ss/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125_100mm-SS.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 125 mm Borewell Submersible – Nile Series",
+      "series": "Nile (125 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\", cast iron)",
+      "power_range": "4–10 HP (2.9–7.5 kW)",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 13 lps (780 LPM)",
+      "borewell_size": "125 mm (5\") / 150 mm undersize",
+      "phase": "Three",
+      "highlights": [
+        "T-bolt motor design",
+        "Anti-corrosive SS410 cast impellers",
+        "Optimised high-flow hydraulics",
+        "Copper rotor motor",
+        "Thrust bearing for high axial loads"
+      ],
+      "applications": [
+        "Irrigation",
+        "Drip & sprinkler",
+        "Civil & industrial water supply",
+        "Farms & gardens",
+        "Rural water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/nile-125-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/125mm-borewell-submersible-pumps-nile-series/",
+      "description": "C.R.I. Nile 125mm Bore well submersible pump sets are powered by water filled, rewindable submersible motor suitable for continuous duty. The optimal design of the impeller and diffuser enables the best possible hydraulic efﬁciency. Built-in check valve prevents back ﬂow and reduces the risk of water hammering.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125mm.pdf",
+      "features": [
+        "T – Bolt design in all motor ensures rigid construction",
+        "Anti corrosive SS410 casted impellers ensures longer life of pump sets",
+        "Optimized hydraulic design for efficient performance",
+        "Specially designed thrust bearing to withstand high axial thrust loads",
+        "Best suitable for 150 mm undersize borewell applications"
+      ],
+      "operating_limits": {
+        "variant": "125mm NILE",
+        "power": "2.9kW to 7.5kW (4 HP to 10 HP)",
+        "voltage": "Three phase 380-415V; 50HZ AC Supply",
+        "max_head": "60 metre",
+        "max_flow": "13 lps (45 m3/h)"
+      },
+      "materials": {
+        "Pump Shaft": "SS 410",
+        "Casing": "Cast Iron",
+        "Impeller": "SS 410",
+        "Coupling": "SS 410",
+        "Rotor": "Copper Rotor"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/125mm-borewell-submersible-pumps-nile-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Nile-Series-125mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 150 mm Borewell Submersible – Delma Series",
+      "series": "Delma (150 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", water-filled)",
+      "power_range": "2–35 HP (1.5–26 kW)",
+      "head_range": "up to 516 m",
+      "flow_range": "up to 22 lps (1,320 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Both",
+      "highlights": [
+        "SS304 stage casings & impellers (radial flow)",
+        "SS410 / bronze impellers in mixed-flow models",
+        "T-bolt motor design",
+        "Wide voltage operation",
+        "Horizontal-application models available"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Sprinkler & drip irrigation",
+        "Domestic water supply",
+        "Civil & industrial water supply",
+        "Rural water supply",
+        "Fire fighting"
+      ],
+      "price_from": "₹ 41,545",
+      "price_to": "₹ 90,845",
+      "price_source_url": "https://indusuno.com/pumps/borewell-submersible-pumps.html",
+      "image_file": "images/products/cri/delma-150-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-delma-series/",
+      "description": "CRI 150 mm Borewell Submersible Pumpsets are powered by water filled, rewindable submersible motor suitable for continuous duty. The stator is wound with special water proof synthetic film insulated copper winding wires and made up of low watt loss silicon steel laminations assembled under pressure and rigidly locked in stainless steel stator shell. T-Bolt design in all motor ensures rigid construction. Optimal design of impellers and diffusers offers best possible hydraulic efficiency. Built-in check valve prevents back flow and reduces the risk of water hammering.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Delma-Series-150mm.pdf",
+      "features": [
+        "Optimized hydraulic design for efficient performance",
+        "Specially designed thrust bearing to withstand high axial load",
+        "T-Bolt design motor ensures rigid construction",
+        "Smooth surface finish results friction free flow of fluid",
+        "Designed for wide voltage applications",
+        "SS 304 grade stainless steel stage casings and impellers in radial flow series",
+        "SS 410 impeller/ bronze impeller available in mixed flow series",
+        "Horizontal application model available"
+      ],
+      "operating_limits": {
+        "power": "1.5kW - 26kW (2HP - 35HP)",
+        "voltage": "Single Phase 200 - 240V, Three Phase 380 - 415V, 50 Hz, A.C. Supply",
+        "max_head": "516 metre",
+        "max_flow": "22 lps ( 79.2 m3 /h )"
+      },
+      "materials": {
+        "Casing": "Cast Iron",
+        "Impeller": "SS 304 & SS 410",
+        "Pump Shaft": "SS 410 / 431",
+        "Upper and Lower Casing": "Cast Iron",
+        "Shaft": "SS 410 with EN-9 with 304"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-delma-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Delma-Series-150mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 150 mm Borewell Submersible – Binda 6D+ Series",
+      "series": "Binda 6D+ (150 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", high-head)",
+      "power_range": "3–25 HP (2.2–22 kW)",
+      "head_range": "up to 500 m",
+      "flow_range": "up to 20 lps (1,200 LPM)",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Double working capacity vs conventional sets",
+        "SS304 stage casing & SS410 impellers",
+        "Lifts from depth with fewer stages",
+        "Carbon-Teflon pads for up-thrust",
+        "Enlarged housing for better motor cooling"
+      ],
+      "applications": [
+        "Agriculture & irrigation",
+        "Sprinkler & drip irrigation",
+        "Domestic water supply",
+        "Civil & industrial water supply",
+        "Rural water supply"
+      ],
+      "price_from": "₹ 29,265",
+      "price_to": "₹ 93,501",
+      "price_source_url": "https://indusuno.com/pumps/borewell-submersible-pumps.html",
+      "image_file": "images/products/cri/binda-6d-150-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-binda-6d-series/",
+      "description": "Motor: C.R.I. 150 mm Borewell submersible pump sets are powered by water filled, rewindable submersible motor which is suitable for continuous duty. The stator is wound with special waterproof synthetic film insulated copper winding wires and made up of low watt loss silicon steel laminations assembled under pressure and rigidly locked in stainless steel stator shell. T-Bolt design in all motors ensures rigid construction. C.R.l.’s new double depth BINDA 6D+ 150 mm Borewell submersible pumps are specially designed for conditions where the ground water level is too deep. This series guarantees long life with energy-efficient performance. The built in check valve prevents back flow, and reduces the risk of water hammer.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Binda-6D-Series-150mm.pdf",
+      "features": [
+        "Double working capacity compared to other pump sets",
+        "Corrosion resistant SS 304 stage casing SS 410 impeller increases the life of pump",
+        "Helps to lift water from higher depth with reduced number of stages.",
+        "Carbon Teflon pads are used to withstand the up thrust load.",
+        "Specially designed Thrust Bearings to withstand high axial thrust loads",
+        "High operating efficiency and consistent performance ensures low operation cost",
+        "Motor is designed with higher cooling effect by increasing the housing areas."
+      ],
+      "operating_limits": {
+        "power": "2.2 kW - 22 kW (3 HP - 25 HP)",
+        "voltage": "3Ph - 380 - 415V, AC Supply",
+        "max_head": "500 Metre",
+        "max_flow": "20 lps (72 m3/hr)"
+      },
+      "materials": {
+        "Suction Housing": "Cast Iron with SS 410 Top Plate",
+        "Impeller": "SS 410",
+        "Pump Shaft": "SS - 410",
+        "Motor Base": "Cast iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/150mm-submersible-150mm-stainless-steel-binda-6d-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Binda-6D-Series-150mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 150/175, 150/200 & 200/250 mm Borewell Submersible – Congo Series",
+      "series": "Congo",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\"–10\", mixed flow)",
+      "power_range": "6–100 HP (4.5–75 kW)",
+      "head_range": "up to 162 m",
+      "flow_range": "up to 60 lps (3,600 LPM)",
+      "borewell_size": "175 mm / 200 mm / 250 mm (7\"–10\")",
+      "phase": "Three",
+      "highlights": [
+        "High-discharge design",
+        "SS410 impellers with hard-chrome SS sleeves",
+        "SS420 + graphite-carbon thrust bearing",
+        "SS304 motor shell",
+        "Designed for wide voltage fluctuations"
+      ],
+      "applications": [
+        "Agriculture",
+        "Irrigation",
+        "Fountains & ponds",
+        "Civil & industrial water supply",
+        "Fire fighting"
+      ],
+      "price_from": "₹ 42,654",
+      "price_to": "₹ 76,435",
+      "price_source_url": "https://www.indiamart.com/proddetail/cri-submersible-borewell-150mm-175mm-150mm-200mm-200mm-250mm-congo-series-2851706268948.html",
+      "image_file": "images/products/cri/congo.jpg",
+      "source_url": "https://www.crigroups.com/pumps/150mm-175mm-150mm-200mm-200mm-250mm-congo-series/",
+      "description": "C.R.I. Bore well Submersible pumpsets are powered by water filled, rewindable synthetic submersible motor suitable for continuous duty.The stator is wound with special water proof synthetic film insulated copper winding wires and made up of low watt loss silicon steel laminations assembled under pressure and rigidly locked in stainless steel stator shell. T-Bolt design in all motor ensures rigid construction. Optimal design of impellers and diffusers offers best possible hydraulic efficiency. Built-in check valve prevents back flow and reduces the risk of water hammering. This 175mm & 200mm submersible pumpsets are supplied with 150mm motor combination and for 250mm submersible pumpsets supplied with 200mm motor combination only.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Congo-Series-150-_175mm-_-150_200mm-_-200_250mm.pdf",
+      "features": [
+        "High operating efficiency",
+        "Dynamically balanced rotating parts ensures minimum vibration and longer life",
+        "Extremely tough & hard wearing lubricated journal bearings are used",
+        "Designed for wide voltage fluctuations",
+        "Better efficiency and consistent performance",
+        "Motor portion covered with corrosive resistance stainless steel (SS 304) shell",
+        "Specially designed high performance thrust bearing(SS 420 with Graphite Carbon) to withstand high axial thrust load",
+        "SS 410 impellers and hard chrome SS sleeves are used to increase the life of the pump"
+      ],
+      "operating_limits": {
+        "by_variant": [
+          {
+            "variant": "150mm / 175mm",
+            "power": "4.5 kW - 15 kW (6HP - 20HP)",
+            "voltage": "Three phase 380 - 415V, 50Hz AC Supply",
+            "max_head": "101 metre",
+            "max_flow": "31 lps (111.6 m3/h)"
+          },
+          {
+            "variant": "150mm / 200mmm",
+            "power": "5.5 kW - 18.5 kW (7.5HP - 25HP)",
+            "voltage": "Three phase 380 - 415V, 50Hz AC Supply",
+            "max_head": "88 metre",
+            "max_flow": "33.33 lps (120 m³/h)"
+          },
+          {
+            "variant": "200mm / 250mm",
+            "power": "30 kW - 75 kW (40HP - 100HP)",
+            "voltage": "Three phase 380 - 415V, 50Hz AC Supply",
+            "max_head": "162 metre",
+            "max_flow": "60 lps (216 m³/h)"
+          }
+        ]
+      },
+      "materials": {
+        "Pump Shaft": "SS 410/ SS 431",
+        "Impeller": "LTB 2 & SS 410",
+        "Diffuser Chamber": "Cast Iron",
+        "Upper and Lower Housing": "Cast iron",
+        "Shaft": "EN 8 with SS-410/431 sleeve at bush guide",
+        "Check Valve Seat": "Nitrile Butyl Rubber / SG iron",
+        "Coupling": "SS 410/SS 431"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/150mm-175mm-150mm-200mm-200mm-250mm-congo-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Congo-Series-150-_175mm-_-150_200mm-_-200_250mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. 200 mm Borewell Submersible – Bhima Series",
+      "series": "Bhima (200 mm)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\", water-filled)",
+      "power_range": "10–75 HP (7.5–55 kW)",
+      "head_range": "up to 397 m",
+      "flow_range": "up to 53.33 lps (3,200 LPM)",
+      "borewell_size": "200 mm (8\")",
+      "phase": "Three",
+      "highlights": [
+        "SS410 impellers with hard-chrome sleeves",
+        "SS420 + graphite-carbon thrust bearing",
+        "Dynamically balanced rotating parts",
+        "Best suited to sprinkler applications",
+        "Fully-SS and horizontal models available"
+      ],
+      "applications": [
+        "Agriculture",
+        "Irrigation",
+        "Rural water supply",
+        "Fire fighting",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/bhima-200-mm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/200mm-borewell-submersible-pumps-bhima-series/",
+      "description": "Borewell Submersible Pumps are vertical, multistage, centrifugal pumps with a motor at the bottom and a pump on the top. They help in accessing the groundwater which is widely used in agriculture. C R I Borewell Pumpsets are the leaders in the water pump field and a wide range of Borewell submersible pumps are available for various agricultural activities. The primary feature and a significant advantage of borewell submersible pumps is their capability to be submerged in water instead of being held above the ground. Since the water pumps are already submerged they don’t need any priming. The water pressure itself moves the water into the pump instead of using energy to pump water. These borewell pumps can handle the fluctuation of voltage comparatively well and are capable of delivering water even at lower voltages. C.R.I. 200 mm Borewell Submersible Pumpsets are powered by a water-filled, rewindable submersible motor that is suitable for continuous operation. The stator is wound with special waterproof synthetic film insulated copper winding wires and made up of low watt loss silicon steel laminations assembled under pressure and rigidly locked in stainless steel stator shell. Pump components are specially designed for the best possible hydraulic efficiency.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Bhima-Series-200mm.pdf",
+      "features": [
+        "High operating efficiency",
+        "SS 410 impellers are hard chrome sleeves are used to increase the life of the pump",
+        "Extremely tough & hard wearing lubricated journal bearings are used",
+        "Dynamically balanced rotating parts ensures minimum vibration and longer life",
+        "Specially designed high performance thrust bearing (SS 420 with graphite carbon) to withstand high axial thrust load",
+        "Designed for wide voltage fluctuations",
+        "Best suitable for sprinkler applications",
+        "Fully SS Pumpsets & horizontal application models available"
+      ],
+      "operating_limits": {
+        "power": "7.5kW - 55kW (10 HP - 75 HP)",
+        "voltage": "Three-Phase 380 - 415 V, 50 Hz, AC Supply",
+        "max_head": "397 Metre",
+        "max_flow": "53.33lps (192 m3 / hr)"
+      },
+      "materials": {
+        "Diffuser Chamber": "Cast Iron",
+        "Impeller": "LTB - 2 & SS 410",
+        "Pump Shaft": "SS - 410 / SS - 431",
+        "Upper and Lower Housing": "Cast Iron",
+        "Shaft": "EN 8 with SS - 410/431 sleeve bush at guide"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/200mm-borewell-submersible-pumps-bhima-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Borewell-Submersible-Bhima-Series-200mm.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Horizontal Openwell Submersible – Plano Series",
+      "series": "Plano",
+      "category": "Domestic",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 45 m",
+      "flow_range": "up to 8.5 lps (510 LPM)",
+      "borewell_size": "Openwell / sump",
+      "phase": "Single",
+      "highlights": [
+        "Stainless-steel motor body",
+        "Rigid construction, long durability",
+        "Pressure-equalising rubber diaphragm",
+        "Sand guard & oil-seal motor sealing",
+        "High operating efficiency"
+      ],
+      "applications": [
+        "Domestic",
+        "Gardens",
+        "Multi-storey buildings",
+        "Irrigation",
+        "Rural water supply"
+      ],
+      "price_from": "₹ 9,797",
+      "price_to": "₹ 11,799",
+      "price_source_url": "https://www.industrybuying.com/openwell-submersible-pump-cri-FAM189482",
+      "image_file": "images/products/cri/plano.jpg",
+      "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumpsets-plano-series/",
+      "description": "C.R.I. Horizontal Openwell Submersible Pumpsets are ideally suitable for Openwell / Tanks where a wide fluctuation of water level occur. The pumpset works underwater and rest at the bottom of the well or Tank. Hence suction and priming problem will not arise. The optimal design of impellers and diffusers enables the best possible hydraulic efficiency. Motor sealing is made by polymers, ‘O’ rings, oil seals and sand guard to avoid ingress of well water/sand into the motor. Pressure equalizing rubber diaphragm is provided to guard the motor from pressure and volume variation of water inside the motor. Plano Series must be filled with clear, cold, drinking water as detailed in our operator’s manual.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2022/08/Horizontal-OWS-Plano-Flyer.pdf",
+      "features": [
+        "Rigid Construction",
+        "Long Durability",
+        "High Operating Efficiency",
+        "Stainless Steel Motor body"
+      ],
+      "operating_limits": {
+        "power": "0.37 kW - 1.5 kW (0.5HP - 2HP)",
+        "speed": "2880 RPM",
+        "voltage": "Single phase 220 - 240V, 50Hz, A.C. Supply",
+        "max_head": "Upto 45 metre",
+        "max_flow": "Upto 8.5 lps (30.6 m³/hr)",
+        "type_of_duty": "S1 (Continuous)"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumpsets-plano-series/",
+        "https://www.crigroups.com/wp-content/uploads/2022/08/Horizontal-OWS-Plano-Flyer.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Horizontal Openwell Submersible – CSS / CSS-J / Selfy Series",
+      "series": "CSS / CSS-J / Selfy",
+      "category": "Domestic",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 56.5 m",
+      "flow_range": "up to 17 lps (1,020 LPM)",
+      "borewell_size": "Openwell / sump",
+      "phase": "Both",
+      "highlights": [
+        "SS304 motor body",
+        "Choice of SS304, CI or Noryl impellers",
+        "Higher-cooling motor design",
+        "Easy to dismantle and repair",
+        "3 m or 10 m cable options"
+      ],
+      "applications": [
+        "Domestic",
+        "Irrigation",
+        "Gardens",
+        "Rural water supply",
+        "Multi-storey buildings"
+      ],
+      "price_from": "₹ 19,649",
+      "price_to": "₹ 25,965",
+      "price_source_url": "https://www.moglix.com/brands/cri/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/cri/css-css-j-selfy.jpg",
+      "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-css-css-j-selfy-series/",
+      "description": "C.R.I. Horizontal Openwell Submersible Pumpsets are ideally suitable for openwell / tanks where a wide fluctuation of water level occur. The pumpset works underwater and rest at the bottom of the well or tank. Hence suction and priming problem will not arise. Motor sealing is made by polymers, ‘O’ rings, oil seals and sand guard to avoid ingress of well water/sand into the motor. Pressure equalizing rubber diaphragm is provided to guard the motor from pressure and volume variation of water inside the motor.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2022/08/Horizontal-OWS-CSS-_-CSS-J-_-Selfy.pdf",
+      "features": [
+        "High operating efficiency",
+        "Motor is designed with higher cooling effect to ensure the life",
+        "Easy to dismantle and repair",
+        "Available in SS304, Cl and Noryl impellers",
+        "Available with 3 metre and 10 metre cable length"
+      ],
+      "operating_limits": {
+        "power": "0.37kW - 2.2kW( 0.5HP-3HP )",
+        "voltage": "Single phase 220 - 240V, Three phase 380 - 415V, 50Hz AC Supply",
+        "max_head": "Upto 56.5 Metre",
+        "max_flow": "Upto 17 lps (61.2 m3 /hr)"
+      },
+      "materials": {
+        "Impeller": "SS 304 / Noryl / Cast Iron",
+        "Bracket": "Cast Iron",
+        "Casing": "Cast Iron",
+        "Motor Shaft": "SS 410",
+        "Motor Body": "SS 304"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-css-css-j-selfy-series/",
+        "https://www.crigroups.com/wp-content/uploads/2022/08/Horizontal-OWS-CSS-_-CSS-J-_-Selfy.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Horizontal Openwell Submersible – CSM Series",
+      "series": "CSM",
+      "category": "Agriculture",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "3–20 HP (2.2–15 kW)",
+      "head_range": "up to 80 m",
+      "flow_range": "up to 54 lps (3,240 LPM)",
+      "borewell_size": "Openwell",
+      "phase": "Three",
+      "highlights": [
+        "Higher-cooling motor for longer life",
+        "Hard-wearing lubricated journal bearings",
+        "Dynamically balanced rotating parts",
+        "Rigid cast-iron body",
+        "Designed for wide voltage fluctuations"
+      ],
+      "applications": [
+        "Agriculture",
+        "Irrigation",
+        "Domestic",
+        "Industrial",
+        "Rural water supply"
+      ],
+      "price_from": "₹ 37,759",
+      "price_to": "₹ 46,019",
+      "price_source_url": "https://www.industrybuying.com/brands/cri-784/pumps-1160/openwell-submersible-pump-1176",
+      "image_file": "images/products/cri/csm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-csm-series/",
+      "description": "C.R.I‌ ‌Submersible‌ ‌pumps‌ ‌offer‌ ‌exceptional‌ ‌value‌ ‌and‌ ‌reliable‌ ‌performance.‌ ‌ As‌ ‌the‌ ‌name‌ ‌indicates,‌ ‌a‌ ‌submersible‌ ‌pump‌ ‌is‌ ‌designed‌ ‌to‌ ‌be‌ ‌submerged‌ ‌within‌ ‌the‌ ‌fluid‌ ‌being‌ ‌pumped.‌ ‌They‌ ‌are‌ ‌also‌ ‌known‌ ‌as‌ ‌Submersible‌ ‌water‌ ‌pumps‌ ‌or‌ ‌open‌ ‌well‌ ‌submersible‌ ‌pumps.‌ ‌They‌ ‌measure‌ ‌up‌ ‌against‌ ‌jet‌ ‌pumps‌ ‌as‌ ‌they‌ ‌are‌ ‌not‌ ‌subject‌ ‌to‌ ‌variations‌ ‌in‌ ‌elevation.‌ ‌They‌ ‌work‌ ‌underwater‌ ‌and‌ ‌rest‌ ‌at‌ ‌the‌ ‌bottom‌ ‌of‌ ‌the‌ ‌well.‌ ‌Submersible‌ ‌pumps‌ ‌use‌ ‌significantly‌ ‌less‌ ‌power,‌ ‌as‌ ‌the‌ ‌fluid‌ ‌they‌ ‌pump‌ ‌is‌ ‌pushed‌ ‌and‌ ‌not‌ ‌pulled.‌ ‌ The‌ ‌prime‌ ‌part‌ ‌of‌ ‌the‌ ‌pump,‌ ‌the‌ ‌motor‌ ‌is‌ ‌sealed‌ ‌with‌ ‌polymers,‌ ‌‘O’rings,‌ ‌oil‌ ‌seals,‌ ‌and‌ ‌sand‌ ‌to‌ ‌prevent‌ ‌ingress‌ ‌of‌ ‌well‌ ‌water‌ ‌or‌ ‌salt‌ ‌into‌ ‌the‌ ‌motor.‌ ‌This‌ ‌feature‌ ‌helps‌ ‌in‌ ‌extending‌ ‌the‌ ‌durability‌ ‌of‌ ‌the‌ ‌submersible‌ ‌pump.‌ ‌The‌ ‌motor‌ ‌is‌ ‌prefilled‌ ‌with‌ ‌a‌ ‌cooler‌ ‌which‌ ‌regulates‌ ‌the‌ ‌temperature‌ ‌of‌ ‌the‌ ‌pump.‌ ‌A‌ ‌rubber‌ ‌diaphragm‌ ‌acts‌ ‌as‌ ‌a‌ ‌pressure‌ ‌equalizer‌ ‌and‌ ‌guards‌ ‌the‌ ‌motor‌ ‌against‌ ‌pressure‌ ‌and‌ ‌volume‌ ‌variation.‌ ‌The‌ ‌three-phase‌ ‌motor‌ ‌gives‌ ‌additional‌ ‌protection‌ ‌to‌ ‌all‌ ‌the‌ ‌electrical‌ ‌components.‌ ‌ C.R.I‌ ‌Submersible‌ ‌pumps‌ ‌offer‌ ‌higher‌ ‌water‌ ‌pulling‌ ‌capacity,‌ function ‌at‌ ‌wide‌ ‌voltage‌ ‌fluctuations‌ ‌as‌ ‌well,‌ ‌and‌ ‌are‌ ‌easy‌ ‌to‌ ‌install‌ ‌and‌ ‌operate.‌ ‌",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/09/Openwell-Submersible-CSM-_-CV-CSM-J-Series.pdf",
+      "features": [
+        "High operating efficiency",
+        "Motor is designed with higher cooling effect ensures the longer life of the motor.",
+        "Extremely tough and hard wearing lubricated journal bearings are used",
+        "Dynamically balanced rotating parts ensure minimum vibration and longer life.",
+        "Specially designed Cast Iron body ensures rigid running of Pumpsets.",
+        "Designed for wide voltage fluctuations"
+      ],
+      "operating_limits": {
+        "power": "2.2 kW – 15 kW (3 HP - 20 HP)",
+        "voltage": "Three Phase 380-415V; 50Hz, AC Supply",
+        "max_head": "80 metre",
+        "max_flow": "54 lps (194 m³/hr)"
+      },
+      "materials": {
+        "Pump Casing": "Cast Iron",
+        "Impeller": "Cast Iron / SS 410 / Bronze",
+        "Bracket": "Cast Iron",
+        "Motor Shaft": "SS 410"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-csm-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/09/Openwell-Submersible-CSM-_-CV-CSM-J-Series.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Horizontal Openwell Submersible – Ryker Series",
+      "series": "Ryker (Horizontal)",
+      "category": "Agriculture",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "3–10 HP (2.2–7.5 kW)",
+      "head_range": "13–47 m",
+      "flow_range": "not listed on brand site",
+      "borewell_size": "Openwell",
+      "phase": "Three",
+      "highlights": [
+        "Strongly built with enhanced stability",
+        "CED coat for rust prevention",
+        "Portable design for easy installation",
+        "Friction-free carbon journal bearings",
+        "SS420 + graphite-carbon thrust assembly"
+      ],
+      "applications": [
+        "Agriculture",
+        "Irrigation",
+        "Domestic",
+        "Gardens",
+        "Rural water supply"
+      ],
+      "price_from": "₹ 25,959",
+      "price_to": "₹ 30,679",
+      "price_source_url": "https://www.industrybuying.com/brands/cri-784/pumps-1160/openwell-submersible-pump-1176",
+      "image_file": "images/products/cri/ryker-horizontal.jpg",
+      "source_url": "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-ryker-series/",
+      "description": "C.R.I. Openwell Submersible Pumpset – Ryker Series: Pumpsets are ideally suitable for open wells or tanks where a wide fluctuation of water level occur. This works under water and rest at the bottom of the well. Prime mover is rewindable, water-cooled motor. Specially designed water lubricated bearings are used to withstand the axial thrust loads with minimum wear and tear. The stator is wound the special waterproof synthetic film insulated copper winding wires and made up of low watt loss silicon steel lamination assembled under pressure and rigidly locker. Motor sealing is made by polymers, ‘O’ rings, oil seals and sand guard to avoid ingress of well water/salt into the motor. Pressure equalizing rubber diaphragm is provided to guard the motor from pressure and volume variation of water as detailed in our operator’s manual.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Horizontal Openwell Submersible - Ryker.pdf",
+      "features": [
+        "Strongly built with enhanced stability",
+        "Premium performance",
+        "CED coat used for rust prevention and longer life",
+        "Portable pump design for easy installation",
+        "Friction free journal bearing for smooth operation and low power consumption"
+      ],
+      "operating_limits": {
+        "power": "3HP to 10HP (2.2 kW to 7.5 kW)",
+        "head_range": "13 Mtrs to 47 Mtrs",
+        "voltage": "380-440Volts, Three phase, 50Hz Supply",
+        "pipe_size": "65*50, 75*65"
+      },
+      "materials": {
+        "Pump Casing": "Cast Iron",
+        "Impeller": "Cast Iron",
+        "Shaft": "SS 410",
+        "Shaft Shell": "Nitrile butyl rubber",
+        "Thrust Assembly": "SS 420 with graphite carbon",
+        "Diaphragm": "High nitrile butyl rubber",
+        "Journal bearings": "Carbon",
+        "Rear Cover / Bracket": "Cast Iron",
+        "Stator Shell": "Cast Iron"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/horizontal-openwell-submersible-pumps-ryker-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Horizontal Openwell Submersible - Ryker.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Vertical Openwell Submersible – CV Series",
+      "series": "CV",
+      "category": "Agriculture",
+      "type": "Openwell submersible (vertical multistage)",
+      "power_range": "3–50 HP (2.2–37 kW)",
+      "head_range": "up to 341 m",
+      "flow_range": "up to 54 lps (3,240 LPM)",
+      "borewell_size": "Openwell",
+      "phase": "Three",
+      "highlights": [
+        "No suction or priming problems",
+        "Noiseless operation, no pump house needed",
+        "Higher-cooling motor for long life",
+        "Easily dismantled and repaired",
+        "High operating efficiency"
+      ],
+      "applications": [
+        "Agriculture",
+        "Irrigation",
+        "Domestic",
+        "Industrial",
+        "Rural water supply"
+      ],
+      "price_from": "₹ 34,038",
+      "price_to": "₹ 44,053",
+      "price_source_url": "https://kumaranco.com/product-category/agri-pumps/cri-vertical-open-well-pumps",
+      "image_file": "images/products/cri/cv.jpg",
+      "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-cv-series/",
+      "description": "C.R.I. Openwell Submersible pumpsets are ideally suitable for openwells or tanks where a wide fluctuation of water level occur. This work under water and rest at the bottom of the well. Prime mover is rewindable, water-cooled motor. Motor must be filled with clear, cold, drinking water as detailed in our operator’s manual. Three -phase motor requires an adequate motor protection control panel.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/03/CSM-Series.pdf",
+      "features": [
+        "No suction & priming problem",
+        "Noiseless operation",
+        "High operating efficiency",
+        "No need of pump house",
+        "Can be easily dismantled and repaired",
+        "Motor designed with higher cooling effect ensures longer life"
+      ],
+      "operating_limits": {
+        "power": "Vertical 2.2kW - 37kW (3 HP - 50 HP)",
+        "voltage": "Three-phase, 380 - 415V 50Hz, AC Supply",
+        "max_head": "341 metre",
+        "max_flow": "54 lps (194 m³/hr)"
+      },
+      "materials": {
+        "Pump Casing": "Cast Iron",
+        "Impeller": "Cast Iron / SS 410 / Bronze",
+        "Bracket": "Cast Iron",
+        "Motor Shaft": "SS 410"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-cv-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/03/CSM-Series.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Vertical Openwell Submersible – Ryker Series",
+      "series": "Ryker (Vertical)",
+      "category": "Agriculture",
+      "type": "Openwell submersible (vertical)",
+      "power_range": "3–20 HP (2.2–15 kW)",
+      "head_range": "up to 153 m",
+      "flow_range": "up to 16 lps (960 LPM)",
+      "borewell_size": "Openwell",
+      "phase": "Three",
+      "highlights": [
+        "Rigid construction, long durability",
+        "Wide voltage operation",
+        "DOL or star-delta starting",
+        "S1 continuous duty",
+        "High operating efficiency"
+      ],
+      "applications": [
+        "Agriculture",
+        "Sprinkler & drip irrigation",
+        "Rural water supply",
+        "Industries"
+      ],
+      "price_from": "₹ 29,499",
+      "price_to": "₹ 34,077",
+      "price_source_url": "https://www.industrybuying.com/openwell-submersible-pump-cri-FAM189495",
+      "image_file": "images/products/cri/ryker-vertical.jpg",
+      "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ryker-series/",
+      "description": "CRI Openwell Submersible Pumpsets are ideally suitable for openwells or tanks where a wide fluctuation of water level occur. This works under water and rest at the bottom of the well. Prime mover is rewindable, water – cooled motor. Specially designed water lubricated bearings are used to withstand the axial thrust loads with minimum wear and tear. The stator is wound with special waterproof synthetic film insulated copper winding wires and made up of low watt loss silicon steel laminations assembled under pressure and rigidly locked. Motor sealing is made by polymers, ‘O’ rings, oil seals and sand guard to avoid ingress of well water/salt into the motor. Pressure equalizing rubber diaphragm is provided to guard the motor from pressure and volume variation of water as detailed in our operator’s manual. Three phase motor requires an adequate motor protection control panel.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2022/08/Vertical-OWS-Ryker.pdf",
+      "features": [
+        "Rigid Construction",
+        "Long Durability",
+        "High Operating Efficiency",
+        "Wide Voltage Operation"
+      ],
+      "operating_limits": {
+        "power": "2.2 kW - 15 kW (3HP - 20HP)",
+        "speed": "2900 rpm",
+        "voltage": "Three Phase 380 - 415V, 50Hz AC Supply",
+        "max_head": "153 metres",
+        "max_flow": "16 lps (57.6 m /hr)",
+        "method_of_starting": "Direct On line (D.O.L), Star Delta(SD)",
+        "type_of_duty": "S1 (Continuous)"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ryker-series/",
+        "https://www.crigroups.com/wp-content/uploads/2022/08/Vertical-OWS-Ryker.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Vertical Openwell Submersible – LTK Series",
+      "series": "LTK",
+      "category": "Domestic",
+      "type": "Openwell submersible (vertical)",
+      "power_range": "1–1.5 HP (0.75–1.1 kW)",
+      "head_range": "up to 89 m",
+      "flow_range": "up to 1.6 lps (96 LPM)",
+      "borewell_size": "Openwell / sump",
+      "phase": "Single",
+      "highlights": [
+        "Higher-cooling motor design",
+        "Noiseless operation",
+        "Easy to dismantle and repair",
+        "Noryl impellers, SS casing",
+        "High operating efficiency"
+      ],
+      "applications": [
+        "Domestic",
+        "Multi-storey buildings",
+        "Gardens",
+        "Rural water supply",
+        "Irrigation"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/ltk.jpg",
+      "source_url": "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ltk-series/",
+      "description": "C.R.I. Vertical Openwell Submersible Pumpsets are ideally suitable for openwell / tanks where a wide fluctuation of water level occur. This works underwater and rest at the bottom of the well or tank. Hence suction and priming problem will not arise. The optimal dosing of impellers and diffusers enables the best possible hydraulic efficiency. Motor sealing is made by polymers, ‘O’ rings, oil seals and sand guard to avoid ingress of well water/sand into the motor. Pressure equalizing rubber diaphragm is provided to guard the motor from pressure and volume variation of water inside the motor. Motor must be dulled with clear, cold, drinking water as detailed in our operator’s manual.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/05/Vertical Openwell Submersible - CVS & LTK Series.pdf",
+      "features": [
+        "High operating efficiency",
+        "Motor is designed with higher cooling effect to ensure the life",
+        "Easy to dismantle and repair",
+        "Noise-less operation"
+      ],
+      "operating_limits": {
+        "power": "0.75kW - 1.1kW(1HP-1.5HP)",
+        "voltage": "Single Phase 220-240V; 50Hz, AC Supply",
+        "max_head": "89 Metre",
+        "max_flow": "1.6lps (6 m3 /hr)"
+      },
+      "materials": {
+        "Impeller": "Noryl",
+        "Bracket": "Cast Iron",
+        "Casing": "SS",
+        "Motor Shaft": "SS 410"
+      },
+      "sources": [
+        "https://www.crigroups.com/pumps/vertical-openwell-submersible-pumps-ltk-series/",
+        "https://www.crigroups.com/wp-content/uploads/2021/05/Vertical Openwell Submersible - CVS & LTK Series.pdf"
+      ]
+    },
+    {
+      "name": "C.R.I. Solar Submersible Pumping System (AC & DC)",
+      "series": "CRI Solar Pumping System",
+      "category": "Agriculture",
+      "type": "Solar submersible (AC & DC)",
+      "power_range": "1–10 HP (MNRE range; brand cites 1–20 HP overall)",
+      "head_range": "not listed on brand site",
+      "flow_range": "not listed on brand site",
+      "borewell_size": "100 mm (4\") and above (inferred)",
+      "phase": "AC & DC (solar)",
+      "highlights": [
+        "MNRE-empanelled; PM-KUSUM approved models",
+        "Stainless-steel pumpset for long life",
+        "Dry-run protection; optional remote monitoring (RMS)",
+        "Solar + grid power-sharing provision",
+        "40,000+ solar pumpsets supplied (brand claim)"
+      ],
+      "applications": [
+        "Agricultural irrigation & sprinklers",
+        "Farm & municipal water supply",
+        "Rural water supply",
+        "Cattle feeding"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/cri-solar-pumping-system.jpg",
+      "source_url": "https://www.crigroups.com/solar-pump/",
+      "description": "CRI pumps are leading solar water pump manufacturers. A solar water pump is a welcome alternative to the fuel-burning pump sets. The entire solar water pump system is robust and the mounting structure can withstand extreme conditions. The solar water pump is powered by solar modules that help draw surface or groundwater out for irrigation. A solar water system needs to be installed in a shadow-free area. A solar water pump consists of a solar PV panel, a motor pump set with a photovoltaic array, and pipes. The Photovoltaic array powers the entire system. It converts solar energy into electricity and runs the motor pump set. The solar pump system does not have any storage battery since the power generated is used directly then and there. This system is a combination of impellers and motors. The solar pumping system can draw water from an open well, bore well, or streams or canals. The advantages are many as there are no fuel costs involved and solar pumps have a long operating life. Solar pumps contribute to the reduction in carbon emission and pollution. They are highly reliable and durable. Using solar pumps, water can be supplied to small villages, schools, hospitals, and homes. 1.With the help of a solar pump system, it is possible to harness water at any time during the day and farmers can plan other activities accordingly. They need not irrigate on the nights when a power supply for agriculture purposes is provided. 2.Drip and sprinkler systems can be connected to the solar water pump system. 3.Solar water pumps are a one-time investment and have zero running costs throughout the year. Supreme features coupled with excellent performance have resulted in CRI Solar Pumps making a distinctive mark in the pump market. Available in the range of 1 HP-20 HP, CRI Solar Pumps offers high operating efficiency with low maintenance as compared to other ordinary pumps. Naturally, this makes our solar pumps the undisputed leader in the pump market. CRI Solar Pumping Systems is empaneled with the Ministry of New and Renewable Energy(MNRE) for On-Grid and Off-Grid Projects. We adhere to a complete range of products from 1HP to 10HP AC & DC Solar pumpset as per MNRE specification. The pump set testing is done through Array Simulator. CARE- Credit Analysis and Research Ltd has been awarded the highest grade SP-1A for Solar Projects. CRI Pumps has supplied more than 40000 MNRE approved solar pump sets through system integrators for their various projects across India.",
+      "datasheet_url": "https://www.crigroups.com/wp-content/uploads/2021/10/Solar-Pumping-System-Catalogue.pdf",
+      "features": [
+        "Highly durable.",
+        "Eco-friendly.",
+        "Universal – 50/60Hz pumps can be used.",
+        "Dry run protection with external feedback.",
+        "Extremely hardwearing water lubricated bearing.",
+        "High operating efﬁciency & low maintenance.",
+        "Operator Panel (optional Remote Monitoring System).",
+        "Corrosion resistant Stainless Steel ensures longer life of Pumpset."
+      ],
+      "sources": [
+        "https://www.crigroups.com/solar-pump/",
+        "https://www.crigroups.com/wp-content/uploads/2021/10/Solar-Pumping-System-Catalogue.pdf"
+      ]
+    }
+  ]
 }

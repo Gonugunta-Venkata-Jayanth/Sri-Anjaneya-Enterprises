@@ -1,667 +1,813 @@
 {
- "brand": "Crompton",
- "website": "https://www.crompton.co.in",
- "country": "India",
- "founded": "1937",
- "tagline": "Smart and Reliable Pumping Solutions",
- "products": [
-  {
-   "name": "Crompton 3W Series 3\" Borewell Submersible (Water-filled)",
-   "series": "3W",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\", water-filled)",
-   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
-   "head_range": "up to 130 m",
-   "flow_range": "up to 75 LPM",
-   "borewell_size": "75 mm (3\")",
-   "phase": "Single",
-   "highlights": [
-    "In-built check valve protects against sudden back pressure",
-    "High-quality virgin Noryl components",
-    "Dynamically balanced rotating parts for low vibration",
-    "Specially designed thrust bearing for high thrust capacity",
-    "Wide voltage operation (160–240 V)"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "Gardening",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Farm houses"
-   ],
-   "price_from": "₹ 15,700",
-   "price_to": "₹ 16,675",
-   "price_source_url": "https://www.crompton.co.in/products/3w12ap1d-3-borewell-submersible-pump",
-   "image_file": "images/products/crompton/3w.jpg",
-   "source_url": "https://www.crompton.co.in/products/3w10ap1d"
-  },
-  {
-   "name": "Crompton 4W Series 4\" Borewell Submersible – Residential (Water-filled)",
-   "series": "4W (Residential / BU-E, BF-E)",
-   "category": "Domestic",
-   "type": "Borewell submersible (4\", water-filled)",
-   "power_range": "0.5–2 HP (0.37–1.5 kW)",
-   "head_range": "up to 200 m",
-   "flow_range": "up to 150 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "In-built check valve",
-    "Virgin Noryl hydraulics for long life",
-    "Specially designed thrust bearing",
-    "Super-cool motor & sand-fighter design on BUE-D models",
-    "Anti-rust CED coating, wide-voltage 160–240 V (1Ph)"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "Gardening",
-    "Sprinkler irrigation",
-    "Multistoried buildings",
-    "Farm houses"
-   ],
-   "price_from": "₹ 16,875",
-   "price_to": "₹ 24,225",
-   "price_source_url": "https://www.crompton.co.in/products/4w14bu2eu",
-   "image_file": "images/products/crompton/4w-residential-bu-e-bf-e.jpg",
-   "source_url": "https://www.crompton.co.in/products/4w7bu1au-4-borewell-submersible-pump"
-  },
-  {
-   "name": "Crompton 3VO / 4VO Series Borewell Submersible (Oil-filled)",
-   "series": "3VO / 4VO",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\"/4\", oil-filled)",
-   "power_range": "0.5–2 HP (0.37–1.5 kW)",
-   "head_range": "up to 132 m",
-   "flow_range": "up to 250 LPM",
-   "borewell_size": "75 mm (3\") / 100 mm (4\")",
-   "phase": "Single",
-   "highlights": [
-    "Oil-filled motor",
-    "Anti-rust CED coating",
-    "Reliable long-life mechanical seal",
-    "Virgin Noryl components",
-    "Low power consumption"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "Gardening",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites"
-   ],
-   "price_from": "₹ 14,400",
-   "price_to": "₹ 18,375",
-   "price_source_url": "https://www.crompton.co.in/products/4vo1-5-14-bueu4s",
-   "image_file": "images/products/crompton/3vo-4vo.jpg",
-   "source_url": "https://www.crompton.co.in/products/4vo7bu1eu"
-  },
-  {
-   "name": "Crompton 4WSS Series Stainless Steel 4\" Borewell Submersible",
-   "series": "4WSS",
-   "category": "Domestic",
-   "type": "Borewell submersible (4\", stainless steel, water-filled)",
-   "power_range": "0.5–2 HP (0.37–1.5 kW)",
-   "head_range": "9–167 m",
-   "flow_range": "up to 100 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Pure SS304 stainless-steel construction resists corrosion",
-    "In-built check valve",
-    "High thrust capacity bearing",
-    "Low power consumption",
-    "Easily replaceable wear parts"
-   ],
-   "applications": [
-    "Domestic water supply",
-    "Gardening",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Farm houses"
-   ],
-   "price_from": "₹ 18,493",
-   "price_to": "₹ 30,637",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/4wss.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/10/Crompton-Residential.pdf"
-  },
-  {
-   "name": "Crompton Residential Openwell Submersible (OW / OWE Series)",
-   "series": "OW / OWE (Residential Openwell)",
-   "category": "Domestic",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "0.5–1 HP (0.37–0.75 kW)",
-   "head_range": "18–34 m",
-   "flow_range": "up to 180 LPM",
-   "borewell_size": "Openwell / sump (not for borewells)",
-   "phase": "Single",
-   "highlights": [
-    "Motor pre-filled with water-glycol coolant to prevent burning",
-    "Anti-rust CED coating",
-    "High thrust capacity bearing",
-    "Wide voltage operation 160–240 V",
-    "Low power consumption"
-   ],
-   "applications": [
-    "Underground tank to overhead tank transfer",
-    "Gardening & fountains",
-    "Hotels, buildings & apartments",
-    "Small irrigation"
-   ],
-   "price_from": "₹ 12,025",
-   "price_to": "₹ 15,900",
-   "price_source_url": "https://www.crompton.co.in/products/owe121phz-28-residential-openwell-pump",
-   "image_file": "images/products/crompton/ow-owe-residential-openwell.jpg",
-   "source_url": "https://www.crompton.co.in/products/owe0521phz-21fs"
-  },
-  {
-   "name": "Crompton 4W Series 4\" Borewell Submersible – Agriculture",
-   "series": "4W (Agricultural, 2–5 HP)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", water-filled)",
-   "power_range": "2–5 HP (1.5–3.7 kW)",
-   "head_range": "up to 330 m",
-   "flow_range": "up to 500 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "High-efficiency hydraulics for high flow and low power use",
-    "Specially designed thrust bearing",
-    "In-built check valve",
-    "Wide voltage (180–240 V 1Ph, 350–440 V 3Ph)",
-    "Easy maintenance with replaceable wear parts"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 20,445",
-   "price_to": "₹ 47,612",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/4w-agricultural-2-5-hp.jpg",
-   "source_url": "https://www.crompton.co.in/products/4w1-10-bue-d-borewell-submersible-pump"
-  },
-  {
-   "name": "Crompton 4VO Series 4\" Oil-filled Borewell Submersible – Agriculture",
-   "series": "4VO (Agricultural, 2–3 HP)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", oil-filled)",
-   "power_range": "2–3 HP (1.5–2.2 kW)",
-   "head_range": "up to 90 m",
-   "flow_range": "up to 500 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Oil-filled motor",
-    "Virgin Noryl components",
-    "In-built check valve",
-    "Anti-rust CED coating",
-    "Low power consumption"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 23,378",
-   "price_to": "",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/4vo-agricultural-2-3-hp.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 100W Series 4\" Borewell Submersible",
-   "series": "100W",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", water-filled)",
-   "power_range": "3–7.5 HP (2.2–5.5 kW)",
-   "head_range": "up to 263 m",
-   "flow_range": "up to 470 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Specially designed thrust bearing for durability",
-    "High flow with low power consumption",
-    "Wide voltage application",
-    "Polywrap copper winding",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply",
-    "Ornamental fountains"
-   ],
-   "price_from": "₹ 42,700",
-   "price_to": "₹ 58,175",
-   "price_source_url": "https://www.crompton.co.in/products/100w25ra5tp-50",
-   "image_file": "images/products/crompton/100w.jpg",
-   "source_url": "https://www.crompton.co.in/products/100w12ra3tp-50"
-  },
-  {
-   "name": "Crompton 4CSS Series Stainless Steel 4\" Borewell Submersible",
-   "series": "4CSS",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\", stainless steel)",
-   "power_range": "3–7.5 HP (2.2–5.5 kW)",
-   "head_range": "up to 263 m",
-   "flow_range": "up to 470 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "Pure SS304 construction for corrosive water",
-    "In-built check valve",
-    "High thrust capacity",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 42,852",
-   "price_to": "₹ 67,167",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/4css.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 5W / 125W Series 5\" Borewell Submersible",
-   "series": "5W / 125W",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\", water-filled)",
-   "power_range": "5–10 HP (3.7–7.5 kW)",
-   "head_range": "up to 480 m",
-   "flow_range": "up to 740 LPM",
-   "borewell_size": "125 mm (5\")",
-   "phase": "Three",
-   "highlights": [
-    "High-head design up to 480 m",
-    "Specially designed thrust bearing",
-    "In-built check valve",
-    "Low power consumption",
-    "Low maintenance cost"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 39,543",
-   "price_to": "₹ 62,534",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/5w-125w.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 5CSS Series Stainless Steel 5\" Borewell Submersible",
-   "series": "5CSS",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\", stainless steel)",
-   "power_range": "5–10 HP (3.7–7.5 kW)",
-   "head_range": "up to 405 m",
-   "flow_range": "up to 100 LPM",
-   "borewell_size": "125 mm (5\")",
-   "phase": "Three",
-   "highlights": [
-    "Pure SS304 construction",
-    "Wide voltage 250–440 V",
-    "High thrust capacity",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 61,894",
-   "price_to": "₹ 70,516",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/5css.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 6W Ultima Series 6\" Borewell Submersible",
-   "series": "6W Ultima",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", water-filled)",
-   "power_range": "3–12.5 HP (2.2–9.3 kW)",
-   "head_range": "up to 315 m",
-   "flow_range": "up to 1,400 LPM",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Wide voltage 250–440 V",
-    "High-efficiency hydraulics",
-    "Specially designed thrust bearing",
-    "Dynamically balanced rotating parts",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply",
-    "Lawn sprinklers"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 6W Magna Series 6\" Borewell Submersible",
-   "series": "6W Magna (6WxxDM)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", water-filled)",
-   "power_range": "3–30 HP (2.2–22 kW)",
-   "head_range": "up to 427 m",
-   "flow_range": "up to 1,500 LPM",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Wide voltage 250–440 V",
-    "High thrust capacity",
-    "Dynamically balanced rotating parts",
-    "Radial & mixed-flow options",
-    "Low power consumption"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply",
-    "Lawn sprinklers"
-   ],
-   "price_from": "₹ 64,144",
-   "price_to": "₹ 1,13,279",
-   "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-crompton-FAM194415",
-   "image_file": "",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 6W Series 6\" Borewell Submersible",
-   "series": "6W / 150W",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", water-filled)",
-   "power_range": "5–30 HP (3.7–22.4 kW)",
-   "head_range": "up to 241 m",
-   "flow_range": "up to 1,050 LPM",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Both",
-   "highlights": [
-    "1Ph (180–260 V) and 3Ph models",
-    "High thrust capacity",
-    "Dynamically balanced rotating parts",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply",
-    "Lawn sprinklers"
-   ],
-   "price_from": "₹ 33,109",
-   "price_to": "₹ 1,18,839",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/6w-150w.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 650CS Series Stainless Steel 6\" Borewell Submersible",
-   "series": "650CS / 650CS Ultima",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\", stainless steel)",
-   "power_range": "3–35 HP (2.2–26 kW)",
-   "head_range": "up to 600 m",
-   "flow_range": "up to 860 LPM",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Three",
-   "highlights": [
-    "Pure SS304 stainless-steel construction",
-    "Very high head up to 600 m",
-    "Wide voltage 250–440 V",
-    "Dynamically balanced rotating parts",
-    "High thrust capacity"
-   ],
-   "applications": [
-    "Agricultural & small farms",
-    "Lawn sprinklers",
-    "Bungalows, buildings & hotels",
-    "Booster applications"
-   ],
-   "price_from": "₹ 51,405",
-   "price_to": "₹ 2,02,973",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/650cs-650cs-ultima.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton V6-V7 / V6-V8 Janta Series Borewell Submersible",
-   "series": "Janta (V6-V7 / V6-V8)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\" motor, 7\"/8\" pump)",
-   "power_range": "4–25 HP (3–18.5 kW)",
-   "head_range": "up to 104 m",
-   "flow_range": "up to 2,300 LPM",
-   "borewell_size": "175–200 mm (7\"–8\")",
-   "phase": "Three",
-   "highlights": [
-    "High-discharge mixed-flow design",
-    "Wide voltage 250–440 V",
-    "Dynamically balanced rotating parts",
-    "High thrust capacity",
-    "Low maintenance cost"
-   ],
-   "applications": [
-    "Sprinkler & drip irrigation",
-    "Agricultural farms",
-    "Construction sites",
-    "Ornamental fountains"
-   ],
-   "price_from": "₹ 41,232",
-   "price_to": "₹ 70,155",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/janta-v6-v7-v6-v8.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 8W Series 8\" Borewell Submersible",
-   "series": "8W",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\", water-filled)",
-   "power_range": "10–60 HP (7.5–45 kW)",
-   "head_range": "up to 156 m",
-   "flow_range": "up to 2,500 LPM",
-   "borewell_size": "200 mm (8\")",
-   "phase": "Three",
-   "highlights": [
-    "Wide voltage 300–440 V",
-    "High thrust capacity",
-    "Dynamically balanced rotating parts",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Multistoried buildings",
-    "Construction sites",
-    "Industrial / commercial water supply"
-   ],
-   "price_from": "₹ 59,956",
-   "price_to": "₹ 82,327",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/8w.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton 10\" Borewell Submersible (V10)",
-   "series": "10\" (V10)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (10\", water-filled)",
-   "power_range": "25–80 HP (18.5–60 kW)",
-   "head_range": "up to 150 m",
-   "flow_range": "up to 4,000 LPM",
-   "borewell_size": "250 mm (10\")",
-   "phase": "Three",
-   "highlights": [
-    "Very high discharge up to 4,000 LPM",
-    "Specially designed thrust bearing",
-    "Dynamically balanced rotating parts",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Sprinkler & drip irrigation",
-    "Agricultural farms",
-    "Industrial / commercial water supply",
-    "Ornamental fountains"
-   ],
-   "price_from": "₹ 1,84,174",
-   "price_to": "₹ 2,18,580",
-   "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
-   "image_file": "images/products/crompton/10-v10.jpg",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton Openwell Submersible (Horizontal, incl. Ultima)",
-   "series": "OW Horizontal / Openwell Ultima",
-   "category": "Agriculture",
-   "type": "Openwell submersible (horizontal)",
-   "power_range": "1.5–30 HP (1.1–22 kW)",
-   "head_range": "up to 78 m",
-   "flow_range": "up to 2,225 LPM",
-   "borewell_size": "Openwell",
-   "phase": "Both",
-   "highlights": [
-    "Rust-resistant CED + hammer-tone double coat",
-    "Effective mechanical-seal sealing",
-    "Wide voltage 250–440 V (3Ph)",
-    "Low power consumption",
-    "Easy maintenance"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Drinking water supply",
-    "Industrial water supply",
-    "Gardening"
-   ],
-   "price_from": "₹ 28,525",
-   "price_to": "",
-   "price_source_url": "https://www.crompton.co.in/products/owe1-521phb-38fs-openwell-submersible-pump-1-5-hp",
-   "image_file": "images/products/crompton/ow-horizontal-openwell-ultima.jpg",
-   "source_url": "https://www.crompton.co.in/collections/agricultural-pumps/openwell-submersible-pumps"
-  },
-  {
-   "name": "Crompton Vertical Openwell Submersible (CROSVS)",
-   "series": "Vertical Openwell (CROSVS)",
-   "category": "Agriculture",
-   "type": "Openwell submersible (vertical multistage)",
-   "power_range": "1–20 HP (0.75–15 kW)",
-   "head_range": "up to 180 m",
-   "flow_range": "up to 1,800 LPM",
-   "borewell_size": "Openwell",
-   "phase": "Both",
-   "highlights": [
-    "Water-filled motor",
-    "Wide voltage (160–240 V 1Ph, 250–440 V 3Ph)",
-    "High thrust capacity",
-    "Low power consumption",
-    "Easily replaceable wear parts"
-   ],
-   "applications": [
-    "Agricultural farms",
-    "Sprinkler & drip irrigation",
-    "Drinking water supply",
-    "Industrial water supply",
-    "Gardening"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "",
-   "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
-  },
-  {
-   "name": "Crompton DC Solar Submersible Pump (CSPM-DC)",
-   "series": "CSPM DC Solar",
-   "category": "Agriculture",
-   "type": "Solar submersible (DC)",
-   "power_range": "2–10 HP",
-   "head_range": "30–100 m",
-   "flow_range": "45,000–3,42,000 LPD",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "DC (solar)",
-   "highlights": [
-    "MNRE-compliant, PM-KUSUM subsidy eligible",
-    "Runs directly on solar PV (no grid power)",
-    "SS construction for drinking-water use",
-    "Models at 30/50/70/100 m head",
-    "Zero running cost"
-   ],
-   "applications": [
-    "Farm irrigation",
-    "Drinking water supply",
-    "Remote / off-grid farms",
-    "Cattle watering"
-   ],
-   "price_from": "₹ 34,300",
-   "price_to": "₹ 92,300",
-   "price_source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
-   "image_file": "images/products/crompton/cspm-dc-solar.jpg",
-   "source_url": "https://www.crompton.co.in/pages/solar-pump-landing"
-  },
-  {
-   "name": "Crompton AC Solar Submersible Pump (CSPM-AC)",
-   "series": "CSPM AC Solar",
-   "category": "Agriculture",
-   "type": "Solar submersible (AC)",
-   "power_range": "3–10 HP",
-   "head_range": "30–100 m",
-   "flow_range": "42,000–3,15,000 LPD",
-   "borewell_size": "100 mm (4\") and above",
-   "phase": "Three (AC via solar VFD)",
-   "highlights": [
-    "MNRE-compliant, PM-KUSUM subsidy eligible",
-    "AC motor driven through solar controller",
-    "Models at 30/50/70/100 m head",
-    "SS construction",
-    "Zero running cost"
-   ],
-   "applications": [
-    "Farm irrigation",
-    "Drinking water supply",
-    "Remote / off-grid farms",
-    "Cattle watering"
-   ],
-   "price_from": "₹ 47,200",
-   "price_to": "₹ 1,03,350",
-   "price_source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
-   "image_file": "images/products/crompton/cspm-ac-solar.jpg",
-   "source_url": "https://www.crompton.co.in/pages/solar-pump-landing"
-  }
- ]
+  "brand": "Crompton",
+  "website": "https://www.crompton.co.in",
+  "country": "India",
+  "founded": "1937",
+  "tagline": "Smart and Reliable Pumping Solutions",
+  "products": [
+    {
+      "name": "Crompton 3W Series 3\" Borewell Submersible (Water-filled)",
+      "series": "3W",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\", water-filled)",
+      "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+      "head_range": "up to 130 m",
+      "flow_range": "up to 75 LPM",
+      "borewell_size": "75 mm (3\")",
+      "phase": "Single",
+      "highlights": [
+        "In-built check valve protects against sudden back pressure",
+        "High-quality virgin Noryl components",
+        "Dynamically balanced rotating parts for low vibration",
+        "Specially designed thrust bearing for high thrust capacity",
+        "Wide voltage operation (160–240 V)"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Farm houses"
+      ],
+      "price_from": "₹ 15,700",
+      "price_to": "₹ 16,675",
+      "price_source_url": "https://www.crompton.co.in/products/3w12ap1d-3-borewell-submersible-pump",
+      "image_file": "images/products/crompton/3w.jpg",
+      "source_url": "https://www.crompton.co.in/products/3w10ap1d",
+      "description": "Reliable water flow is now effortless with the Crompton 3W water pump. With high thrust capacity and a specially designed thrust bearing, this pump ensures smooth, dependable performance you can count on. Its dynamically balanced rotating parts minimize vibrations, so components remain protected and last longer. Whether it’s everyday needs or agricultural purposes, this water pump provides a steady, powerful flow with minimal hassle. Heavy-duty contactors handle high voltage fluctuations effortlessly, ensuring uninterrupted performance even in challenging conditions. Designed for durability, the 3W water pump offers peace of mind and dependable water supply when you need it most.",
+      "features": [
+        "High Thrust Capacity",
+        "High Quality Noryl",
+        "In-Built Check Valve",
+        "High Suction Capacity",
+        "Wide voltage design",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "3W10AP1D",
+        "power": "1 HP / 0.75 kW",
+        "voltage": "160-240 V",
+        "max_head": "45 M",
+        "max_flow": "780-2700 LPH",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/3w10ap1d"
+      ]
+    },
+    {
+      "name": "Crompton 4W Series 4\" Borewell Submersible – Residential (Water-filled)",
+      "series": "4W (Residential / BU-E, BF-E)",
+      "category": "Domestic",
+      "type": "Borewell submersible (4\", water-filled)",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 200 m",
+      "flow_range": "up to 150 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "In-built check valve",
+        "Virgin Noryl hydraulics for long life",
+        "Specially designed thrust bearing",
+        "Super-cool motor & sand-fighter design on BUE-D models",
+        "Anti-rust CED coating, wide-voltage 160–240 V (1Ph)"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening",
+        "Sprinkler irrigation",
+        "Multistoried buildings",
+        "Farm houses"
+      ],
+      "price_from": "₹ 16,875",
+      "price_to": "₹ 24,225",
+      "price_source_url": "https://www.crompton.co.in/products/4w14bu2eu",
+      "image_file": "images/products/crompton/4w-residential-bu-e-bf-e.jpg",
+      "source_url": "https://www.crompton.co.in/products/4w7bu1au-4-borewell-submersible-pump",
+      "description": "Enjoy a seamless water supply and consistent performance with the Crompton 4W water pump. This pump is designed to fulfill all your water needs easily, giving you reliable water flow without any extra hassle. Whether it’s for daily household needs, agricultural purposes or any other need, you can count on it to deliver efficient flow. Plus, it is energy-efficient, so you can keep things running smoothly without worrying about your electricity usage. The 4W water pump is dependable, long-lasting, and always gives excellent performance whenever you need it.",
+      "features": [
+        "High Thrust Capacity",
+        "High Quality Noryl",
+        "Less Power Consumption",
+        "High Suction Capacity",
+        "Wide voltage design",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "4W7BU1AU",
+        "power": "1 HP / 0.75 kW",
+        "voltage": "160-240 V",
+        "max_head": "42 M",
+        "max_flow": "0-100LPM",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/4w7bu1au-4-borewell-submersible-pump"
+      ]
+    },
+    {
+      "name": "Crompton 3VO / 4VO Series Borewell Submersible (Oil-filled)",
+      "series": "3VO / 4VO",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\"/4\", oil-filled)",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 132 m",
+      "flow_range": "up to 250 LPM",
+      "borewell_size": "75 mm (3\") / 100 mm (4\")",
+      "phase": "Single",
+      "highlights": [
+        "Oil-filled motor",
+        "Anti-rust CED coating",
+        "Reliable long-life mechanical seal",
+        "Virgin Noryl components",
+        "Low power consumption"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites"
+      ],
+      "price_from": "₹ 14,400",
+      "price_to": "₹ 18,375",
+      "price_source_url": "https://www.crompton.co.in/products/4vo1-5-14-bueu4s",
+      "image_file": "images/products/crompton/3vo-4vo.jpg",
+      "source_url": "https://www.crompton.co.in/products/4vo7bu1eu",
+      "description": "Enjoy a seamless water supply and consistent performance with the Crompton 4VO water pump. This pump is designed to fulfill all your water needs easily, giving you reliable water flow without any extra hassle. Whether it’s for daily household needs, agricultural purposes or any other need, you can count on it to deliver efficient flow. Plus, it is energy-efficient, so you can keep things running smoothly without worrying about your electricity usage. The 4VO water pump is dependable, long-lasting, and always gives excellent performance whenever you need it.",
+      "features": [
+        "Anti Rust",
+        "High-Torque Application",
+        "Less Power Consumption",
+        "High Suction Capacity",
+        "Wide voltage design",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "4VO7BU1EU",
+        "power": "1 HP / 0.75 kW",
+        "voltage": "180-260 V",
+        "max_head": "42 M",
+        "max_flow": "0-100LPM",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/4vo7bu1eu"
+      ]
+    },
+    {
+      "name": "Crompton 4WSS Series Stainless Steel 4\" Borewell Submersible",
+      "series": "4WSS",
+      "category": "Domestic",
+      "type": "Borewell submersible (4\", stainless steel, water-filled)",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "9–167 m",
+      "flow_range": "up to 100 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Pure SS304 stainless-steel construction resists corrosion",
+        "In-built check valve",
+        "High thrust capacity bearing",
+        "Low power consumption",
+        "Easily replaceable wear parts"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Farm houses"
+      ],
+      "price_from": "₹ 18,493",
+      "price_to": "₹ 30,637",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/4wss.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/10/Crompton-Residential.pdf"
+    },
+    {
+      "name": "Crompton Residential Openwell Submersible (OW / OWE Series)",
+      "series": "OW / OWE (Residential Openwell)",
+      "category": "Domestic",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "0.5–1 HP (0.37–0.75 kW)",
+      "head_range": "18–34 m",
+      "flow_range": "up to 180 LPM",
+      "borewell_size": "Openwell / sump (not for borewells)",
+      "phase": "Single",
+      "highlights": [
+        "Motor pre-filled with water-glycol coolant to prevent burning",
+        "Anti-rust CED coating",
+        "High thrust capacity bearing",
+        "Wide voltage operation 160–240 V",
+        "Low power consumption"
+      ],
+      "applications": [
+        "Underground tank to overhead tank transfer",
+        "Gardening & fountains",
+        "Hotels, buildings & apartments",
+        "Small irrigation"
+      ],
+      "price_from": "₹ 12,025",
+      "price_to": "₹ 15,900",
+      "price_source_url": "https://www.crompton.co.in/products/owe121phz-28-residential-openwell-pump",
+      "image_file": "images/products/crompton/ow-owe-residential-openwell.jpg",
+      "source_url": "https://www.crompton.co.in/products/owe0521phz-21fs",
+      "description": "Introducing our advanced Openwell Submersible Pump, engineered for efficiency and longevity. Boasting minimal power consumption, it comes pre-filled with a coolant for optimal performance. With high thrust capacity and premium electrical stamping, this pump ensures reliability. The anti-rust CED coating adds durability, while easy maintenance makes it a hassle-free choice for your water pumping needs.",
+      "features": [
+        "High grade electrical stamping",
+        "Antirust coating",
+        "Wide voltage design",
+        "High Suction Capacity",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "OWE052(1PH)Z-21FS",
+        "power": "0.5 HP / 0.37 kW",
+        "voltage": "180-260 V",
+        "max_head": "18 M",
+        "max_flow": "72-140LPM",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/owe0521phz-21fs"
+      ]
+    },
+    {
+      "name": "Crompton 4W Series 4\" Borewell Submersible – Agriculture",
+      "series": "4W (Agricultural, 2–5 HP)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", water-filled)",
+      "power_range": "2–5 HP (1.5–3.7 kW)",
+      "head_range": "up to 330 m",
+      "flow_range": "up to 500 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "High-efficiency hydraulics for high flow and low power use",
+        "Specially designed thrust bearing",
+        "In-built check valve",
+        "Wide voltage (180–240 V 1Ph, 350–440 V 3Ph)",
+        "Easy maintenance with replaceable wear parts"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 20,445",
+      "price_to": "₹ 47,612",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/4w-agricultural-2-5-hp.jpg",
+      "source_url": "https://www.crompton.co.in/products/4w1-10-bue-d-borewell-submersible-pump",
+      "description": "The Crompton borewell submersible pump is built for strong and consistent performance in deep water applications. Its super cool motor ensures efficient operation by reducing heat buildup, helping the pump run smoothly for longer durations. Designed with a sand fighter mechanism, it handles sandy water conditions with ease, reducing wear and maintaining performance. The anti-rust CED coating protects the pump against corrosion, while the wide voltage application allows it to operate safely even during voltage fluctuations. Durable and efficient, this pump is a solid choice for dependable borewell water supply.",
+      "features": [
+        "Anti-Rust CED Coating",
+        "Sand Fighter Design",
+        "Super Cool Motor",
+        "Less Power Consumption",
+        "Wide Voltage Application",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "4W1/10-BUE-D",
+        "power": "1 hp / 0.75 kW",
+        "voltage": "160-240 Volts",
+        "max_head": "56 Meters",
+        "max_flow": "10-100 LPM",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/4w1-10-bue-d-borewell-submersible-pump"
+      ]
+    },
+    {
+      "name": "Crompton 4VO Series 4\" Oil-filled Borewell Submersible – Agriculture",
+      "series": "4VO (Agricultural, 2–3 HP)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", oil-filled)",
+      "power_range": "2–3 HP (1.5–2.2 kW)",
+      "head_range": "up to 90 m",
+      "flow_range": "up to 500 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Oil-filled motor",
+        "Virgin Noryl components",
+        "In-built check valve",
+        "Anti-rust CED coating",
+        "Low power consumption"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 23,378",
+      "price_to": "",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/4vo-agricultural-2-3-hp.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 100W Series 4\" Borewell Submersible",
+      "series": "100W",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", water-filled)",
+      "power_range": "3–7.5 HP (2.2–5.5 kW)",
+      "head_range": "up to 263 m",
+      "flow_range": "up to 470 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Specially designed thrust bearing for durability",
+        "High flow with low power consumption",
+        "Wide voltage application",
+        "Polywrap copper winding",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply",
+        "Ornamental fountains"
+      ],
+      "price_from": "₹ 42,700",
+      "price_to": "₹ 58,175",
+      "price_source_url": "https://www.crompton.co.in/products/100w25ra5tp-50",
+      "image_file": "images/products/crompton/100w.jpg",
+      "source_url": "https://www.crompton.co.in/products/100w12ra3tp-50",
+      "description": "Experience the perfect blend of power, durability, and energy savings with the Crompton 100Q water pump. Engineered for maximum performance, its specially designed thrust bearing ensures exceptional durability even in challenging conditions. The pump's advanced efficiency delivers a high flow rate while minimizing power consumption, reducing electricity costs without compromising performance. Built for wide voltage applications, it provides reliable and consistent operation even during power fluctuations. With enhanced speed for faster water delivery, it’s perfect for residential and commercial needs alike. Simple, robust, and efficient, the Crompton 100Q water pump is designed to meet all your water flow requirements with ease.",
+      "features": [
+        "High Thrust Capacity",
+        "Less Power Consumption",
+        "Dynamically Balanced Rotating Parts",
+        "High Suction Capacity",
+        "Wide voltage design",
+        "Easy Maintenance"
+      ],
+      "operating_limits": {
+        "reference_model": "100W12RA3TP-50",
+        "power": "3 HP / 2.2 kW",
+        "voltage": "350-440 V",
+        "max_flow": "150-70LPM",
+        "note": "Single reference model as listed on crompton.co.in; series range may differ"
+      },
+      "sources": [
+        "https://www.crompton.co.in/products/100w12ra3tp-50"
+      ]
+    },
+    {
+      "name": "Crompton 4CSS Series Stainless Steel 4\" Borewell Submersible",
+      "series": "4CSS",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\", stainless steel)",
+      "power_range": "3–7.5 HP (2.2–5.5 kW)",
+      "head_range": "up to 263 m",
+      "flow_range": "up to 470 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "Pure SS304 construction for corrosive water",
+        "In-built check valve",
+        "High thrust capacity",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 42,852",
+      "price_to": "₹ 67,167",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/4css.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 5W / 125W Series 5\" Borewell Submersible",
+      "series": "5W / 125W",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\", water-filled)",
+      "power_range": "5–10 HP (3.7–7.5 kW)",
+      "head_range": "up to 480 m",
+      "flow_range": "up to 740 LPM",
+      "borewell_size": "125 mm (5\")",
+      "phase": "Three",
+      "highlights": [
+        "High-head design up to 480 m",
+        "Specially designed thrust bearing",
+        "In-built check valve",
+        "Low power consumption",
+        "Low maintenance cost"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 39,543",
+      "price_to": "₹ 62,534",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/5w-125w.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 5CSS Series Stainless Steel 5\" Borewell Submersible",
+      "series": "5CSS",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\", stainless steel)",
+      "power_range": "5–10 HP (3.7–7.5 kW)",
+      "head_range": "up to 405 m",
+      "flow_range": "up to 100 LPM",
+      "borewell_size": "125 mm (5\")",
+      "phase": "Three",
+      "highlights": [
+        "Pure SS304 construction",
+        "Wide voltage 250–440 V",
+        "High thrust capacity",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 61,894",
+      "price_to": "₹ 70,516",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/5css.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 6W Ultima Series 6\" Borewell Submersible",
+      "series": "6W Ultima",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", water-filled)",
+      "power_range": "3–12.5 HP (2.2–9.3 kW)",
+      "head_range": "up to 315 m",
+      "flow_range": "up to 1,400 LPM",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Wide voltage 250–440 V",
+        "High-efficiency hydraulics",
+        "Specially designed thrust bearing",
+        "Dynamically balanced rotating parts",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply",
+        "Lawn sprinklers"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 6W Magna Series 6\" Borewell Submersible",
+      "series": "6W Magna (6WxxDM)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", water-filled)",
+      "power_range": "3–30 HP (2.2–22 kW)",
+      "head_range": "up to 427 m",
+      "flow_range": "up to 1,500 LPM",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Wide voltage 250–440 V",
+        "High thrust capacity",
+        "Dynamically balanced rotating parts",
+        "Radial & mixed-flow options",
+        "Low power consumption"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply",
+        "Lawn sprinklers"
+      ],
+      "price_from": "₹ 64,144",
+      "price_to": "₹ 1,13,279",
+      "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-crompton-FAM194415",
+      "image_file": "",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 6W Series 6\" Borewell Submersible",
+      "series": "6W / 150W",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", water-filled)",
+      "power_range": "5–30 HP (3.7–22.4 kW)",
+      "head_range": "up to 241 m",
+      "flow_range": "up to 1,050 LPM",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Both",
+      "highlights": [
+        "1Ph (180–260 V) and 3Ph models",
+        "High thrust capacity",
+        "Dynamically balanced rotating parts",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply",
+        "Lawn sprinklers"
+      ],
+      "price_from": "₹ 33,109",
+      "price_to": "₹ 1,18,839",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/6w-150w.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 650CS Series Stainless Steel 6\" Borewell Submersible",
+      "series": "650CS / 650CS Ultima",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\", stainless steel)",
+      "power_range": "3–35 HP (2.2–26 kW)",
+      "head_range": "up to 600 m",
+      "flow_range": "up to 860 LPM",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Three",
+      "highlights": [
+        "Pure SS304 stainless-steel construction",
+        "Very high head up to 600 m",
+        "Wide voltage 250–440 V",
+        "Dynamically balanced rotating parts",
+        "High thrust capacity"
+      ],
+      "applications": [
+        "Agricultural & small farms",
+        "Lawn sprinklers",
+        "Bungalows, buildings & hotels",
+        "Booster applications"
+      ],
+      "price_from": "₹ 51,405",
+      "price_to": "₹ 2,02,973",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/650cs-650cs-ultima.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton V6-V7 / V6-V8 Janta Series Borewell Submersible",
+      "series": "Janta (V6-V7 / V6-V8)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\" motor, 7\"/8\" pump)",
+      "power_range": "4–25 HP (3–18.5 kW)",
+      "head_range": "up to 104 m",
+      "flow_range": "up to 2,300 LPM",
+      "borewell_size": "175–200 mm (7\"–8\")",
+      "phase": "Three",
+      "highlights": [
+        "High-discharge mixed-flow design",
+        "Wide voltage 250–440 V",
+        "Dynamically balanced rotating parts",
+        "High thrust capacity",
+        "Low maintenance cost"
+      ],
+      "applications": [
+        "Sprinkler & drip irrigation",
+        "Agricultural farms",
+        "Construction sites",
+        "Ornamental fountains"
+      ],
+      "price_from": "₹ 41,232",
+      "price_to": "₹ 70,155",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/janta-v6-v7-v6-v8.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 8W Series 8\" Borewell Submersible",
+      "series": "8W",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\", water-filled)",
+      "power_range": "10–60 HP (7.5–45 kW)",
+      "head_range": "up to 156 m",
+      "flow_range": "up to 2,500 LPM",
+      "borewell_size": "200 mm (8\")",
+      "phase": "Three",
+      "highlights": [
+        "Wide voltage 300–440 V",
+        "High thrust capacity",
+        "Dynamically balanced rotating parts",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Multistoried buildings",
+        "Construction sites",
+        "Industrial / commercial water supply"
+      ],
+      "price_from": "₹ 59,956",
+      "price_to": "₹ 82,327",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/8w.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton 10\" Borewell Submersible (V10)",
+      "series": "10\" (V10)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (10\", water-filled)",
+      "power_range": "25–80 HP (18.5–60 kW)",
+      "head_range": "up to 150 m",
+      "flow_range": "up to 4,000 LPM",
+      "borewell_size": "250 mm (10\")",
+      "phase": "Three",
+      "highlights": [
+        "Very high discharge up to 4,000 LPM",
+        "Specially designed thrust bearing",
+        "Dynamically balanced rotating parts",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Sprinkler & drip irrigation",
+        "Agricultural farms",
+        "Industrial / commercial water supply",
+        "Ornamental fountains"
+      ],
+      "price_from": "₹ 1,84,174",
+      "price_to": "₹ 2,18,580",
+      "price_source_url": "https://www.moglix.com/brands/crompton/pumps-motors/pumps/submersible-pumps/128111200",
+      "image_file": "images/products/crompton/10-v10.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton Openwell Submersible (Horizontal, incl. Ultima)",
+      "series": "OW Horizontal / Openwell Ultima",
+      "category": "Agriculture",
+      "type": "Openwell submersible (horizontal)",
+      "power_range": "1.5–30 HP (1.1–22 kW)",
+      "head_range": "up to 78 m",
+      "flow_range": "up to 2,225 LPM",
+      "borewell_size": "Openwell",
+      "phase": "Both",
+      "highlights": [
+        "Rust-resistant CED + hammer-tone double coat",
+        "Effective mechanical-seal sealing",
+        "Wide voltage 250–440 V (3Ph)",
+        "Low power consumption",
+        "Easy maintenance"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Drinking water supply",
+        "Industrial water supply",
+        "Gardening"
+      ],
+      "price_from": "₹ 28,525",
+      "price_to": "",
+      "price_source_url": "https://www.crompton.co.in/products/owe1-521phb-38fs-openwell-submersible-pump-1-5-hp",
+      "image_file": "images/products/crompton/ow-horizontal-openwell-ultima.jpg",
+      "source_url": "https://www.crompton.co.in/collections/agricultural-pumps/openwell-submersible-pumps",
+      "description": "Designed to operate in submerged condition under water, these pumps excel in open well water pumping and irrigation. They ensure a consistent water flow.",
+      "sources": [
+        "https://www.crompton.co.in/collections/agricultural-pumps/openwell-submersible-pumps"
+      ]
+    },
+    {
+      "name": "Crompton Vertical Openwell Submersible (CROSVS)",
+      "series": "Vertical Openwell (CROSVS)",
+      "category": "Agriculture",
+      "type": "Openwell submersible (vertical multistage)",
+      "power_range": "1–20 HP (0.75–15 kW)",
+      "head_range": "up to 180 m",
+      "flow_range": "up to 1,800 LPM",
+      "borewell_size": "Openwell",
+      "phase": "Both",
+      "highlights": [
+        "Water-filled motor",
+        "Wide voltage (160–240 V 1Ph, 250–440 V 3Ph)",
+        "High thrust capacity",
+        "Low power consumption",
+        "Easily replaceable wear parts"
+      ],
+      "applications": [
+        "Agricultural farms",
+        "Sprinkler & drip irrigation",
+        "Drinking water supply",
+        "Industrial water supply",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+    },
+    {
+      "name": "Crompton DC Solar Submersible Pump (CSPM-DC)",
+      "series": "CSPM DC Solar",
+      "category": "Agriculture",
+      "type": "Solar submersible (DC)",
+      "power_range": "2–10 HP",
+      "head_range": "30–100 m",
+      "flow_range": "45,000–3,42,000 LPD",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "DC (solar)",
+      "highlights": [
+        "MNRE-compliant, PM-KUSUM subsidy eligible",
+        "Runs directly on solar PV (no grid power)",
+        "SS construction for drinking-water use",
+        "Models at 30/50/70/100 m head",
+        "Zero running cost"
+      ],
+      "applications": [
+        "Farm irrigation",
+        "Drinking water supply",
+        "Remote / off-grid farms",
+        "Cattle watering"
+      ],
+      "price_from": "₹ 34,300",
+      "price_to": "₹ 92,300",
+      "price_source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
+      "image_file": "images/products/crompton/cspm-dc-solar.jpg",
+      "source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
+      "description": "Highly energy-efficient and cost-effective, DC submersible solar pumps run directly on solar power. These water pressure pumps can be suitable for deep water extraction in off-grid or remote areas where electricity supply is limited or inconsistent.",
+      "features": [
+        "Wide voltage design – handles voltage fluctuations",
+        "Easy maintenance – fewer moving parts, no fuel",
+        "Anti-rust build with anti-corrosion materials",
+        "Zero fuel cost – runs entirely on sunlight",
+        "Low operating expense",
+        "Eligible for PM-KUSUM government subsidies"
+      ],
+      "sources": [
+        "https://www.crompton.co.in/pages/solar-pump-landing"
+      ]
+    },
+    {
+      "name": "Crompton AC Solar Submersible Pump (CSPM-AC)",
+      "series": "CSPM AC Solar",
+      "category": "Agriculture",
+      "type": "Solar submersible (AC)",
+      "power_range": "3–10 HP",
+      "head_range": "30–100 m",
+      "flow_range": "42,000–3,15,000 LPD",
+      "borewell_size": "100 mm (4\") and above",
+      "phase": "Three (AC via solar VFD)",
+      "highlights": [
+        "MNRE-compliant, PM-KUSUM subsidy eligible",
+        "AC motor driven through solar controller",
+        "Models at 30/50/70/100 m head",
+        "SS construction",
+        "Zero running cost"
+      ],
+      "applications": [
+        "Farm irrigation",
+        "Drinking water supply",
+        "Remote / off-grid farms",
+        "Cattle watering"
+      ],
+      "price_from": "₹ 47,200",
+      "price_to": "₹ 1,03,350",
+      "price_source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
+      "image_file": "images/products/crompton/cspm-ac-solar.jpg",
+      "source_url": "https://www.crompton.co.in/pages/solar-pump-landing",
+      "description": "AC submersible solar water pumps are engineered for high-pressure, high-volume irrigation. These pumps can be suitable for intensive farming and long-duration water needs in rural settings.",
+      "features": [
+        "Wide voltage design – handles voltage fluctuations",
+        "Easy maintenance – fewer moving parts, no fuel",
+        "Anti-rust build with anti-corrosion materials",
+        "Zero fuel cost – runs entirely on sunlight",
+        "Low operating expense",
+        "Eligible for PM-KUSUM government subsidies"
+      ],
+      "sources": [
+        "https://www.crompton.co.in/pages/solar-pump-landing"
+      ]
+    }
+  ]
 }

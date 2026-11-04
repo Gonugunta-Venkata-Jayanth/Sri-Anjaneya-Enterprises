@@ -85,8 +85,9 @@
 
   /* ---------- Marquee ---------- */
   const mq = $('#marquee');
-  const logos = D.brands.map(b => `<div class="mq-item"><img src="${b.logo}" alt="${esc(b.name)}" /></div>`).join('');
+  const logos = D.brands.filter(b => !b.own).map(b => `<button class="mq-item" style="--brand:${b.color}" data-brand="${b.slug}" aria-label="${esc(b.name)}"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)}" /></button>`).join('');
   mq.innerHTML = logos + logos + logos + logos;
+  mq.addEventListener('click', e => { const b = e.target.closest('[data-brand]'); if (b) openBrand(b.dataset.brand); });
 
   /* ---------- Counters ---------- */
   const total = D.products.length;
@@ -127,47 +128,82 @@
     gsap.fromTo(cards, { opacity: 0, y: 40, rotateX: -12 }, { opacity: 1, y: 0, rotateX: 0, duration: .7, stagger: .05, ease: 'power3.out', clearProps: 'transform' });
   };
 
+  const hpRange = s => { s = (s || '').replace(/\([^)]*\)/g, ''); const n = s.match(/\d+(\.\d+)?/g); if (!n) return null; let v = n.map(Number).filter(x => x <= 300); if (!v.length) return null; if (/kw/i.test(s) && !/hp/i.test(s)) v = v.map(x => Math.round(x * 1.341 * 10) / 10); return [Math.min(...v), Math.max(...v)]; };
   /* ---------- Brands ---------- */
   const brandBySlug = Object.fromEntries(D.brands.map(b => [b.slug, b]));
   $('#brandGrid').innerHTML = D.brands.map(b => `
-    <article class="brand-card glass tilt reveal ${b.own ? 'own' : ''}" data-brand="${b.slug}" tabindex="0">
+    <article class="brand-card glass tilt reveal ${b.own ? 'own' : ''}" data-brand="${b.slug}" tabindex="0" style="--brand:${b.color || '#3ee0ff'}"><i class="bc-aura"></i>
       ${b.own ? '<span class="uc-ribbon">COMING SOON</span>' : ''}
-      <div class="brand-logo"><img src="${b.logo}" alt="${esc(b.name)} logo" loading="lazy" /></div>
+      <div class="brand-logo"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)} logo" loading="lazy" /><i class="glint"></i></div>
       <h3>${esc(b.name)}</h3><div class="brand-origin">${esc(b.origin)}</div>
       <span class="brand-status">✓ ${esc(b.status)}</span>
       <p>${esc(b.blurb)}</p>
-      <div class="brand-foot"><span>${b.own ? 'Under construction' : `<b>${b.count}</b> submersible series`}</span><span>View →</span></div>
+      <div class="brand-foot"><span>${b.own ? 'Under construction' : `<b>${b.count}</b> submersible series`}</span><span class="bc-go">${b.own ? 'Hosted soon' : 'Open range'} →</span></div>
     </article>`).join('');
   $$('#brandGrid .brand-card').forEach(c => { bindTilt(c); const open = () => openBrand(c.dataset.brand); c.onclick = open; c.onkeydown = e => { if (e.key === 'Enter') open(); }; });
 
+  const GROUP_ORDER = ['Borewell submersible', 'Openwell submersible', 'Solar submersible', 'Monoblock submersible', 'Other submersible'];
+  const boreKey = p => { const m = (p.type + ' ' + p.bore + ' ' + p.name).match(/(\d{1,2})\s*(?:"|”|''|inch|-inch)/i) || (p.bore || '').match(/(\d{2,3})\s*mm/); if (!m) return ''; let n = +m[1]; if (n > 20) n = Math.round(n / 25); return n >= 3 && n <= 12 ? n + '"' : ''; };
+  const subGroup = p => p.group === 'Borewell submersible' && boreKey(p) ? `Borewell submersible · ${boreKey(p)}` : p.group;
+  const hpSpan = list => { const v = list.map(p => hpRange(p.power)).filter(Boolean); if (!v.length) return '—'; return `${Math.min(...v.map(x => x[0]))}–${Math.max(...v.map(x => x[1]))} HP`; };
   function openBrand(slug) {
     const b = brandBySlug[slug]; if (!b) return;
+    const page = $('#brandPage'), body = $('#brandPageBody');
+    page.style.setProperty('--brand', b.color || '#3ee0ff');
     if (b.own) {
-      $('#brandModalBody').innerHTML = `<div class="uc"><div class="brand-logo"><img src="${b.logo}" alt="Aqua Tide" /></div>
-        <h2>Aqua Tide is <em>under construction</em></h2>
-        <p>Our own submersible motor brand, engineered for durability and energy efficiency in Indian water conditions. The full Aqua Tide range will be hosted here soon.</p>
+      body.innerHTML = `<div class="uc">
+        <div class="uc-orb"><i></i><i></i><i></i><img src="${b.logo}" alt="Aqua Tide" /></div>
+        <span class="eyebrow">Our own brand</span>
+        <h2>Aqua Tide will be <em>hosted soon</em></h2>
+        <p>Aqua Tide is Sri Anjaneya Enterprises' own submersible motor brand, engineered for durability and energy efficiency in Indian water conditions. Its full range is being prepared and will be hosted here soon.</p>
         <div class="bar"><i></i></div><small class="muted">Coming soon</small>
-        <div style="margin-top:22px"><a class="btn btn-gold" href="https://wa.me/919246607214?text=${encodeURIComponent('Hi, I would like to know about Aqua Tide motors.')}" target="_blank" rel="noopener">Ask about Aqua Tide</a></div></div>`;
-      return openModal('#brandModal');
+        <div style="margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn btn-gold" href="https://wa.me/919246607214?text=${encodeURIComponent('Hi, I would like to know about Aqua Tide motors.')}" target="_blank" rel="noopener">💬 Ask about Aqua Tide</a><a class="btn btn-ghost" href="tel:9246607214">📞 9246607214</a></div></div>`;
+      return openModal('#brandPage');
     }
     const list = D.products.filter(p => p.brand === slug);
+    const agri = list.filter(p => p.category === 'Agriculture'), dom = list.filter(p => p.category === 'Domestic');
+    const bores = [...new Set(list.map(boreKey).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
     const render = cat => {
       const items = list.filter(p => cat === 'all' || p.category === cat);
-      $('#bmGrid').innerHTML = items.map(cardHTML).join('') || '<div class="empty">No series in this category.</div>';
-      wireCards($('#bmGrid'));
+      const cats = cat === 'all' ? ['Agriculture', 'Domestic'] : [cat];
+      let html = '', nav = '';
+      cats.forEach(c => {
+        const ci = items.filter(p => p.category === c); if (!ci.length) return;
+        html += `<h3 class="bp-cat" id="bp-${c}">${c === 'Domestic' ? '🏠' : '🌾'} ${c} submersibles <small>${ci.length} series</small></h3>`;
+        const groups = {}; ci.forEach(p => (groups[subGroup(p)] ||= []).push(p));
+        Object.keys(groups).sort((a, b) => GROUP_ORDER.indexOf(a.split(' · ')[0]) - GROUP_ORDER.indexOf(b.split(' · ')[0]) || parseInt(a.split('· ')[1] || 0) - parseInt(b.split('· ')[1] || 0)).forEach(g => {
+          const gid = 'bpg-' + (c + g).replace(/\W+/g, '-');
+          nav += `<a href="#${gid}" data-jump="${gid}">${c === 'Domestic' ? '🏠' : '🌾'} ${esc(g.replace(' submersible', ''))} <b>${groups[g].length}</b></a>`;
+          html += `<div class="bp-group" id="${gid}"><h4>${esc(g)} <span>${groups[g].length}</span></h4><div class="pump-grid">${groups[g].map(cardHTML).join('')}</div></div>`;
+        });
+      });
+      $('#bpNav').innerHTML = nav; $('#bpList').innerHTML = html || '<div class="empty">No series in this category.</div>';
+      wireCards($('#bpList')); animateCards($$('#bpList .pump-card'));
+      $$('#bpNav [data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); $('#' + a.dataset.jump).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     };
-    $('#brandModalBody').innerHTML = `
-      <div class="bm-head"><div class="brand-logo"><img src="${b.logo}" alt="${esc(b.name)}" /></div>
-        <div><span class="eyebrow">${esc(b.origin)}</span><h2>${esc(b.name)}</h2><p class="muted">${esc(b.tagline || b.blurb)}</p>
-        ${b.websites.map(w => `<a class="link-btn" href="${esc(w)}" target="_blank" rel="noopener">${esc(w.replace(/^https?:\/\//, '').replace(/\/$/, ''))} ↗</a>`).join(' · ')}</div></div>
-      <div class="seg bm-cats" id="bmSeg"><button class="on" data-cat="all">All (${list.length})</button><button data-cat="Agriculture">🌾 Agriculture (${list.filter(p => p.category === 'Agriculture').length})</button><button data-cat="Domestic">🏠 Domestic (${list.filter(p => p.category === 'Domestic').length})</button></div>
-      <div class="pump-grid" id="bmGrid"></div>`;
-    $$('#bmSeg button').forEach(btn => btn.onclick = () => { $$('#bmSeg button').forEach(x => x.classList.remove('on')); btn.classList.add('on'); render(btn.dataset.cat); });
-    render('all'); openModal('#brandModal');
+    body.innerHTML = `
+      <div class="bp-hero">
+        <div class="bp-logo tilt"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)}" /><i class="glint"></i></div>
+        <div class="bp-info"><span class="eyebrow">${esc(b.origin)} · ${esc(b.status)}</span><h2>${esc(b.name)} <em>submersibles</em></h2><p class="muted">${esc(b.tagline || b.blurb)}</p>
+          <div class="bp-links">${b.websites.map(w => `<a class="link-btn" href="${esc(w)}" target="_blank" rel="noopener">${esc(w.replace(/^https?:\/\//, '').replace(/\/$/, ''))} ↗</a>`).join('')}</div></div>
+        <div class="bp-stats">
+          <div><b>${list.length}</b><small>series</small></div><div><b>${agri.length}</b><small>agriculture</small></div><div><b>${dom.length}</b><small>domestic</small></div>
+          <div><b>${hpSpan(list)}</b><small>power</small></div>${bores.length ? `<div><b>${bores[0]}–${bores[bores.length - 1]}</b><small>bore sizes</small></div>` : ''}
+        </div>
+      </div>
+      <div class="price-banner"><span>💬</span><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
+      <div class="bp-bar">
+        <div class="seg" id="bpSeg"><button class="on" data-cat="all">All (${list.length})</button><button data-cat="Agriculture">🌾 Agriculture (${agri.length})</button><button data-cat="Domestic">🏠 Domestic (${dom.length})</button></div>
+        <nav class="bp-nav" id="bpNav"></nav>
+      </div>
+      <div id="bpList"></div>`;
+    $$('#bpSeg button').forEach(btn => btn.onclick = () => { $$('#bpSeg button').forEach(x => x.classList.remove('on')); btn.classList.add('on'); render(btn.dataset.cat); });
+    bindTilt($('.bp-logo', body));
+    render('all'); openModal('#brandPage'); page.scrollTop = 0;
   }
 
   /* ---------- Pump catalogue ---------- */
-  const state = { q: '', cat: 'all', brands: new Set(), type: 'all', sort: 'brand', view: 'grid', limit: 24 };
+  const state = { q: '', cat: 'all', brands: new Set(), type: 'all', sort: 'brand', view: 'grid', limit: 24, group: 'brand' };
   const compare = new Set(store.get('sae_compare', []));
   const enquiry = new Set(store.get('sae_enquiry', []));
   const byId = Object.fromEntries(D.products.map(p => [p.id, p]));
@@ -188,15 +224,15 @@
   let qT; $('#q').oninput = e => { clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); state.limit = 24; renderPumps(); }, 160); };
   $('#typeSel').onchange = e => { state.type = e.target.value; state.limit = 24; renderPumps(); };
   $('#sortSel').onchange = e => { state.sort = e.target.value; renderPumps(); };
+  $('#groupSel').onchange = e => { state.group = e.target.value; state.limit = 24; renderPumps(); };
   $$('.view-toggle button').forEach(btn => btn.onclick = () => { $$('.view-toggle button').forEach(x => x.classList.remove('on')); btn.classList.add('on'); state.view = btn.dataset.view; $('#pumpGrid').classList.toggle('list', state.view === 'list'); });
   $('#loadMore').onclick = () => { state.limit += 24; renderPumps(true); };
   $('#resetFilters').onclick = () => {
-    Object.assign(state, { q: '', cat: 'all', type: 'all', sort: 'brand', limit: 24 }); state.brands.clear(); state.hpMin = state.hpMax = undefined;
+    Object.assign(state, { q: '', cat: 'all', type: 'all', sort: 'brand', limit: 24, group: 'brand' }); $('#groupSel').value = 'brand'; state.brands.clear(); state.hpMin = state.hpMax = undefined;
     $('#q').value = ''; $('#typeSel').value = 'all'; $('#sortSel').value = 'brand';
     $$('#brandPills button').forEach(b => b.classList.remove('on')); $$('#catSeg button').forEach((b, i) => b.classList.toggle('on', i === 0)); renderPumps();
   };
 
-  const hpRange = s => { const n = (s || '').match(/\d+(\.\d+)?/g); if (!n) return null; const v = n.map(Number); return [Math.min(...v), Math.max(...v)]; };
   const filtered = () => {
     let list = D.products.filter(p =>
       (state.cat === 'all' || p.category === state.cat) &&
@@ -216,11 +252,11 @@
   };
 
   const brandLogo = slug => (brandBySlug[slug] || {}).logo || '';
-  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/deccan.webp' : 'images/brands/ekki.webp') : brandLogo(p.brand);
+  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/dark/deccan.webp' : 'images/brands/dark/ekki.webp') : ((brandBySlug[p.brand] || {}).logoDark || brandLogo(p.brand));
+  const priceHTML = p => { const top = p.priceTo || p.priceFrom; return `<div class="price ${top ? '' : 'na'}"><div><small>${top ? 'Up to' : 'Price'}</small><b>${top ? esc(top) : 'Call for best price'}</b></div><a class="price-note" href="tel:9246607214" onclick="event.stopPropagation()">Best price · GV Sathyanarayana<br>9246607214 · 9704157350</a></div>`; };
   const short = v => (v || '—').replace(/\s*\([^)]*\)/g, '').replace(/^up to\s*/i, '≤ ').trim() || '—';
   function cardHTML(p) {
-    const priced = p.priceFrom || p.priceTo;
-    return `<article class="pump-card glass" data-id="${p.id}">
+    return `<article class="pump-card glass" data-id="${p.id}" style="--brand:${(brandBySlug[p.brand] || {}).color || '#3ee0ff'}">
       <div class="pc-media" data-open>
         ${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy" />` : `<div class="ph">${esc(p.brandName)}<small>${esc(p.series || 'SERIES')}</small></div>`}
         <span class="pc-tag ${p.category}">${p.category === 'Domestic' ? '🏠' : '🌾'} ${p.category}</span>
@@ -234,8 +270,7 @@
           <div><small>Head</small><b>${esc(short(p.head))}</b></div>
           <div><small>Bore</small><b>${esc(short(p.bore))}</b></div>
         </div>
-        ${priced ? `<div class="price"><div><small>Starts from</small><b>${esc(p.priceFrom || '—')}</b></div><div style="text-align:right"><small>Up to</small><b>${esc(p.priceTo || p.priceFrom)}</b></div></div>`
-                 : `<div class="price na"><div><small>Price</small><b>On request · call for best quote</b></div></div>`}
+        ${priceHTML(p)}
         <div class="pc-actions">
           <button data-cmp class="${compare.has(p.id) ? 'on' : ''}">${compare.has(p.id) ? '✓ Comparing' : '⇄ Compare'}</button>
           <button data-enq class="${enquiry.has(p.id) ? 'on' : ''}">${enquiry.has(p.id) ? '✓ Added' : '+ Enquire'}</button>
@@ -252,9 +287,31 @@
   }
   function renderPumps(append) {
     const list = filtered(), grid = $('#pumpGrid');
-    const show = list.slice(0, state.limit);
     $('#resultCount').textContent = `${list.length} of ${D.products.length} pump series`;
     if (!list.length) { grid.innerHTML = '<div class="empty">No pumps match. Try fewer filters, or call us at 9246607214.</div>'; $('#loadMore').style.display = 'none'; return; }
+    if (state.group !== 'none') {
+      grid.classList.add('grouped'); let html = '';
+      const cats = ['Agriculture', 'Domestic'];
+      cats.forEach(c => {
+        const ci = list.filter(p => p.category === c); if (!ci.length) return;
+        html += `<section class="cat-block ${c}"><header class="cat-head"><span>${c === 'Domestic' ? '🏠' : '🌾'}</span><div><h3>${c} submersibles</h3><small>${ci.length} series · ${[...new Set(ci.map(p => p.brand))].length} brands</small></div></header>`;
+        const keyOf = state.group === 'type' ? subGroup : (p => p.brand);
+        const groups = {}; ci.forEach(p => (groups[keyOf(p)] ||= []).push(p));
+        const keys = Object.keys(groups);
+        if (state.group !== 'type') { const order = Object.fromEntries(D.brands.map((b, i) => [b.slug, i])); keys.sort((a, b) => order[a] - order[b]); }
+        else keys.sort((a, b) => GROUP_ORDER.indexOf(a.split(' · ')[0]) - GROUP_ORDER.indexOf(b.split(' · ')[0]) || parseInt(a.split('· ')[1] || 0) - parseInt(b.split('· ')[1] || 0));
+        keys.forEach(k => {
+          const br = brandBySlug[k];
+          html += `<div class="sub-block" style="--brand:${br ? br.color : 'var(--cyan)'}"><div class="sub-head">${br ? `<button class="sub-logo" data-brand="${k}" title="Open full ${esc(br.name)} range"><img src="${br.logoDark}" alt="${esc(br.name)}" /></button>` : `<b>${esc(k)}</b>`}<span>${groups[k].length} series</span>${br ? `<button class="link-btn" data-brand="${k}">Full ${esc(br.name)} range →</button>` : ''}</div><div class="pump-grid rail">${groups[k].map(cardHTML).join('')}</div></div>`;
+        });
+        html += '</section>';
+      });
+      grid.innerHTML = html; $('#loadMore').style.display = 'none';
+      $$('[data-brand]', grid).forEach(x => x.onclick = () => openBrand(x.dataset.brand));
+      wireCards(grid); animateCards($$('.pump-card', grid).slice(0, 16)); return;
+    }
+    grid.classList.remove('grouped');
+    const show = list.slice(0, state.limit);
     const prev = append ? grid.children.length : 0;
     grid.innerHTML = show.map(cardHTML).join('');
     wireCards(grid); animateCards([...grid.children].slice(prev));
@@ -281,7 +338,7 @@
       ${row('Pump', p => `<b>${esc(p.name)}</b><br><small class="muted">${esc(p.brandName)}</small>`)}
       ${row('Category', p => esc(p.category))}${row('Type', p => esc(p.type))}${row('Power', p => esc(p.power || '—'))}
       ${row('Head', p => esc(p.head || '—'))}${row('Flow', p => esc(p.flow || '—'))}${row('Bore size', p => esc(p.bore || '—'))}${row('Phase', p => esc(p.phase || '—'))}
-      ${row('Starts from', p => `<b class="gold">${esc(p.priceFrom || 'On request')}</b>`)}${row('Up to', p => `<b class="gold">${esc(p.priceTo || p.priceFrom || 'On request')}</b>`)}
+      ${row('Price (up to)', p => `<b class="gold">${esc(p.priceTo || p.priceFrom || 'Call for best price')}</b>`)}${row('Models', p => (p.models || []).length || '—')}
       ${row('', p => `<button class="link-btn" data-rm="${p.id}">Remove</button>`)}
     </table></div><div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-gold btn-sm" id="cmpEnq">Enquire about these</button><button class="btn btn-ghost btn-sm" id="cmpClear">Clear all</button></div>`;
     $$('[data-rm]', $('#compareBody')).forEach(b => b.onclick = () => { toggleCompare(b.dataset.rm); renderCompare(); });
@@ -321,31 +378,41 @@
   };
 
   /* ---------- Pump detail ---------- */
+  const kv = (k, v) => v ? `<tr><td>${k}</td><td>${esc(v)}</td></tr>` : '';
   function openPump(id) {
     const p = byId[id]; if (!p) return;
-    const priced = p.priceFrom || p.priceTo;
-    const waText = encodeURIComponent(`Hi, I'm interested in the ${p.name} (${p.brandName}). Please share the price.`);
-    $('#pumpModalBody').innerHTML = `<div class="pm pm-grid">
-      <div class="pm-media">${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" />` : `<div class="pc-media"><div class="ph">${esc(p.brandName)}</div></div>`}</div>
-      <div>
-        <span class="eyebrow">${esc(p.subBrand || p.brandName)} · ${esc(p.category)}</span>
-        <h2>${esc(p.name)}</h2><div class="pc-type">${esc(p.type)}</div>
-        ${priced ? `<div class="price" style="margin-top:14px"><div><small>Starts from</small><b>${esc(p.priceFrom || '—')}</b></div><div style="text-align:right"><small>Up to</small><b>${esc(p.priceTo || p.priceFrom)}</b></div></div>` : `<div class="price na" style="margin-top:14px"><div><small>Price</small><b>On request · call for best quote</b></div></div>`}
-        <table>
-          <tr><td>Power</td><td>${esc(p.power || '—')}</td></tr><tr><td>Head</td><td>${esc(p.head || '—')}</td></tr>
-          <tr><td>Flow</td><td>${esc(p.flow || '—')}</td></tr><tr><td>Borewell size</td><td>${esc(p.bore || '—')}</td></tr>
-          <tr><td>Phase</td><td>${esc(p.phase || '—')}</td></tr>
-        </table>
-        ${p.highlights?.length ? `<b>Highlights</b><ul>${p.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}
+    const b = brandBySlug[p.brand] || {};
+    const waText = encodeURIComponent(`Hi, I'm interested in the ${p.name} (${p.brandName}). Please share the best price.`);
+    const models = (p.models || []).filter(m => m && (m.model || m.hp || m.kw));
+    const cols = [['model', 'Model'], ['hp', 'HP'], ['kw', 'kW'], ['stages', 'Stages'], ['phase', 'Phase'], ['head_m', 'Head (m)'], ['flow_lpm', 'Flow (LPM)'], ['outlet', 'Outlet'], ['discharge_lpd', 'Discharge (LPD)'], ['spv_wp', 'Solar panel (Wp)']].filter(([k]) => models.some(m => m[k] !== undefined && m[k] !== ''));
+    const mats = Object.entries(p.materials || {}).filter(([, v]) => v);
+    const tabs = [['spec', 'Specifications'], models.length && ['models', `Models (${models.length})`], (p.features?.length || p.highlights?.length) && ['feat', 'Features'], (mats.length || p.motor || p.limits) && ['build', 'Build & motor']].filter(Boolean);
+    $('#pumpModalBody').innerHTML = `<div class="pm pm-grid" style="--brand:${b.color || '#3ee0ff'}">
+      <div class="pm-media">
+        <div class="pm-stage">${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" />` : `<div class="ph">${esc(p.brandName)}<small>${esc(p.series || '')}</small></div>`}<i class="pm-ring"></i><i class="pm-ring r2"></i></div>
+        <img class="pm-brand" src="${p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/deccan.webp' : 'images/brands/ekki.webp') : brandLogo(p.brand)}" alt="${esc(p.brandName)}" />
         ${p.applications?.length ? `<div class="tags">${p.applications.map(a => `<span>${esc(a)}</span>`).join('')}</div>` : ''}
+      </div>
+      <div>
+        <span class="eyebrow">${esc(p.subBrand || p.brandName)} · ${p.category === 'Domestic' ? '🏠' : '🌾'} ${esc(p.category)}</span>
+        <h2>${esc(p.name)}</h2><div class="pc-type">${esc(p.type)}</div>
+        ${p.desc ? `<p class="pm-desc">${esc(p.desc)}</p>` : ''}
+        <div class="pm-quick"><div><small>Power</small><b>${esc(short(p.power))}</b></div><div><small>Head</small><b>${esc(short(p.head))}</b></div><div><small>Flow</small><b>${esc(short(p.flow))}</b></div><div><small>Bore</small><b>${esc(short(p.bore))}</b></div></div>
+        ${priceHTML(p)}
+        <div class="pm-tabs">${tabs.map(([k, l], i) => `<button data-t="${k}" class="${i ? '' : 'on'}">${l}</button>`).join('')}</div>
+        <div class="pm-pane on" data-p="spec"><table>${kv('Power', p.power)}${kv('Head', p.head)}${kv('Flow', p.flow)}${kv('Borewell size', p.bore)}${kv('Phase', p.phase)}${kv('Warranty', p.warranty)}</table></div>
+        ${models.length ? `<div class="pm-pane" data-p="models"><div class="mt-wrap"><table class="mt"><thead><tr>${cols.map(([, l]) => `<th>${l}</th>`).join('')}</tr></thead><tbody>${models.map(m => `<tr>${cols.map(([k]) => `<td>${esc(String(m[k] ?? '—'))}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>` : ''}
+        ${(p.features?.length || p.highlights?.length) ? `<div class="pm-pane" data-p="feat"><ul class="ticks">${[...new Set([...(p.features || []), ...(p.highlights || [])])].map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>` : ''}
+        ${(mats.length || p.motor || p.limits) ? `<div class="pm-pane" data-p="build"><table>${mats.map(([k, v]) => kv(k.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()), String(v))).join('')}${kv('Motor', p.motor)}${kv('Operating limits', p.limits)}</table></div>` : ''}
         <div class="btns">
           <a class="btn btn-gold btn-sm" href="https://wa.me/919246607214?text=${waText}" target="_blank" rel="noopener">💬 Get best price</a>
           <a class="btn btn-ghost btn-sm" href="tel:9246607214">📞 Call</a>
           <button class="btn btn-ghost btn-sm" id="pmEnq">${enquiry.has(p.id) ? '✓ In enquiry' : '+ Add to enquiry'}</button>
           <button class="btn btn-ghost btn-sm" id="pmCmp">${compare.has(p.id) ? '✓ Comparing' : '⇄ Compare'}</button>
         </div>
-        ${p.src ? `<p class="src">Specs from the manufacturer: <a href="${esc(p.src)}" target="_blank" rel="noopener">official product page ↗</a></p>` : ''}
+        <p class="src">${p.sheet ? `<a href="${esc(p.sheet)}" target="_blank" rel="noopener">📄 Datasheet ↗</a> · ` : ''}${p.src ? `<a href="${esc(p.src)}" target="_blank" rel="noopener">Official product page ↗</a>` : ''}</p>
       </div></div>`;
+    $$('.pm-tabs button').forEach(t => t.onclick = () => { $$('.pm-tabs button').forEach(x => x.classList.toggle('on', x === t)); $$('.pm-pane').forEach(x => x.classList.toggle('on', x.dataset.p === t.dataset.t)); });
     $('#pmEnq').onclick = () => { toggleEnquiry(p.id); $('#pmEnq').textContent = enquiry.has(p.id) ? '✓ In enquiry' : '+ Add to enquiry'; };
     $('#pmCmp').onclick = () => { toggleCompare(p.id); $('#pmCmp').textContent = compare.has(p.id) ? '✓ Comparing' : '⇄ Compare'; };
     openModal('#pumpModal');
@@ -451,6 +518,7 @@
   $('#coverflow').addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) (dx < 0 ? $('#cfNext') : $('#cfPrev')).click(); });
   layoutCF();
 
+  { const bs = [...new Set(D.products.map(boreKey).filter(Boolean))].map(x => parseInt(x)).sort((a, b) => a - b); if (bs.length) $('#vbBore').textContent = `${bs[0]}"–${bs[bs.length - 1]}"`; $('#vbHp').textContent = hpSpan(D.products); }
   /* ---------- Init ---------- */
   updateBadges(); renderPumps(); renderReviews();
   window.SAE = { openBrand, openPump };
