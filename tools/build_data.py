@@ -59,6 +59,9 @@ for b in BRANDS:
         for p in d.get("products", []):
             img = p.get("image_file") or ""
             if img and not os.path.exists(os.path.join(ROOT, img)): img = ""
+            if img:  # prefer the cut-out (transparent) version made by tools/cutout.py
+                cut = os.path.splitext(img)[0] + ".cut.webp"
+                if os.path.exists(os.path.join(ROOT, cut)): img = cut
             pf, pt = num(p.get("price_from")), num(p.get("price_to"))
             products.append(dict(
                 id=f"{b['slug']}-{len(products)}", brand=b["slug"], brandName=b["name"], subBrand=sub,

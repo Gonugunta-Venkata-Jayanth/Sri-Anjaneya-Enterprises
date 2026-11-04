@@ -41,7 +41,7 @@
   <div class="nav-cta">
     <button class="icon-btn" id="compareBtn" title="Compare pumps" aria-label="Compare pumps">⇄<span class="badge" id="compareCount">0</span></button>
     <button class="icon-btn" id="enqBtn" title="Enquiry list" aria-label="Enquiry list">✉<span class="badge" id="enqCount">0</span></button>
-    <a href="tel:9246607214" class="btn btn-gold btn-sm magnetic">📞 9246607214</a>
+    <a href="tel:+919246607214" class="btn btn-gold btn-sm magnetic nav-call"><i class="ico" data-ico="phone"></i>9246607214</a>
     <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
   </div>
 </header>
@@ -55,8 +55,9 @@
     <div class="hero-copy">
       <div class="chip reveal"><span class="pulse"></span> 8+ years · Old Boiguda, Secunderabad</div>
       <h1 class="hero-title">
-        <span class="line"><span class="word">Water,</span></span>
-        <span class="line"><span class="word">raised</span> <span class="word grad">right.</span></span>
+        <span class="line"><span class="word">From deep</span></span>
+        <span class="line"><span class="word">borewell</span></span>
+        <span class="line"><span class="word">to <span class="grad rot" id="rotWord">every field.</span></span></span>
       </h1>
       <p class="hero-sub reveal">Submersible pumps and motors from <b data-typed>KSB</b> and seven more trusted brands, plus our own <b>Aqua Tide</b>. Matched to your borewell, your field and your budget.</p>
       <div class="hero-actions reveal">
@@ -69,13 +70,12 @@
         <div><b class="count" data-to="0" id="pumpCountHero">0</b><span>pump series</span></div>
       </div>
     </div>
-    <div class="hero-card glass tilt reveal">
-      <div class="hc-top"><span>Live pump</span><span class="dot-live">● spinning</span></div>
-      <div class="hc-spec"><small>Head</small><b id="hcHead">— m</b></div>
-      <div class="hc-spec"><small>Flow</small><b id="hcFlow">— LPM</b></div>
-      <div class="hc-spec"><small>Power</small><b id="hcHp">— HP</b></div>
-      <p>Drag to spin the pump. Scroll to dive.</p>
-    </div>
+  </div>
+  <div class="hero-labels" id="heroLabels" aria-hidden="true"></div>
+  <div class="scene-switch glass" role="group" aria-label="Show use case">
+    <span>See it work</span>
+    <button type="button" data-scene="farm" class="on">🌾 Farm</button>
+    <button type="button" data-scene="home">🏠 Home</button>
   </div>
   <div class="scroll-hint"><span></span>Scroll</div>
 </section>
@@ -179,7 +179,7 @@
       <span class="eyebrow">All brands · one catalogue</span>
       <h2 class="split">Agricultural & domestic <em>submersibles</em></h2>
       <p class="sec-sub">Agriculture and domestic ranges, segregated brand by brand. Tap any logo for its full range.</p>
-      <div class="price-banner reveal"><span>💬</span><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
+      <div class="price-banner reveal"><i class="ico lg" data-ico="phone"></i><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
     </div>
 
     <div class="filters glass" id="filters">
@@ -302,10 +302,10 @@
         <h2 class="split">Let's get your <em>water flowing</em></h2>
       </div>
       <div class="contact-cards">
-        <a class="c-card glass" href="tel:9246607214"><span>📞</span><div><small>Call</small><b>9246607214</b></div></a>
-        <a class="c-card glass" href="tel:9704157350"><span>📱</span><div><small>Call</small><b>9704157350</b></div></a>
-        <a class="c-card glass" href="https://wa.me/919246607214" target="_blank" rel="noopener"><span>💬</span><div><small>WhatsApp</small><b>Chat with us</b></div></a>
-        <a class="c-card glass" href="mailto:sae.sathya@gmail.com"><span>✉</span><div><small>Email</small><b>sae.sathya@gmail.com</b></div></a>
+        <a class="c-card glass" href="tel:+919246607214"><i class="ico xl" data-ico="phone"></i><div><small>Call</small><b>9246607214</b></div></a>
+        <a class="c-card glass" href="tel:+919704157350"><i class="ico xl" data-ico="phone"></i><div><small>Call</small><b>9704157350</b></div></a>
+        <a class="c-card glass" href="https://wa.me/919246607214?text=Hi%2C%20I%20have%20a%20pump%20enquiry." target="_blank" rel="noopener"><i class="ico xl" data-ico="whatsapp"></i><div><small>WhatsApp</small><b>+91 92466 07214</b></div></a>
+        <a class="c-card glass" href="mailto:sae.sathya@gmail.com" data-mail="Pump enquiry – Sri Anjaneya Enterprises"><i class="ico xl" data-ico="gmail"></i><div><small>Gmail</small><b>sae.sathya@gmail.com</b></div></a>
       </div>
       <div class="address glass">
         <small>📍 Address</small>
@@ -346,7 +346,7 @@
   </div>
 </footer>
 
-<a class="wa-float magnetic" href="https://wa.me/919246607214" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
 <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
 
 <!-- Modals -->
@@ -362,7 +362,9 @@
 <script src="js/vendor/ScrollTrigger.min.js"></script>
 <script src="js/vendor/lenis.min.js"></script>
 <script src="js/bg.js" defer></script>
+<script src="js/icons.js"></script>
 <script src="js/app.js"></script>
+<script src="js/bot.js" defer></script>
 <script type="module" src="js/scene.js"></script>
 </body>
 </html>
