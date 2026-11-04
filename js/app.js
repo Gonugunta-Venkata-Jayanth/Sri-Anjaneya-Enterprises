@@ -268,7 +268,7 @@
       <div class="pc-media" data-open>
         ${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy" />` : `<div class="ph">${esc(p.brandName)}<small>${esc(p.series || 'SERIES')}</small></div>`}
         <span class="pc-tag ${p.category}">${p.category === 'Domestic' ? '🏠' : '🌾'} ${p.category}</span>
-        <span class="pc-brand"><img src="${pLogo(p)}" alt="${esc(p.brandName)}" /></span>
+        <span class="pc-brand"><img src="${pLogo(p)}" alt="${esc(p.brandName)}" loading="lazy" decoding="async" /></span>
       </div>
       <div class="pc-body">
         <div class="pc-type">${esc(p.type || p.group)}</div>
@@ -538,4 +538,27 @@
   const g = document.getElementById('brandGrid'); if (!g || matchMedia('(hover:none)').matches) return;
   g.addEventListener('pointermove', e => { const c = e.target.closest('.brand-card'); if (!c) return; const r = c.getBoundingClientRect(); c.style.setProperty('--ry', ((e.clientX - r.left) / r.width - .5) * 14 + 'deg'); c.style.setProperty('--rx', (.5 - (e.clientY - r.top) / r.height) * 12 + 'deg'); });
   g.addEventListener('pointerout', e => { const c = e.target.closest('.brand-card'); if (c && !c.contains(e.relatedTarget)) { c.style.removeProperty('--rx'); c.style.removeProperty('--ry'); } });
+})();
+
+/* v8: leadership 3D cards — pointer tilt, glare, flip */
+(() => {
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.lcard').forEach(card => {
+    const inner = card.querySelector('.l-in');
+    card.querySelectorAll('.l-flip').forEach(b => b.addEventListener('click', () => {
+      const f = card.classList.toggle('flipped');
+      card.querySelector(f ? '.l-back .l-flip' : '.l-front .l-flip')?.focus({ preventScroll: true });
+    }));
+    if (reduced || !matchMedia('(hover:hover)').matches) return;
+    let raf = 0;
+    card.addEventListener('pointermove', e => {
+      const r = card.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      cancelAnimationFrame(raf); raf = requestAnimationFrame(() => {
+        inner.style.setProperty('--ry', ((x - .5) * 18).toFixed(2) + 'deg'); inner.style.setProperty('--rx', ((.5 - y) * 14).toFixed(2) + 'deg');
+        card.style.setProperty('--gx', (x * 100).toFixed(1) + '%'); card.style.setProperty('--gy', (y * 100).toFixed(1) + '%');
+        inner.style.transition = 'transform .15s ease-out';
+      });
+    });
+    card.addEventListener('pointerleave', () => { inner.style.transition = ''; inner.style.setProperty('--ry', '0deg'); inner.style.setProperty('--rx', '0deg'); });
+  });
 })();
