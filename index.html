@@ -82,7 +82,7 @@
 
 <!-- MARQUEE -->
 <section class="marquee-wrap" aria-label="Brands">
-  <div class="marquee" id="marquee"></div>
+  <div class="marquee" id="marquee"></div><i class="mq-shine" aria-hidden="true"></i>
 </section>
 
 <!-- ABOUT -->
@@ -183,6 +183,22 @@
 </section>
 
 <!-- PUMPS EXPLORER -->
+<!-- PUMP TYPES 3D -->
+<section class="section dark" id="types">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Know your pump</span>
+      <h2 class="split">Every pump type, <em>explained in 3D</em></h2>
+      <p class="sec-sub">Pick a type to see where it sits and how water moves through it. Drag to turn the model.</p>
+    </div>
+    <div class="ty-tabs" role="tablist"></div>
+    <div class="ty-stage">
+      <div class="ty-view glass"><canvas id="typesCanvas" aria-label="3D pump type explainer"></canvas><span class="ty-label" aria-hidden="true"></span><span class="ty-hint">Drag to rotate</span></div>
+      <div class="ty-info glass" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="pumps">
   <div class="container">
     <div class="sec-head">
@@ -376,5 +392,6 @@
 <script src="js/app.js"></script>
 <script src="js/bot.js" defer></script>
 <script type="module" src="js/scene.js"></script>
+<script type="module" src="js/types3d.js"></script>
 </body>
 </html>
