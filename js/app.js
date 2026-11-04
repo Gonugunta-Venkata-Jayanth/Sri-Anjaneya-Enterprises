@@ -49,7 +49,7 @@
   /* ---------- Cursor + magnetic ---------- */
   const cur = $('#cursor'), dot = $('#cursorDot');
   if (matchMedia('(hover:hover)').matches) {
-    document.documentElement.classList.add('has-cursor');
+    /* native cursor (v5) */
     let mx = -100, my = -100, tx = mx, ty = my;
     addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.transform = `translate3d(${mx}px,${my}px,0)`; cur.classList.add('live'); }, { passive: true });
     document.addEventListener('mouseleave', () => cur.classList.remove('live'));
