@@ -532,3 +532,10 @@
   updateBadges(); renderPumps(); renderReviews();
   window.SAE = { openBrand, openPump };
 })();
+
+/* v6: 3D tilt for brand cards (delegated; cards render after init) */
+(() => {
+  const g = document.getElementById('brandGrid'); if (!g || matchMedia('(hover:none)').matches) return;
+  g.addEventListener('pointermove', e => { const c = e.target.closest('.brand-card'); if (!c) return; const r = c.getBoundingClientRect(); c.style.setProperty('--ry', ((e.clientX - r.left) / r.width - .5) * 14 + 'deg'); c.style.setProperty('--rx', (.5 - (e.clientY - r.top) / r.height) * 12 + 'deg'); });
+  g.addEventListener('pointerout', e => { const c = e.target.closest('.brand-card'); if (c && !c.contains(e.relatedTarget)) { c.style.removeProperty('--rx'); c.style.removeProperty('--ry'); } });
+})();

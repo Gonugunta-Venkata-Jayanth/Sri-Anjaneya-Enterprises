@@ -718,3 +718,58 @@ html.has-cursor input,html.has-cursor textarea{cursor:text!important}
 .pc-brand{background:rgba(255,255,255,.92)!important;border-radius:8px!important;padding:4px 8px!important;box-shadow:0 4px 12px rgba(0,0,0,.25)!important}
 .pc-brand{display:none!important}
 .marquee .mq-item img[src*="kirloskar"]{height:62px}
+
+/* ===== v6: brands stage with 3D scenery ===== */
+#brands{position:relative;overflow:hidden;isolation:isolate;padding-block:150px 170px;
+  background:radial-gradient(60% 50% at 18% 20%,rgba(62,224,255,.28),transparent 60%),radial-gradient(50% 45% at 85% 30%,rgba(245,181,36,.18),transparent 60%),linear-gradient(180deg,#d9efff 0%,#eaf6ff 35%,#cfe7f8 75%,#a9d2ee 100%)!important}
+#brands .container{position:relative;z-index:2}
+.b3d{position:absolute;inset:0;z-index:0;pointer-events:none;perspective:900px}
+.b3d-wave{position:absolute;left:0;width:100%;height:110px;fill:#041a33}
+.b3d-wave.top{top:-1px}.b3d-wave.bot{bottom:-1px;fill:#041a33}
+.b3d-floor{position:absolute;left:-25%;right:-25%;bottom:-8%;height:62%;transform:rotateX(74deg);transform-origin:50% 100%;
+  background-image:linear-gradient(rgba(11,107,216,.22) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(11,107,216,.22) 1.5px,transparent 1.5px);background-size:64px 64px;
+  -webkit-mask:linear-gradient(to top,#000 10%,transparent 85%);mask:linear-gradient(to top,#000 10%,transparent 85%);animation:floorRun 6s linear infinite}
+@keyframes floorRun{to{background-position:0 64px,0 64px}}
+.b3d-imp{position:absolute;width:420px;height:420px;right:-90px;top:90px;opacity:.16;animation:impSpin 22s linear infinite;filter:drop-shadow(0 30px 40px rgba(11,79,156,.5))}
+@keyframes impSpin{to{transform:rotate(360deg)}}
+.drop{position:absolute;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 32% 28%,#fff 0 8%,rgba(255,255,255,.65) 14%,rgba(120,205,255,.55) 40%,rgba(20,110,210,.55) 78%,rgba(10,60,140,.7));
+  box-shadow:inset -8px -14px 24px rgba(5,50,120,.35),inset 6px 8px 16px rgba(255,255,255,.6),0 30px 40px -18px rgba(11,79,156,.55);animation:dropFloat 9s ease-in-out infinite}
+.drop.d1{width:90px;height:100px;left:6%;top:16%}
+.drop.d2{width:46px;height:52px;left:22%;top:72%;animation-delay:-2s}
+.drop.d3{width:64px;height:72px;right:12%;top:62%;animation-delay:-4s}
+.drop.d4{width:30px;height:34px;right:28%;top:14%;animation-delay:-6s}
+.drop.d5{width:120px;height:134px;left:-30px;bottom:18%;animation-delay:-3s;opacity:.8}
+.drop.d6{width:38px;height:42px;left:52%;bottom:10%;animation-delay:-5s}
+@keyframes dropFloat{0%,100%{transform:translate3d(0,0,0) rotate(-6deg)}50%{transform:translate3d(0,-26px,40px) rotate(6deg)}}
+.pipe{position:absolute;height:26px;border-radius:13px;background:linear-gradient(180deg,#e8f4ff 0%,#9cc3e4 35%,#4b7fb0 70%,#86b5dc 100%);box-shadow:0 20px 30px -16px rgba(5,40,90,.6)}
+.pipe::after{content:"";position:absolute;right:-6px;top:-6px;width:22px;height:38px;border-radius:6px;background:linear-gradient(180deg,#f5b524,#c98a07);box-shadow:inset 0 2px 0 rgba(255,255,255,.5)}
+.pipe.p1{width:34%;left:-4%;top:42%;transform:rotate(-8deg)}
+.pipe.p2{width:26%;right:-6%;bottom:30%;transform:rotate(172deg)}
+#brands .brand-card{transform-style:preserve-3d;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s!important;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(244,249,253,.9))!important;backdrop-filter:blur(8px)!important}
+#brands .brand-card .brand-logo{transform:translateZ(36px)}
+#brands .brand-card:hover{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-8px)}
+@media (prefers-reduced-motion:reduce){.drop,.b3d-imp,.b3d-floor{animation:none}}
+@media (max-width:760px){.b3d-imp{width:260px;height:260px;right:-80px}.pipe{display:none}.drop.d5{display:none}}
+
+/* ===== v6: medium leadership cards ===== */
+.leaders{max-width:1040px;margin:60px auto 0;gap:24px}
+.leader{grid-template-columns:150px 1fr;gap:22px;padding:22px 24px;border-radius:22px;align-items:center}
+.leader-photo{border-radius:80px 80px 16px 16px}
+.leader-photo .ring{inset:-5px;border-radius:85px 85px 20px 20px}
+.leader-photo figcaption{bottom:-11px;padding:5px 12px;font-size:.66rem}
+.leader h3{font-size:1.25rem;margin-bottom:10px}
+.leader .role{font-size:.66rem;margin-bottom:6px}
+.leader ul{gap:6px;margin-bottom:14px}.leader li{font-size:.86rem}
+.leader .btn-sm{padding:8px 14px;font-size:.82rem}
+@media (max-width:960px){.leader{grid-template-columns:120px 1fr;align-items:start}.leader-photo{max-width:none;margin:0}}
+@media (max-width:520px){.leader{grid-template-columns:1fr}.leader-photo{width:150px;margin:0 auto 14px}}
+
+/* ===== v6: brand header ribbons in the pump catalogue (dark-ink logos now readable, true colours) ===== */
+.sub-head{position:relative;padding:10px 16px 10px 10px;border-radius:14px;background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(240,246,252,.93) 34%,rgba(240,246,252,.0) 70%)}
+.sub-head .sub-logo{padding:4px 8px!important}.sub-head .sub-logo img{height:32px!important;filter:none!important}
+.sub-head>span,.sub-head .sub-count{color:#30475f!important}
+.bp-logo,.pm-brand-wrap{background:linear-gradient(160deg,#fff,#eef4fa)!important;border-radius:14px!important;padding:8px 14px!important}
+.bp-logo img,.pm-brand-wrap img{filter:none!important}
+.pm-brand{background:linear-gradient(160deg,#fff,#eef4fa);border-radius:10px;padding:6px 10px;filter:none!important}
+.pipe.p1{width:16%;left:-3%;top:26%}
+.pipe.p2{width:18%;right:-4%;bottom:7%}
