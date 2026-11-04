@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRANDS = [  # display order and dealer meta (from the original site)
   dict(slug="ksb", color="#2f8fe0", logoDark="images/brands/dark/ksb.svg", files=["ksb"], name="KSB", logo="images/brands/ksb.svg", origin="Germany · Est. 1871", status="Authorized Dealer",
        blurb="German precision engineering with outstanding head and flow for Indian farms and municipalities."),
-  dict(slug="kirloskar", color="#e4002b", logoDark="images/brands/dark/kirloskar.webp", files=["kirloskar"], name="Kirloskar", logo="images/brands/kirloskar.webp", origin="India · Pune, Est. 1888", status="Authorized Dealer",
+  dict(slug="kirloskar", color="#e4002b", logoDark="images/brands/dark/kirloskar.webp", files=["kirloskar"], name="Kirloskar", logo="images/brands/kirloskar-t.webp", origin="India · Pune, Est. 1888", status="Authorized Dealer",
        blurb="India's most trusted pump brand. Rugged, energy-efficient SPB-range submersibles."),
   dict(slug="wilo", color="#00a88f", logoDark="images/brands/dark/wilo.svg", files=["wilo"], name="Wilo", logo="images/brands/wilo.svg", origin="Germany · Est. 1872", status="Authorized Dealer",
        blurb="Smart, premium pumping technology that cuts power bills and keeps pressure steady."),

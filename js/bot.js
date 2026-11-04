@@ -93,19 +93,20 @@
     [/solar/, () => `We stock solar submersibles from KSB, Crompton, CRI, Lubi and Falcon (AC and DC). Tell me your bore size and depth and I'll suggest a series. Panel sizing comes with the quote.`]
   ];
 
+  const ROBOT = '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="rbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9f6ff"/><stop offset="1" stop-color="#9fd8ff"/></linearGradient></defs><line x1="32" y1="6" x2="32" y2="14" stroke="#3ee0ff" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="6" r="4" fill="#f5b524"/><rect x="10" y="14" width="44" height="34" rx="14" fill="url(#rbg)"/><rect x="16" y="21" width="32" height="18" rx="9" fill="#0a2a4a"/><circle cx="25" cy="30" r="4" fill="#3ee0ff"><animate attributeName="r" values="4;1;4" dur="4s" keyTimes="0;.05;.1" repeatCount="indefinite"/></circle><circle cx="39" cy="30" r="4" fill="#3ee0ff"><animate attributeName="r" values="4;1;4" dur="4s" keyTimes="0;.05;.1" repeatCount="indefinite"/></circle><rect x="5" y="25" width="5" height="12" rx="2.5" fill="#f5b524"/><rect x="54" y="25" width="5" height="12" rx="2.5" fill="#f5b524"/><path d="M22 54h20a4 4 0 0 0 4-4v-2H18v2a4 4 0 0 0 4 4z" fill="#9fd8ff"/></svg>';
   /* ---------- UI ---------- */
   const root = document.createElement('div');
   root.className = 'bot'; root.innerHTML = `
-    <button class="bot-fab" aria-label="Open Anjaneya Assistant" aria-expanded="false"><img src="images/sae-logo.webp" alt="" /><span class="bot-ping"></span></button>
-    <div class="bot-tip" role="status">Need help choosing a pump? <b>Ask me</b></div>
+    <button class="bot-fab" aria-label="Open Anjaneya AI assistant" aria-expanded="false"><span class="bot-robot">${ROBOT}</span><span class="bot-ai">AI</span></button>
+    <div class="bot-tip" role="status"><b>Anjaneya AI</b> · Ask me anything about pumps</div>
     <section class="bot-panel" role="dialog" aria-label="Anjaneya Assistant" aria-hidden="true">
-      <header class="bot-head"><img src="images/sae-logo.webp" alt="" /><div><b>Anjaneya Assistant</b><small><i></i> Online · instant answers from our catalogue</small></div>
+      <header class="bot-head"><span class="bot-av">${ROBOT}</span><div><b>Anjaneya AI <span class="ai-tag">AI</span></b><small><i></i> AI assistant · knows our full catalogue · English, తెలుగు, हिन्दी</small></div>
         <a class="bot-hd-btn" href="tel:${TEL1}" title="Call" aria-label="Call">${I.phone || ''}</a><a class="bot-hd-btn" href="${wa('Hi, I have a pump enquiry.')}" target="_blank" rel="noopener" title="WhatsApp" aria-label="WhatsApp">${I.whatsapp || ''}</a>
         <button class="bot-x" aria-label="Close">✕</button></header>
       <div class="bot-body" aria-live="polite"></div>
       <div class="bot-chips"></div>
       <form class="bot-form"><input type="text" placeholder="Ask anything… e.g. 4 inch bore, 120 m, 3 phase" aria-label="Message" autocomplete="off" /><button aria-label="Send">➤</button></form>
-      <p class="bot-foot">Suggestions come from our catalogue. G V Sathyanarayana confirms the final model &amp; price.</p>
+      <p class="bot-foot">AI answers are grounded in our catalogue but can be wrong. G V Sathyanarayana confirms the final model &amp; price.</p>
     </section>`;
   document.body.appendChild(root);
   const $ = s => root.querySelector(s);
@@ -168,7 +169,65 @@
     }
   };
 
-  const reply = async text => {
+  
+  /* ---------- AI (LLM) layer ---------- */
+  const AI_URL = 'https://text.pollinations.ai/openai';
+  const history = [];
+  const compact = r => { const p = r.p; return `${p.id} | ${p.name} | ${p.brandName} | ${p.category || ''} | ${p.type} | power ${p.power || '-'} | head ${p.head || '-'} | flow ${p.flow || '-'} | bore ${p.bore || '-'} | phase ${p.phase || '-'} | price ${priceTop(p) ? 'up to Rs ' + priceTop(p) : 'on request'}`; };
+  const candidates = text => {
+    const q = parse(text), t = text.toLowerCase(), seen = new Set(), out = [];
+    const push = r => { if (r && !seen.has(r.p.id) && out.length < 8) { seen.add(r.p.id); out.push(r); } };
+    if (Object.keys(q).length) recommend(q).forEach(push);
+    const words = t.split(/[^a-z0-9.]+/).filter(w => w.length > 2 && !/the|and|for|pump|pumps|motor|with|need|want|which|what|best/.test(w));
+    if (words.length) IDX.map(r => ({ r, k: words.reduce((a, w) => a + (r.text.includes(w) ? 1 : 0), 0) })).filter(x => x.k).sort((a, b) => b.k - a.k).slice(0, 6).forEach(x => push(x.r));
+    if (ctx.last) recommend(ctx.last).forEach(push);
+    return out;
+  };
+  const SYS = () => `You are "Anjaneya AI", the assistant on the website of Sri Anjaneya Enterprises, an authorised dealer of submersible pumps and motors in Old Boiguda, Secunderabad, Telangana (8+ years).
+Facts you may use:
+- Brands: ${brandList}. Own brand: Aqua Tide (coming soon).
+- Managing Director: G V Sathyanarayana. Phones: 92466 07214, 97041 57350. WhatsApp: +91 92466 07214. Email: sae.sathya@gmail.com.
+- Address: Plot No. 84 & 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad 500003. GSTIN 36ASFPG1225Q1ZM.
+- Prices on the site are upper market bands ("up to"). The best/final price is only given by G V Sathyanarayana on call or WhatsApp.
+- Opening hours are not published: ask the customer to call before visiting.
+Rules:
+- Reply in the same language the customer writes in (English, Telugu or Hindi). Be warm, clear and brief: at most 110 words, short lines, no tables.
+- For pump selection, ask only for what is missing (bore size, water depth, phase, use) and recommend ONLY products from the CATALOGUE list below, by id. Never invent models, specs, prices, warranties or stock.
+- If the catalogue list has nothing suitable, say so and suggest calling or WhatsApp.
+- General pump questions (HP, phase, stages, oil vs water filled, solar, saline water, maintenance) you may answer from general knowledge, carefully.
+- Submersible motors are cooled by the water around them. For tripping, low pressure or noise, suggest checking supply voltage and phases, starter / overload settings, dry running (water level fallen), cable joints and a choked pump, and offer a check by our team.
+- Off-topic questions: answer in one short line if harmless, then offer pump help.
+- Last line must be exactly: IDS: <comma separated catalogue ids you recommend> or IDS: none`;
+  const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/^\s*[-•*]\s+/gm, '• ').replace(/\n/g, '<br>');
+  window.__aiPayload = text => { const cands = candidates(text); return JSON.stringify({ model: 'openai', temperature: .4, messages: [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase | price):\n' + (cands.map(compact).join('\n') || '(none)') }, { role: 'user', content: text }] }); };
+  let lastAI = 0;
+  const aiReply = async text => {
+    const cands = candidates(text);
+    const t = add('<span class="typing"><i></i><i></i><i></i></span><small class="think">Anjaneya AI is thinking…</small>');
+    const wait = Math.max(0, lastAI + 13000 - Date.now()); // free AI tier allows about one request every 15 s
+    if (wait) await new Promise(r => setTimeout(r, wait));
+    lastAI = Date.now();
+    const ctrl = new AbortController(), timer = setTimeout(() => ctrl.abort(), 25000);
+    try {
+      const messages = [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase | price):\n' + (cands.map(compact).join('\n') || '(no close matches for this message)') }, ...history.slice(-8), { role: 'user', content: text }];
+      const r = await fetch(AI_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ model: 'openai', messages, temperature: .4 }), signal: ctrl.signal });
+      if (!r.ok) throw new Error('http ' + r.status);
+      const j = await r.json();
+      let out = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content || '').trim();
+      if (!out) throw new Error('empty');
+      const m = out.match(/IDS:\s*([^\n]*)\s*$/i); out = out.replace(/\n?IDS:[^\n]*\s*$/i, '').replace(/\s*\((?:[a-z]+(?:[-\u2011][a-z]+)*)[-\u2011]\d+\)/gi, '').trim();
+      const ids = m ? m[1].replace(/[\u2010\u2011\u2013]/g, '-').split(/[,\s]+/).map(x => x.trim()).filter(x => x && x !== 'none') : [];
+      const recs = ids.map(id => cands.find(c => c.p.id === id) || IDX.find(r => r.p.id === id)).filter(Boolean).slice(0, 3);
+      history.push({ role: 'user', content: text }, { role: 'assistant', content: out });
+      if (recs.length) ctx.last = Object.assign({}, ctx.last || {}, parse(text));
+      t.innerHTML = md(out) + (recs.length ? `<div class="bcs">${recs.map(card).join('')}</div>` : '') + `<div class="bm-act"><a href="${wa('Hi, ' + text)}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask our team</a></div>`;
+      t.classList.add('aim'); scroll(); chips(['🔍 Find my pump', '💰 Best price', '📞 Talk to a person']);
+    } catch (e) {
+      t.remove(); return localReply(text);
+    } finally { clearTimeout(timer); }
+  };
+
+  const localReply = async text => {
     const t = text.toLowerCase().replace(/[^\w\s"″.,₹+-]/g, ' ').trim();
     if (flow) return finderStep(text);
     if (/^(hi|hello|hey|namaste|namaskaram|hai|hii+|good (morning|afternoon|evening))\b/.test(t)) return say('Namaste! 🙏 I\'m the Sri Anjaneya Enterprises assistant. I can find a pump for your borewell, compare brands, explain options or connect you to G V Sathyanarayana for the best price.', DEFAULT_CHIPS);
@@ -195,10 +254,12 @@
     return say(`I'm not sure about that one. I'm best with pumps: choosing one for your borewell, prices, brands and our shop. Shall I pass your question to G V Sathyanarayana?<div class="bm-act"><a href="${wa(`Hi, I have a question: ${text}`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Send this on WhatsApp</a><a href="tel:${TEL1}">${I.phone || ''} Call</a></div>`, DEFAULT_CHIPS);
   };
 
-  const send = text => { text = String(text || '').replace(/^[^\w"″]+/u, '').trim(); if (!text) return; add(esc(text), 'me'); chipsBox.innerHTML = ''; reply(text); };
+  const QUICK = /^(find my pump|best price|agriculture pumps|home pumps|solar pumps|brands we sell|shop location|talk to a person|start over|show more options|ksb pumps|kirloskar pumps|crompton pumps|lubi pumps)$/i;
+  const reply = text => (flow || QUICK.test(text) || !navigator.onLine) ? localReply(text) : aiReply(text);
+  const send = text => { text = String(text || '').replace(/^[^\w"″\u0C00-\u0C7F\u0900-\u097F]+/u, '').trim(); if (!text) return; add(esc(text), 'me'); chipsBox.innerHTML = ''; reply(text); };
   const open = v => {
     root.classList.toggle('open', v); panel.setAttribute('aria-hidden', String(!v)); fab.setAttribute('aria-expanded', String(v));
-    if (v && !body.children.length) say('Namaste! 🙏 I\'m the <b>Anjaneya Assistant</b>. Tell me your borewell size and depth, ask about any brand, or pick an option below.', DEFAULT_CHIPS);
+    if (v && !body.children.length) say('Namaste! 🙏 I\'m <b>Anjaneya AI</b>. Ask me anything about pumps in English, తెలుగు or हिन्दी: your borewell size and depth, a brand, a price, or a problem with your motor.', DEFAULT_CHIPS);
     if (v) setTimeout(() => input.focus({ preventScroll: true }), 300);
     root.querySelector('.bot-tip').classList.remove('show');
   };
