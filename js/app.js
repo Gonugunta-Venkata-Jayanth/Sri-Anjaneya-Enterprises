@@ -49,10 +49,18 @@
   /* ---------- Cursor + magnetic ---------- */
   const cur = $('#cursor'), dot = $('#cursorDot');
   if (matchMedia('(hover:hover)').matches) {
-    let mx = innerWidth / 2, my = innerHeight / 2, cx = mx, cy = my;
-    addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.transform = `translate(${mx}px,${my}px) translate(-50%,-50%)`; });
-    (function loop() { cx += (mx - cx) * .18; cy += (my - cy) * .18; cur.style.transform = `translate(${cx}px,${cy}px) translate(-50%,-50%)`; requestAnimationFrame(loop); })();
-    document.addEventListener('mouseover', e => cur.classList.toggle('hover', !!e.target.closest('a,button,.brand-card,.pump-card,.cert,select,input')));
+    document.documentElement.classList.add('has-cursor');
+    let mx = -100, my = -100, tx = mx, ty = my;
+    addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.transform = `translate3d(${mx}px,${my}px,0)`; cur.classList.add('live'); }, { passive: true });
+    document.addEventListener('mouseleave', () => cur.classList.remove('live'));
+    (function loop() { tx += (mx - tx) * .35; ty += (my - ty) * .35; cur.style.transform = `translate3d(${tx}px,${ty}px,0)`; requestAnimationFrame(loop); })();
+    addEventListener('mousedown', () => cur.classList.add('down')); addEventListener('mouseup', () => cur.classList.remove('down'));
+    document.addEventListener('mouseover', e => {
+      const t = e.target, hit = t.closest('a,button,.brand-card,.pump-card,.cert,select,input,textarea,[data-open]');
+      const lab = t.closest('#heroCanvas') ? 'Drag' : t.closest('.pump-card,[data-open]') ? 'View' : t.closest('.brand-card,.sub-logo,.mq-item') ? 'Range' : '';
+      cur.classList.toggle('hover', !!hit || !!lab); cur.dataset.label = lab; cur.classList.toggle('labelled', !!lab);
+      cur.classList.toggle('text', !!t.closest('input,textarea'));
+    });
     $$('.magnetic').forEach(m => {
       m.addEventListener('mousemove', e => { const r = m.getBoundingClientRect(); m.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * .25}px,${(e.clientY - r.top - r.height / 2) * .35}px)`; });
       m.addEventListener('mouseleave', () => m.style.transform = '');
@@ -85,7 +93,7 @@
 
   /* ---------- Marquee ---------- */
   const mq = $('#marquee');
-  const logos = D.brands.filter(b => !b.own).map(b => `<button class="mq-item" style="--brand:${b.color}" data-brand="${b.slug}" aria-label="${esc(b.name)}"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)}" /></button>`).join('');
+  const logos = D.brands.filter(b => !b.own).map(b => `<button class="mq-item" style="--brand:${b.color}" data-brand="${b.slug}" aria-label="${esc(b.name)}"><img src="${b.logo}" alt="${esc(b.name)}" /></button>`).join('');
   mq.innerHTML = logos + logos + logos + logos;
   mq.addEventListener('click', e => { const b = e.target.closest('[data-brand]'); if (b) openBrand(b.dataset.brand); });
 
@@ -134,7 +142,7 @@
   $('#brandGrid').innerHTML = D.brands.map(b => `
     <article class="brand-card glass tilt reveal ${b.own ? 'own' : ''}" data-brand="${b.slug}" tabindex="0" style="--brand:${b.color || '#3ee0ff'}"><i class="bc-aura"></i>
       ${b.own ? '<span class="uc-ribbon">COMING SOON</span>' : ''}
-      <div class="brand-logo"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)} logo" loading="lazy" /><i class="glint"></i></div>
+      <div class="brand-logo"><img src="${b.logo}" alt="${esc(b.name)} logo" loading="lazy" /><i class="glint"></i></div>
       <h3>${esc(b.name)}</h3><div class="brand-origin">${esc(b.origin)}</div>
       <span class="brand-status">✓ ${esc(b.status)}</span>
       <p>${esc(b.blurb)}</p>
@@ -157,7 +165,7 @@
         <h2>Aqua Tide will be <em>hosted soon</em></h2>
         <p>Aqua Tide is Sri Anjaneya Enterprises' own submersible motor brand, engineered for durability and energy efficiency in Indian water conditions. Its full range is being prepared and will be hosted here soon.</p>
         <div class="bar"><i></i></div><small class="muted">Coming soon</small>
-        <div style="margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn btn-gold" href="https://wa.me/919246607214?text=${encodeURIComponent('Hi, I would like to know about Aqua Tide motors.')}" target="_blank" rel="noopener">💬 Ask about Aqua Tide</a><a class="btn btn-ghost" href="tel:9246607214">📞 9246607214</a></div></div>`;
+        <div style="margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn btn-gold" href="https://wa.me/919246607214?text=${encodeURIComponent('Hi, I would like to know about Aqua Tide motors.')}" target="_blank" rel="noopener"><i class="ico" data-ico="whatsapp"></i> Ask about Aqua Tide</a><a class="btn btn-ghost" href="tel:+919246607214"><i class="ico" data-ico="phone"></i> 9246607214</a></div></div>`;
       return openModal('#brandPage');
     }
     const list = D.products.filter(p => p.brand === slug);
@@ -183,7 +191,7 @@
     };
     body.innerHTML = `
       <div class="bp-hero">
-        <div class="bp-logo tilt"><img src="${b.logoDark || b.logo}" alt="${esc(b.name)}" /><i class="glint"></i></div>
+        <div class="bp-logo tilt"><img src="${b.logo}" alt="${esc(b.name)}" /><i class="glint"></i></div>
         <div class="bp-info"><span class="eyebrow">${esc(b.origin)} · ${esc(b.status)}</span><h2>${esc(b.name)} <em>submersibles</em></h2><p class="muted">${esc(b.tagline || b.blurb)}</p>
           <div class="bp-links">${b.websites.map(w => `<a class="link-btn" href="${esc(w)}" target="_blank" rel="noopener">${esc(w.replace(/^https?:\/\//, '').replace(/\/$/, ''))} ↗</a>`).join('')}</div></div>
         <div class="bp-stats">
@@ -191,7 +199,7 @@
           <div><b>${hpSpan(list)}</b><small>power</small></div>${bores.length ? `<div><b>${bores[0]}–${bores[bores.length - 1]}</b><small>bore sizes</small></div>` : ''}
         </div>
       </div>
-      <div class="price-banner"><span>💬</span><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
+      <div class="price-banner"><i class="ico lg" data-ico="phone"></i><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
       <div class="bp-bar">
         <div class="seg" id="bpSeg"><button class="on" data-cat="all">All (${list.length})</button><button data-cat="Agriculture">🌾 Agriculture (${agri.length})</button><button data-cat="Domestic">🏠 Domestic (${dom.length})</button></div>
         <nav class="bp-nav" id="bpNav"></nav>
@@ -252,7 +260,7 @@
   };
 
   const brandLogo = slug => (brandBySlug[slug] || {}).logo || '';
-  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/dark/deccan.webp' : 'images/brands/dark/ekki.webp') : ((brandBySlug[p.brand] || {}).logoDark || brandLogo(p.brand));
+  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/deccan.webp' : 'images/brands/ekki.webp') : brandLogo(p.brand);
   const priceHTML = p => { const top = p.priceTo || p.priceFrom; return `<div class="price ${top ? '' : 'na'}"><div><small>${top ? 'Up to' : 'Price'}</small><b>${top ? esc(top) : 'Call for best price'}</b></div><a class="price-note" href="tel:9246607214" onclick="event.stopPropagation()">Best price · GV Sathyanarayana<br>9246607214 · 9704157350</a></div>`; };
   const short = v => (v || '—').replace(/\s*\([^)]*\)/g, '').replace(/^up to\s*/i, '≤ ').trim() || '—';
   function cardHTML(p) {
@@ -302,7 +310,7 @@
         else keys.sort((a, b) => GROUP_ORDER.indexOf(a.split(' · ')[0]) - GROUP_ORDER.indexOf(b.split(' · ')[0]) || parseInt(a.split('· ')[1] || 0) - parseInt(b.split('· ')[1] || 0));
         keys.forEach(k => {
           const br = brandBySlug[k];
-          html += `<div class="sub-block" style="--brand:${br ? br.color : 'var(--cyan)'}"><div class="sub-head">${br ? `<button class="sub-logo" data-brand="${k}" title="Open full ${esc(br.name)} range"><img src="${br.logoDark}" alt="${esc(br.name)}" /></button>` : `<b>${esc(k)}</b>`}<span>${groups[k].length} series</span>${br ? `<button class="link-btn" data-brand="${k}">Full ${esc(br.name)} range →</button>` : ''}</div><div class="pump-grid rail">${groups[k].map(cardHTML).join('')}</div></div>`;
+          html += `<div class="sub-block" style="--brand:${br ? br.color : 'var(--cyan)'}"><div class="sub-head">${br ? `<button class="sub-logo" data-brand="${k}" title="Open full ${esc(br.name)} range"><img src="${br.logo}" alt="${esc(br.name)}" /></button>` : `<b>${esc(k)}</b>`}<span>${groups[k].length} series</span>${br ? `<button class="link-btn" data-brand="${k}">Full ${esc(br.name)} range →</button>` : ''}</div><div class="pump-grid rail">${groups[k].map(cardHTML).join('')}</div></div>`;
         });
         html += '</section>';
       });
@@ -372,7 +380,7 @@
     $('#eErr').textContent = '';
     const items = [...enquiry].map(id => byId[id]).filter(Boolean).map(p => `• ${p.name} (${p.brandName})`).join('\n');
     const msg = `Hello Sri Anjaneya Enterprises,\nName: ${name}\nPhone: ${phone}\nUse: ${$('#eUse').value}\n${items ? 'Pumps:\n' + items + '\n' : ''}${$('#eMsg').value.trim()}`;
-    if (via === 'mail') location.href = `mailto:sae.sathya@gmail.com?subject=${encodeURIComponent('Pump enquiry from ' + name)}&body=${encodeURIComponent(msg)}`;
+    if (via === 'mail') window.open(mailLink('Pump enquiry from ' + name, msg), '_blank', 'noopener');
     else window.open(`https://wa.me/919246607214?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
     toast('Opening ' + (via === 'mail' ? 'email' : 'WhatsApp') + '…');
   };
@@ -405,8 +413,8 @@
         ${(p.features?.length || p.highlights?.length) ? `<div class="pm-pane" data-p="feat"><ul class="ticks">${[...new Set([...(p.features || []), ...(p.highlights || [])])].map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>` : ''}
         ${(mats.length || p.motor || p.limits) ? `<div class="pm-pane" data-p="build"><table>${mats.map(([k, v]) => kv(k.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()), String(v))).join('')}${kv('Motor', p.motor)}${kv('Operating limits', p.limits)}</table></div>` : ''}
         <div class="btns">
-          <a class="btn btn-gold btn-sm" href="https://wa.me/919246607214?text=${waText}" target="_blank" rel="noopener">💬 Get best price</a>
-          <a class="btn btn-ghost btn-sm" href="tel:9246607214">📞 Call</a>
+          <a class="btn btn-gold btn-sm" href="https://wa.me/919246607214?text=${waText}" target="_blank" rel="noopener"><i class="ico" data-ico="whatsapp"></i> Get best price</a>
+          <a class="btn btn-ghost btn-sm" href="tel:+919246607214"><i class="ico" data-ico="phone"></i> Call</a>
           <button class="btn btn-ghost btn-sm" id="pmEnq">${enquiry.has(p.id) ? '✓ In enquiry' : '+ Add to enquiry'}</button>
           <button class="btn btn-ghost btn-sm" id="pmCmp">${compare.has(p.id) ? '✓ Comparing' : '⇄ Compare'}</button>
         </div>
@@ -420,7 +428,7 @@
 
   /* ---------- Modals ---------- */
   const stack = [];
-  function openModal(sel) { const m = $(sel); m.style.zIndex = 300 + stack.length * 2; m.classList.add('open'); m.setAttribute('aria-hidden', 'false'); stack.push(m); lenis?.stop(); }
+  function openModal(sel) { const m = $(sel); m.style.zIndex = 300 + stack.length * 2; m.classList.add('open'); m.setAttribute('aria-hidden', 'false'); stack.push(m); window.paintIcons && paintIcons(); lenis?.stop(); }
   function closeTop() { const m = stack.pop(); if (!m) return; m.classList.remove('open'); m.setAttribute('aria-hidden', 'true'); if (!stack.length) lenis?.start(); }
   function closeAll() { while (stack.length) closeTop(); }
   $$('.modal,.drawer').forEach(m => m.addEventListener('click', e => { if (e.target === m || e.target.closest('[data-close]')) { while (stack.length && stack[stack.length - 1] !== m) closeTop(); closeTop(); } }));
@@ -462,7 +470,8 @@
 
   /* ---------- Hero card live specs (cycles real data) ---------- */
   const withSpecs = D.products.filter(p => p.head && p.power);
-  if (withSpecs.length) { let k = 0; const tick = () => { const p = withSpecs[k++ % withSpecs.length]; $('#hcHead').textContent = p.head.replace(/^up to\s*/i, '≤ '); $('#hcFlow').textContent = (p.flow || '—').replace(/\s*\(.*\)/, '').replace(/^up to\s*/i, '≤ '); $('#hcHp').textContent = p.power.replace(/\s*\(.*\)/, ''); $('.hc-top span').textContent = p.name; }; tick(); setInterval(tick, 3200); }
+  { const rw = $('#rotWord'); const words = ['every field.', 'every home.', 'every tank.', 'every harvest.']; let k = 0;
+    if (rw && !matchMedia('(prefers-reduced-motion: reduce)').matches) setInterval(() => { rw.classList.add('out'); setTimeout(() => { rw.textContent = words[++k % words.length]; rw.classList.remove('out'); }, 380); }, 2800); }
 
   /* ---------- Reviews ---------- */
   let rating = 0;
