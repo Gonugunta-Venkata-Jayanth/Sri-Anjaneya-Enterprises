@@ -9,7 +9,7 @@
 <meta property="og:title" content="Sri Anjaneya Enterprises" />
 <meta property="og:description" content="Submersible pumps from 8 trusted brands, plus our own Aqua Tide. Secunderabad, Hyderabad." />
 <meta property="og:image" content="images/hero-hanuman.webp" />
-<link rel="icon" href="images/logo-aqua-tide.webp" />
+<link rel="icon" href="images/favicon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -20,10 +20,11 @@
 </script>
 </head>
 <body>
+<canvas id="bgFx" aria-hidden="true"></canvas><div class="grain" aria-hidden="true"></div>
 
 <!-- Preloader -->
 <div class="preloader" id="preloader">
-  <div class="pl-drop"><span></span></div>
+  <div class="pl-logo"><img src="images/sae-logo.webp" alt="" /><i></i></div>
   <div class="pl-name">Sri Anjaneya <em>Enterprises</em></div>
   <div class="pl-bar"><i id="plBar"></i></div>
 </div>
@@ -33,7 +34,7 @@
 
 <!-- NAV -->
 <header class="nav" id="nav">
-  <a href="#home" class="nav-brand"><img src="images/logo-aqua-tide.webp" alt="" /><span>Sri Anjaneya<b>Enterprises</b></span></a>
+  <a href="#home" class="nav-brand"><img src="images/sae-logo-wide.webp" alt="Sri Anjaneya Enterprises logo: Lord Hanuman lifting the mountain" /><span>Sri Anjaneya<b>Enterprises</b></span></a>
   <nav class="nav-links" id="navLinks">
     <a href="#about">About</a><a href="#brands">Brands</a><a href="#pumps">Pumps</a><a href="#finder">Pump Finder</a><a href="#certificates">Certificates</a><a href="#reviews">Reviews</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
   </nav>
@@ -64,7 +65,7 @@
       </div>
       <div class="hero-meta reveal">
         <div><b class="count" data-to="8">0</b><span>+ years</span></div>
-        <div><b class="count" data-to="9">0</b><span>brands</span></div>
+        <div><b class="count" data-to="8">0</b><span>partner brands</span></div>
         <div><b class="count" data-to="0" id="pumpCountHero">0</b><span>pump series</span></div>
       </div>
     </div>
@@ -102,7 +103,7 @@
       </div>
       <div class="bento">
         <div class="b-card glass tilt reveal"><b class="count" data-to="8">0</b><span>+ years in business</span></div>
-        <div class="b-card glass tilt reveal"><b class="count" data-to="9">0</b><span>+ premium brands</span></div>
+        <div class="b-card glass tilt reveal"><b class="count" data-to="8">0</b><span>partner brands + Aqua Tide</span></div>
         <div class="b-card glass tilt reveal wide video-card">
           <video autoplay muted loop playsinline preload="metadata" poster="media/water-stream.jpg"><source src="media/water-stream.mp4" type="video/mp4" /></video>
           <div><b>🌐</b><span>Worldwide service</span></div>
@@ -165,8 +166,8 @@
     <h2 class="split">From deep borewells to rooftop tanks, <em>we keep water moving.</em></h2>
     <div class="vb-stats">
       <div><b class="count" data-to="0" id="vbPumps">0</b><small>pump series listed</small></div>
-      <div><b>3"–10"</b><small>borewell sizes</small></div>
-      <div><b>0.5–30+ HP</b><small>power range</small></div>
+      <div><b id="vbBore">3"–10"</b><small>borewell sizes</small></div>
+      <div><b id="vbHp">0.5–30+ HP</b><small>power range</small></div>
     </div>
   </div>
 </section>
@@ -177,7 +178,8 @@
     <div class="sec-head">
       <span class="eyebrow">All brands · one catalogue</span>
       <h2 class="split">Agricultural & domestic <em>submersibles</em></h2>
-      <p class="sec-sub">Prices are indicative bands. Call us for today's best quote.</p>
+      <p class="sec-sub">Agriculture and domestic ranges, segregated brand by brand. Tap any logo for its full range.</p>
+      <div class="price-banner reveal"><span>💬</span><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
     </div>
 
     <div class="filters glass" id="filters">
@@ -188,6 +190,7 @@
       <div class="brand-pills" id="brandPills"></div>
       <div class="filter-row">
         <select id="typeSel"><option value="all">All pump types</option></select>
+        <select id="groupSel" aria-label="Group pumps"><option value="brand">Group: Category → Brand</option><option value="type">Group: Category → Pump type</option><option value="none">No grouping</option></select>
         <select id="sortSel">
           <option value="brand">Sort: Brand</option>
           <option value="priceAsc">Price: low → high</option>
@@ -336,7 +339,7 @@
 
 <footer class="footer">
   <div class="container foot">
-    <div class="nav-brand"><img src="images/logo-aqua-tide.webp" alt="" /><span>Sri Anjaneya<b>Enterprises</b></span></div>
+    <div class="nav-brand"><img src="images/sae-logo-wide.webp" alt="Sri Anjaneya Enterprises logo" /><span>Sri Anjaneya<b>Enterprises</b></span></div>
     <p>Authorised dealer · Submersible pumps & motors · GST 36ASFPG1225Q1ZM</p>
     <p class="muted small">Brand names, logos and product data belong to their owners and are shown for dealer reference. Prices are indicative ranges; final price on quotation.</p>
     <p class="muted small">© <span id="year"></span> Sri Anjaneya Enterprises. All rights reserved.</p>
@@ -349,6 +352,7 @@
 <!-- Modals -->
 <div class="modal" id="pumpModal" aria-hidden="true"><div class="modal-box glass" role="dialog" aria-modal="true"><button class="modal-x" data-close>✕</button><div id="pumpModalBody"></div></div></div>
 <div class="modal" id="brandModal" aria-hidden="true"><div class="modal-box glass wide" role="dialog" aria-modal="true"><button class="modal-x" data-close>✕</button><div id="brandModalBody"></div></div></div>
+<div class="modal bpage" id="brandPage" aria-hidden="true"><div class="bpage-box" role="dialog" aria-modal="true" aria-label="Brand range"><button class="modal-x" data-close aria-label="Close">✕</button><div id="brandPageBody"></div></div></div>
 <div class="modal" id="imgModal" aria-hidden="true"><div class="modal-box bare"><button class="modal-x" data-close>✕</button><img id="imgModalImg" src="images/hero-hanuman.webp" alt="Enlarged view" /></div></div>
 <div class="drawer" id="compareDrawer" aria-hidden="true"><div class="drawer-box glass"><div class="drawer-head"><h3>Compare pumps</h3><button class="modal-x" data-close>✕</button></div><div id="compareBody"></div></div></div>
 <div class="toast" id="toast"></div>
@@ -357,6 +361,7 @@
 <script src="js/vendor/gsap.min.js"></script>
 <script src="js/vendor/ScrollTrigger.min.js"></script>
 <script src="js/vendor/lenis.min.js"></script>
+<script src="js/bg.js" defer></script>
 <script src="js/app.js"></script>
 <script type="module" src="js/scene.js"></script>
 </body>

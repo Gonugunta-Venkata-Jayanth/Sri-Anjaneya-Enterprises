@@ -15,3 +15,8 @@ Thumbs.db
 desktop.ini
 *.swp
 .idea/
+enrich/
+enrich_*/
+raw_*/
+_*.html
+__pycache__/
