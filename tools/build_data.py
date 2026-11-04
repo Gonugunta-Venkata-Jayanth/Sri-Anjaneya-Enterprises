@@ -4,21 +4,21 @@ import json, glob, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 BRANDS = [  # display order and dealer meta (from the original site)
-  dict(slug="ksb", color="#2f8fe0", logoDark="images/brands/dark/ksb.svg", files=["ksb"], name="KSB", logo="images/brands/ksb.svg", origin="Germany · Est. 1871", status="Authorized Dealer",
+  dict(slug="ksb", color="#2f8fe0", logoDark="images/brands/dark/ksb.svg", files=["ksb"], name="KSB", logo="images/brands/rev/ksb.svg", origin="Germany · Est. 1871", status="Authorized Dealer",
        blurb="German precision engineering with outstanding head and flow for Indian farms and municipalities."),
-  dict(slug="kirloskar", color="#e4002b", logoDark="images/brands/dark/kirloskar.webp", files=["kirloskar"], name="Kirloskar", logo="images/brands/kirloskar-t.webp", origin="India · Pune, Est. 1888", status="Authorized Dealer",
+  dict(slug="kirloskar", color="#e4002b", logoDark="images/brands/dark/kirloskar.webp", files=["kirloskar"], name="Kirloskar", logo="images/brands/rev/kirloskar.webp", origin="India · Pune, Est. 1888", status="Authorized Dealer",
        blurb="India's most trusted pump brand. Rugged, energy-efficient SPB-range submersibles."),
   dict(slug="wilo", color="#00a88f", logoDark="images/brands/dark/wilo.svg", files=["wilo"], name="Wilo", logo="images/brands/wilo.svg", origin="Germany · Est. 1872", status="Authorized Dealer",
        blurb="Smart, premium pumping technology that cuts power bills and keeps pressure steady."),
-  dict(slug="ekki-deccan", color="#e30613", logoDark="images/brands/dark/ekki-deccan.webp", files=["ekki", "deccan"], name="Ekki-Deccan", logo="images/brands/ekki-deccan.webp", origin="India · Coimbatore, Est. 1981", status="Certified ADBS Dealer",
+  dict(slug="ekki-deccan", color="#e30613", logoDark="images/brands/dark/ekki-deccan.webp", files=["ekki", "deccan"], name="Ekki-Deccan", logo="images/brands/rev/ekki-deccan.webp", origin="India · Coimbatore, Est. 1981", status="Certified ADBS Dealer",
        blurb="South India's largest submersible makers. EKKI borewells and DECCAN openwells for high-head farm pumping."),
-  dict(slug="cri", color="#e2231a", logoDark="images/brands/dark/cri.webp", files=["cri"], name="C.R.I.", logo="images/brands/cri.png", origin="India · Coimbatore, Est. 1961", status="Dealer",
+  dict(slug="cri", color="#e2231a", logoDark="images/brands/dark/cri.webp", files=["cri"], name="C.R.I.", logo="images/brands/rev/cri.webp", origin="India · Coimbatore, Est. 1961", status="Dealer",
        blurb="Commitment, Reliability, Innovation. Borewell, openwell and solar submersibles."),
-  dict(slug="falcon", color="#ef3b2c", logoDark="images/brands/dark/falcon.webp", files=["falcon"], name="Falcon", logo="images/brands/falcon.webp", origin="India · Rajkot, Est. 1994", status="Dealer",
+  dict(slug="falcon", color="#ef3b2c", logoDark="images/brands/dark/falcon.webp", files=["falcon"], name="Falcon", logo="images/brands/rev/falcon.webp", origin="India · Rajkot, Est. 1994", status="Dealer",
        blurb="A Machine For Mankind. Robust borewell pumpsets loved in hard-rock farmland."),
-  dict(slug="lubi", color="#1f7ae0", logoDark="images/brands/dark/lubi.webp", files=["lubi"], name="Lubi", logo="images/brands/lubi.webp", origin="India · Ahmedabad, Est. 1965", status="Dealer",
+  dict(slug="lubi", color="#1f7ae0", logoDark="images/brands/dark/lubi.webp", files=["lubi"], name="Lubi", logo="images/brands/rev/lubi.webp", origin="India · Ahmedabad, Est. 1965", status="Dealer",
        blurb="Compact, efficient pumps and motors for homes and farm irrigation."),
-  dict(slug="crompton", color="#3b82f6", logoDark="images/brands/dark/crompton.webp", files=["crompton"], name="Crompton", logo="images/brands/crompton.webp", origin="India · Est. 1937", status="Dealer",
+  dict(slug="crompton", color="#3b82f6", logoDark="images/brands/dark/crompton.webp", files=["crompton"], name="Crompton", logo="images/brands/rev/crompton.webp", origin="India · Est. 1937", status="Dealer",
        blurb="Smart, reliable pumping from a household Indian name, with service reach in every district."),
 ]
 

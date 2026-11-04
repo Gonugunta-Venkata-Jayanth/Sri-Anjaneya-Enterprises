@@ -260,7 +260,7 @@
   };
 
   const brandLogo = slug => (brandBySlug[slug] || {}).logo || '';
-  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/deccan.webp' : 'images/brands/ekki.webp') : brandLogo(p.brand);
+  const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/rev/deccan.webp' : 'images/brands/rev/ekki.webp') : brandLogo(p.brand);
   const priceHTML = p => { const top = p.priceTo || p.priceFrom; return `<div class="price ${top ? '' : 'na'}"><div><small>${top ? 'Up to' : 'Price'}</small><b>${top ? esc(top) : 'Call for best price'}</b></div><a class="price-note" href="tel:9246607214" onclick="event.stopPropagation()">Best price · GV Sathyanarayana<br>9246607214 · 9704157350</a></div>`; };
   const short = v => (v || '—').replace(/\s*\([^)]*\)/g, '').replace(/^up to\s*/i, '≤ ').trim() || '—';
   function cardHTML(p) {
@@ -398,7 +398,7 @@
     $('#pumpModalBody').innerHTML = `<div class="pm pm-grid" style="--brand:${b.color || '#3ee0ff'}">
       <div class="pm-media">
         <div class="pm-stage">${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.name)}" />` : `<div class="ph">${esc(p.brandName)}<small>${esc(p.series || '')}</small></div>`}<i class="pm-ring"></i><i class="pm-ring r2"></i></div>
-        <img class="pm-brand" src="${p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/deccan.webp' : 'images/brands/ekki.webp') : brandLogo(p.brand)}" alt="${esc(p.brandName)}" />
+        <img class="pm-brand" src="${p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/rev/deccan.webp' : 'images/brands/rev/ekki.webp') : brandLogo(p.brand)}" alt="${esc(p.brandName)}" />
         ${p.applications?.length ? `<div class="tags">${p.applications.map(a => `<span>${esc(a)}</span>`).join('')}</div>` : ''}
       </div>
       <div>

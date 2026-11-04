@@ -1,683 +1,684 @@
 {
-  "brand": "Wilo",
-  "website": "https://wilo.com/in/en/",
-  "country": "Germany (WILO SE; Indian arm WILO Mather and Platt Pumps Pvt. Ltd., Pune)",
-  "founded": "1872",
-  "tagline": "Pioneering for You",
-  "products": [
-    {
-      "name": "Wilo WBWP3 Prathak 75 mm (3\")",
-      "series": "WBWP3 Prathak",
-      "category": "Domestic",
-      "type": "Borewell submersible (3\", water-filled)",
-      "power_range": "1–1.5 HP (0.75–1.1 kW)",
-      "head_range": "Up to 75 m",
-      "flow_range": "Up to 95 LPM",
-      "borewell_size": "75 mm (3\")",
-      "phase": "Single",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Compact for narrow 3-inch bores"
-      ],
-      "applications": [
-        "Domestic household water supply",
-        "High-rise buildings & housing complexes",
-        "Farm houses, gardens & nurseries"
-      ],
-      "price_from": "₹ 17,955",
-      "price_to": "₹ 21,950",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454631/7757093/wilo454631.pdf",
-      "image_file": "images/products/wilo/wbwp3-prathak.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 75 mm (3\") water-filled borewell submersible pumpset for narrow bores, aimed at domestic water supply, high-rise buildings, farm houses and gardens.",
-      "features": [
-        "Wide voltage range, single and three phase",
-        "Glass-filled virgin Noryl casing and impeller",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "Non-return valve designed for minimum friction loss",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Spline coupling as per NEMA standards"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 80 LPM",
-        "max_head": "up to 45 m",
-        "max_power": "up to 0.75 kW (1 HP)",
-        "note": "WBW 75 mm values from Wilo 2021 selection book; series page states up to 2130 LPM / 325 m / 22 kW across WBWP3–WBW8"
-      },
-      "materials": {
-        "casing": "Glass-filled virgin Noryl",
-        "impeller": "Glass-filled virgin Noryl",
-        "motor_body": "SS",
-        "rotor": "Copper",
-        "stator_winding": "Copper"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBWP4 Prathak / WBW 100 mm Plus – Single Phase",
-      "series": "WBW4 Prathak / Plus (1-ph)",
-      "category": "Domestic",
-      "type": "Borewell submersible (4\", water-filled)",
-      "power_range": "0.5–3 HP (0.37–2.2 kW)",
-      "head_range": "Up to 181 m",
-      "flow_range": "Up to 460 LPM",
-      "borewell_size": "100 mm (4\")",
-      "phase": "Single",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Control panel available for motor protection"
-      ],
-      "applications": [
-        "Domestic household water supply",
-        "High-rise buildings & housing complexes",
-        "Farm houses, gardens & nurseries",
-        "Poultry / cattle farm washing"
-      ],
-      "price_from": "₹ 11,045",
-      "price_to": "₹ 36,420",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454632/7757097/wilo454632.pdf",
-      "image_file": "images/products/wilo/wbw4-prathak-plus-1ph.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 100 mm (4\") water-filled borewell submersible range – Prathak and WBW 4 Plus – for domestic and building water supply, washing and fountains.",
-      "features": [
-        "Wide voltage range (single phase; Plus also three phase)",
-        "Glass-filled virgin Noryl impeller",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "Non-return valve designed for minimum friction loss",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
-        "Spline coupling as per NEMA standard"
-      ],
-      "operating_limits": {
-        "prathak_max_flow": "up to 460 LPM",
-        "prathak_max_head": "up to 181 m",
-        "plus_max_flow": "up to 500 LPM",
-        "plus_max_head": "up to 348 m",
-        "max_power": "up to 3.7 kW (5 HP)",
-        "source_note": "Wilo 2021 selection book"
-      },
-      "materials": {
-        "casing": "Glass-filled virgin Noryl",
-        "impeller": "Glass-filled virgin Noryl",
-        "motor_body": "SS",
-        "rotor": "Copper (Plus)",
-        "stator_winding": "Copper"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBW 100 mm Plus – Three Phase",
-      "series": "WBW4 Plus (3-ph)",
-      "category": "Agriculture",
-      "type": "Borewell submersible (4\", water-filled)",
-      "power_range": "2–5 HP (1.5–3.7 kW)",
-      "head_range": "Up to 348 m",
-      "flow_range": "Up to 500 LPM",
-      "borewell_size": "100 mm (4\")",
-      "phase": "Three",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Resistant to corrosion and abrasion"
-      ],
-      "applications": [
-        "Farm irrigation",
-        "Farm houses & nurseries",
-        "High-rise buildings",
-        "Community water supply"
-      ],
-      "price_from": "₹ 20,615",
-      "price_to": "₹ 43,805",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454632/7757097/wilo454632.pdf",
-      "image_file": "images/products/wilo/wbw4-plus-3ph.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Three-phase version of Wilo's WBW 100 mm (4\") Plus water-filled borewell submersible, for domestic, building and farm water supply.",
-      "features": [
-        "Wide voltage range, single and three phase",
-        "Glass-filled virgin Noryl impeller",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "Non-return valve designed for minimum friction loss",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 500 LPM",
-        "max_head": "up to 348 m",
-        "max_power": "up to 3.7 kW (5 HP)",
-        "source_note": "WBW 4 Plus section, Wilo 2021 selection book (covers 1 & 3 phase)"
-      },
-      "materials": {
-        "casing": "Glass-filled virgin Noryl",
-        "impeller": "Glass-filled virgin Noryl",
-        "motor_body": "SS",
-        "rotor": "Copper",
-        "stator_winding": "Copper"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBW5 125 mm (5\")",
-      "series": "WBW5",
-      "category": "Agriculture",
-      "type": "Borewell submersible (5\", water-filled)",
-      "power_range": "Up to 5 HP (3.7 kW)",
-      "head_range": "",
-      "flow_range": "Up to 700 LPM",
-      "borewell_size": "125 mm (5\")",
-      "phase": "Three",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Resistant to corrosion and abrasion"
-      ],
-      "applications": [
-        "Irrigation",
-        "Domestic & community supply",
-        "Farm houses"
-      ],
-      "price_from": "₹ 52,547",
-      "price_to": "",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454636/7757105/wilo454636.pdf",
-      "image_file": "images/products/wilo/wbw5.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 125 mm (5\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community water supply, drip/sprinkler irrigation and industrial use.",
-      "features": [
-        "Wide voltage range, single and three phase",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Non-return valve designed for minimum friction loss",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
-        "Resistant to corrosion and abrasion"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 700 LPM",
-        "max_power": "up to 3.7 kW (5 HP)",
-        "source_note": "Wilo 2021 selection book (head figure in book appears misprinted; omitted)"
-      },
-      "materials": {
-        "casing": "CI",
-        "impeller": "SS 410",
-        "motor_body": "SS"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBW6 150 mm (6\")",
-      "series": "WBW6",
-      "category": "Agriculture",
-      "type": "Borewell submersible (6\", water-filled)",
-      "power_range": "3–15 HP (2.2–11 kW)",
-      "head_range": "Up to 227 m",
-      "flow_range": "Up to 1250 LPM",
-      "borewell_size": "150 mm (6\")",
-      "phase": "Both",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Resistant to corrosion and abrasion"
-      ],
-      "applications": [
-        "Irrigation",
-        "Domestic & community supply",
-        "Farm houses",
-        "High-rise buildings"
-      ],
-      "price_from": "₹ 43,578",
-      "price_to": "₹ 96,403",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454637/7757109/wilo454637.pdf",
-      "image_file": "images/products/wilo/wbw6.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 150 mm (6\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community and building water supply, irrigation and industry.",
-      "features": [
-        "Wide voltage range, single and three phase",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Non-return valve designed for minimum friction loss",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
-        "Resistant to corrosion and abrasion"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 1250 LPM",
-        "max_head": "up to 227 m",
-        "max_power": "up to 11.2 kW (15 HP)",
-        "source_note": "Wilo 2021 selection book"
-      },
-      "materials": {
-        "casing": "CI",
-        "impeller": "SS 410",
-        "motor_body": "SS"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBW7 175 mm (7\")",
-      "series": "WBW7",
-      "category": "Agriculture",
-      "type": "Borewell submersible (7\", water-filled)",
-      "power_range": "4–25 HP (3–18.5 kW)",
-      "head_range": "Up to ~63 m",
-      "flow_range": "Up to 1750 LPM",
-      "borewell_size": "175 mm (7\")",
-      "phase": "Three",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Resistant to corrosion and abrasion"
-      ],
-      "applications": [
-        "Irrigation",
-        "Community water supply",
-        "Farm houses"
-      ],
-      "price_from": "₹ 53,073",
-      "price_to": "₹ 1,19,046",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454638/7757113/wilo454638.pdf",
-      "image_file": "images/products/wilo/wbw7.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 175 mm (7\") three-phase water-filled borewell submersible pumpset with CI casing and SS 410 impellers for high-volume water supply.",
-      "features": [
-        "Wide voltage range, three phase",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Non-return valve designed for minimum friction loss",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
-        "Resistant to corrosion and abrasion"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 1700 LPM",
-        "max_head": "up to 105 m",
-        "max_power": "up to 18.5 kW (25 HP)",
-        "source_note": "Wilo 2021 selection book"
-      },
-      "materials": {
-        "casing": "CI",
-        "impeller": "SS 410",
-        "motor_body": "SS"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WBW8 200 mm (8\")",
-      "series": "WBW8",
-      "category": "Agriculture",
-      "type": "Borewell submersible (8\", water-filled)",
-      "power_range": "7.5–30 HP (5.5–22 kW)",
-      "head_range": "Up to ~80 m",
-      "flow_range": "Up to 2300 LPM",
-      "borewell_size": "200 mm (8\")",
-      "phase": "Three",
-      "highlights": [
-        "Water-filled, rewindable stainless-steel motor",
-        "Glass-filled virgin Noryl / SS impellers",
-        "Wide voltage range",
-        "Resistant to corrosion and abrasion"
-      ],
-      "applications": [
-        "Large-farm irrigation",
-        "Community water supply",
-        "Farm houses"
-      ],
-      "price_from": "₹ 65,909",
-      "price_to": "₹ 1,37,150",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454639/7757117/wilo454639.pdf",
-      "image_file": "images/products/wilo/wbw8.jpg",
-      "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 200 mm (8\") three-phase water-filled borewell submersible pumpset with CI casing and SS 410 impellers for high-volume water supply.",
-      "features": [
-        "Wide voltage range, three phase",
-        "High-quality winding wires to withstand wide voltage fluctuation",
-        "Bearing supports at top, bottom and middle for stability",
-        "SS wear rings on casings for longer life and easier maintenance",
-        "Top & suction bushes protected by sand-guard arrangement",
-        "Non-return valve designed for minimum friction loss",
-        "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
-        "Resistant to corrosion and abrasion"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 2300 LPM",
-        "max_head": "up to 105 m",
-        "max_power": "up to 18.5 kW (25 HP)",
-        "source_note": "Wilo 2021 selection book"
-      },
-      "materials": {
-        "casing": "CI",
-        "impeller": "SS 410",
-        "motor_body": "SS"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-        "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WPO Raptor Horizontal Openwell – 1 Phase",
-      "series": "WPO Raptor (1-ph)",
-      "category": "Domestic",
-      "type": "Openwell submersible (horizontal)",
-      "power_range": "0.5–5 HP (0.37–3.7 kW)",
-      "head_range": "Up to 48 m",
-      "flow_range": "Up to 1550 LPM",
-      "borewell_size": "Open well / sump",
-      "phase": "Single",
-      "highlights": [
-        "Highly durable rewindable motor",
-        "Wide voltage 160–240 V",
-        "CED-coated, internally rust-protected",
-        "No suction or priming problems"
-      ],
-      "applications": [
-        "Farm houses",
-        "Bungalows",
-        "Apartments"
-      ],
-      "price_from": "₹ 11,677",
-      "price_to": "₹ 43,654",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
-      "image_file": "images/products/wilo/wpo-raptor-h-1ph.jpg",
-      "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-1-Phase.html",
-      "description": "Wilo WPO Raptor horizontal single-phase openwell submersible pumpset for farm houses, bungalows and apartments, installed submerged so there are no suction or priming problems.",
-      "features": [
-        "Highly durable rewindable motor",
-        "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
-        "Compact mechanical design",
-        "Designed for submerged underwater operation",
-        "Designed for wide voltage fluctuations",
-        "CED coating against corrosion; internal parts specially coated against rusting",
-        "No suction or priming problems",
-        "High pumpset efficiency for lower power consumption"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 1550 LPM",
-        "max_head": "up to 48 m",
-        "max_power": "up to 3.7 kW (5 HP)",
-        "voltage": "160–240 V"
-      },
-      "materials": {
-        "impeller": "Noryl / Cast iron",
-        "casing": "Cast iron",
-        "motor_body": "SS"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-1-Phase.html"
-      ]
-    },
-    {
-      "name": "Wilo WPO Raptor Horizontal Openwell – 3 Phase",
-      "series": "WPO Raptor (3-ph)",
-      "category": "Agriculture",
-      "type": "Openwell submersible (horizontal)",
-      "power_range": "1–30 HP (0.75–22 kW)",
-      "head_range": "Up to 78 m",
-      "flow_range": "Up to 3400 LPM",
-      "borewell_size": "Open well / sump",
-      "phase": "Three",
-      "highlights": [
-        "Rewindable SS-body motor",
-        "Wide voltage 350–440 V",
-        "Dynamically balanced, low vibration",
-        "High efficiency, lower power bills"
-      ],
-      "applications": [
-        "Agriculture",
-        "Farm houses",
-        "Bungalows",
-        "Apartments"
-      ],
-      "price_from": "₹ 14,842",
-      "price_to": "₹ 1,55,497",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
-      "image_file": "images/products/wilo/wpo-raptor-h-3ph.jpg",
-      "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-3-Phase.html",
-      "description": "Wilo WPO Raptor horizontal three-phase openwell submersible pumpset for farm houses, bungalows, apartments and agriculture, with CED-coated cast-iron hydraulics.",
-      "features": [
-        "Highly durable rewindable motor",
-        "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
-        "Compact mechanical design",
-        "Designed for submerged underwater operation",
-        "Designed for wide voltage fluctuations",
-        "CED coating against corrosion; internal parts specially coated against rusting",
-        "No suction or priming problems",
-        "High pumpset efficiency for lower power consumption"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 3400 LPM",
-        "max_head": "up to 78 m",
-        "max_power": "up to 22 kW (30 HP)",
-        "voltage": "350–440 V"
-      },
-      "materials": {
-        "impeller": "Cast iron",
-        "casing": "Cast iron",
-        "motor_body": "SS",
-        "coating": "CED"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-3-Phase.html"
-      ]
-    },
-    {
-      "name": "Wilo WPO Raptor Vertical Openwell – 3 Phase",
-      "series": "WPO Raptor Vertical",
-      "category": "Agriculture",
-      "type": "Openwell submersible (vertical multistage)",
-      "power_range": "3–22.5 HP (2.2–16.8 kW)",
-      "head_range": "Up to 148 m",
-      "flow_range": "Up to 1500 LPM",
-      "borewell_size": "Open well / sump",
-      "phase": "Three",
-      "highlights": [
-        "Up to 8 stages for high heads",
-        "Cast-iron motor body, CED coated",
-        "Wide voltage 350–440 V",
-        "Compact, installs submerged"
-      ],
-      "applications": [
-        "Agriculture",
-        "Farm houses",
-        "Bungalows",
-        "Apartments"
-      ],
-      "price_from": "₹ 44,572",
-      "price_to": "₹ 1,03,785",
-      "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
-      "image_file": "images/products/wilo/wpo-raptor-v-3ph.jpg",
-      "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Vertical-Open-well-3-Phase.html",
-      "description": "Wilo WPO Raptor vertical three-phase multistage openwell submersible pumpset for high-head duty in farm houses, apartments and agriculture.",
-      "features": [
-        "Highly durable rewindable motor",
-        "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
-        "Compact mechanical design",
-        "Designed for submerged underwater operation",
-        "Designed for wide voltage fluctuations",
-        "CED coating against corrosion; internal parts specially coated against rusting",
-        "No suction or priming problems",
-        "High pumpset efficiency for lower power consumption"
-      ],
-      "operating_limits": {
-        "max_flow": "up to 1500 LPM",
-        "max_head": "up to 148 m",
-        "max_power": "up to 16.8 kW (22.5 HP)",
-        "voltage": "350–440 V",
-        "stages": "8",
-        "pipe_size": "75 mm"
-      },
-      "materials": {
-        "impeller": "Cast iron",
-        "casing": "Cast iron",
-        "motor_body": "Cast iron",
-        "coating": "CED"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products/WPO-Raptor-Vertical-Open-well-3-Phase.html"
-      ]
-    },
-    {
-      "name": "Wilo MPO Openwell Submersible – 3 Phase",
-      "series": "MPO",
-      "category": "Agriculture",
-      "type": "Openwell submersible (horizontal)",
-      "power_range": "Up to 10 HP (brochure); range up to 30 HP",
-      "head_range": "Up to 62–78 m",
-      "flow_range": "Up to 1460–2250 LPM",
-      "borewell_size": "Open well / sump",
-      "phase": "Three",
-      "highlights": [
-        "No foundation needed – installed under water",
-        "Carbon vs SS thrust bearing, SS shaft",
-        "Motor filled with anti-corrosive liquid",
-        "Energy-efficient, wide-voltage motor"
-      ],
-      "applications": [
-        "Agriculture",
-        "Farm houses",
-        "Bungalows",
-        "Apartments"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/wilo/mpo.jpg",
-      "source_url": "https://cms.media.wilo.com/cdndoc/wilo455152/5629572/wilo455152.pdf",
-      "description": "Wilo MPO three-phase openwell submersible pump, installed under water for water transfer in bungalows, farm houses, apartments and agriculture.",
-      "features": [
-        "No foundation or foot wall needed – installed under water",
-        "SS shaft for long, trouble-free life",
-        "Energy-efficient motor design",
-        "Motor designed for wide voltage range",
-        "Motor filled with anti-corrosive liquid to protect internal parts",
-        "Carbon vs stainless-steel thrust bearing for longer life"
-      ],
-      "operating_limits": {
-        "max_flow": "1460 LPM (as printed; selection table lists up to ~2250 LPM)",
-        "max_head": "up to 62 m",
-        "max_power": "up to 10 HP (selection table lists models up to 30 HP)",
-        "voltage": "3 phase"
-      },
-      "sources": [
-        "https://cms.media.wilo.com/cdndoc/wilo455152/5629572/wilo455152.pdf"
-      ]
-    },
-    {
-      "name": "Wilo WPO Maxima – 1 Phase",
-      "series": "WPO Maxima",
-      "category": "Domestic",
-      "type": "Openwell submersible (horizontal)",
-      "power_range": "0.5–3 HP",
-      "head_range": "Up to 33 m",
-      "flow_range": "Up to 740 LPM",
-      "borewell_size": "Open well / sump",
-      "phase": "Single",
-      "highlights": [
-        "Compact mechanical design",
-        "Water-cooled rewindable motor",
-        "Wide voltage tolerance",
-        "Supplied with starter box"
-      ],
-      "applications": [
-        "Bungalows",
-        "Farm houses",
-        "Apartments"
-      ],
-      "price_from": "₹ 11,500",
-      "price_to": "",
-      "price_source_url": "https://dir.indiamart.com/impcat/wilo-submersible-pump.html",
-      "image_file": "",
-      "source_url": "https://wilo.com/in/en/Products/"
-    },
-    {
-      "name": "Wilo-Sub TWI (4\"–10\" stainless steel)",
-      "series": "Sub TWI",
-      "category": "Agriculture",
-      "type": "Borewell submersible (stainless steel, 4\"/6\"/8\"/10\")",
-      "power_range": "",
-      "head_range": "",
-      "flow_range": "1–250 m³/h (~17–4170 LPM)",
-      "borewell_size": "100–250 mm (4\"–10\")",
-      "phase": "Both",
-      "highlights": [
-        "Corrosion-resistant stainless steel (optional V4A)",
-        "Handles up to 50 g/m³ sand",
-        "Vertical or horizontal installation",
-        "ACS certified for drinking water"
-      ],
-      "applications": [
-        "Irrigation & sprinkling",
-        "Water supply",
-        "Pressure boosting",
-        "Groundwater lowering"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/wilo/sub-twi.jpg",
-      "source_url": "https://wilo.com/in/en/Products-and-expertise/en/8ae2819c8e9774cf018ea36fa2c86c6b/40288a8a54ce361f0154de085ba07ac9?rawurl=1",
-      "description": "Wilo-Sub TWI is a multistage stainless-steel submersible pump (4\", 6\", 8\" and 10\" versions) for drinking water, rainwater and process water from wells, for irrigation, water supply and pressure boosting.",
-      "features": [
-        "Corrosion-resistant stainless steel, optionally in V4A (AISI 316) quality",
-        "ACS certified for domestic hot water applications (per product page)",
-        "Versions in 4, 6, 8 and 10-inch sizes",
-        "Performance range from 1 to 250 m³/h",
-        "Integrated non-return valve; NEMA discharge/connection",
-        "Vertical or horizontal installation (horizontal needs cooling jacket)",
-        "Sealed or rewindable motor with water-glycol filling; self-lubricating bearings"
-      ],
-      "operating_limits": {
-        "flow_range": "1–250 m³/h (series)",
-        "fluid_temperature": "3–30 °C",
-        "max_sand_content": "50 g/m³",
-        "max_starts": "20/h",
-        "max_immersion_depth": "100 m or 350 m (depending on motor)",
-        "ip_rating": "IP68",
-        "mains": "3~400 V, 50 Hz",
-        "note": "Limits from the Sub TWI 6 page"
-      },
-      "materials": {
-        "hydraulics_housing": "1.4301 (AISI 304)",
-        "impellers": "1.4301 (AISI 304)",
-        "hydraulic_shaft": "1.4057 (AISI 431)",
-        "motor_housing": "1.4301 (AISI 304)",
-        "motor_shaft": "1.4301 (AISI 304) or 1.4305 (AISI 303)"
-      },
-      "sources": [
-        "https://wilo.com/in/en/Products-and-expertise/en/8ae2819c8e9774cf018ea36fa2c86c6b/40288a8a54ce361f0154de085ba07ac9?rawurl=1"
-      ]
-    }
-  ]
+ "brand": "Wilo",
+ "website": "https://wilo.com/in/en/",
+ "country": "Germany (WILO SE; Indian arm WILO Mather and Platt Pumps Pvt. Ltd., Pune)",
+ "founded": "1872",
+ "tagline": "Pioneering for You",
+ "products": [
+  {
+   "name": "Wilo WBWP3 Prathak 75 mm (3\")",
+   "series": "WBWP3 Prathak",
+   "category": "Domestic",
+   "type": "Borewell submersible (3\", water-filled)",
+   "power_range": "1–1.5 HP (0.75–1.1 kW)",
+   "head_range": "Up to 75 m",
+   "flow_range": "Up to 95 LPM",
+   "borewell_size": "75 mm (3\")",
+   "phase": "Single",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Compact for narrow 3-inch bores"
+   ],
+   "applications": [
+    "Domestic household water supply",
+    "High-rise buildings & housing complexes",
+    "Farm houses, gardens & nurseries"
+   ],
+   "price_from": "₹ 17,955",
+   "price_to": "₹ 21,950",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454631/7757093/wilo454631.pdf",
+   "image_file": "images/products/wilo/wbwp3-prathak.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 75 mm (3\") water-filled borewell submersible pumpset for narrow bores, aimed at domestic water supply, high-rise buildings, farm houses and gardens.",
+   "features": [
+    "Wide voltage range, single and three phase",
+    "Glass-filled virgin Noryl casing and impeller",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "Non-return valve designed for minimum friction loss",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Spline coupling as per NEMA standards"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 80 LPM",
+    "max_head": "up to 45 m",
+    "max_power": "up to 0.75 kW (1 HP)",
+    "note": "WBW 75 mm values from Wilo 2021 selection book; series page states up to 2130 LPM / 325 m / 22 kW across WBWP3–WBW8"
+   },
+   "materials": {
+    "casing": "Glass-filled virgin Noryl",
+    "impeller": "Glass-filled virgin Noryl",
+    "motor_body": "SS",
+    "rotor": "Copper",
+    "stator_winding": "Copper"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBWP4 Prathak / WBW 100 mm Plus – Single Phase",
+   "series": "WBW4 Prathak / Plus (1-ph)",
+   "category": "Domestic",
+   "type": "Borewell submersible (4\", water-filled)",
+   "power_range": "0.5–3 HP (0.37–2.2 kW)",
+   "head_range": "Up to 181 m",
+   "flow_range": "Up to 460 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Single",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Control panel available for motor protection"
+   ],
+   "applications": [
+    "Domestic household water supply",
+    "High-rise buildings & housing complexes",
+    "Farm houses, gardens & nurseries",
+    "Poultry / cattle farm washing"
+   ],
+   "price_from": "₹ 11,045",
+   "price_to": "₹ 36,420",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454632/7757097/wilo454632.pdf",
+   "image_file": "images/products/wilo/wbw4-prathak-plus-1ph.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 100 mm (4\") water-filled borewell submersible range – Prathak and WBW 4 Plus – for domestic and building water supply, washing and fountains.",
+   "features": [
+    "Wide voltage range (single phase; Plus also three phase)",
+    "Glass-filled virgin Noryl impeller",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "Non-return valve designed for minimum friction loss",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
+    "Spline coupling as per NEMA standard"
+   ],
+   "operating_limits": {
+    "prathak_max_flow": "up to 460 LPM",
+    "prathak_max_head": "up to 181 m",
+    "plus_max_flow": "up to 500 LPM",
+    "plus_max_head": "up to 348 m",
+    "max_power": "up to 3.7 kW (5 HP)",
+    "source_note": "Wilo 2021 selection book"
+   },
+   "materials": {
+    "casing": "Glass-filled virgin Noryl",
+    "impeller": "Glass-filled virgin Noryl",
+    "motor_body": "SS",
+    "rotor": "Copper (Plus)",
+    "stator_winding": "Copper"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBW 100 mm Plus – Three Phase",
+   "series": "WBW4 Plus (3-ph)",
+   "category": "Agriculture",
+   "type": "Borewell submersible (4\", water-filled)",
+   "power_range": "2–5 HP (1.5–3.7 kW)",
+   "head_range": "Up to 348 m",
+   "flow_range": "Up to 500 LPM",
+   "borewell_size": "100 mm (4\")",
+   "phase": "Three",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Resistant to corrosion and abrasion"
+   ],
+   "applications": [
+    "Farm irrigation",
+    "Farm houses & nurseries",
+    "High-rise buildings",
+    "Community water supply"
+   ],
+   "price_from": "₹ 20,615",
+   "price_to": "₹ 43,805",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454632/7757097/wilo454632.pdf",
+   "image_file": "images/products/wilo/wbw4-plus-3ph.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Three-phase version of Wilo's WBW 100 mm (4\") Plus water-filled borewell submersible, for domestic, building and farm water supply.",
+   "features": [
+    "Wide voltage range, single and three phase",
+    "Glass-filled virgin Noryl impeller",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "Non-return valve designed for minimum friction loss",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 500 LPM",
+    "max_head": "up to 348 m",
+    "max_power": "up to 3.7 kW (5 HP)",
+    "source_note": "WBW 4 Plus section, Wilo 2021 selection book (covers 1 & 3 phase)"
+   },
+   "materials": {
+    "casing": "Glass-filled virgin Noryl",
+    "impeller": "Glass-filled virgin Noryl",
+    "motor_body": "SS",
+    "rotor": "Copper",
+    "stator_winding": "Copper"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBW5 125 mm (5\")",
+   "series": "WBW5",
+   "category": "Agriculture",
+   "type": "Borewell submersible (5\", water-filled)",
+   "power_range": "Up to 5 HP (3.7 kW)",
+   "head_range": "",
+   "flow_range": "Up to 700 LPM",
+   "borewell_size": "125 mm (5\")",
+   "phase": "Three",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Resistant to corrosion and abrasion"
+   ],
+   "applications": [
+    "Irrigation",
+    "Domestic & community supply",
+    "Farm houses"
+   ],
+   "price_from": "₹ 52,547",
+   "price_to": "",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454636/7757105/wilo454636.pdf",
+   "image_file": "images/products/wilo/wbw5.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 125 mm (5\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community water supply, drip/sprinkler irrigation and industrial use.",
+   "features": [
+    "Wide voltage range, single and three phase",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Non-return valve designed for minimum friction loss",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
+    "Resistant to corrosion and abrasion"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 700 LPM",
+    "max_power": "up to 3.7 kW (5 HP)",
+    "source_note": "Wilo 2021 selection book (head figure in book appears misprinted; omitted)"
+   },
+   "materials": {
+    "casing": "CI",
+    "impeller": "SS 410",
+    "motor_body": "SS"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBW6 150 mm (6\")",
+   "series": "WBW6",
+   "category": "Agriculture",
+   "type": "Borewell submersible (6\", water-filled)",
+   "power_range": "3–15 HP (2.2–11 kW)",
+   "head_range": "Up to 227 m",
+   "flow_range": "Up to 1250 LPM",
+   "borewell_size": "150 mm (6\")",
+   "phase": "Both",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Resistant to corrosion and abrasion"
+   ],
+   "applications": [
+    "Irrigation",
+    "Domestic & community supply",
+    "Farm houses",
+    "High-rise buildings"
+   ],
+   "price_from": "₹ 43,578",
+   "price_to": "₹ 96,403",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454637/7757109/wilo454637.pdf",
+   "image_file": "images/products/wilo/wbw6.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 150 mm (6\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community and building water supply, irrigation and industry.",
+   "features": [
+    "Wide voltage range, single and three phase",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Non-return valve designed for minimum friction loss",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
+    "Resistant to corrosion and abrasion"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 1250 LPM",
+    "max_head": "up to 227 m",
+    "max_power": "up to 11.2 kW (15 HP)",
+    "source_note": "Wilo 2021 selection book"
+   },
+   "materials": {
+    "casing": "CI",
+    "impeller": "SS 410",
+    "motor_body": "SS"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBW7 175 mm (7\")",
+   "series": "WBW7",
+   "category": "Agriculture",
+   "type": "Borewell submersible (7\", water-filled)",
+   "power_range": "4–25 HP (3–18.5 kW)",
+   "head_range": "Up to ~63 m",
+   "flow_range": "Up to 1750 LPM",
+   "borewell_size": "175 mm (7\")",
+   "phase": "Three",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Resistant to corrosion and abrasion"
+   ],
+   "applications": [
+    "Irrigation",
+    "Community water supply",
+    "Farm houses"
+   ],
+   "price_from": "₹ 53,073",
+   "price_to": "₹ 1,19,046",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454638/7757113/wilo454638.pdf",
+   "image_file": "images/products/wilo/wbw7.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 175 mm (7\") three-phase water-filled borewell submersible pumpset with CI casing and SS 410 impellers for high-volume water supply.",
+   "features": [
+    "Wide voltage range, three phase",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Non-return valve designed for minimum friction loss",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
+    "Resistant to corrosion and abrasion"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 1700 LPM",
+    "max_head": "up to 105 m",
+    "max_power": "up to 18.5 kW (25 HP)",
+    "source_note": "Wilo 2021 selection book"
+   },
+   "materials": {
+    "casing": "CI",
+    "impeller": "SS 410",
+    "motor_body": "SS"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WBW8 200 mm (8\")",
+   "series": "WBW8",
+   "category": "Agriculture",
+   "type": "Borewell submersible (8\", water-filled)",
+   "power_range": "7.5–30 HP (5.5–22 kW)",
+   "head_range": "Up to ~80 m",
+   "flow_range": "Up to 2300 LPM",
+   "borewell_size": "200 mm (8\")",
+   "phase": "Three",
+   "highlights": [
+    "Water-filled, rewindable stainless-steel motor",
+    "Glass-filled virgin Noryl / SS impellers",
+    "Wide voltage range",
+    "Resistant to corrosion and abrasion"
+   ],
+   "applications": [
+    "Large-farm irrigation",
+    "Community water supply",
+    "Farm houses"
+   ],
+   "price_from": "₹ 65,909",
+   "price_to": "₹ 1,37,150",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454639/7757117/wilo454639.pdf",
+   "image_file": "images/products/wilo/wbw8.jpg",
+   "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+   "description": "Wilo's 200 mm (8\") three-phase water-filled borewell submersible pumpset with CI casing and SS 410 impellers for high-volume water supply.",
+   "features": [
+    "Wide voltage range, three phase",
+    "High-quality winding wires to withstand wide voltage fluctuation",
+    "Bearing supports at top, bottom and middle for stability",
+    "SS wear rings on casings for longer life and easier maintenance",
+    "Top & suction bushes protected by sand-guard arrangement",
+    "Non-return valve designed for minimum friction loss",
+    "Water-lubricated, fully rewindable motor with 2.75 m 3-core PVC flat cable and earthing provision",
+    "Resistant to corrosion and abrasion"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 2300 LPM",
+    "max_head": "up to 105 m",
+    "max_power": "up to 18.5 kW (25 HP)",
+    "source_note": "Wilo 2021 selection book"
+   },
+   "materials": {
+    "casing": "CI",
+    "impeller": "SS 410",
+    "motor_body": "SS"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
+    "https://dhananjaya.co.in/wilo-pumps/wilo-pumps.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WPO Raptor Horizontal Openwell – 1 Phase",
+   "series": "WPO Raptor (1-ph)",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "0.5–5 HP (0.37–3.7 kW)",
+   "head_range": "Up to 48 m",
+   "flow_range": "Up to 1550 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Highly durable rewindable motor",
+    "Wide voltage 160–240 V",
+    "CED-coated, internally rust-protected",
+    "No suction or priming problems"
+   ],
+   "applications": [
+    "Farm houses",
+    "Bungalows",
+    "Apartments"
+   ],
+   "price_from": "₹ 11,677",
+   "price_to": "₹ 43,654",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
+   "image_file": "images/products/wilo/wpo-raptor-h-1ph.jpg",
+   "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-1-Phase.html",
+   "description": "Wilo WPO Raptor horizontal single-phase openwell submersible pumpset for farm houses, bungalows and apartments, installed submerged so there are no suction or priming problems.",
+   "features": [
+    "Highly durable rewindable motor",
+    "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
+    "Compact mechanical design",
+    "Designed for submerged underwater operation",
+    "Designed for wide voltage fluctuations",
+    "CED coating against corrosion; internal parts specially coated against rusting",
+    "No suction or priming problems",
+    "High pumpset efficiency for lower power consumption"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 1550 LPM",
+    "max_head": "up to 48 m",
+    "max_power": "up to 3.7 kW (5 HP)",
+    "voltage": "160–240 V"
+   },
+   "materials": {
+    "impeller": "Noryl / Cast iron",
+    "casing": "Cast iron",
+    "motor_body": "SS"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-1-Phase.html"
+   ]
+  },
+  {
+   "name": "Wilo WPO Raptor Horizontal Openwell – 3 Phase",
+   "series": "WPO Raptor (3-ph)",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "1–30 HP (0.75–22 kW)",
+   "head_range": "Up to 78 m",
+   "flow_range": "Up to 3400 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Rewindable SS-body motor",
+    "Wide voltage 350–440 V",
+    "Dynamically balanced, low vibration",
+    "High efficiency, lower power bills"
+   ],
+   "applications": [
+    "Agriculture",
+    "Farm houses",
+    "Bungalows",
+    "Apartments"
+   ],
+   "price_from": "₹ 14,842",
+   "price_to": "₹ 1,55,497",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
+   "image_file": "images/products/wilo/wpo-raptor-h-3ph.jpg",
+   "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-3-Phase.html",
+   "description": "Wilo WPO Raptor horizontal three-phase openwell submersible pumpset for farm houses, bungalows, apartments and agriculture, with CED-coated cast-iron hydraulics.",
+   "features": [
+    "Highly durable rewindable motor",
+    "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
+    "Compact mechanical design",
+    "Designed for submerged underwater operation",
+    "Designed for wide voltage fluctuations",
+    "CED coating against corrosion; internal parts specially coated against rusting",
+    "No suction or priming problems",
+    "High pumpset efficiency for lower power consumption"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 3400 LPM",
+    "max_head": "up to 78 m",
+    "max_power": "up to 22 kW (30 HP)",
+    "voltage": "350–440 V"
+   },
+   "materials": {
+    "impeller": "Cast iron",
+    "casing": "Cast iron",
+    "motor_body": "SS",
+    "coating": "CED"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/WPO-Raptor-Horizontal-Open-well-3-Phase.html"
+   ]
+  },
+  {
+   "name": "Wilo WPO Raptor Vertical Openwell – 3 Phase",
+   "series": "WPO Raptor Vertical",
+   "category": "Agriculture",
+   "type": "Openwell submersible (vertical multistage)",
+   "power_range": "3–22.5 HP (2.2–16.8 kW)",
+   "head_range": "Up to 148 m",
+   "flow_range": "Up to 1500 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "Up to 8 stages for high heads",
+    "Cast-iron motor body, CED coated",
+    "Wide voltage 350–440 V",
+    "Compact, installs submerged"
+   ],
+   "applications": [
+    "Agriculture",
+    "Farm houses",
+    "Bungalows",
+    "Apartments"
+   ],
+   "price_from": "₹ 44,572",
+   "price_to": "₹ 1,03,785",
+   "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454630/7757089/wilo454630.pdf",
+   "image_file": "images/products/wilo/wpo-raptor-v-3ph.jpg",
+   "source_url": "https://wilo.com/in/en/Products/WPO-Raptor-Vertical-Open-well-3-Phase.html",
+   "description": "Wilo WPO Raptor vertical three-phase multistage openwell submersible pumpset for high-head duty in farm houses, apartments and agriculture.",
+   "features": [
+    "Highly durable rewindable motor",
+    "Dynamically balanced rotating parts for low vibration, noise-free operation and long bearing life",
+    "Compact mechanical design",
+    "Designed for submerged underwater operation",
+    "Designed for wide voltage fluctuations",
+    "CED coating against corrosion; internal parts specially coated against rusting",
+    "No suction or priming problems",
+    "High pumpset efficiency for lower power consumption"
+   ],
+   "operating_limits": {
+    "max_flow": "up to 1500 LPM",
+    "max_head": "up to 148 m",
+    "max_power": "up to 16.8 kW (22.5 HP)",
+    "voltage": "350–440 V",
+    "stages": "8",
+    "pipe_size": "75 mm"
+   },
+   "materials": {
+    "impeller": "Cast iron",
+    "casing": "Cast iron",
+    "motor_body": "Cast iron",
+    "coating": "CED"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products/WPO-Raptor-Vertical-Open-well-3-Phase.html"
+   ]
+  },
+  {
+   "name": "Wilo MPO Openwell Submersible – 3 Phase",
+   "series": "MPO",
+   "category": "Agriculture",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "Up to 10 HP (brochure); range up to 30 HP",
+   "head_range": "Up to 62–78 m",
+   "flow_range": "Up to 1460–2250 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Three",
+   "highlights": [
+    "No foundation needed – installed under water",
+    "Carbon vs SS thrust bearing, SS shaft",
+    "Motor filled with anti-corrosive liquid",
+    "Energy-efficient, wide-voltage motor"
+   ],
+   "applications": [
+    "Agriculture",
+    "Farm houses",
+    "Bungalows",
+    "Apartments"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/wilo/mpo.jpg",
+   "source_url": "https://cms.media.wilo.com/cdndoc/wilo455152/5629572/wilo455152.pdf",
+   "description": "Wilo MPO three-phase openwell submersible pump, installed under water for water transfer in bungalows, farm houses, apartments and agriculture.",
+   "features": [
+    "No foundation or foot wall needed – installed under water",
+    "SS shaft for long, trouble-free life",
+    "Energy-efficient motor design",
+    "Motor designed for wide voltage range",
+    "Motor filled with anti-corrosive liquid to protect internal parts",
+    "Carbon vs stainless-steel thrust bearing for longer life"
+   ],
+   "operating_limits": {
+    "max_flow": "1460 LPM (as printed; selection table lists up to ~2250 LPM)",
+    "max_head": "up to 62 m",
+    "max_power": "up to 10 HP (selection table lists models up to 30 HP)",
+    "voltage": "3 phase"
+   },
+   "sources": [
+    "https://cms.media.wilo.com/cdndoc/wilo455152/5629572/wilo455152.pdf"
+   ]
+  },
+  {
+   "name": "Wilo WPO Maxima – 1 Phase",
+   "series": "WPO Maxima",
+   "category": "Domestic",
+   "type": "Openwell submersible (horizontal)",
+   "power_range": "0.5–3 HP",
+   "head_range": "Up to 33 m",
+   "flow_range": "Up to 740 LPM",
+   "borewell_size": "Open well / sump",
+   "phase": "Single",
+   "highlights": [
+    "Compact mechanical design",
+    "Water-cooled rewindable motor",
+    "Wide voltage tolerance",
+    "Supplied with starter box"
+   ],
+   "applications": [
+    "Bungalows",
+    "Farm houses",
+    "Apartments"
+   ],
+   "price_from": "₹ 11,500",
+   "price_to": "",
+   "price_source_url": "https://dir.indiamart.com/impcat/wilo-submersible-pump.html",
+   "image_file": "images/products/wilo/wpo-maxima.jpg",
+   "source_url": "https://wilo.com/in/en/Products/",
+   "image_source": "https://sapphirefluidsystems.in/product/horizontal-open-well-submersible-pumpset-1-phase-wpo-wpo-maxima/"
+  },
+  {
+   "name": "Wilo-Sub TWI (4\"–10\" stainless steel)",
+   "series": "Sub TWI",
+   "category": "Agriculture",
+   "type": "Borewell submersible (stainless steel, 4\"/6\"/8\"/10\")",
+   "power_range": "",
+   "head_range": "",
+   "flow_range": "1–250 m³/h (~17–4170 LPM)",
+   "borewell_size": "100–250 mm (4\"–10\")",
+   "phase": "Both",
+   "highlights": [
+    "Corrosion-resistant stainless steel (optional V4A)",
+    "Handles up to 50 g/m³ sand",
+    "Vertical or horizontal installation",
+    "ACS certified for drinking water"
+   ],
+   "applications": [
+    "Irrigation & sprinkling",
+    "Water supply",
+    "Pressure boosting",
+    "Groundwater lowering"
+   ],
+   "price_from": "",
+   "price_to": "",
+   "price_source_url": "",
+   "image_file": "images/products/wilo/sub-twi.jpg",
+   "source_url": "https://wilo.com/in/en/Products-and-expertise/en/8ae2819c8e9774cf018ea36fa2c86c6b/40288a8a54ce361f0154de085ba07ac9?rawurl=1",
+   "description": "Wilo-Sub TWI is a multistage stainless-steel submersible pump (4\", 6\", 8\" and 10\" versions) for drinking water, rainwater and process water from wells, for irrigation, water supply and pressure boosting.",
+   "features": [
+    "Corrosion-resistant stainless steel, optionally in V4A (AISI 316) quality",
+    "ACS certified for domestic hot water applications (per product page)",
+    "Versions in 4, 6, 8 and 10-inch sizes",
+    "Performance range from 1 to 250 m³/h",
+    "Integrated non-return valve; NEMA discharge/connection",
+    "Vertical or horizontal installation (horizontal needs cooling jacket)",
+    "Sealed or rewindable motor with water-glycol filling; self-lubricating bearings"
+   ],
+   "operating_limits": {
+    "flow_range": "1–250 m³/h (series)",
+    "fluid_temperature": "3–30 °C",
+    "max_sand_content": "50 g/m³",
+    "max_starts": "20/h",
+    "max_immersion_depth": "100 m or 350 m (depending on motor)",
+    "ip_rating": "IP68",
+    "mains": "3~400 V, 50 Hz",
+    "note": "Limits from the Sub TWI 6 page"
+   },
+   "materials": {
+    "hydraulics_housing": "1.4301 (AISI 304)",
+    "impellers": "1.4301 (AISI 304)",
+    "hydraulic_shaft": "1.4057 (AISI 431)",
+    "motor_housing": "1.4301 (AISI 304)",
+    "motor_shaft": "1.4301 (AISI 304) or 1.4305 (AISI 303)"
+   },
+   "sources": [
+    "https://wilo.com/in/en/Products-and-expertise/en/8ae2819c8e9774cf018ea36fa2c86c6b/40288a8a54ce361f0154de085ba07ac9?rawurl=1"
+   ]
+  }
+ ]
 }
