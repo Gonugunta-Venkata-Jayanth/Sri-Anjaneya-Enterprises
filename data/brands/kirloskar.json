@@ -88,8 +88,7 @@
       "applications": [
         "Domestic water supply",
         "High-rise buildings",
-        "Gardening",
-        "Construction sites"
+        "Gardening"
       ],
       "price_from": "₹ 42,920",
       "price_to": "",
@@ -207,8 +206,7 @@
       "applications": [
         "Small farm irrigation",
         "Rural & community water supply",
-        "High-rise buildings",
-        "Construction sites"
+        "High-rise buildings"
       ],
       "price_from": "₹ 27,560",
       "price_to": "₹ 67,610",
@@ -312,8 +310,7 @@
       "applications": [
         "Domestic & community supply",
         "High-rise buildings",
-        "Gardening & small farms",
-        "Construction sites"
+        "Gardening & small farms"
       ],
       "price_from": "",
       "price_to": "",
@@ -340,8 +337,7 @@
       "applications": [
         "Domestic & community supply",
         "High-rise buildings",
-        "Gardening & small farms",
-        "Construction sites"
+        "Gardening & small farms"
       ],
       "price_from": "₹ 17,400",
       "price_to": "₹ 43,760",
@@ -396,8 +392,7 @@
       "applications": [
         "Irrigation",
         "Rural & community supply",
-        "High-rise buildings",
-        "Construction sites"
+        "High-rise buildings"
       ],
       "price_from": "₹ 61,080",
       "price_to": "₹ 1,37,470",
@@ -774,16 +769,14 @@
       ],
       "applications": [
         "Irrigation from open wells",
-        "Pressure boosting",
-        "Cooling towers",
-        "Fire-fighting"
+        "Pressure boosting"
       ],
       "price_from": "₹ 44,020",
       "price_to": "₹ 99,420",
       "price_source_url": "https://eshop.kirloskarpumps.com/catalogsearch/result/?q=openwell",
       "image_file": "images/products/kirloskar/kos.jpg",
       "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kos-three-phase-/",
-      "description": "Kirloskar KOS is a three-phase openwell submersible pump (3–15 HP) for agricultural irrigation, industrial service water and community water supply.",
+      "description": "Kirloskar KOS is a three-phase openwell submersible pump (3–15 HP) for agricultural irrigation and community water supply.",
       "features": [
         "Wide voltage design – motor withstands 350–440 V fluctuations, reducing motor burning at low voltage",
         "Flatter efficiency curve across the operating range",
@@ -1146,8 +1139,7 @@
       ],
       "applications": [
         "Irrigation in horticulture and agriculture",
-        "Clear water at high pressure",
-        "Cooling towers"
+        "Clear water at high pressure"
       ],
       "price_from": "",
       "price_to": "",

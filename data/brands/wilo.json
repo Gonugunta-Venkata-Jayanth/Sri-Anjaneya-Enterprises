@@ -200,7 +200,7 @@
       "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454636/7757105/wilo454636.pdf",
       "image_file": "images/products/wilo/wbw5.jpg",
       "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 125 mm (5\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community water supply, drip/sprinkler irrigation and industrial use.",
+      "description": "Wilo's 125 mm (5\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community water supply, drip/sprinkler irrigation.",
       "features": [
         "Wide voltage range, single and three phase",
         "High-quality winding wires to withstand wide voltage fluctuation",
@@ -253,7 +253,7 @@
       "price_source_url": "https://cms.media.wilo.com/cdndoc/wilo454637/7757109/wilo454637.pdf",
       "image_file": "images/products/wilo/wbw6.jpg",
       "source_url": "https://wilo.com/in/en/Products/Wilo-WBWP3/WBWP4-Prathak/-WBW6/WBW7/WBW8.html",
-      "description": "Wilo's 150 mm (6\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community and building water supply, irrigation and industry.",
+      "description": "Wilo's 150 mm (6\") water-filled borewell submersible pumpset with CI casing and SS 410 impellers, for community and building water supply and irrigation.",
       "features": [
         "Wide voltage range, single and three phase",
         "High-quality winding wires to withstand wide voltage fluctuation",
@@ -724,8 +724,7 @@
       ],
       "applications": [
         "Apartments and bungalows",
-        "Farm houses",
-        "Construction curing"
+        "Farm houses"
       ],
       "price_from": "",
       "price_to": "",

@@ -785,8 +785,7 @@
       "applications": [
         "Agriculture",
         "Domestic building services",
-        "Public utilities",
-        "Commercial building services"
+        "Public utilities"
       ],
       "price_from": "",
       "price_to": "",
@@ -955,7 +954,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "₹ 26,000",
@@ -1151,7 +1149,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -1320,7 +1317,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -1516,7 +1512,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -1589,7 +1584,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "₹ 55,000",
@@ -1785,7 +1779,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -2527,8 +2520,7 @@
         "99.9% EC-grade copper rotor"
       ],
       "applications": [
-        "Domestic building services",
-        "Commercial building services"
+        "Domestic building services"
       ],
       "price_from": "",
       "price_to": "",
@@ -2674,7 +2666,6 @@
       "applications": [
         "Agriculture",
         "Domestic building services",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -3154,7 +3145,6 @@
       "applications": [
         "Agriculture",
         "Domestic building services",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -3425,7 +3415,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -3595,7 +3584,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -3791,7 +3779,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -3987,7 +3974,6 @@
       ],
       "applications": [
         "Agriculture",
-        "Commercial building services",
         "Public utilities"
       ],
       "price_from": "",
@@ -4376,8 +4362,7 @@
       ],
       "applications": [
         "Agriculture",
-        "Domestic",
-        "Commercial buildings"
+        "Domestic"
       ],
       "price_from": "",
       "price_to": "",
@@ -4478,8 +4463,7 @@
         "Energy efficient"
       ],
       "applications": [
-        "Domestic",
-        "Commercial buildings"
+        "Domestic"
       ],
       "price_from": "",
       "price_to": "",
@@ -4504,8 +4488,7 @@
         "Energy efficient"
       ],
       "applications": [
-        "Domestic",
-        "Commercial buildings"
+        "Domestic"
       ],
       "price_from": "",
       "price_to": "",

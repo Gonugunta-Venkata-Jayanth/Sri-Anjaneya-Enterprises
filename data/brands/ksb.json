@@ -782,7 +782,7 @@
         "Groundwater extraction",
         "Agricultural irrigation",
         "Municipal drinking water",
-        "Industrial service water"
+        "Service water"
       ],
       "price_from": "",
       "price_to": "",
@@ -908,7 +908,6 @@
       "applications": [
         "Irrigation",
         "Drinking water supply",
-        "Industrial water supply",
         "Farm house"
       ],
       "price_from": "₹ 43,424",
@@ -1236,7 +1235,6 @@
       "applications": [
         "Irrigation",
         "Drinking water supply",
-        "Industrial water supply",
         "Farm house"
       ],
       "price_from": "₹ 51,147",
@@ -1895,7 +1893,7 @@
       "price_source_url": "https://www.moglix.com/ksb-mrs-15-15hp-phase-openwell-submersible-monoblock-pump/mp/msnekpqdxp0y52",
       "image_file": "images/products/ksb/monosub-r.jpg",
       "source_url": "https://www.ksb.com/en-in/lc/products/pump/monosub-r/M61A",
-      "description": "Monosub R is a type series of horizontal submersible pump sets with single-phase AC motor or three-phase motor developed for open-well applications in agriculture, building services and industry. Suitable for a wide voltage range of 250-440 V.",
+      "description": "Monosub R is a type series of horizontal submersible pump sets with single-phase AC motor or three-phase motor developed for open-well applications in agriculture and building services. Suitable for a wide voltage range of 250-440 V.",
       "features": [
         "Sturdy design for reliable operation over an extended period of time, also under tough operating conditions",
         "Wide voltage range – The motor is designed to withstand voltage fluctuations from 250-440 V",

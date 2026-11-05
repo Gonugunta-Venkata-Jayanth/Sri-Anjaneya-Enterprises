@@ -27,8 +27,7 @@
         "Farming",
         "Gardening",
         "Domestic",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "",
       "price_to": "",
@@ -116,8 +115,7 @@
         "Farming",
         "Gardening",
         "Domestic",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "₹ 11,862",
       "price_to": "₹ 30,717",
@@ -204,8 +202,7 @@
       "applications": [
         "Farming",
         "High-depth borewell",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "₹ 36,000",
       "price_to": "₹ 36,000",
@@ -296,8 +293,7 @@
       "applications": [
         "Farming",
         "High-depth borewell",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "₹ 35,347",
       "price_to": "₹ 95,760",
@@ -385,8 +381,7 @@
       "applications": [
         "Farming",
         "Deep well",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "",
       "price_to": "",
@@ -475,8 +470,7 @@
       "applications": [
         "Large-scale farming",
         "High-depth borewell",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "",
       "price_to": "",
@@ -721,8 +715,7 @@
       "applications": [
         "Farming",
         "Deep well",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "₹ 22,050",
       "price_to": "₹ 37,825",
@@ -793,8 +786,7 @@
       "applications": [
         "Farming",
         "Deep well",
-        "Water supply",
-        "Industrial"
+        "Water supply"
       ],
       "price_from": "₹ 25,330",
       "price_to": "₹ 25,330",
