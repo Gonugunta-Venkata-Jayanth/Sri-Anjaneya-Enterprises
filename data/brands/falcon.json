@@ -1,1234 +1,1494 @@
 {
- "brand": "Falcon",
- "website": "https://falconpumps.in/",
- "country": "India (Rajkot, Gujarat)",
- "founded": "1994",
- "tagline": "A Machine For Mankind",
- "notes": "Falcon Pumps Pvt. Ltd. is at falconpumps.in. falconpumps.com is a different company (Falcon Vacuum Pumps, Faridabad), so it was not used. Solar flow is in litres/day as the brand states it. Prices are dealer/retailer listings (shreenathind.com dealer store, IndiaMART, TradeIndia), not brand MRP; V5 and domestic SS bands each rest on a single dealer quote.",
- "products": [
-  {
-   "name": "Falcon 3\" Submersible Pumpset (V3)",
-   "series": "3\" Submersible Pumpset (V3)",
-   "category": "Domestic",
-   "type": "Borewell submersible (3\")",
-   "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
-   "head_range": "14–96 m",
-   "flow_range": "15–70 LPM",
-   "borewell_size": "75 mm (3\")",
-   "phase": "Single",
-   "highlights": [
-    "Slim 3\" pumpset for narrow bores",
-    "Corrosion-resistant SS J4 motor shell",
-    "Thrust bearing built for high axial load",
-    "Wide-voltage design (160–230 V)",
-    "Alternative to jet and compressor pumps"
-   ],
-   "applications": [
-    "Farming",
-    "Gardening",
-    "Domestic",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/3-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/3-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS-420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Teflon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "SS-410",
-     "Housing Set": "Cast Iron"
+  "brand": "Falcon",
+  "website": "https://falconpumps.in/",
+  "country": "India (Rajkot, Gujarat)",
+  "founded": "1994",
+  "tagline": "A Machine For Mankind",
+  "notes": "Falcon Pumps Pvt. Ltd. is at falconpumps.in. falconpumps.com is a different company (Falcon Vacuum Pumps, Faridabad), so it was not used. Solar flow is in litres/day as the brand states it. Prices are dealer/retailer listings (shreenathind.com dealer store, IndiaMART, TradeIndia), not brand MRP; V5 and domestic SS bands each rest on a single dealer quote.",
+  "products": [
+    {
+      "name": "Falcon 3\" Submersible Pumpset (V3)",
+      "series": "3\" Submersible Pumpset (V3)",
+      "category": "Domestic",
+      "type": "Borewell submersible (3\")",
+      "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+      "head_range": "14–96 m",
+      "flow_range": "15–70 LPM",
+      "borewell_size": "75 mm (3\")",
+      "phase": "Single",
+      "highlights": [
+        "Slim 3\" pumpset for narrow bores",
+        "Corrosion-resistant SS J4 motor shell",
+        "Thrust bearing built for high axial load",
+        "Wide-voltage design (160–230 V)",
+        "Alternative to jet and compressor pumps"
+      ],
+      "applications": [
+        "Farming",
+        "Gardening",
+        "Domestic",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/3-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/3-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS-420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Teflon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "SS-410",
+          "Housing Set": "Cast Iron"
+        },
+        "pump": {
+          "Check Valve Housing": "Cast iron",
+          "Check Valve": "SS-410 / Nylon",
+          "Outer Shell": "J4",
+          "Impeller": "Noryl",
+          "Bowl": "Noryl",
+          "Counter Bush": "LTB-4",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "0.37 kW to 1.1 kW (0.50 HP to 1.5HP)",
+        "head_range": "14 Mtr. to 96 Mtr.",
+        "discharge_range": "70 LPM to 15 LPM",
+        "outlet_size_in_inch": "1.25”"
+      },
+      "motor": {
+        "speed": "2880 RPM",
+        "version": "Single Phase 160V to 230V, 50Hz, AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Counter clockwise from driving end -1 pH",
+        "minimum_cooling_1ph_flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "1ph-Capacitor",
+        "maximum_starts_per_hour": "20 times"
+      },
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Specially designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures service feasibility",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Best alternative for JET & Compressor pump set",
+        "Additional intermediate bearing in higher stage pumps"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf",
+      "description": "Falcon 3″ Submersible Pumpset — borewell submersible (3\"): power 0.37 kW to 1.1 kW (0.50 HP to 1.5HP), head 14 Mtr. to 96 Mtr., flow 70 LPM to 15 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/3-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "Cast iron",
-     "Check Valve": "SS-410 / Nylon",
-     "Outer Shell": "J4",
-     "Impeller": "Noryl",
-     "Bowl": "Noryl",
-     "Counter Bush": "LTB-4",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
-    }
-   },
-   "operating_limits": {
-    "power_range": "0.37 kW to 1.1 kW (0.50 HP to 1.5HP)",
-    "head_range": "14 Mtr. to 96 Mtr.",
-    "discharge_range": "70 LPM to 15 LPM",
-    "outlet_size_in_inch": "1.25”"
-   },
-   "motor": {
-    "speed": "2880 RPM",
-    "version": "Single Phase 160V to 230V, 50Hz, AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Counter clockwise from driving end -1 pH",
-    "minimum_cooling_1ph_flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "1ph-Capacitor",
-    "maximum_starts_per_hour": "20 times"
-   },
-   "features": [
-    "Motor portion covered with corrosive resistance Stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Specially designed thrust bearing to withstand high axial thrust load",
-    "Extremely hardwearing water lubricated bearing",
-    "Thread type motor construction ensures service feasibility",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Best alternative for JET & Compressor pump set",
-    "Additional intermediate bearing in higher stage pumps"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf",
-   "description": "Falcon 3″ Submersible Pumpset — borewell submersible (3\"): power 0.37 kW to 1.1 kW (0.50 HP to 1.5HP), head 14 Mtr. to 96 Mtr., flow 70 LPM to 15 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/3-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf"
-   ]
-  },
-  {
-   "name": "Falcon 4\" Submersible Pumpset (V4)",
-   "series": "4\" Submersible Pumpset (V4)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (4\")",
-   "power_range": "0.5–6 HP (0.37–4.4 kW)",
-   "head_range": "10–340 m",
-   "flow_range": "12–450 LPM",
-   "borewell_size": "100 mm (4\")",
-   "phase": "Both",
-   "highlights": [
-    "SS J4 motor shell for durability and hygiene",
-    "Water-lubricated hard-wearing bearings",
-    "Deep-drawn pump for accurate alignment",
-    "Wide-voltage operation",
-    "Extra intermediate bearing on higher-stage pumps"
-   ],
-   "applications": [
-    "Farming",
-    "Gardening",
-    "Domestic",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "₹ 11,862",
-   "price_to": "₹ 30,717",
-   "price_source_url": "https://shreenathind.com/collections/all",
-   "image_file": "images/products/falcon/4-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/4-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "Cast Iron / SS – 304",
-     "Housing Set": "Cast Iron / SS – 304"
+    {
+      "name": "Falcon 4\" Submersible Pumpset (V4)",
+      "series": "4\" Submersible Pumpset (V4)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (4\")",
+      "power_range": "0.5–6 HP (0.37–4.4 kW)",
+      "head_range": "10–340 m",
+      "flow_range": "12–450 LPM",
+      "borewell_size": "100 mm (4\")",
+      "phase": "Both",
+      "highlights": [
+        "SS J4 motor shell for durability and hygiene",
+        "Water-lubricated hard-wearing bearings",
+        "Deep-drawn pump for accurate alignment",
+        "Wide-voltage operation",
+        "Extra intermediate bearing on higher-stage pumps"
+      ],
+      "applications": [
+        "Farming",
+        "Gardening",
+        "Domestic",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "₹ 11,862",
+      "price_to": "₹ 30,717",
+      "price_source_url": "https://shreenathind.com/collections/all",
+      "image_file": "images/products/falcon/4-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/4-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "Cast Iron / SS – 304",
+          "Housing Set": "Cast Iron / SS – 304"
+        },
+        "pump": {
+          "Check Valve Housing": "Cast iron / SS – 304",
+          "Check Valve": "SS-410",
+          "Outer Shell": "J4",
+          "Impeller": "Noryl / Nylon",
+          "Bowl": "Noryl / Cast Iron / SS",
+          "Counter Bush": "LTB-4 / SS – 304",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron / SS – 304",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "0.37 kW to 4.4 kW (0.50 HP to 6.0 HP)",
+        "head_range": "10 Mtr. To 340 Mtr.",
+        "discharge_range": "450 LPM to 12 LPM",
+        "outlet_size_in_inch": "1.0” , 1.25”, 1.5” & 2.0”"
+      },
+      "motor": {
+        "speed": "2880 RPM",
+        "version": "Single Phase 160V to 230V, Three Phase 350 to 415V,50Hz AC Supply.(Single Phase available in 0.5 HP to 5 HP / Three Phase available in 1 HP to 6 HP)",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
+        "thrust_load": "0.37 kW – 0.75 kW- 650 lbs, 1.1 kW -1.5 kW -1000 lbs, 2.2kW – 7.5 kW -1500 lbs.",
+        "flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR): 3ph –Direct Online (D.O.L)",
+        "maximum_starts_per_hour": "20 times"
+      },
+      "features": [
+        "Motor portion covered with corrosive resistance Stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Specially designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures service feasibility",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Best alternative for JET & Compressor pump set",
+        "Additional intermediate bearing in higher stage pumps"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf",
+      "description": "Falcon 4″ Submersible Pumpset — borewell submersible (4\"): power 0.37 kW to 4.4 kW (0.50 HP to 6.0 HP), head 10 Mtr. To 340 Mtr., flow 450 LPM to 12 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/4-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "Cast iron / SS – 304",
-     "Check Valve": "SS-410",
-     "Outer Shell": "J4",
-     "Impeller": "Noryl / Nylon",
-     "Bowl": "Noryl / Cast Iron / SS",
-     "Counter Bush": "LTB-4 / SS – 304",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron / SS – 304",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
-    }
-   },
-   "operating_limits": {
-    "power_range": "0.37 kW to 4.4 kW (0.50 HP to 6.0 HP)",
-    "head_range": "10 Mtr. To 340 Mtr.",
-    "discharge_range": "450 LPM to 12 LPM",
-    "outlet_size_in_inch": "1.0” , 1.25”, 1.5” & 2.0”"
-   },
-   "motor": {
-    "speed": "2880 RPM",
-    "version": "Single Phase 160V to 230V, Three Phase 350 to 415V,50Hz AC Supply.(Single Phase available in 0.5 HP to 5 HP / Three Phase available in 1 HP to 6 HP)",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
-    "thrust_load": "0.37 kW – 0.75 kW- 650 lbs, 1.1 kW -1.5 kW -1000 lbs, 2.2kW – 7.5 kW -1500 lbs.",
-    "flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR): 3ph –Direct Online (D.O.L)",
-    "maximum_starts_per_hour": "20 times"
-   },
-   "features": [
-    "Motor portion covered with corrosive resistance Stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Specially designed thrust bearing to withstand high axial thrust load",
-    "Extremely hardwearing water lubricated bearing",
-    "Thread type motor construction ensures service feasibility",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Best alternative for JET & Compressor pump set",
-    "Additional intermediate bearing in higher stage pumps"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf",
-   "description": "Falcon 4″ Submersible Pumpset — borewell submersible (4\"): power 0.37 kW to 4.4 kW (0.50 HP to 6.0 HP), head 10 Mtr. To 340 Mtr., flow 450 LPM to 12 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/4-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/UTEE-Series.pdf"
-   ]
-  },
-  {
-   "name": "Falcon 5\" Submersible Pumpset (V5)",
-   "series": "5\" Submersible Pumpset (V5)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (5\")",
-   "power_range": "3–12.5 HP (2.2–9.3 kW)",
-   "head_range": "12–640 m",
-   "flow_range": "80–690 LPM",
-   "borewell_size": "125 mm (5\")",
-   "phase": "Both",
-   "highlights": [
-    "SS 304 investment-cast bowl and impeller (GRS radial series)",
-    "9 m head per stage in radial-flow series",
-    "SS-420 tilting-pad thrust bearing with carbon plate",
-    "Dynamically balanced rotating parts"
-   ],
-   "applications": [
-    "Farming",
-    "High-depth borewell",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "₹ 36,000",
-   "price_to": "₹ 36,000",
-   "price_source_url": "https://www.tradeindia.com/products/falcon-5-submersible-pumpset-c12729877.html",
-   "image_file": "images/products/falcon/5-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/5-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "Cast Iron",
-     "Housing Set": "Cast Iron"
+    {
+      "name": "Falcon 5\" Submersible Pumpset (V5)",
+      "series": "5\" Submersible Pumpset (V5)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (5\")",
+      "power_range": "3–12.5 HP (2.2–9.3 kW)",
+      "head_range": "12–640 m",
+      "flow_range": "80–690 LPM",
+      "borewell_size": "125 mm (5\")",
+      "phase": "Both",
+      "highlights": [
+        "SS 304 investment-cast bowl and impeller (GRS radial series)",
+        "9 m head per stage in radial-flow series",
+        "SS-420 tilting-pad thrust bearing with carbon plate",
+        "Dynamically balanced rotating parts"
+      ],
+      "applications": [
+        "Farming",
+        "High-depth borewell",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "₹ 36,000",
+      "price_to": "₹ 36,000",
+      "price_source_url": "https://www.tradeindia.com/products/falcon-5-submersible-pumpset-c12729877.html",
+      "image_file": "images/products/falcon/5-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/5-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "Cast Iron",
+          "Housing Set": "Cast Iron"
+        },
+        "pump": {
+          "Check Valve Housing": "Cast iron / SS-304",
+          "Check Valve": "SS-304 / Nylon",
+          "Outer Shell": "J4 / SS – 304",
+          "Impeller": "Noryl / Nylon / SS-410",
+          "Bowl": "Noryl / Cast Iron / SS-304",
+          "Counter Bush": "LTB-4 / SS – 304",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron / SS-304",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "2.2 kW to 9.3 kW (3 HP to 12.5HP)",
+        "head_range": "12 Mtr. To 640 Mtr.",
+        "discharge_range": "690 LPM to 80 LPM",
+        "outlet_size_in_inch": "1.5” , 2.0″ & 2.5″"
+      },
+      "motor": {
+        "speed": "2880 RPM",
+        "version": "Single Phase 180V to 230V, Three Phase 350 to 415V, 50Hz AC Supply (Single Phase available in 3 HP to 5 HP)",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
+        "thrust_load": "2.2 kW – 4.5 kW- 3500 lbs, 5.5 kW to 9.3 kW -6000 lbs",
+        "flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR) up to 2.2 kW, 3ph – Direct Online (D.O.L.) upto 5.5 kW, Star Delta (SD) upto 9.3 kW",
+        "max_starts_per_hour": "20 times"
+      },
+      "features": [
+        "SS 304 Grade Investment Casting Bowl and Impeller in Radial Flow Series.(GRS -Series)",
+        "9 Mtr. Head Per Stage In Radial Flow Series",
+        "Specially designed high performance thrust bearing (SS-420 tilting pad with carbon plate) to withstand axial thrust loads",
+        "Dynamically balanced roating parts ensure minimum vibration and longer life",
+        "Motor Portion covered with corrosion resistant stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures service feasibility",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Best alternative for JET & Compressor pump set",
+        "Additional intermediate bearing in higher stage pumps",
+        "Fully SS pumps are available in (GRS – Series)"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V5.pdf",
+      "description": "Falcon 5″ Submersible Pumpset — borewell submersible (5\"): power 2.2 kW to 9.3 kW (3 HP to 12.5HP), head 12 Mtr. To 640 Mtr., flow 690 LPM to 80 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/5-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/V5.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "Cast iron / SS-304",
-     "Check Valve": "SS-304 / Nylon",
-     "Outer Shell": "J4 / SS – 304",
-     "Impeller": "Noryl / Nylon / SS-410",
-     "Bowl": "Noryl / Cast Iron / SS-304",
-     "Counter Bush": "LTB-4 / SS – 304",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron / SS-304",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
-    }
-   },
-   "operating_limits": {
-    "power_range": "2.2 kW to 9.3 kW (3 HP to 12.5HP)",
-    "head_range": "12 Mtr. To 640 Mtr.",
-    "discharge_range": "690 LPM to 80 LPM",
-    "outlet_size_in_inch": "1.5” , 2.0″ & 2.5″"
-   },
-   "motor": {
-    "speed": "2880 RPM",
-    "version": "Single Phase 180V to 230V, Three Phase 350 to 415V, 50Hz AC Supply (Single Phase available in 3 HP to 5 HP)",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
-    "thrust_load": "2.2 kW – 4.5 kW- 3500 lbs, 5.5 kW to 9.3 kW -6000 lbs",
-    "flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR) up to 2.2 kW, 3ph – Direct Online (D.O.L.) upto 5.5 kW, Star Delta (SD) upto 9.3 kW",
-    "max_starts_per_hour": "20 times"
-   },
-   "features": [
-    "SS 304 Grade Investment Casting Bowl and Impeller in Radial Flow Series.(GRS -Series)",
-    "9 Mtr. Head Per Stage In Radial Flow Series",
-    "Specially designed high performance thrust bearing (SS-420 tilting pad with carbon plate) to withstand axial thrust loads",
-    "Dynamically balanced roating parts ensure minimum vibration and longer life",
-    "Motor Portion covered with corrosion resistant stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Extremely hardwearing water lubricated bearing",
-    "Thread type motor construction ensures service feasibility",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Best alternative for JET & Compressor pump set",
-    "Additional intermediate bearing in higher stage pumps",
-    "Fully SS pumps are available in (GRS – Series)"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V5.pdf",
-   "description": "Falcon 5″ Submersible Pumpset — borewell submersible (5\"): power 2.2 kW to 9.3 kW (3 HP to 12.5HP), head 12 Mtr. To 640 Mtr., flow 690 LPM to 80 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/5-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/V5.pdf"
-   ]
-  },
-  {
-   "name": "Falcon 6\" Submersible Pumpset (V6)",
-   "series": "6\" Submersible Pumpset (V6)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (6\")",
-   "power_range": "3–40 HP (2.2–30 kW)",
-   "head_range": "12–600 m",
-   "flow_range": "170–1,080 LPM",
-   "borewell_size": "150 mm (6\")",
-   "phase": "Both",
-   "highlights": [
-    "60 ft (18 m) head per stage in radial-flow series (brand claim: industry first)",
-    "SS 304 investment-cast bowl and impeller",
-    "SS-420 tilting-pad thrust bearing",
-    "Corrosion-resistant SS J4 motor shell"
-   ],
-   "applications": [
-    "Farming",
-    "High-depth borewell",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "₹ 35,347",
-   "price_to": "₹ 95,760",
-   "price_source_url": "https://shreenathind.com/collections/all",
-   "image_file": "images/products/falcon/6-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/6-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "Cast Iron / SS – 304",
-     "Housing Set": "Cast Iron / SS – 304"
+    {
+      "name": "Falcon 6\" Submersible Pumpset (V6)",
+      "series": "6\" Submersible Pumpset (V6)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (6\")",
+      "power_range": "3–40 HP (2.2–30 kW)",
+      "head_range": "12–600 m",
+      "flow_range": "170–1,080 LPM",
+      "borewell_size": "150 mm (6\")",
+      "phase": "Both",
+      "highlights": [
+        "60 ft (18 m) head per stage in radial-flow series (brand claim: industry first)",
+        "SS 304 investment-cast bowl and impeller",
+        "SS-420 tilting-pad thrust bearing",
+        "Corrosion-resistant SS J4 motor shell"
+      ],
+      "applications": [
+        "Farming",
+        "High-depth borewell",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "₹ 35,347",
+      "price_to": "₹ 95,760",
+      "price_source_url": "https://shreenathind.com/collections/all",
+      "image_file": "images/products/falcon/6-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/6-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "Cast Iron / SS – 304",
+          "Housing Set": "Cast Iron / SS – 304"
+        },
+        "pump": {
+          "Check Valve Housing": "(Outlet) Cast iron / SS – 304",
+          "Check Valve": "SS-410 / Nylon",
+          "Impeller": "SS – 304 / SS-410 / Nylon",
+          "Bowl": "SS – 304 / SS-410 / Cast Iron",
+          "Counter Bush": "SS – 420",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "2.2 kW to 30 kW (3.0 HP to 40 HP)",
+        "head_range": "12 Mtr. To 600 Mtr.",
+        "discharge_range": "1080 LPM to 170 LPM",
+        "outlet_size_in_inch": "2.0”, 2.5” , & 3.0”"
+      },
+      "motor": {
+        "speed": "2900 RPM",
+        "version": "Single Phase 180V to 230V, Three Phase 350 to 415V, 50Hz AC Supply.",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
+        "thrust_load": "2.2 kW 4.5 kW – 3500 lbs, 5.5 kW – 30 kW – 6000 lbs",
+        "flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR) upto 2.2kW: 3ph – Direct Online (D.O.L) upto 5.5 kW, Star Delta (SD) upto 30 kW",
+        "max_starts_per_hour": "20 times"
+      },
+      "features": [
+        "SS 304 Grade Investment Casting Bowl and SS-304 Grade Impeller in radial flow series",
+        "60 feet head per stage in radial flow series",
+        "Specially designed high performance thrust bearing (SS-420 Tilting Pad with Carbon plate) to with stand axial thrust loads",
+        "Dynamically balanced rotating parts ensures minimum vibration and longer life",
+        "Motor portion covered with corrosive resistance Stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Extremely hardwearing water lubricated bearing",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Additional intermediate bearing in higher stage pumps",
+        "Fully SS pump set are available in SS – 304 Grade"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V6.pdf",
+      "description": "Falcon 6″ Submersible Pumpset — borewell submersible (6\"): power 2.2 kW to 30 kW (3.0 HP to 40 HP), head 12 Mtr. To 600 Mtr., flow 1080 LPM to 170 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/6-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/V6.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "(Outlet) Cast iron / SS – 304",
-     "Check Valve": "SS-410 / Nylon",
-     "Impeller": "SS – 304 / SS-410 / Nylon",
-     "Bowl": "SS – 304 / SS-410 / Cast Iron",
-     "Counter Bush": "SS – 420",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
-    }
-   },
-   "operating_limits": {
-    "power_range": "2.2 kW to 30 kW (3.0 HP to 40 HP)",
-    "head_range": "12 Mtr. To 600 Mtr.",
-    "discharge_range": "1080 LPM to 170 LPM",
-    "outlet_size_in_inch": "2.0”, 2.5” , & 3.0”"
-   },
-   "motor": {
-    "speed": "2900 RPM",
-    "version": "Single Phase 180V to 230V, Three Phase 350 to 415V, 50Hz AC Supply.",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Counter clockwise from driving end -1ph: Electrically Reversible -3ph",
-    "thrust_load": "2.2 kW 4.5 kW – 3500 lbs, 5.5 kW – 30 kW – 6000 lbs",
-    "flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "1ph-Capacitor Start Capacitor Run (CSCR) upto 2.2kW: 3ph – Direct Online (D.O.L) upto 5.5 kW, Star Delta (SD) upto 30 kW",
-    "max_starts_per_hour": "20 times"
-   },
-   "features": [
-    "SS 304 Grade Investment Casting Bowl and SS-304 Grade Impeller in radial flow series",
-    "60 feet head per stage in radial flow series",
-    "Specially designed high performance thrust bearing (SS-420 Tilting Pad with Carbon plate) to with stand axial thrust loads",
-    "Dynamically balanced rotating parts ensures minimum vibration and longer life",
-    "Motor portion covered with corrosive resistance Stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Extremely hardwearing water lubricated bearing",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Additional intermediate bearing in higher stage pumps",
-    "Fully SS pump set are available in SS – 304 Grade"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V6.pdf",
-   "description": "Falcon 6″ Submersible Pumpset — borewell submersible (6\"): power 2.2 kW to 30 kW (3.0 HP to 40 HP), head 12 Mtr. To 600 Mtr., flow 1080 LPM to 170 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/6-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/V6.pdf"
-   ]
-  },
-  {
-   "name": "Falcon 7\" Submersible Pumpset (V7)",
-   "series": "7\" Submersible Pumpset (V7)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (7\", mixed flow)",
-   "power_range": "15–50 HP (11.2–37.3 kW)",
-   "head_range": "18–650 m",
-   "flow_range": "55–1,860 LPM",
-   "borewell_size": "175 mm (7\")",
-   "phase": "Three",
-   "highlights": [
-    "Cast-iron bowl with SS-410 impeller in mixed-flow series",
-    "SS-420 tilting-pad thrust bearing (8,000 lbs)",
-    "Dynamically balanced rotating parts",
-    "SS J4 motor shell"
-   ],
-   "applications": [
-    "Farming",
-    "Deep well",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/7-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/7-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "Cast Iron / SS – 304",
-     "Housing Set": "Cast Iron / SS – 304"
+    {
+      "name": "Falcon 7\" Submersible Pumpset (V7)",
+      "series": "7\" Submersible Pumpset (V7)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (7\", mixed flow)",
+      "power_range": "15–50 HP (11.2–37.3 kW)",
+      "head_range": "18–650 m",
+      "flow_range": "55–1,860 LPM",
+      "borewell_size": "175 mm (7\")",
+      "phase": "Three",
+      "highlights": [
+        "Cast-iron bowl with SS-410 impeller in mixed-flow series",
+        "SS-420 tilting-pad thrust bearing (8,000 lbs)",
+        "Dynamically balanced rotating parts",
+        "SS J4 motor shell"
+      ],
+      "applications": [
+        "Farming",
+        "Deep well",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/7-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/7-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "Cast Iron / SS – 304",
+          "Housing Set": "Cast Iron / SS – 304"
+        },
+        "pump": {
+          "Check Valve Housing": "Cast iron / SS – 304",
+          "Check Valve": "SS-410 / Nylon",
+          "Impeller": "SS-410",
+          "Bowl": "Cast Iron",
+          "Counter Bush": "LTB-4 / SS – 304",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron / SS – 304",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "11.2 kW to 37.3 kW (15 HP to 50 HP)",
+        "head_range": "18 Mtr. To 650 Mtr.",
+        "discharge_range": "1860 LPM to 55 LPM",
+        "outlet_size_in_inch": "2.0” , 2.5” , 3.0” & 4.0”"
+      },
+      "motor": {
+        "speed": "2880 RPM",
+        "version": "Three Phase 350 to 415V, 50Hz AC Supply.",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible -3ph",
+        "thrust_load": "11.2 kW -37.3 kW -8000 lbs",
+        "minimum_cooling_flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "3 ph -Direct Online (D.O.L) upto 5.5 kW, Star Delta (SD) upto 37.3 kW",
+        "max_starts_per_hour": "20 times"
+      },
+      "features": [
+        "Cast iron casting bowl and SS-410 grade impeller in mix flow series",
+        "Specially designed high performance thrust bearing (SS-420 Tilting Pad with Carbon plate) to with stand axial thrust loads",
+        "Dynamically balanced rotating parts ensures minimum vibration and longer life",
+        "Motor portion covered with corrosive resistance Stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Special designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures services feasibility",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Best alternative for JET & Compressor pump set",
+        "Additional intermediate bearing in higher stage pumps"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf",
+      "description": "Falcon 7″ Submersible Pumpset — borewell submersible (7\", mixed flow): power 11.2 kW to 37.3 kW (15 HP to 50 HP), head 18 Mtr. To 650 Mtr., flow 1860 LPM to 55 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/7-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "Cast iron / SS – 304",
-     "Check Valve": "SS-410 / Nylon",
-     "Impeller": "SS-410",
-     "Bowl": "Cast Iron",
-     "Counter Bush": "LTB-4 / SS – 304",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron / SS – 304",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
-    }
-   },
-   "operating_limits": {
-    "power_range": "11.2 kW to 37.3 kW (15 HP to 50 HP)",
-    "head_range": "18 Mtr. To 650 Mtr.",
-    "discharge_range": "1860 LPM to 55 LPM",
-    "outlet_size_in_inch": "2.0” , 2.5” , 3.0” & 4.0”"
-   },
-   "motor": {
-    "speed": "2880 RPM",
-    "version": "Three Phase 350 to 415V, 50Hz AC Supply.",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible -3ph",
-    "thrust_load": "11.2 kW -37.3 kW -8000 lbs",
-    "minimum_cooling_flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "3 ph -Direct Online (D.O.L) upto 5.5 kW, Star Delta (SD) upto 37.3 kW",
-    "max_starts_per_hour": "20 times"
-   },
-   "features": [
-    "Cast iron casting bowl and SS-410 grade impeller in mix flow series",
-    "Specially designed high performance thrust bearing (SS-420 Tilting Pad with Carbon plate) to with stand axial thrust loads",
-    "Dynamically balanced rotating parts ensures minimum vibration and longer life",
-    "Motor portion covered with corrosive resistance Stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Special designed thrust bearing to withstand high axial thrust load",
-    "Extremely hardwearing water lubricated bearing",
-    "Thread type motor construction ensures services feasibility",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Best alternative for JET & Compressor pump set",
-    "Additional intermediate bearing in higher stage pumps"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf",
-   "description": "Falcon 7″ Submersible Pumpset — borewell submersible (7\", mixed flow): power 11.2 kW to 37.3 kW (15 HP to 50 HP), head 18 Mtr. To 650 Mtr., flow 1860 LPM to 55 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/7-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf"
-   ]
-  },
-  {
-   "name": "Falcon 8\" Submersible Pumpset (V8)",
-   "series": "8\" Submersible Pumpset (V8)",
-   "category": "Agriculture",
-   "type": "Borewell submersible (8\")",
-   "power_range": "10–100 HP (7.5–75 kW)",
-   "head_range": "12–440 m",
-   "flow_range": "300–2,400 LPM",
-   "borewell_size": "200 mm (8\")",
-   "phase": "Three",
-   "highlights": [
-    "SS 304 investment-cast bowl and impeller",
-    "20 m head per stage in radial-flow series",
-    "SS-420 tilting-pad thrust bearing (10,000 lbs)",
-    "Star-delta starting for large farms"
-   ],
-   "applications": [
-    "Large-scale farming",
-    "High-depth borewell",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/8-inch-submersible-pumpset.webp",
-   "source_url": "https://falconpumps.in/products/8-submersible-pumpset/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body Pipe": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Diaphragm": "High Nitrile Butyl Rubber",
-     "Motor Base": "Cast Iron",
-     "Housing Set": "Cast Iron"
+    {
+      "name": "Falcon 8\" Submersible Pumpset (V8)",
+      "series": "8\" Submersible Pumpset (V8)",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\")",
+      "power_range": "10–100 HP (7.5–75 kW)",
+      "head_range": "12–440 m",
+      "flow_range": "300–2,400 LPM",
+      "borewell_size": "200 mm (8\")",
+      "phase": "Three",
+      "highlights": [
+        "SS 304 investment-cast bowl and impeller",
+        "20 m head per stage in radial-flow series",
+        "SS-420 tilting-pad thrust bearing (10,000 lbs)",
+        "Star-delta starting for large farms"
+      ],
+      "applications": [
+        "Large-scale farming",
+        "High-depth borewell",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/8-inch-submersible-pumpset.webp",
+      "source_url": "https://falconpumps.in/products/8-submersible-pumpset/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body Pipe": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Diaphragm": "High Nitrile Butyl Rubber",
+          "Motor Base": "Cast Iron",
+          "Housing Set": "Cast Iron"
+        },
+        "pump": {
+          "Check Valve Housing": "Cast iron / SS – 304",
+          "Check Valve": "SS-410 / Nylon",
+          "Impeller": "SS-304 / SS-410",
+          "Bowl": "SS-304 / Cast Iron",
+          "Counter Bush": "SS-410 / SS – 304",
+          "Pump Bush": "NBR / LTB 4",
+          "Pump Sleeve": "SS-410",
+          "Suction": "Cast iron / SS – 304",
+          "Pump Shaft": "SS-410",
+          "Coupling / Pump Couple": "SS-410"
+        }
+      },
+      "operating_limits": {
+        "power_range": "7.5 kW to 75 kW (10 HP to 100 HP)",
+        "head_range": "12 Mtr. To 440 Mtr.",
+        "discharge_range": "2400 LPM to 300 LPM",
+        "outlet_size_in_inch": "4.0″ & 5.0″"
+      },
+      "motor": {
+        "speed": "2880 RPM",
+        "version": "Three Phase 350 to 415V, 50Hz AC Supply.",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Counter clockwise from driving end -1ph : Electrically Reversible -3ph",
+        "thrust_load_minimum_cooling": "7.5 kW -30 kW -10000 lbs",
+        "flow_along_the_motor": "0.15 m/sec.",
+        "type_of_duty": "S1 (continues)",
+        "method_of_starting": "Star Delta (SD)",
+        "max_starts_per_hour": "20 times"
+      },
+      "features": [
+        "SS-304 Grade investment casting bowl and SS-304 grade impeller in radial flow series",
+        "20 Mtr. Head per stage in radial flow series",
+        "Specially designed high performance thrust bearing (SS-420 Tilting pad with carbon plate) to with stand axial thrust loads",
+        "Dynamically balanced rotating parts ensures minimum vibration and longer life",
+        "Motor portion covered with corrosive resistance Stainless steel J4 shell",
+        "More durability and hygiene",
+        "High operating efficiency",
+        "Special designed thrust bearing to withstand high axial thrust load",
+        "Extremely hardwearing water lubricated bearing",
+        "Thread type motor construction ensures services feasibility",
+        "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
+        "Designed for wide voltage operation",
+        "Best alternative for JET & Compressor pump set",
+        "Additional intermediate bearing in higher stage pumps",
+        "Fully SS Pumps are available"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf",
+      "description": "Falcon 8″ Submersible Pumpset — borewell submersible (8\"): power 7.5 kW to 75 kW (10 HP to 100 HP), head 12 Mtr. To 440 Mtr., flow 2400 LPM to 300 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/8-submersible-pumpset/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf"
+      ]
     },
-    "pump": {
-     "Check Valve Housing": "Cast iron / SS – 304",
-     "Check Valve": "SS-410 / Nylon",
-     "Impeller": "SS-304 / SS-410",
-     "Bowl": "SS-304 / Cast Iron",
-     "Counter Bush": "SS-410 / SS – 304",
-     "Pump Bush": "NBR / LTB 4",
-     "Pump Sleeve": "SS-410",
-     "Suction": "Cast iron / SS – 304",
-     "Pump Shaft": "SS-410",
-     "Coupling / Pump Couple": "SS-410"
+    {
+      "name": "Falcon AC Solar Submersible Pump",
+      "series": "AC Solar Submersible Pump",
+      "category": "Agriculture",
+      "type": "Solar borewell submersible (AC, with controller)",
+      "power_range": "1–20 HP (custom up to 100 HP)",
+      "head_range": "30–220 m",
+      "flow_range": "10,000–4,20,000 litres/day",
+      "borewell_size": "100–150 mm (4\"–6\")",
+      "phase": "Three",
+      "highlights": [
+        "Runs on 900–20,000 Wp solar array, zero running cost",
+        "Starts at low sunlight, wide voltage range",
+        "Low-maintenance 'fit & forget' design",
+        "Customised designs up to 100 HP / 330 m"
+      ],
+      "applications": [
+        "Farming",
+        "Livestock watering",
+        "Drinking water supply",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/ac-solar-submersible-pump.webp",
+      "source_url": "https://falconpumps.in/products/ac-submersible-pump/",
+      "materials": {
+        "Suction": "SS-304",
+        "Couple": "Stainless Steel",
+        "Couple Counter": "SS-304",
+        "Rubber Seal": "NBR",
+        "Bush Seal Cover": "SS-304",
+        "Bowl": "SS-304",
+        "Impeller": "SS-304",
+        "Key": "SS-410",
+        "Bowl Bush": "NBR",
+        "Bush": "LTB-4",
+        "Middle": "SS-304",
+        "Cap": "NBR",
+        "Outlet": "SS-304"
+      },
+      "operating_limits": {
+        "power_range": "1.0 HP to 20.0 HP",
+        "input_solar_dc_power_range": "900 Wp – 20000 Wp",
+        "head_range": "30 Mtr – 220 Mtr",
+        "discharge_range": "10000 LPD – 420000 LPD"
+      },
+      "motor": {
+        "operating_speed": "0 – 2890 RPM",
+        "operating_frequency": "0 – 50 Hz",
+        "input_solar_dc_voltage_range": "110 Vmp – 600 Vmp",
+        "type_of_duty": "S1 (Customized Design Available upto 100HP – 330Mtr)"
+      },
+      "features": [
+        "Eco-Friendly",
+        "Zero running cost",
+        "Easy start at low irradiation & works in wide voltage operation range",
+        "Less maintenance cost. (Fit & Forget)",
+        "Simple Installation",
+        "Highly efficient 3-phase water filled motor",
+        "Easily rewindable",
+        "Dynamically balanced design",
+        "Extended life with flawless performance",
+        "Thrust bearing : Carbon + S.S. material for High thrust load capacity",
+        "100% EC grade copper winding",
+        "Presenting world 1st design (design registered 100% fully S.S.-304 investment casting pumps",
+        "Zero maintenance",
+        "Superior performance",
+        "Sand proof operation"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/06/submersible-pump.pdf",
+      "description": "Falcon AC Submersible Pump — solar borewell submersible (AC, with controller): power 1.0 HP to 20.0 HP, head 30 Mtr – 220 Mtr, flow 10000 LPD – 420000 LPD (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/ac-submersible-pump/",
+        "https://falconpumps.in/wp-content/uploads/2026/06/submersible-pump.pdf"
+      ]
+    },
+    {
+      "name": "Falcon AC Solar Openwell Pump",
+      "series": "AC Solar Openwell Pump",
+      "category": "Agriculture",
+      "type": "Solar openwell submersible (AC)",
+      "power_range": "3–10 HP",
+      "head_range": "10–50 m",
+      "flow_range": "1,26,000–4,25,000 litres/day",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "Runs on 3,000–10,000 Wp solar array",
+        "Zero running cost, eco-friendly",
+        "Easy start at low sunlight",
+        "Simple installation, low maintenance"
+      ],
+      "applications": [
+        "Farming",
+        "Livestock watering",
+        "Drinking water supply",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/ac-solar-openwell-pump.webp",
+      "source_url": "https://falconpumps.in/products/ac-openwell-pump/",
+      "materials": {
+        "Oil Seal": "Nitrile butyl rubber",
+        "Motor Shaft": "SS – 420",
+        "Motor Body": "Cast Iron / J4",
+        "Motor Bush": "LTB-4 / Teflon",
+        "Thrust bearing assembly": "SS – 420 & Carbon",
+        "Base": "Cast Iron",
+        "Bracket": "Cast Iron",
+        "Flange": "Cast Iron",
+        "Casing": "Cast Iron",
+        "Impeller": "Cast Iron"
+      },
+      "operating_limits": {
+        "power_range": "3.0 HP to 10.0 HP",
+        "input_solar_dc_power_range": "3000 Wp – 10000 Wp",
+        "head_range": "10 Mtr – 50 Mtr",
+        "discharge_range": "126000 LPD – 425000 LPD"
+      },
+      "motor": {
+        "operating_speed": "0 – 2890 RPM",
+        "operating_frequency": "0 – 50 Hz",
+        "input_solar_dc_voltage_range": "330 Vmp – 600 Vmp",
+        "type_of_duty": "S1"
+      },
+      "features": [
+        "Eco-Friendly",
+        "Zero running cost",
+        "Easy start at low irradiation & works in wide voltage operation range",
+        "Less maintenance cost. (Fit & Forget)",
+        "Simple Installation",
+        "Highly efficient 3-Phase Water Filled Motor",
+        "100% EC grade copper winding",
+        "Easily Rewindable",
+        "Motor Designed with Higher Cooling Effect Ensures Longer Life",
+        "Sustainable uniform performance for years",
+        "Ensures long life durability",
+        "Optimized Hydraulic & Mechanical Design",
+        "Improved efficient performance",
+        "Excellent output in Low Radiation",
+        "Dynamically balanced design",
+        "Zero maintenance"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/06/Openwell.pdf",
+      "description": "Falcon AC Openwell Pump — solar openwell submersible (AC): power 3.0 HP to 10.0 HP, head 10 Mtr – 50 Mtr, flow 126000 LPD – 425000 LPD (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/ac-openwell-pump/",
+        "https://falconpumps.in/wp-content/uploads/2026/06/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Agriculture Horizontal CI Openwell (HMA)",
+      "series": "Agriculture Horizontal CI Openwell (HMA)",
+      "category": "Agriculture",
+      "type": "Horizontal openwell submersible (cast iron)",
+      "power_range": "3–15 HP (2.2–11.2 kW)",
+      "head_range": "up to 65 m",
+      "flow_range": "up to 2,200 LPM",
+      "borewell_size": "Open well",
+      "phase": "Both",
+      "highlights": [
+        "High efficiency, noiseless operation",
+        "No pump house needed",
+        "Easy to dismantle and repair",
+        "Motor designed for higher cooling and longer life"
+      ],
+      "applications": [
+        "Farming",
+        "Deep well",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "₹ 22,050",
+      "price_to": "₹ 37,825",
+      "price_source_url": "https://shreenathind.com/collections/all",
+      "image_file": "images/products/falcon/agriculture-horizontal-ci-openwell.webp",
+      "source_url": "https://falconpumps.in/products/agriculture-horizontal-ci-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "Cast Iron / J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Base": "Cast Iron",
+          "Bracket": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Casing": "Cast Iron",
+          "Impeller": "Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "2.2Kw – 11.2Kw (3HP – 15HP)",
+        "maximum_total_head": "65 Mtr.",
+        "maximum_flow_rate": "2200 LPM",
+        "normal_delivery_size": "2″, 2.5″, 3″ & 4″"
+      },
+      "motor": {
+        "speed": "2800 RPM",
+        "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct on Line (D.O.L.) upto 5.5 Kw, Star Delta (Sd) Upto 11.2 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "High Operating Efficiency",
+        "Noiseless Operation",
+        "No Need of Pump House",
+        "Can Be Easily Dismantled and Repaired",
+        "Motor Designed with Higher Cooling Effect Ensures Longer Life",
+        "No Suction& Priming Problem",
+        "Motor Body Available in Cast Iron / J4"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon Agriculture Horizontal CI Openwell — horizontal openwell submersible (cast iron): power 2.2Kw – 11.2Kw (3HP – 15HP), head 65 Mtr., flow 2200 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/agriculture-horizontal-ci-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Agriculture Horizontal SS Openwell",
+      "series": "Agriculture Horizontal SS Openwell",
+      "category": "Agriculture",
+      "type": "Horizontal openwell submersible (stainless steel)",
+      "power_range": "3–15 HP (2.2–11.2 kW)",
+      "head_range": "up to 65 m",
+      "flow_range": "up to 2,200 LPM",
+      "borewell_size": "Open well",
+      "phase": "Both",
+      "highlights": [
+        "Stainless steel body",
+        "High efficiency, noiseless operation",
+        "No pump house needed",
+        "Easy to dismantle and repair"
+      ],
+      "applications": [
+        "Farming",
+        "Deep well",
+        "Water supply",
+        "Industrial"
+      ],
+      "price_from": "₹ 25,330",
+      "price_to": "₹ 25,330",
+      "price_source_url": "https://shreenathind.com/collections/all",
+      "image_file": "images/products/falcon/agriculture-horizontal-ss-openwell.webp",
+      "source_url": "https://falconpumps.in/products/agriculture-horizontal-ss-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "Cast Iron / J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Base": "Cast Iron",
+          "Bracket": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Casing": "Cast Iron",
+          "Impeller": "Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "2.2Kw – 11.2Kw (3HP – 15HP)",
+        "maximum_total_head": "65 Mtr.",
+        "maximum_flow_rate": "2200 LPM",
+        "normal_delivery_size": "2″, 2.5″, 3″ & 4″"
+      },
+      "motor": {
+        "speed": "2800 RPM",
+        "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct on Line (D.O.L.) upto 5.5 Kw, Star Delta (Sd) Upto 11.2 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "High Operating Efficiency",
+        "Noiseless Operation",
+        "No Need of Pump House",
+        "Can Be Easily Dismantled and Repaired",
+        "Motor Designed with Higher Cooling Effect Ensures Longer Life",
+        "No Suction& Priming Problem",
+        "Motor Body Available in Cast Iron / J4"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon Agriculture Horizontal SS Openwell — horizontal openwell submersible (stainless steel): power 2.2Kw – 11.2Kw (3HP – 15HP), head 65 Mtr., flow 2200 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/agriculture-horizontal-ss-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon VMC Agriculture Vertical Openwell",
+      "series": "VMC Agriculture Vertical Openwell",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (mixed flow)",
+      "power_range": "5–60 HP (3.7–45 kW)",
+      "head_range": "up to 150 m",
+      "flow_range": "up to 3,600 LPM",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "No suction or priming problems",
+        "Lubricated journal bearings",
+        "Dynamically balanced rotating parts",
+        "Designed for wide voltage fluctuation"
+      ],
+      "applications": [
+        "Farming",
+        "Lifting water from lakes",
+        "Lifting from dams / reservoirs",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/vmc-agriculture-vertical-openwell.webp",
+      "source_url": "https://falconpumps.in/products/vmc-agriculture-vertical-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Base": "Cast Iron",
+          "Housing": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Suction": "Cast Iron",
+          "Impeller": "SS-304 / SS-410",
+          "Bowl": "SS-304 / Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "3.7 Kw – 45 Kw ( 5 Hp – 60 Hp)",
+        "maximum_total_head": "150 Mtr.",
+        "maximum_flow_rate": "3600 LPM",
+        "normal_delivery_size": "2.5”,3” ,4” & 5” Inch"
+      },
+      "motor": {
+        "speed": "2880 Rpm",
+        "version": "Three Phase 380 – 415v, 50hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta (SD) Upto 45 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "No Suction And Priming Problem",
+        "Noiseless Operation",
+        "High Operating Efficiency",
+        "No Need Of Pump House",
+        "Extremely Tough And Hard Wearing",
+        "Lubricated Journal Bearings Are Used",
+        "Can Be Easily Dismantled And Repaired",
+        "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
+        "Designed For Wide Voltage Fluctuations",
+        "Motor Body Available In J4",
+        "Motor Designed With Higher Cooling Effect Ensures Longer Life"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon VMC Agriculture Vertical Openwell — vertical openwell submersible (mixed flow): power 3.7 Kw – 45 Kw ( 5 Hp – 60 Hp), head 150 Mtr., flow 3600 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/vmc-agriculture-vertical-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon VRS Agriculture Vertical Openwell",
+      "series": "VRS Agriculture Vertical Openwell",
+      "category": "Agriculture",
+      "type": "Vertical openwell submersible (radial)",
+      "power_range": "5–60 HP (3.7–45 kW)",
+      "head_range": "up to 150 m",
+      "flow_range": "up to 3,600 LPM",
+      "borewell_size": "Open well",
+      "phase": "Three",
+      "highlights": [
+        "No suction or priming problems",
+        "Noiseless, high-efficiency operation",
+        "No pump house needed",
+        "Hard-wearing construction"
+      ],
+      "applications": [
+        "Farming",
+        "Lifting water from lakes",
+        "Lifting from dams / reservoirs",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/vrs-agriculture-vertical-openwell.webp",
+      "source_url": "https://falconpumps.in/products/vrs-agriculture-vertical-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Base": "Cast Iron",
+          "Housing": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Suction": "Cast Iron",
+          "Impeller": "SS-304 / SS-410",
+          "Bowl": "SS-304 / Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "3.7 Kw – 45 Kw ( 5 Hp – 60 Hp)",
+        "maximum_total_head": "150 Mtr.",
+        "maximum_flow_rate": "3600 LPM",
+        "normal_delivery_size": "2.5”,3” ,4” & 5” Inch"
+      },
+      "motor": {
+        "speed": "2880 Rpm",
+        "version": "Three Phase 380 – 415v, 50hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta (SD) Upto 45 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "No Suction And Priming Problem",
+        "Noiseless Operation",
+        "High Operating Efficiency",
+        "No Need Of Pump House",
+        "Extremely Tough And Hard Wearing",
+        "Lubricated Journal Bearings Are Used",
+        "Can Be Easily Dismantled And Repaired",
+        "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
+        "Designed For Wide Voltage Fluctuations",
+        "Motor Body Available In J4",
+        "Motor Designed With Higher Cooling Effect Ensures Longer Life"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon VRS Agriculture Vertical Openwell — vertical openwell submersible (radial): power 3.7 Kw – 45 Kw ( 5 Hp – 60 Hp), head 150 Mtr., flow 3600 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/vrs-agriculture-vertical-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Domestic Horizontal CI Openwell",
+      "series": "Domestic Horizontal CI Openwell",
+      "category": "Domestic",
+      "type": "Horizontal openwell submersible (domestic, cast iron)",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 30 m",
+      "flow_range": "up to 910 LPM",
+      "borewell_size": "Open well / underground tank",
+      "phase": "Both",
+      "highlights": [
+        "No suction or priming problems",
+        "Noiseless, high-efficiency operation",
+        "No pump house needed",
+        "Tough, hard-wearing build"
+      ],
+      "applications": [
+        "Domestic",
+        "Underground water tank",
+        "Gardening",
+        "Farming"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/domestic-horizontal-ci-openwell.webp",
+      "source_url": "https://falconpumps.in/products/domestic-horizontal-ci-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "Cast Iron / J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon & Teflon",
+          "Base": "Cast Iron",
+          "Bracket": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Casing": "Cast Iron",
+          "Impeller": "Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "0.37kw – 2.2 Kw (0.5 Hp – 3hp)",
+        "maximum_total_head": "30 Mtr.",
+        "maximum_flow_rate": "910 LPM",
+        "normal_delivery_size": "1”,1.25”,1.5”,2.0”,2.5”,3.0”"
+      },
+      "motor": {
+        "speed": "2800 RPM",
+        "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta(Sd) Upto 3.7 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "No Suction And Priming Problem",
+        "Noiseless Operation",
+        "High Operating Efficiency",
+        "No Need of Pump House",
+        "Extremely Tough And Hard Wearing",
+        "Lubricated Journal Bearings Are Used",
+        "Can Be Easily Dismantled And Repaired",
+        "Dynamically Balanced Rotating Parts",
+        "Ensures Minimum Vibration And Longer Life",
+        "Designed For Wide Voltage Fluctuations",
+        "Motor Body Available In J4 Grades / CI FG – 250 Grades",
+        "Motor Designed With Higher Cooling Effect Ensures Longer Life"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon Domestic Horizontal CI Openwell — horizontal openwell submersible (domestic, cast iron): power 0.37kw – 2.2 Kw (0.5 Hp – 3hp), head 30 Mtr., flow 910 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/domestic-horizontal-ci-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Domestic Horizontal SS Openwell (DSH)",
+      "series": "Domestic Horizontal SS Openwell (DSH)",
+      "category": "Domestic",
+      "type": "Horizontal openwell submersible (domestic, stainless steel)",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 30 m",
+      "flow_range": "up to 910 LPM",
+      "borewell_size": "Open well / underground tank",
+      "phase": "Both",
+      "highlights": [
+        "Stainless steel body",
+        "No suction or priming problems",
+        "Noiseless, high-efficiency operation",
+        "No pump house needed"
+      ],
+      "applications": [
+        "Domestic",
+        "Underground water tank",
+        "Gardening",
+        "Farming"
+      ],
+      "price_from": "₹ 10,500",
+      "price_to": "₹ 10,500",
+      "price_source_url": "https://dir.indiamart.com/hyderabad/falcon-submersible-pump.html",
+      "image_file": "images/products/falcon/domestic-horizontal-ss-openwell.webp",
+      "source_url": "https://falconpumps.in/products/domestic-horizontal-ss-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "Cast Iron / J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon & Teflon",
+          "Base": "Cast Iron",
+          "Bracket": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Casing": "Cast Iron",
+          "Impeller": "Cast Iron"
+        }
+      },
+      "operating_limits": {
+        "power_range": "0.37kw – 2.2 Kw (0.5 Hp – 3hp)",
+        "maximum_total_head": "30 Mtr.",
+        "maximum_flow_rate": "910 LPM",
+        "normal_delivery_size": "1”,1.25”,1.5”,2.0”,2.5”,3.0”"
+      },
+      "motor": {
+        "speed": "2800 RPM",
+        "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta(Sd) Upto 3.7 Kw",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "No Suction And Priming Problem",
+        "Noiseless Operation",
+        "High Operating Efficiency",
+        "No Need of Pump House",
+        "Extremely Tough And Hard Wearing",
+        "Lubricated Journal Bearings Are Used",
+        "Can Be Easily Dismantled And Repaired",
+        "Dynamically Balanced Rotating Parts",
+        "Ensures Minimum Vibration And Longer Life",
+        "Designed For Wide Voltage Fluctuations",
+        "Motor Body Available In J4 Grades / CI FG – 250 Grades",
+        "Motor Designed With Higher Cooling Effect Ensures Longer Life"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon Domestic Horizontal SS Openwell — horizontal openwell submersible (domestic, stainless steel): power 0.37kw – 2.2 Kw (0.5 Hp – 3hp), head 30 Mtr., flow 910 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/domestic-horizontal-ss-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Domestic Vertical SS Openwell (DSV)",
+      "series": "Domestic Vertical SS Openwell (DSV)",
+      "category": "Domestic",
+      "type": "Vertical openwell submersible (domestic, stainless steel)",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 430 LPM",
+      "borewell_size": "Open well / sump",
+      "phase": "Both",
+      "highlights": [
+        "Stainless steel construction",
+        "No suction or priming problems",
+        "Noiseless, high-efficiency operation",
+        "Tough, hard-wearing build"
+      ],
+      "applications": [
+        "Domestic",
+        "Lifting water from lakes",
+        "Gardening",
+        "Farming"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/domestic-vertical-ss-openwell.webp",
+      "source_url": "https://falconpumps.in/products/domestic-vertical-ss-openwell/",
+      "materials": {
+        "motor": {
+          "Oil Seal": "Nitrile butyl rubber",
+          "Motor Shaft": "SS – 420",
+          "Motor Body": "J4",
+          "Motor Bush": "LTB-4 / Teflon",
+          "Thrust bearing assembly": "SS – 420 & Carbon",
+          "Base": "Cast Iron",
+          "Housing": "Cast Iron",
+          "Flange": "Cast Iron",
+          "Suction": "Cast Iron",
+          "Impeller": "SS-304",
+          "Bowl": "SS-304"
+        }
+      },
+      "operating_limits": {
+        "power_range": "0.37 Kw – 2.2 Kw (0.5 Hp – 3 Hp)",
+        "maximum_total_head": "60 Mtr.",
+        "maximum_flow_rate": "430 LPM",
+        "normal_delivery_size": "1”,1.25”,1.5”,2.0” & 2.5” Inch"
+      },
+      "motor": {
+        "speed": "2800 Rpm",
+        "version": "Three Phase 380 – 415V, 50HZ AC Supply Single Phase 230 V, 50HZ AC Supply",
+        "degree_of_protection": "IP 58",
+        "direction_of_rotation": "Electrically Reversible",
+        "type_of_duty": "S1 (Continuous)",
+        "method_of_starting": "Direct On Line (D.O.L)",
+        "maximum_starts_per_hour": "10 Times"
+      },
+      "features": [
+        "No Suction And Priming Problem",
+        "Noiseless Operation",
+        "High Operating Efficiency",
+        "No Need Of Pump House",
+        "Extremely Tough And Hard Wearing",
+        "Lubricated Journal Bearings Are Used",
+        "Can Be Easily Dismantled And Repaired",
+        "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
+        "Designed For Wide Voltage Fluctuations",
+        "Motor Designed With Higher Cooling Effect Ensures Longer Life"
+      ],
+      "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
+      "description": "Falcon Domestic Vertical SS Openwell — vertical openwell submersible (domestic, stainless steel): power 0.37 Kw – 2.2 Kw (0.5 Hp – 3 Hp), head 60 Mtr., flow 430 LPM (per falconpumps.in product page).",
+      "sources": [
+        "https://falconpumps.in/products/domestic-vertical-ss-openwell/",
+        "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
+      ]
+    },
+    {
+      "name": "Falcon Nano Series Self-Priming Mini Monoblock",
+      "series": "Nano",
+      "category": "Domestic",
+      "type": "Self-priming mini monoblock",
+      "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+      "head_range": "25–50 m",
+      "flow_range": "1730–6100 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Single phase 200–240 V",
+        "Suction lift 5–8 m",
+        "Ten models from Nano-40 to Nano-150-C"
+      ],
+      "applications": [
+        "Bath shower",
+        "Gardening",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/nano.jpg",
+      "source_url": "https://falconpumps.in/products/nano-150-cself-priming-monoblock-pumps/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/SP-Nano-150-C.png"
+    },
+    {
+      "name": "Falcon SSP-050 Slow-Speed Self-Priming Pump",
+      "series": "SSP-050",
+      "category": "Domestic",
+      "type": "Self-priming monoblock (1440 rpm)",
+      "power_range": "0.5–1 HP (0.37–0.75 kW)",
+      "head_range": "up to 18 m",
+      "flow_range": "4200 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Slow speed 1440 rpm",
+        "Suction lift 8 m",
+        "25 × 25 mm"
+      ],
+      "applications": [
+        "Bath shower",
+        "Gardening",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/ssp-050.jpg",
+      "source_url": "https://falconpumps.in/products/ssp-050-slow-speedself-priming-monoblock-pumps/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/SP-Slow-Speed-050.png"
+    },
+    {
+      "name": "Falcon FCML Series Centrifugal Monoblock",
+      "series": "FCML",
+      "category": "Domestic",
+      "type": "Centrifugal monoblock",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 32 m",
+      "flow_range": "up to 940 LPM",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Sizes 25×25 to 80×80 mm",
+        "Suction lift 7 m",
+        "Thermal overload protection up to 2 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/fcml.jpg",
+      "source_url": "https://falconpumps.in/products/fcml-series/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/FCML-Series.png"
+    },
+    {
+      "name": "Falcon FCM Series Centrifugal Monoblock",
+      "series": "FCM",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "3–15 HP (2.2–11.2 kW)",
+      "head_range": "up to 70 m",
+      "flow_range": "up to 2200 LPM",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "Back pull-out design",
+        "Sizes 50×40 to 100×100 mm",
+        "Suction lift 7 m"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/fcm.jpg",
+      "source_url": "https://falconpumps.in/products/fcm-series/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/FCM-Series.png"
+    },
+    {
+      "name": "Falcon SMP Series Low-Head High-Flow Monoblock",
+      "series": "SMP",
+      "category": "Agriculture",
+      "type": "Low-head high-flow monoblock (1440 rpm)",
+      "power_range": "2–7.5 HP (1.5–5.5 kW)",
+      "head_range": "up to 12 m",
+      "flow_range": "up to 3160 LPM",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "1440 rpm",
+        "Sizes 80×80 to 150×150 mm"
+      ],
+      "applications": [
+        "Mass water transfer",
+        "Farming"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/smp.jpg",
+      "source_url": "https://falconpumps.in/products/smp-series/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/SMP-Series.png"
+    },
+    {
+      "name": "Falcon AC Solar Surface Pump",
+      "series": "AC Solar Surface",
+      "category": "Agriculture",
+      "type": "Solar surface monoblock (AC)",
+      "power_range": "1–10 HP",
+      "head_range": "10–50 m",
+      "flow_range": "45,000–405,000 LPD",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Solar input 900–10,000 Wp",
+        "Max suction 7 m"
+      ],
+      "applications": [
+        "Livestock watering",
+        "Drinking water",
+        "Farming"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/ac-solar-surface.jpg",
+      "source_url": "https://falconpumps.in/products/ac-surface-pump/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/ACSolarSurface.png"
+    },
+    {
+      "name": "Falcon UTEE Series V3/V4 Oil-Filled Borewell",
+      "series": "UTEE",
+      "category": "Agriculture",
+      "type": "Borewell submersible (3\"/4\", oil-filled)",
+      "power_range": "1-ph 0.5–3 HP; 3-ph 1–7.5 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "100 mm (4\") min",
+      "phase": "Single / Three",
+      "highlights": [
+        "Oil-filled NEMA motor",
+        "Fits 4\" wells and up"
+      ],
+      "applications": [
+        "Water supply",
+        "Sprinkler irrigation",
+        "Domestic"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/utee.jpg",
+      "source_url": "https://falconpumps.in/products/utee-series/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/UTEE.png"
+    },
+    {
+      "name": "Falcon Pressure Booster System",
+      "series": "Pressure Booster",
+      "category": "Domestic",
+      "type": "Pressure booster system",
+      "power_range": "0.8–2.0 HP",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 166 LPM",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Automatic on/off",
+        "Thermal overload protection",
+        "Pressure tank"
+      ],
+      "applications": [
+        "Bungalows",
+        "Apartments",
+        "Fountains"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/pressure-booster.jpg",
+      "source_url": "https://falconpumps.in/products/pressure-booster/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Pressure-Booster.png"
+    },
+    {
+      "name": "Falcon Vertical Multistage Pump",
+      "series": "Vertical Multistage",
+      "category": "Domestic",
+      "type": "Vertical multistage",
+      "power_range": "1.5–10 HP",
+      "head_range": "98–186 m",
+      "flow_range": "33–133 LPM",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "High-pressure vertical design"
+      ],
+      "applications": [
+        "High-rise buildings",
+        "Sprinkler irrigation",
+        "RO plants"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/vertical-multistage.jpg",
+      "source_url": "https://falconpumps.in/products/vertical-multistage-pump/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Verticle-Multistage-Pump.png"
+    },
+    {
+      "name": "Falcon Hydro Pneumatic System",
+      "series": "Hydro Pneumatic",
+      "category": "Domestic",
+      "type": "Hydro-pneumatic pressure system",
+      "power_range": "5–15 HP",
+      "head_range": "4–10 kg/cm²",
+      "flow_range": "18–60 m³/hr",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "Constant-pressure water system"
+      ],
+      "applications": [
+        "High-rise buildings",
+        "Hotels",
+        "Shopping complexes"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/falcon/hydro-pneumatic.jpg",
+      "source_url": "https://falconpumps.in/products/hydro-pneumatic-system/",
+      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Hydro-Pneumatic-System.png"
     }
-   },
-   "operating_limits": {
-    "power_range": "7.5 kW to 75 kW (10 HP to 100 HP)",
-    "head_range": "12 Mtr. To 440 Mtr.",
-    "discharge_range": "2400 LPM to 300 LPM",
-    "outlet_size_in_inch": "4.0″ & 5.0″"
-   },
-   "motor": {
-    "speed": "2880 RPM",
-    "version": "Three Phase 350 to 415V, 50Hz AC Supply.",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Counter clockwise from driving end -1ph : Electrically Reversible -3ph",
-    "thrust_load_minimum_cooling": "7.5 kW -30 kW -10000 lbs",
-    "flow_along_the_motor": "0.15 m/sec.",
-    "type_of_duty": "S1 (continues)",
-    "method_of_starting": "Star Delta (SD)",
-    "max_starts_per_hour": "20 times"
-   },
-   "features": [
-    "SS-304 Grade investment casting bowl and SS-304 grade impeller in radial flow series",
-    "20 Mtr. Head per stage in radial flow series",
-    "Specially designed high performance thrust bearing (SS-420 Tilting pad with carbon plate) to with stand axial thrust loads",
-    "Dynamically balanced rotating parts ensures minimum vibration and longer life",
-    "Motor portion covered with corrosive resistance Stainless steel J4 shell",
-    "More durability and hygiene",
-    "High operating efficiency",
-    "Special designed thrust bearing to withstand high axial thrust load",
-    "Extremely hardwearing water lubricated bearing",
-    "Thread type motor construction ensures services feasibility",
-    "Specially designed Deep Drawn type pump ensures perfect alignment and Thereby increases the life of the pump set",
-    "Designed for wide voltage operation",
-    "Best alternative for JET & Compressor pump set",
-    "Additional intermediate bearing in higher stage pumps",
-    "Fully SS Pumps are available"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf",
-   "description": "Falcon 8″ Submersible Pumpset — borewell submersible (8\"): power 7.5 kW to 75 kW (10 HP to 100 HP), head 12 Mtr. To 440 Mtr., flow 2400 LPM to 300 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/8-submersible-pumpset/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/V8.pdf"
-   ]
-  },
-  {
-   "name": "Falcon AC Solar Submersible Pump",
-   "series": "AC Solar Submersible Pump",
-   "category": "Agriculture",
-   "type": "Solar borewell submersible (AC, with controller)",
-   "power_range": "1–20 HP (custom up to 100 HP)",
-   "head_range": "30–220 m",
-   "flow_range": "10,000–4,20,000 litres/day",
-   "borewell_size": "100–150 mm (4\"–6\")",
-   "phase": "Three",
-   "highlights": [
-    "Runs on 900–20,000 Wp solar array, zero running cost",
-    "Starts at low sunlight, wide voltage range",
-    "Low-maintenance 'fit & forget' design",
-    "Customised designs up to 100 HP / 330 m"
-   ],
-   "applications": [
-    "Farming",
-    "Livestock watering",
-    "Drinking water supply",
-    "Gardening"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/ac-solar-submersible-pump.webp",
-   "source_url": "https://falconpumps.in/products/ac-submersible-pump/",
-   "materials": {
-    "Suction": "SS-304",
-    "Couple": "Stainless Steel",
-    "Couple Counter": "SS-304",
-    "Rubber Seal": "NBR",
-    "Bush Seal Cover": "SS-304",
-    "Bowl": "SS-304",
-    "Impeller": "SS-304",
-    "Key": "SS-410",
-    "Bowl Bush": "NBR",
-    "Bush": "LTB-4",
-    "Middle": "SS-304",
-    "Cap": "NBR",
-    "Outlet": "SS-304"
-   },
-   "operating_limits": {
-    "power_range": "1.0 HP to 20.0 HP",
-    "input_solar_dc_power_range": "900 Wp – 20000 Wp",
-    "head_range": "30 Mtr – 220 Mtr",
-    "discharge_range": "10000 LPD – 420000 LPD"
-   },
-   "motor": {
-    "operating_speed": "0 – 2890 RPM",
-    "operating_frequency": "0 – 50 Hz",
-    "input_solar_dc_voltage_range": "110 Vmp – 600 Vmp",
-    "type_of_duty": "S1 (Customized Design Available upto 100HP – 330Mtr)"
-   },
-   "features": [
-    "Eco-Friendly",
-    "Zero running cost",
-    "Easy start at low irradiation & works in wide voltage operation range",
-    "Less maintenance cost. (Fit & Forget)",
-    "Simple Installation",
-    "Highly efficient 3-phase water filled motor",
-    "Easily rewindable",
-    "Dynamically balanced design",
-    "Extended life with flawless performance",
-    "Thrust bearing : Carbon + S.S. material for High thrust load capacity",
-    "100% EC grade copper winding",
-    "Presenting world 1st design (design registered 100% fully S.S.-304 investment casting pumps",
-    "Zero maintenance",
-    "Superior performance",
-    "Sand proof operation"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/06/submersible-pump.pdf",
-   "description": "Falcon AC Submersible Pump — solar borewell submersible (AC, with controller): power 1.0 HP to 20.0 HP, head 30 Mtr – 220 Mtr, flow 10000 LPD – 420000 LPD (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/ac-submersible-pump/",
-    "https://falconpumps.in/wp-content/uploads/2026/06/submersible-pump.pdf"
-   ]
-  },
-  {
-   "name": "Falcon AC Solar Openwell Pump",
-   "series": "AC Solar Openwell Pump",
-   "category": "Agriculture",
-   "type": "Solar openwell submersible (AC)",
-   "power_range": "3–10 HP",
-   "head_range": "10–50 m",
-   "flow_range": "1,26,000–4,25,000 litres/day",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "Runs on 3,000–10,000 Wp solar array",
-    "Zero running cost, eco-friendly",
-    "Easy start at low sunlight",
-    "Simple installation, low maintenance"
-   ],
-   "applications": [
-    "Farming",
-    "Livestock watering",
-    "Drinking water supply",
-    "Gardening"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/ac-solar-openwell-pump.webp",
-   "source_url": "https://falconpumps.in/products/ac-openwell-pump/",
-   "materials": {
-    "Oil Seal": "Nitrile butyl rubber",
-    "Motor Shaft": "SS – 420",
-    "Motor Body": "Cast Iron / J4",
-    "Motor Bush": "LTB-4 / Teflon",
-    "Thrust bearing assembly": "SS – 420 & Carbon",
-    "Base": "Cast Iron",
-    "Bracket": "Cast Iron",
-    "Flange": "Cast Iron",
-    "Casing": "Cast Iron",
-    "Impeller": "Cast Iron"
-   },
-   "operating_limits": {
-    "power_range": "3.0 HP to 10.0 HP",
-    "input_solar_dc_power_range": "3000 Wp – 10000 Wp",
-    "head_range": "10 Mtr – 50 Mtr",
-    "discharge_range": "126000 LPD – 425000 LPD"
-   },
-   "motor": {
-    "operating_speed": "0 – 2890 RPM",
-    "operating_frequency": "0 – 50 Hz",
-    "input_solar_dc_voltage_range": "330 Vmp – 600 Vmp",
-    "type_of_duty": "S1"
-   },
-   "features": [
-    "Eco-Friendly",
-    "Zero running cost",
-    "Easy start at low irradiation & works in wide voltage operation range",
-    "Less maintenance cost. (Fit & Forget)",
-    "Simple Installation",
-    "Highly efficient 3-Phase Water Filled Motor",
-    "100% EC grade copper winding",
-    "Easily Rewindable",
-    "Motor Designed with Higher Cooling Effect Ensures Longer Life",
-    "Sustainable uniform performance for years",
-    "Ensures long life durability",
-    "Optimized Hydraulic & Mechanical Design",
-    "Improved efficient performance",
-    "Excellent output in Low Radiation",
-    "Dynamically balanced design",
-    "Zero maintenance"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/06/Openwell.pdf",
-   "description": "Falcon AC Openwell Pump — solar openwell submersible (AC): power 3.0 HP to 10.0 HP, head 10 Mtr – 50 Mtr, flow 126000 LPD – 425000 LPD (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/ac-openwell-pump/",
-    "https://falconpumps.in/wp-content/uploads/2026/06/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon Agriculture Horizontal CI Openwell (HMA)",
-   "series": "Agriculture Horizontal CI Openwell (HMA)",
-   "category": "Agriculture",
-   "type": "Horizontal openwell submersible (cast iron)",
-   "power_range": "3–15 HP (2.2–11.2 kW)",
-   "head_range": "up to 65 m",
-   "flow_range": "up to 2,200 LPM",
-   "borewell_size": "Open well",
-   "phase": "Both",
-   "highlights": [
-    "High efficiency, noiseless operation",
-    "No pump house needed",
-    "Easy to dismantle and repair",
-    "Motor designed for higher cooling and longer life"
-   ],
-   "applications": [
-    "Farming",
-    "Deep well",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "₹ 22,050",
-   "price_to": "₹ 37,825",
-   "price_source_url": "https://shreenathind.com/collections/all",
-   "image_file": "images/products/falcon/agriculture-horizontal-ci-openwell.webp",
-   "source_url": "https://falconpumps.in/products/agriculture-horizontal-ci-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "Cast Iron / J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Base": "Cast Iron",
-     "Bracket": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Casing": "Cast Iron",
-     "Impeller": "Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "2.2Kw – 11.2Kw (3HP – 15HP)",
-    "maximum_total_head": "65 Mtr.",
-    "maximum_flow_rate": "2200 LPM",
-    "normal_delivery_size": "2″, 2.5″, 3″ & 4″"
-   },
-   "motor": {
-    "speed": "2800 RPM",
-    "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct on Line (D.O.L.) upto 5.5 Kw, Star Delta (Sd) Upto 11.2 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "High Operating Efficiency",
-    "Noiseless Operation",
-    "No Need of Pump House",
-    "Can Be Easily Dismantled and Repaired",
-    "Motor Designed with Higher Cooling Effect Ensures Longer Life",
-    "No Suction& Priming Problem",
-    "Motor Body Available in Cast Iron / J4"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon Agriculture Horizontal CI Openwell — horizontal openwell submersible (cast iron): power 2.2Kw – 11.2Kw (3HP – 15HP), head 65 Mtr., flow 2200 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/agriculture-horizontal-ci-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon Agriculture Horizontal SS Openwell",
-   "series": "Agriculture Horizontal SS Openwell",
-   "category": "Agriculture",
-   "type": "Horizontal openwell submersible (stainless steel)",
-   "power_range": "3–15 HP (2.2–11.2 kW)",
-   "head_range": "up to 65 m",
-   "flow_range": "up to 2,200 LPM",
-   "borewell_size": "Open well",
-   "phase": "Both",
-   "highlights": [
-    "Stainless steel body",
-    "High efficiency, noiseless operation",
-    "No pump house needed",
-    "Easy to dismantle and repair"
-   ],
-   "applications": [
-    "Farming",
-    "Deep well",
-    "Water supply",
-    "Industrial"
-   ],
-   "price_from": "₹ 25,330",
-   "price_to": "₹ 25,330",
-   "price_source_url": "https://shreenathind.com/collections/all",
-   "image_file": "images/products/falcon/agriculture-horizontal-ss-openwell.webp",
-   "source_url": "https://falconpumps.in/products/agriculture-horizontal-ss-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "Cast Iron / J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Base": "Cast Iron",
-     "Bracket": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Casing": "Cast Iron",
-     "Impeller": "Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "2.2Kw – 11.2Kw (3HP – 15HP)",
-    "maximum_total_head": "65 Mtr.",
-    "maximum_flow_rate": "2200 LPM",
-    "normal_delivery_size": "2″, 2.5″, 3″ & 4″"
-   },
-   "motor": {
-    "speed": "2800 RPM",
-    "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct on Line (D.O.L.) upto 5.5 Kw, Star Delta (Sd) Upto 11.2 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "High Operating Efficiency",
-    "Noiseless Operation",
-    "No Need of Pump House",
-    "Can Be Easily Dismantled and Repaired",
-    "Motor Designed with Higher Cooling Effect Ensures Longer Life",
-    "No Suction& Priming Problem",
-    "Motor Body Available in Cast Iron / J4"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon Agriculture Horizontal SS Openwell — horizontal openwell submersible (stainless steel): power 2.2Kw – 11.2Kw (3HP – 15HP), head 65 Mtr., flow 2200 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/agriculture-horizontal-ss-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon VMC Agriculture Vertical Openwell",
-   "series": "VMC Agriculture Vertical Openwell",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (mixed flow)",
-   "power_range": "5–60 HP (3.7–45 kW)",
-   "head_range": "up to 150 m",
-   "flow_range": "up to 3,600 LPM",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "No suction or priming problems",
-    "Lubricated journal bearings",
-    "Dynamically balanced rotating parts",
-    "Designed for wide voltage fluctuation"
-   ],
-   "applications": [
-    "Farming",
-    "Lifting water from lakes",
-    "Lifting from dams / reservoirs",
-    "Water supply"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/vmc-agriculture-vertical-openwell.webp",
-   "source_url": "https://falconpumps.in/products/vmc-agriculture-vertical-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Base": "Cast Iron",
-     "Housing": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Suction": "Cast Iron",
-     "Impeller": "SS-304 / SS-410",
-     "Bowl": "SS-304 / Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "3.7 Kw – 45 Kw ( 5 Hp – 60 Hp)",
-    "maximum_total_head": "150 Mtr.",
-    "maximum_flow_rate": "3600 LPM",
-    "normal_delivery_size": "2.5”,3” ,4” & 5” Inch"
-   },
-   "motor": {
-    "speed": "2880 Rpm",
-    "version": "Three Phase 380 – 415v, 50hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta (SD) Upto 45 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "No Suction And Priming Problem",
-    "Noiseless Operation",
-    "High Operating Efficiency",
-    "No Need Of Pump House",
-    "Extremely Tough And Hard Wearing",
-    "Lubricated Journal Bearings Are Used",
-    "Can Be Easily Dismantled And Repaired",
-    "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
-    "Designed For Wide Voltage Fluctuations",
-    "Motor Body Available In J4",
-    "Motor Designed With Higher Cooling Effect Ensures Longer Life"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon VMC Agriculture Vertical Openwell — vertical openwell submersible (mixed flow): power 3.7 Kw – 45 Kw ( 5 Hp – 60 Hp), head 150 Mtr., flow 3600 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/vmc-agriculture-vertical-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon VRS Agriculture Vertical Openwell",
-   "series": "VRS Agriculture Vertical Openwell",
-   "category": "Agriculture",
-   "type": "Vertical openwell submersible (radial)",
-   "power_range": "5–60 HP (3.7–45 kW)",
-   "head_range": "up to 150 m",
-   "flow_range": "up to 3,600 LPM",
-   "borewell_size": "Open well",
-   "phase": "Three",
-   "highlights": [
-    "No suction or priming problems",
-    "Noiseless, high-efficiency operation",
-    "No pump house needed",
-    "Hard-wearing construction"
-   ],
-   "applications": [
-    "Farming",
-    "Lifting water from lakes",
-    "Lifting from dams / reservoirs",
-    "Water supply"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/vrs-agriculture-vertical-openwell.webp",
-   "source_url": "https://falconpumps.in/products/vrs-agriculture-vertical-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Base": "Cast Iron",
-     "Housing": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Suction": "Cast Iron",
-     "Impeller": "SS-304 / SS-410",
-     "Bowl": "SS-304 / Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "3.7 Kw – 45 Kw ( 5 Hp – 60 Hp)",
-    "maximum_total_head": "150 Mtr.",
-    "maximum_flow_rate": "3600 LPM",
-    "normal_delivery_size": "2.5”,3” ,4” & 5” Inch"
-   },
-   "motor": {
-    "speed": "2880 Rpm",
-    "version": "Three Phase 380 – 415v, 50hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta (SD) Upto 45 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "No Suction And Priming Problem",
-    "Noiseless Operation",
-    "High Operating Efficiency",
-    "No Need Of Pump House",
-    "Extremely Tough And Hard Wearing",
-    "Lubricated Journal Bearings Are Used",
-    "Can Be Easily Dismantled And Repaired",
-    "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
-    "Designed For Wide Voltage Fluctuations",
-    "Motor Body Available In J4",
-    "Motor Designed With Higher Cooling Effect Ensures Longer Life"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon VRS Agriculture Vertical Openwell — vertical openwell submersible (radial): power 3.7 Kw – 45 Kw ( 5 Hp – 60 Hp), head 150 Mtr., flow 3600 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/vrs-agriculture-vertical-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon Domestic Horizontal CI Openwell",
-   "series": "Domestic Horizontal CI Openwell",
-   "category": "Domestic",
-   "type": "Horizontal openwell submersible (domestic, cast iron)",
-   "power_range": "0.5–3 HP (0.37–2.2 kW)",
-   "head_range": "up to 30 m",
-   "flow_range": "up to 910 LPM",
-   "borewell_size": "Open well / underground tank",
-   "phase": "Both",
-   "highlights": [
-    "No suction or priming problems",
-    "Noiseless, high-efficiency operation",
-    "No pump house needed",
-    "Tough, hard-wearing build"
-   ],
-   "applications": [
-    "Domestic",
-    "Underground water tank",
-    "Gardening",
-    "Farming"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/domestic-horizontal-ci-openwell.webp",
-   "source_url": "https://falconpumps.in/products/domestic-horizontal-ci-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "Cast Iron / J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon & Teflon",
-     "Base": "Cast Iron",
-     "Bracket": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Casing": "Cast Iron",
-     "Impeller": "Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "0.37kw – 2.2 Kw (0.5 Hp – 3hp)",
-    "maximum_total_head": "30 Mtr.",
-    "maximum_flow_rate": "910 LPM",
-    "normal_delivery_size": "1”,1.25”,1.5”,2.0”,2.5”,3.0”"
-   },
-   "motor": {
-    "speed": "2800 RPM",
-    "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta(Sd) Upto 3.7 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "No Suction And Priming Problem",
-    "Noiseless Operation",
-    "High Operating Efficiency",
-    "No Need of Pump House",
-    "Extremely Tough And Hard Wearing",
-    "Lubricated Journal Bearings Are Used",
-    "Can Be Easily Dismantled And Repaired",
-    "Dynamically Balanced Rotating Parts",
-    "Ensures Minimum Vibration And Longer Life",
-    "Designed For Wide Voltage Fluctuations",
-    "Motor Body Available In J4 Grades / CI FG – 250 Grades",
-    "Motor Designed With Higher Cooling Effect Ensures Longer Life"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon Domestic Horizontal CI Openwell — horizontal openwell submersible (domestic, cast iron): power 0.37kw – 2.2 Kw (0.5 Hp – 3hp), head 30 Mtr., flow 910 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/domestic-horizontal-ci-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon Domestic Horizontal SS Openwell (DSH)",
-   "series": "Domestic Horizontal SS Openwell (DSH)",
-   "category": "Domestic",
-   "type": "Horizontal openwell submersible (domestic, stainless steel)",
-   "power_range": "0.5–3 HP (0.37–2.2 kW)",
-   "head_range": "up to 30 m",
-   "flow_range": "up to 910 LPM",
-   "borewell_size": "Open well / underground tank",
-   "phase": "Both",
-   "highlights": [
-    "Stainless steel body",
-    "No suction or priming problems",
-    "Noiseless, high-efficiency operation",
-    "No pump house needed"
-   ],
-   "applications": [
-    "Domestic",
-    "Underground water tank",
-    "Gardening",
-    "Farming"
-   ],
-   "price_from": "₹ 10,500",
-   "price_to": "₹ 10,500",
-   "price_source_url": "https://dir.indiamart.com/hyderabad/falcon-submersible-pump.html",
-   "image_file": "images/products/falcon/domestic-horizontal-ss-openwell.webp",
-   "source_url": "https://falconpumps.in/products/domestic-horizontal-ss-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "Cast Iron / J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon & Teflon",
-     "Base": "Cast Iron",
-     "Bracket": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Casing": "Cast Iron",
-     "Impeller": "Cast Iron"
-    }
-   },
-   "operating_limits": {
-    "power_range": "0.37kw – 2.2 Kw (0.5 Hp – 3hp)",
-    "maximum_total_head": "30 Mtr.",
-    "maximum_flow_rate": "910 LPM",
-    "normal_delivery_size": "1”,1.25”,1.5”,2.0”,2.5”,3.0”"
-   },
-   "motor": {
-    "speed": "2800 RPM",
-    "version": "Three Phase 380 – 415v, 50Hz AC Supply Single Phase 160-240v, 50Hz AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct On Line (D.O.L) Upto 5.5 Kw, Star Delta(Sd) Upto 3.7 Kw",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "No Suction And Priming Problem",
-    "Noiseless Operation",
-    "High Operating Efficiency",
-    "No Need of Pump House",
-    "Extremely Tough And Hard Wearing",
-    "Lubricated Journal Bearings Are Used",
-    "Can Be Easily Dismantled And Repaired",
-    "Dynamically Balanced Rotating Parts",
-    "Ensures Minimum Vibration And Longer Life",
-    "Designed For Wide Voltage Fluctuations",
-    "Motor Body Available In J4 Grades / CI FG – 250 Grades",
-    "Motor Designed With Higher Cooling Effect Ensures Longer Life"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon Domestic Horizontal SS Openwell — horizontal openwell submersible (domestic, stainless steel): power 0.37kw – 2.2 Kw (0.5 Hp – 3hp), head 30 Mtr., flow 910 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/domestic-horizontal-ss-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  },
-  {
-   "name": "Falcon Domestic Vertical SS Openwell (DSV)",
-   "series": "Domestic Vertical SS Openwell (DSV)",
-   "category": "Domestic",
-   "type": "Vertical openwell submersible (domestic, stainless steel)",
-   "power_range": "0.5–3 HP (0.37–2.2 kW)",
-   "head_range": "up to 60 m",
-   "flow_range": "up to 430 LPM",
-   "borewell_size": "Open well / sump",
-   "phase": "Both",
-   "highlights": [
-    "Stainless steel construction",
-    "No suction or priming problems",
-    "Noiseless, high-efficiency operation",
-    "Tough, hard-wearing build"
-   ],
-   "applications": [
-    "Domestic",
-    "Lifting water from lakes",
-    "Gardening",
-    "Farming"
-   ],
-   "price_from": "",
-   "price_to": "",
-   "price_source_url": "",
-   "image_file": "images/products/falcon/domestic-vertical-ss-openwell.webp",
-   "source_url": "https://falconpumps.in/products/domestic-vertical-ss-openwell/",
-   "materials": {
-    "motor": {
-     "Oil Seal": "Nitrile butyl rubber",
-     "Motor Shaft": "SS – 420",
-     "Motor Body": "J4",
-     "Motor Bush": "LTB-4 / Teflon",
-     "Thrust bearing assembly": "SS – 420 & Carbon",
-     "Base": "Cast Iron",
-     "Housing": "Cast Iron",
-     "Flange": "Cast Iron",
-     "Suction": "Cast Iron",
-     "Impeller": "SS-304",
-     "Bowl": "SS-304"
-    }
-   },
-   "operating_limits": {
-    "power_range": "0.37 Kw – 2.2 Kw (0.5 Hp – 3 Hp)",
-    "maximum_total_head": "60 Mtr.",
-    "maximum_flow_rate": "430 LPM",
-    "normal_delivery_size": "1”,1.25”,1.5”,2.0” & 2.5” Inch"
-   },
-   "motor": {
-    "speed": "2800 Rpm",
-    "version": "Three Phase 380 – 415V, 50HZ AC Supply Single Phase 230 V, 50HZ AC Supply",
-    "degree_of_protection": "IP 58",
-    "direction_of_rotation": "Electrically Reversible",
-    "type_of_duty": "S1 (Continuous)",
-    "method_of_starting": "Direct On Line (D.O.L)",
-    "maximum_starts_per_hour": "10 Times"
-   },
-   "features": [
-    "No Suction And Priming Problem",
-    "Noiseless Operation",
-    "High Operating Efficiency",
-    "No Need Of Pump House",
-    "Extremely Tough And Hard Wearing",
-    "Lubricated Journal Bearings Are Used",
-    "Can Be Easily Dismantled And Repaired",
-    "Dynamically Balanced Rotating Parts Ensures Minimum Vibration And Longer Life",
-    "Designed For Wide Voltage Fluctuations",
-    "Motor Designed With Higher Cooling Effect Ensures Longer Life"
-   ],
-   "datasheet_url": "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf",
-   "description": "Falcon Domestic Vertical SS Openwell — vertical openwell submersible (domestic, stainless steel): power 0.37 Kw – 2.2 Kw (0.5 Hp – 3 Hp), head 60 Mtr., flow 430 LPM (per falconpumps.in product page).",
-   "sources": [
-    "https://falconpumps.in/products/domestic-vertical-ss-openwell/",
-    "https://falconpumps.in/wp-content/uploads/2026/04/Openwell.pdf"
-   ]
-  }
- ]
+  ]
 }

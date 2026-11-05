@@ -6,7 +6,8 @@ const root = document.getElementById('types');
 const canvas = document.getElementById('typesCanvas');
 if (root && canvas) {
   const D = window.SAE_DATA || { products: [] };
-  const count = re => D.products.filter(p => re.test((p.type || '') + ' ' + (p.name || ''))).length;
+  const GRP = { borewell: 'Borewell submersible', openwell: 'Openwell submersible', monoblock: 'Monoblock pump', selfpriming: 'Self-priming & mini pump', booster: 'Pressure booster', solar: 'Solar pump' };
+  const count = (re, key) => D.products.filter(p => p.group ? p.group === GRP[key] : re.test((p.type || '') + ' ' + (p.name || ''))).length;
   const TYPES = [
     { key: 'borewell', name: 'Borewell submersible', tag: 'V3 – V10 · deep borewells',
       what: 'A slim multistage pump and motor that sits deep inside the borewell, below the water level, and pushes water up the riser pipe.',
@@ -38,7 +39,7 @@ if (root && canvas) {
   const tabs = root.querySelector('.ty-tabs'), info = root.querySelector('.ty-info');
   tabs.innerHTML = TYPES.map((t, i) => `<button role="tab" data-i="${i}" aria-selected="${i === 0}"><b>${t.name}</b><small>${t.tag}</small></button>`).join('');
   const renderInfo = (i, step) => {
-    const t = TYPES[i], n = count(t.re);
+    const t = TYPES[i], n = count(t.re, t.key);
     info.innerHTML = `<span class="eyebrow">${t.tag}</span><h3>${t.name}</h3><p>${t.what}</p>
       <ol class="ty-steps">${t.steps.map((s, k) => `<li class="${k === step ? 'on' : ''}"><i>${k + 1}</i><span>${s}</span></li>`).join('')}</ol>
       <p class="ty-use"><b>Best for:</b> ${t.use}</p>
@@ -46,8 +47,9 @@ if (root && canvas) {
   };
   info.addEventListener('click', e => {
     const b = e.target.closest('[data-ty-find]'); if (!b) return;
-    const q = document.getElementById('q'), t = TYPES.find(x => x.key === b.dataset.tyFind);
-    if (q) { q.value = t.key === 'borewell' ? 'borewell' : t.key === 'openwell' ? 'openwell' : t.key; q.dispatchEvent(new Event('input', { bubbles: true })); }
+    const t = TYPES.find(x => x.key === b.dataset.tyFind), sel = document.getElementById('typeSel'), q = document.getElementById('q');
+    if (sel && [...sel.options].some(o => o.value === GRP[t.key])) { if (q && q.value) { q.value = ''; q.dispatchEvent(new Event('input', { bubbles: true })); } sel.value = GRP[t.key]; sel.dispatchEvent(new Event('change', { bubbles: true })); }
+    else if (q) { q.value = t.key; q.dispatchEvent(new Event('input', { bubbles: true })); }
     document.getElementById('pumps')?.scrollIntoView({ behavior: 'smooth' });
   });
 

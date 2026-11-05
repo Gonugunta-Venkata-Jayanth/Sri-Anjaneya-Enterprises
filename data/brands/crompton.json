@@ -811,6 +811,379 @@
       "sources": [
         "https://www.crompton.co.in/pages/solar-pump-landing"
       ]
+    },
+    {
+      "name": "Crompton MB Series Centrifugal Monoset",
+      "series": "MB Monoset",
+      "category": "Agriculture",
+      "type": "Centrifugal monoset",
+      "power_range": "1–2 HP",
+      "head_range": "up to 28.5 m",
+      "flow_range": "up to 1020 LPM",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Models MBG, MBM, MBQ, MBK22 Blue",
+        "Single and three phase"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/mb-monoset.jpg",
+      "source_url": "https://www.crompton.co.in/products/mbg1-52",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Untitled-1_3e73c59d-b235-4fbc-b029-9128c5ee35d7.png?v=1702988573"
+    },
+    {
+      "name": "Crompton MAD Series Centrifugal Monobloc",
+      "series": "MAD",
+      "category": "Agriculture",
+      "type": "Centrifugal monobloc",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 30 m",
+      "flow_range": "up to 112 LPM",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Compact fractional-HP monobloc",
+        "Single phase"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/mad.jpg",
+      "source_url": "https://www.crompton.co.in/products/mad0521phy-15",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CopyofUntitled-1_05ac0669-5357-4da2-8a5c-b2a8b88ec380.png?v=1702982394"
+    },
+    {
+      "name": "Crompton MI Series Centrifugal Monobloc",
+      "series": "MI Monobloc",
+      "category": "Agriculture",
+      "type": "Centrifugal monobloc (three phase)",
+      "power_range": "0.5–7.5 HP",
+      "head_range": "up to 50 m",
+      "flow_range": "up to 4250 LPM",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Models MIK, MIN, MINH, MIP",
+        "Three phase"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/mi-monobloc.jpg",
+      "source_url": "https://www.crompton.co.in/products/mik22-18",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/1_0f1979ee-bc31-49e1-870e-8cf8179e6915.png?v=1702987765"
+    },
+    {
+      "name": "Crompton SWJ Shallow Well Jet Pump",
+      "series": "SWJ",
+      "category": "Domestic",
+      "type": "Shallow-well jet pump",
+      "power_range": "0.5–1 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "High suction, lifts up to 7 m",
+        "SWJ1, SWJ50 and SWJ100 Plus models"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Shallow wells and sumps"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/swj.jpg",
+      "source_url": "https://www.crompton.co.in/products/swj1",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/png_5f397647-de7d-467d-a322-ef766ac2e551.png?v=1730289678"
+    },
+    {
+      "name": "Crompton DMB / CMB High-Suction Regenerative Pump",
+      "series": "DMB / CMB",
+      "category": "Domestic",
+      "type": "High-suction regenerative monoblock",
+      "power_range": "0.5–1 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "High suction lift",
+        "0.5 and 1 HP models"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/dmb-cmb.jpg",
+      "source_url": "https://www.crompton.co.in/products/cmb05nv-plus",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CMB05NVPLUSPL_0.png?v=1729837771"
+    },
+    {
+      "name": "Crompton Mini Force Pressure Booster",
+      "series": "Mini Force",
+      "category": "Domestic",
+      "type": "Pressure booster",
+      "power_range": "0.5 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Float switch with dry-run protection",
+        "Mini Force I and II"
+      ],
+      "applications": [
+        "Showers and bathrooms",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/mini-force.jpg",
+      "source_url": "https://www.crompton.co.in/products/mini-force-i-pressure-booster-pump",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Artboard1_6_4f0b3b40-d186-461c-b2b7-890e7b082c96.png?v=1730198373"
+    },
+    {
+      "name": "Crompton CFMSMB / CFCHM Pressure Booster",
+      "series": "CFMSMB / CFCHM",
+      "category": "Domestic",
+      "type": "Pressure booster",
+      "power_range": "0.5–1 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "0.5 to 1.5 HP models",
+        "CFCHM up to 50 m head and 132 LPM"
+      ],
+      "applications": [
+        "Apartments",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/cfmsmb-cfchm.jpg",
+      "source_url": "https://www.crompton.co.in/products/cfchm6e1-5b-v24-pressure-booster-pump",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CFCHM6E1.5B-V24.png?v=1767185143"
+    },
+    {
+      "name": "Crompton Aquagold / Aquagold Dura Mini Pump",
+      "series": "Aquagold",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1.5 HP",
+      "head_range": "up to 45 m",
+      "flow_range": "up to 3360 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "0.5 to 1.5 HP",
+        "Dura versions available"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/aquagold.jpg",
+      "source_url": "https://www.crompton.co.in/products/aquagold-100",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/FlomaxDura_PL_1-Photoroom_5b5b9e31-61f9-4e17-807c-ee953600d38d.png?v=1793364986"
+    },
+    {
+      "name": "Crompton Mini Master / Master Plus / Master Dura",
+      "series": "Master",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 50 m",
+      "flow_range": "up to 4250 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Mini Master, MasterPlus, Master Plus and Master Dura",
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/master.jpg",
+      "source_url": "https://www.crompton.co.in/products/master-dura-i",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CRESTDURAI_PDCBODY_ASS_1.png?v=1702378540"
+    },
+    {
+      "name": "Crompton Flomax Plus / Flomax Dura Mini Pump",
+      "series": "Flomax",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 42 m",
+      "flow_range": "up to 3000 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Plus and Dura versions",
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/flomax.jpg",
+      "source_url": "https://www.crompton.co.in/products/flomax-dura-i",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/FlomaxDura_PL_1-Photoroom.png?v=1791191525"
+    },
+    {
+      "name": "Crompton Mini Marvel / Marvel Plus Mini Pump",
+      "series": "Marvel",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 39 m",
+      "flow_range": "up to 3000 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/marvel.jpg",
+      "source_url": "https://www.crompton.co.in/products/marvel-plus-i-mini-self-priming-regenerative-pump",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Artboard0_309076f4-0393-4eb1-a00b-0636ce4ab2d7.png?v=1770121590"
+    },
+    {
+      "name": "Crompton Star Plus / Star Dura Mini Pump",
+      "series": "Star",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 45 m",
+      "flow_range": "up to 3350 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Plus and Dura versions",
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/star.jpg",
+      "source_url": "https://www.crompton.co.in/products/star-dura-i",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Untitled-1_aa8095a1-62c7-4f7f-a537-14ac618b6267.png?v=1702384463"
+    },
+    {
+      "name": "Crompton Win / Win Plus / Win Dura Mini Pump",
+      "series": "Win",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "1 HP",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Win, Plus and Dura versions",
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/win.jpg",
+      "source_url": "https://www.crompton.co.in/products/win-dura-i",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/WinDura1_4f2474af-8da4-4b71-9abc-60a418ef4bf0.png?v=1765790782"
+    },
+    {
+      "name": "Crompton Value Mini Pumps (Champ, Nile, Glory, Crest, Sumo, Glide, Primo, Ultimo, Elite)",
+      "series": "Champ / Nile / Crest & more",
+      "category": "Domestic",
+      "type": "Mini self-priming regenerative",
+      "power_range": "0.5–1 HP",
+      "head_range": "up to 34 m",
+      "flow_range": "up to 2700 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Champ, Nile, Glory, Crest, Sumo, Glide, Primo, Ultimo, Elite Plus",
+        "0.5 and 1 HP"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/champ-nile-crest-and-more.jpg",
+      "source_url": "https://www.crompton.co.in/products/champ-dura-i",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/ChampDura.png?v=1702382545"
+    },
+    {
+      "name": "Crompton Mini Everest / Xtraa Plus 50 Mini Pump",
+      "series": "Mini Everest / Xtraa Plus",
+      "category": "Domestic",
+      "type": "Mini pump",
+      "power_range": "",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Xtraa Plus 50 runs on 180–260 V",
+        "Up to 4,500 LPH (Xtraa Plus 50)"
+      ],
+      "applications": [
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/crompton/mini-everest-xtraa-plus.jpg",
+      "source_url": "https://www.crompton.co.in/products/mini-everest-mini-pump",
+      "image_source": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/MINIEVERESTPL1.png?v=1729766491"
     }
   ]
 }

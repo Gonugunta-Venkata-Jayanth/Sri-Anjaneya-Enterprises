@@ -33,7 +33,7 @@ def cut(src):
     return dst, round(float(bg.mean()), 2)
 
 if __name__ == '__main__':
-    files = [f for f in glob.glob('images/products/**/*', recursive=True) if not f.endswith('.cut.webp') and os.path.isfile(f)]
+    files = sys.argv[1:] or [f for f in glob.glob('images/products/**/*', recursive=True) if not f.endswith('.cut.webp') and os.path.isfile(f)]
     for f in files:
         try: d, r = cut(f); print(r, d)
         except Exception as e: print('ERR', f, e)

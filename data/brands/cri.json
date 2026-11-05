@@ -1255,6 +1255,257 @@
         "https://www.crigroups.com/solar-pump/",
         "https://www.crigroups.com/wp-content/uploads/2021/10/Solar-Pumping-System-Catalogue.pdf"
       ]
+    },
+    {
+      "name": "C.R.I. ACM Series Centrifugal Monoblock",
+      "series": "ACM",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "0.5–3 HP (0.37–2.2 kW)",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 18 lps",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Single and three phase models",
+        "Compact monoblock design"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/acm.jpg",
+      "source_url": "https://www.crigroups.com/pumps/acm-series-pumps/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/06/ACM-1-500-400.jpg"
+    },
+    {
+      "name": "C.R.I. Virat Series Centrifugal Monoblock",
+      "series": "Virat",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 34 m",
+      "flow_range": "up to 9 lps (32.4 m³/hr)",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Compact monoblock design"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/virat.jpg",
+      "source_url": "https://www.crigroups.com/pumps/acm-series-pumps/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/06/Virat-1-500-400.jpg"
+    },
+    {
+      "name": "C.R.I. Jumbo Series Agricultural Monoblock",
+      "series": "Jumbo",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock (agricultural)",
+      "power_range": "3–20 HP (2.2–15 kW)",
+      "head_range": "up to 94 m",
+      "flow_range": "up to 33 lps",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "High head and flow for farms",
+        "Three phase"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/jumbo.jpg",
+      "source_url": "https://www.crigroups.com/pumps/jumbo-series-pumps/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/05/jumbo-1.png"
+    },
+    {
+      "name": "C.R.I. AJ & BP Deep-Well Jet Pumps",
+      "series": "AJ & BP",
+      "category": "Domestic",
+      "type": "Deep-well jet pump",
+      "power_range": "0.5–2 HP (0.37–1.5 kW)",
+      "head_range": "up to 92 m",
+      "flow_range": "up to 50 LPM",
+      "borewell_size": "50 / 75 mm and up",
+      "phase": "Single",
+      "highlights": [
+        "Twin type for 75 mm+ borewells",
+        "Packer type for 50/75 mm borewells"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Narrow borewells"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/aj-and-bp.jpg",
+      "source_url": "https://www.crigroups.com/pumps/deep-well-centrifugal-jet-pumps-aj-bp-series/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/05/Deep%20Well%20Jet%20Centrifugal%20Pumps%20-%20AJ%20&%20BP%20Series.pdf"
+    },
+    {
+      "name": "C.R.I. Shalo Shallow-Well Jet Self-Priming Pump",
+      "series": "Shalo",
+      "category": "Domestic",
+      "type": "Shallow-well jet self-priming",
+      "power_range": "0.5 & 1 HP (0.37 & 0.75 kW)",
+      "head_range": "up to 47 m",
+      "flow_range": "up to 56.6 LPM",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Suction lift up to 9 m",
+        "Self-priming jet design"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Sumps and shallow wells"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/shalo.jpg",
+      "source_url": "https://www.crigroups.com/pumps/centrifugal-jet-self-priming-pump-shalo-series",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2022/08/Centrifugal-Jet-Self-Priming-Shalo-420-416.png"
+    },
+    {
+      "name": "C.R.I. Selfy Regenerative Self-Priming Monoset",
+      "series": "Selfy",
+      "category": "Domestic",
+      "type": "Regenerative self-priming monoset",
+      "power_range": "0.5 & 1 HP (0.37 & 0.75 kW)",
+      "head_range": "up to 55 m",
+      "flow_range": "up to 64 LPM",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Regenerative self-priming",
+        "Selfy Max variant up to 51 m"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/selfy.jpg",
+      "source_url": "https://www.crigroups.com/pumps/regenerative-selfpriming-monoset-pumps-selfy-series/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/05/3-Selfy-Series.png"
+    },
+    {
+      "name": "C.R.I. Mini Pumps (Elsa, Miki, Dora, Shine, Royale, Dhoom)",
+      "series": "Mini Pumps",
+      "category": "Domestic",
+      "type": "Self-priming mini pumps",
+      "power_range": "0.25–1.5 HP (0.18–1.1 kW)",
+      "head_range": "up to 100 m",
+      "flow_range": "up to 3800 LPH",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Elsa Pro, Elsa, Miki, Dora, Shine, Xcite, Royale, Dhoom, Champee",
+        "Dhoom suction up to 8 m"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/mini-pumps.jpg",
+      "source_url": "https://www.crigroups.com/pumps/mini-pumps/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2022/05/Elsa-100.png"
+    },
+    {
+      "name": "C.R.I. I-Smart Smart Mini Pump",
+      "series": "I-Smart",
+      "category": "Domestic",
+      "type": "Smart self-priming mini pump",
+      "power_range": "0.5 & 1 HP",
+      "head_range": "up to 40 m",
+      "flow_range": "up to 3150 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Built-in timer",
+        "Float switch",
+        "Dry-run protection"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/i-smart.jpg",
+      "source_url": "https://www.crigroups.com/nextgen-pumps/i-smart-pumps/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/10/1-I-Smart-420-416.png"
+    },
+    {
+      "name": "C.R.I. Brisk / MHBS Pressure Booster System",
+      "series": "Brisk / MHBS",
+      "category": "Domestic",
+      "type": "Pressure booster system",
+      "power_range": "up to 1.5 HP",
+      "head_range": "",
+      "flow_range": "up to 8 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Max pressure 5.5 bar",
+        "24 L / 35 L pressure tanks"
+      ],
+      "applications": [
+        "Homes and apartments",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/brisk-mhbs.jpg",
+      "source_url": "https://www.crigroups.com/pumps/pressure-booster-pumps-brisk-mhbs/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/10/1-Brisk-MHBS-307-304.jpg"
+    },
+    {
+      "name": "C.R.I. Tiny Force Pressure Booster",
+      "series": "Tiny Force",
+      "category": "Domestic",
+      "type": "Pressure booster",
+      "power_range": "0.5 HP",
+      "head_range": "",
+      "flow_range": "2.2 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "3.0 bar pressure",
+        "2 L tank"
+      ],
+      "applications": [
+        "Showers and bathrooms",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/cri/tiny-force.jpg",
+      "source_url": "https://www.crigroups.com/pumps/pressure-booster-pumps-tiny-force/",
+      "image_source": "https://www.crigroups.com/wp-content/uploads/2021/10/1-Tiny-Force-307-304.jpg"
     }
   ]
 }

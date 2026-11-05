@@ -4359,6 +4359,263 @@
         "https://www.ekkigroup.com/wp-content/uploads/2018/12/Product-catalogue-VOL-Series.pdf",
         "https://www.ekkigroup.com/products/open-well-submersibles/vertical-open-well-submersibles/vol-series/"
       ]
+    },
+    {
+      "name": "EKKI ESK Series Centrifugal Monobloc",
+      "series": "ESK",
+      "category": "Agriculture",
+      "type": "Centrifugal monobloc",
+      "power_range": "0.5–2.0 HP",
+      "head_range": "up to 54 m",
+      "flow_range": "up to 42 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Easy to dismantle and rewind",
+        "Shield bearing and mechanical seal"
+      ],
+      "applications": [
+        "Agriculture",
+        "Domestic",
+        "Commercial buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/esk.jpg",
+      "source_url": "https://www.ekkigroup.com/products/centrifugal-monoblocs/esk-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-ESK.jpg"
+    },
+    {
+      "name": "EKKI ESL Series Centrifugal Monobloc",
+      "series": "ESL",
+      "category": "Agriculture",
+      "type": "Centrifugal monobloc (higher HP)",
+      "power_range": "3.0–10.0 HP",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 90 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Noiseless",
+        "Rewindable",
+        "Low-voltage operation"
+      ],
+      "applications": [
+        "Agriculture",
+        "Public utilities"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/esl.jpg",
+      "source_url": "https://www.ekkigroup.com/products/centrifugal-monoblocs/esl-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-ESL.jpg"
+    },
+    {
+      "name": "EKKI CJD Deep-Well Jet Pump",
+      "series": "CJD",
+      "category": "Domestic",
+      "type": "Deep-well jet pump",
+      "power_range": "1.0–2.0 HP",
+      "head_range": "up to 70 m",
+      "flow_range": "up to 2.8 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "No control valve",
+        "Back-to-back dual impellers",
+        "Double-sealed bearing"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/cjd.jpg",
+      "source_url": "https://www.ekkigroup.com/products/jet-pumps/cjd-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/CJD.jpg"
+    },
+    {
+      "name": "EKKI CJS Shallow-Well Jet Pump",
+      "series": "CJS",
+      "category": "Domestic",
+      "type": "Shallow-well jet pump",
+      "power_range": "1.0 HP",
+      "head_range": "up to 32 m",
+      "flow_range": "up to 1.8 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Bronze jet assembly",
+        "SS 410 shaft",
+        "Lightweight"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/cjs.jpg",
+      "source_url": "https://www.ekkigroup.com/products/jet-pumps/cjs-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/CJS.jpg"
+    },
+    {
+      "name": "EKKI HM Horizontal Multistage Pump",
+      "series": "HM",
+      "category": "Domestic",
+      "type": "Horizontal multistage",
+      "power_range": "0.5–2.0 HP",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 9.6 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Adjustable pressure",
+        "Thermal protection",
+        "Energy efficient"
+      ],
+      "applications": [
+        "Domestic",
+        "Commercial buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/hm.jpg",
+      "source_url": "https://www.ekkigroup.com/products/horizontal-multistage-pumps/hm-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-HM.jpg"
+    },
+    {
+      "name": "EKKI PHM Pressure Boosting System",
+      "series": "PHM",
+      "category": "Domestic",
+      "type": "Pressure boosting system",
+      "power_range": "0.5–2.0 HP",
+      "head_range": "up to 60 m",
+      "flow_range": "up to 5 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Uniform pressure regulation",
+        "Thermal protection",
+        "Energy efficient"
+      ],
+      "applications": [
+        "Domestic",
+        "Commercial buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/phm.jpg",
+      "source_url": "https://www.ekkigroup.com/products/pressure-boosting-systems/phm-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-PHM.jpg"
+    },
+    {
+      "name": "EKKI SPMS Regenerative Monoset",
+      "series": "SPMS",
+      "category": "Domestic",
+      "type": "Regenerative self-priming monoset",
+      "power_range": "0.5–1.0 HP",
+      "head_range": "up to 31 m",
+      "flow_range": "up to 3 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Forged impeller",
+        "SS 410 shaft",
+        "Aluminium body for portability",
+        "Shield bearing"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/spms.jpg",
+      "source_url": "https://www.ekkigroup.com/products/regenerative-monosets/spms-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-SPMS.jpg"
+    },
+    {
+      "name": "EKKI SPS Regenerative Monoset",
+      "series": "SPS",
+      "category": "Domestic",
+      "type": "Regenerative self-priming monoset",
+      "power_range": "0.5–1.0 HP",
+      "head_range": "up to 35 m",
+      "flow_range": "up to 3 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Forged impeller",
+        "SS 410 shaft",
+        "Shield bearing"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/sps.jpg",
+      "source_url": "https://www.ekkigroup.com/products/regenerative-monosets/sps-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-SPS.jpg"
+    },
+    {
+      "name": "EKKI SPV Regenerative Monoset",
+      "series": "SPV",
+      "category": "Domestic",
+      "type": "Regenerative self-priming monoset",
+      "power_range": "0.5–1.0 HP",
+      "head_range": "up to 31 m",
+      "flow_range": "up to 3 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Forged impeller",
+        "SS 410 shaft",
+        "Aluminium body for portability",
+        "Shield bearing"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/spv.jpg",
+      "source_url": "https://www.ekkigroup.com/products/regenerative-monosets/spv-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-SPV.jpg"
+    },
+    {
+      "name": "EKKI SPZ Regenerative Monoset",
+      "series": "SPZ",
+      "category": "Domestic",
+      "type": "Regenerative self-priming monoset",
+      "power_range": "0.5–1.0 HP",
+      "head_range": "up to 41 m",
+      "flow_range": "up to 2.7 m³/hr",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Forged impeller",
+        "SS 410 shaft",
+        "Aluminium body for portability",
+        "Shield bearing"
+      ],
+      "applications": [
+        "Domestic buildings"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ekki/spz.jpg",
+      "source_url": "https://www.ekkigroup.com/products/regenerative-monosets/spz-series/",
+      "image_source": "https://www.ekkigroup.com/wp-content/uploads/2018/06/Inner-SPZ.jpg"
     }
   ]
 }

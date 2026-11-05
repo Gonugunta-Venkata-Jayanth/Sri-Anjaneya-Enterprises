@@ -2000,6 +2000,381 @@
       "sources": [
         "https://www.ksb.com/en-in/lc/products/pump/multi-sub/MA3A"
       ]
+    },
+    {
+      "name": "KSB AGRIBLOC Monoblock Pump",
+      "series": "AGRIBLOC",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock (agri / domestic)",
+      "power_range": "",
+      "head_range": "up to 38 m",
+      "flow_range": "up to 60 m³/h",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Monoblock design for farm and home use",
+        "Single and three phase models"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/agribloc.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/agribloc/A25A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/-A25A-AGRIBLOC-PK.png"
+    },
+    {
+      "name": "KSB Ultra / Ultra Plus Monoblock Pump",
+      "series": "Ultra",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "",
+      "head_range": "up to 75 m",
+      "flow_range": "up to 95 m³/h",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Wide flow and head range",
+        "Single and three phase models"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/ultra.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/ultra/U27A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/U27A-ultra-PK-1-.png"
+    },
+    {
+      "name": "KSB PERISTAR GS Domestic Monoblock",
+      "series": "PERISTAR GS",
+      "category": "Domestic",
+      "type": "Domestic monoblock (cast iron, 1440 rpm)",
+      "power_range": "",
+      "head_range": "up to 35 m",
+      "flow_range": "up to 3.5 m³/h",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Cast iron construction",
+        "Low-speed 1440 rpm for quiet running"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/peristar-gs.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/peristar-gs/P52A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/P52A-PERISTAR-ZDX-copy-1-.png"
+    },
+    {
+      "name": "KSB PERISTAR V Self-Priming Pump",
+      "series": "PERISTAR V",
+      "category": "Domestic",
+      "type": "Domestic self-priming pump",
+      "power_range": "",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Self-priming",
+        "Compact domestic pump"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/peristar-v.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/peristar-v/P50A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/P50A-Peristar-V.png"
+    },
+    {
+      "name": "KSB PERISTAR SZ Self-Priming Pump",
+      "series": "PERISTAR SZ",
+      "category": "Domestic",
+      "type": "Self-priming pump",
+      "power_range": "",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Self-priming",
+        "Suction lift up to 8 m"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Gardening"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/peristar-sz.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/peristar-sz/P57A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/P57A-Persistar-SZ.png"
+    },
+    {
+      "name": "KSB AQUA Self-Priming Mini Pump",
+      "series": "AQUA",
+      "category": "Domestic",
+      "type": "Domestic self-priming mini pump",
+      "power_range": "",
+      "head_range": "up to 66 m",
+      "flow_range": "up to 4.4 m³/h",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Self-priming mini pump",
+        "Works on 160–260 V"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank filling"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/aqua.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/aqua/A55A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/A55A-Aqua-copy-1-.png"
+    },
+    {
+      "name": "KSB PERIJET Shallow-Well Jet Pump",
+      "series": "PERIJET",
+      "category": "Domestic",
+      "type": "Shallow-well jet pump",
+      "power_range": "",
+      "head_range": "up to 43 m",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Suction lift up to 9 m",
+        "Works on 180–260 V"
+      ],
+      "applications": [
+        "Shallow wells and sumps",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/perijet.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/perijet/P18A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/P18A-PERIJET-1-.png"
+    },
+    {
+      "name": "KSB MRV Openwell Vertical Multistage",
+      "series": "MRV",
+      "category": "Agriculture",
+      "type": "Openwell submersible (vertical multistage)",
+      "power_range": "",
+      "head_range": "up to 150 m",
+      "flow_range": "up to 95 m³/h",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Vertical multistage design",
+        "High head from open wells"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/mrv.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/mrv/MB8A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/MB8A-MRV-copy-1-.png"
+    },
+    {
+      "name": "KSB VO Openwell Vertical Multistage",
+      "series": "VO",
+      "category": "Agriculture",
+      "type": "Openwell submersible (vertical multistage)",
+      "power_range": "",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "Vertical multistage design",
+        "Works on 350–440 V"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/vo.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/vo/V04A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/V04A-VO.png"
+    },
+    {
+      "name": "KSB KHM / KM Horizontal Multistage Booster",
+      "series": "KHM",
+      "category": "Domestic",
+      "type": "Horizontal multistage (domestic booster)",
+      "power_range": "",
+      "head_range": "",
+      "flow_range": "",
+      "borewell_size": "",
+      "phase": "Single / Three",
+      "highlights": [
+        "Horizontal multistage",
+        "Pressure boosting for homes"
+      ],
+      "applications": [
+        "Domestic pressure boosting",
+        "Apartments"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/khm.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/khm/K56A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/K56A-KHM-copy-1-.png"
+    },
+    {
+      "name": "KSB MultiEco Self-Priming Multistage",
+      "series": "MultiEco",
+      "category": "Domestic",
+      "type": "Self-priming multistage pump",
+      "power_range": "",
+      "head_range": "up to 54 m",
+      "flow_range": "up to 8 m³/h",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Self-priming",
+        "Multistage hydraulics"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/multieco.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/dry-installed-pump/multieco/M17A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/MultiEcos-PK2023-002-.jpg"
+    },
+    {
+      "name": "KSB BPN 10\" Borewell Submersible",
+      "series": "BPN",
+      "category": "Agriculture",
+      "type": "Borewell submersible (10\", mixed flow)",
+      "power_range": "",
+      "head_range": "up to 249 m",
+      "flow_range": "up to 240 m³/h",
+      "borewell_size": "250 mm (10\")",
+      "phase": "Three",
+      "highlights": [
+        "Mixed-flow hydraulics",
+        "BEE 3–5 star rated models"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Municipal water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/bpn.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/bpn/B58A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/B58A-BPN-PK.png"
+    },
+    {
+      "name": "KSB UPA 200 / UPA S 200 8\" Borewell Submersible",
+      "series": "UPA 200",
+      "category": "Agriculture",
+      "type": "Borewell submersible (8\")",
+      "power_range": "",
+      "head_range": "up to 420 m",
+      "flow_range": "up to 1000 m³/h",
+      "borewell_size": "200 mm (8\")",
+      "phase": "",
+      "highlights": [
+        "High head and flow range",
+        "8\" borewell design"
+      ],
+      "applications": [
+        "Agricultural irrigation",
+        "Municipal water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/upa-200.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-200---upa-s-200/U17A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/U17A-UPA-200.png"
+    },
+    {
+      "name": "KSB Movitec Vertical Multistage Booster",
+      "series": "Movitec",
+      "category": "Domestic",
+      "type": "Vertical multistage booster",
+      "power_range": "",
+      "head_range": "up to 415 m",
+      "flow_range": "up to 192 m³/h",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Vertical inline multistage",
+        "High-pressure boosting"
+      ],
+      "applications": [
+        "Buildings and apartments",
+        "Pressure boosting"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/movitec.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/ring-section-pump/movitec/M12A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/Movitec2023-1-.png"
+    },
+    {
+      "name": "KSB Comeo Horizontal Multistage Booster",
+      "series": "Comeo",
+      "category": "Domestic",
+      "type": "Horizontal multistage booster",
+      "power_range": "",
+      "head_range": "up to 79.5 m",
+      "flow_range": "up to 10.8 m³/h",
+      "borewell_size": "",
+      "phase": "",
+      "highlights": [
+        "Horizontal multistage",
+        "Pressure boosting"
+      ],
+      "applications": [
+        "Buildings and apartments",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/ksb/comeo.jpg",
+      "source_url": "https://www.ksb.com/en-in/lc/products/pump/dry-installed-pump/comeo/C11A",
+      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/C11A-Comeo.png"
     }
   ]
 }
