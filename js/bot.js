@@ -130,7 +130,7 @@
       <div class="bc-b"><small>${esc(p.brandName)} · ${esc(p.type)}</small><b>${esc(p.name)}</b>
       <span class="bc-sp">${[p.power, p.head, r.bore ? r.bore + '″ bore' : (r.open ? 'Openwell' : '')].filter(Boolean).map(esc).join(' · ')}</span>
       ${r.why && r.why.length ? `<em>✓ ${esc(r.why.slice(0, 2).join(' · '))}</em>` : ''}
-      <span class="bc-pr">Price: call 92466 07214</span>
+      <a class="bc-pr" href="tel:+919246607214"><i class="ico">${I.phone || ''}</i>Price: call 9246607214</a>
       <div class="bc-act"><button type="button" data-view="${esc(p.id)}">View details</button><a href="${wa(`Hi, please share the price for ${p.name}.`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask for price</a></div></div></div>`;
   };
   const showRecs = async (q, intro) => {
