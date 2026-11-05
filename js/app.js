@@ -146,14 +146,14 @@
       <h3>${esc(b.name)}</h3><div class="brand-origin">${esc(b.origin)}</div>
       <span class="brand-status">✓ ${esc(b.status)}</span>
       <p>${esc(b.blurb)}</p>
-      <div class="brand-foot"><span>${b.own ? 'Under construction' : `<b>${b.count}</b> submersible series`}</span><span class="bc-go">${b.own ? 'Hosted soon' : 'Open range'} →</span></div>
+      <div class="brand-foot"><span>${b.own ? 'Under construction' : `<b>${b.count}</b> pump series`}</span><span class="bc-go">${b.own ? 'Hosted soon' : 'Open range'} →</span></div>
     </article>`).join('');
   { const g = $('#brandGrid'); let down = null;
     g.addEventListener('pointerdown', e => { down = e.target.closest('.brand-card'); });
     g.addEventListener('click', e => { const c = e.target.closest('.brand-card') || down; down = null; if (c) openBrand(c.dataset.brand); }); }
   $$('#brandGrid .brand-card').forEach(c => { bindTilt(c); const open = () => openBrand(c.dataset.brand); c.onkeydown = e => { if (e.key === 'Enter') open(); }; });
 
-  const GROUP_ORDER = ['Borewell submersible', 'Openwell submersible', 'Solar submersible', 'Monoblock submersible', 'Other submersible'];
+  const GROUP_ORDER = ['Borewell submersible', 'Openwell submersible', 'Solar pump', 'Monoblock pump', 'Self-priming & mini pump', 'Jet pump', 'Pressure booster', 'Multistage pump', 'Other pump'];
   const boreKey = p => { const m = (p.type + ' ' + p.bore + ' ' + p.name).match(/(\d{1,2})\s*(?:"|”|''|inch|-inch)/i) || (p.bore || '').match(/(\d{2,3})\s*mm/); if (!m) return ''; let n = +m[1]; if (n > 20) n = Math.round(n / 25); return n >= 3 && n <= 12 ? n + '"' : ''; };
   const subGroup = p => p.group === 'Borewell submersible' && boreKey(p) ? `Borewell submersible · ${boreKey(p)}` : p.group;
   const hpSpan = list => { const v = list.map(p => hpRange(p.power)).filter(Boolean); if (!v.length) return '—'; return `${Math.min(...v.map(x => x[0]))}–${Math.max(...v.map(x => x[1]))} HP`; };
@@ -180,11 +180,11 @@
       let html = '', nav = '';
       cats.forEach(c => {
         const ci = items.filter(p => p.category === c); if (!ci.length) return;
-        html += `<h3 class="bp-cat" id="bp-${c}">${c === 'Domestic' ? '🏠' : '🌾'} ${c} submersibles <small>${ci.length} series</small></h3>`;
+        html += `<h3 class="bp-cat" id="bp-${c}">${c === 'Domestic' ? '🏠' : '🌾'} ${c} pumps <small>${ci.length} series</small></h3>`;
         const groups = {}; ci.forEach(p => (groups[subGroup(p)] ||= []).push(p));
         Object.keys(groups).sort((a, b) => GROUP_ORDER.indexOf(a.split(' · ')[0]) - GROUP_ORDER.indexOf(b.split(' · ')[0]) || parseInt(a.split('· ')[1] || 0) - parseInt(b.split('· ')[1] || 0)).forEach(g => {
           const gid = 'bpg-' + (c + g).replace(/\W+/g, '-');
-          nav += `<a href="#${gid}" data-jump="${gid}">${c === 'Domestic' ? '🏠' : '🌾'} ${esc(g.replace(' submersible', ''))} <b>${groups[g].length}</b></a>`;
+          nav += `<a href="#${gid}" data-jump="${gid}">${c === 'Domestic' ? '🏠' : '🌾'} ${esc(g.replace(' submersible', '').replace(' pump', ''))} <b>${groups[g].length}</b></a>`;
           html += `<div class="bp-group" id="${gid}"><h4>${esc(g)} <span>${groups[g].length}</span></h4><div class="pump-grid">${groups[g].map(cardHTML).join('')}</div></div>`;
         });
       });
@@ -195,7 +195,7 @@
     body.innerHTML = `
       <div class="bp-hero">
         <div class="bp-logo tilt"><img src="${b.logo}" alt="${esc(b.name)}" /><i class="glint"></i></div>
-        <div class="bp-info"><span class="eyebrow">${esc(b.origin)} · ${esc(b.status)}</span><h2>${esc(b.name)} <em>submersibles</em></h2><p class="muted">${esc(b.tagline || b.blurb)}</p>
+        <div class="bp-info"><span class="eyebrow">${esc(b.origin)} · ${esc(b.status)}</span><h2>${esc(b.name)} <em>pumps</em></h2><p class="muted">${esc(b.tagline || b.blurb)}</p>
           <div class="bp-links">${b.websites.map(w => `<a class="link-btn" href="${esc(w)}" target="_blank" rel="noopener">${esc(w.replace(/^https?:\/\//, '').replace(/\/$/, ''))} ↗</a>`).join('')}</div></div>
         <div class="bp-stats">
           <div><b>${list.length}</b><small>series</small></div><div><b>${agri.length}</b><small>agriculture</small></div><div><b>${dom.length}</b><small>domestic</small></div>
@@ -221,11 +221,15 @@
   [...compare].forEach(id => byId[id] || compare.delete(id)); [...enquiry].forEach(id => byId[id] || enquiry.delete(id));
 
   const typeGroup = t => { t = (t || '').toLowerCase();
-    if (t.includes('solar')) return 'Solar submersible';
+    if (t.includes('solar')) return 'Solar pump';
     if (t.includes('open')) return 'Openwell submersible';
     if (t.includes('bore') || /\d["”]/.test(t)) return 'Borewell submersible';
-    if (t.includes('mono')) return 'Monoblock submersible';
-    return 'Other submersible'; };
+    if (t.includes('jet')) return 'Jet pump';
+    if (/self.?priming|regenerative|mini pump/.test(t)) return 'Self-priming & mini pump';
+    if (/booster|pressure|pneumatic/.test(t)) return 'Pressure booster';
+    if (t.includes('multistage') || t.includes('multi-stage')) return 'Multistage pump';
+    if (t.includes('mono') || t.includes('centrifugal')) return 'Monoblock pump';
+    return 'Other pump'; };
   D.products.forEach(p => p.group = typeGroup(p.type + ' ' + p.name));
   [...new Set(D.products.map(p => p.group))].sort().forEach(g => $('#typeSel').insertAdjacentHTML('beforeend', `<option>${g}</option>`));
 
@@ -305,7 +309,7 @@
       const cats = ['Agriculture', 'Domestic'];
       cats.forEach(c => {
         const ci = list.filter(p => p.category === c); if (!ci.length) return;
-        html += `<section class="cat-block ${c}"><header class="cat-head"><span>${c === 'Domestic' ? '🏠' : '🌾'}</span><div><h3>${c} submersibles</h3><small>${ci.length} series · ${[...new Set(ci.map(p => p.brand))].length} brands</small></div></header>`;
+        html += `<section class="cat-block ${c}"><header class="cat-head"><span>${c === 'Domestic' ? '🏠' : '🌾'}</span><div><h3>${c} pumps</h3><small>${ci.length} series · ${[...new Set(ci.map(p => p.brand))].length} brands</small></div></header>`;
         const keyOf = state.group === 'type' ? subGroup : (p => p.brand);
         const groups = {}; ci.forEach(p => (groups[keyOf(p)] ||= []).push(p));
         const keys = Object.keys(groups);
