@@ -264,7 +264,7 @@
 
   const brandLogo = slug => (brandBySlug[slug] || {}).logo || '';
   const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/rev/deccan.webp' : 'images/brands/rev/ekki.webp') : brandLogo(p.brand);
-  const priceHTML = () => `<div class="price contact"><div><small>For price, contact</small><b>G V Sathyanarayana</b></div><div class="price-tels" onclick="event.stopPropagation()"><a href="tel:9246607214">9246607214</a><a href="tel:9704157350">9704157350</a></div></div>`;
+  const priceHTML = () => `<div class="price contact"><div><small>For price, contact</small><b>G V Sathyanarayana</b></div><div class="price-tels" onclick="event.stopPropagation()"><a href="tel:+919246607214" aria-label="Call 9246607214"><i class="ico">${(window.ICONS||{}).phone||''}</i>9246607214</a><a href="tel:+919704157350" aria-label="Call 9704157350"><i class="ico">${(window.ICONS||{}).phone||''}</i>9704157350</a></div></div>`;
   const short = v => (v || '—').replace(/\s*\([^)]*\)/g, '').replace(/^up to\s*/i, '≤ ').trim() || '—';
   function cardHTML(p) {
     return `<article class="pump-card glass" data-id="${p.id}" style="--brand:${(brandBySlug[p.brand] || {}).color || '#3ee0ff'}">
@@ -349,7 +349,7 @@
       ${row('Pump', p => `<b>${esc(p.name)}</b><br><small class="muted">${esc(p.brandName)}</small>`)}
       ${row('Category', p => esc(p.category))}${row('Type', p => esc(p.type))}${row('Power', p => esc(p.power || '—'))}
       ${row('Head', p => esc(p.head || '—'))}${row('Flow', p => esc(p.flow || '—'))}${row('Bore size', p => esc(p.bore || '—'))}${row('Phase', p => esc(p.phase || '—'))}
-      ${row('Price', () => `<a class="gold" href="tel:9246607214">Contact G V Sathyanarayana</a>`)}${row('Models', p => (p.models || []).length || '—')}
+      ${row('Price', () => `<a class="gold call-ln" href="tel:+919246607214"><i class="ico">${(window.ICONS||{}).phone||''}</i>Contact G V Sathyanarayana</a>`)}${row('Models', p => (p.models || []).length || '—')}
       ${row('', p => `<button class="link-btn" data-rm="${p.id}">Remove</button>`)}
     </table></div><div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-gold btn-sm" id="cmpEnq">Enquire about these</button><button class="btn btn-ghost btn-sm" id="cmpClear">Clear all</button></div>`;
     $$('[data-rm]', $('#compareBody')).forEach(b => b.onclick = () => { toggleCompare(b.dataset.rm); renderCompare(); });
