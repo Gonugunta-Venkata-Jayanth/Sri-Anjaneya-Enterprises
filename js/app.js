@@ -148,7 +148,10 @@
       <p>${esc(b.blurb)}</p>
       <div class="brand-foot"><span>${b.own ? 'Under construction' : `<b>${b.count}</b> submersible series`}</span><span class="bc-go">${b.own ? 'Hosted soon' : 'Open range'} →</span></div>
     </article>`).join('');
-  $$('#brandGrid .brand-card').forEach(c => { bindTilt(c); const open = () => openBrand(c.dataset.brand); c.onclick = open; c.onkeydown = e => { if (e.key === 'Enter') open(); }; });
+  { const g = $('#brandGrid'); let down = null;
+    g.addEventListener('pointerdown', e => { down = e.target.closest('.brand-card'); });
+    g.addEventListener('click', e => { const c = e.target.closest('.brand-card') || down; down = null; if (c) openBrand(c.dataset.brand); }); }
+  $$('#brandGrid .brand-card').forEach(c => { bindTilt(c); const open = () => openBrand(c.dataset.brand); c.onkeydown = e => { if (e.key === 'Enter') open(); }; });
 
   const GROUP_ORDER = ['Borewell submersible', 'Openwell submersible', 'Solar submersible', 'Monoblock submersible', 'Other submersible'];
   const boreKey = p => { const m = (p.type + ' ' + p.bore + ' ' + p.name).match(/(\d{1,2})\s*(?:"|”|''|inch|-inch)/i) || (p.bore || '').match(/(\d{2,3})\s*mm/); if (!m) return ''; let n = +m[1]; if (n > 20) n = Math.round(n / 25); return n >= 3 && n <= 12 ? n + '"' : ''; };
@@ -199,7 +202,7 @@
           <div><b>${hpSpan(list)}</b><small>power</small></div>${bores.length ? `<div><b>${bores[0]}–${bores[bores.length - 1]}</b><small>bore sizes</small></div>` : ''}
         </div>
       </div>
-      <div class="price-banner"><i class="ico lg" data-ico="phone"></i><p>Prices shown are upper market bands. For the best price, contact <b>G V Sathyanarayana</b>, Sri Anjaneya Enterprises: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
+      <div class="price-banner"><i class="ico lg" data-ico="phone"></i><p>Prices are not listed online. For the price of any motor, contact <b>G V Sathyanarayana</b>: <a href="tel:9246607214">9246607214</a> · <a href="tel:9704157350">9704157350</a></p></div>
       <div class="bp-bar">
         <div class="seg" id="bpSeg"><button class="on" data-cat="all">All (${list.length})</button><button data-cat="Agriculture">🌾 Agriculture (${agri.length})</button><button data-cat="Domestic">🏠 Domestic (${dom.length})</button></div>
         <nav class="bp-nav" id="bpNav"></nav>
@@ -261,7 +264,7 @@
 
   const brandLogo = slug => (brandBySlug[slug] || {}).logo || '';
   const pLogo = p => p.brand === 'ekki-deccan' ? (/deccan/i.test(p.subBrand + p.name) ? 'images/brands/rev/deccan.webp' : 'images/brands/rev/ekki.webp') : brandLogo(p.brand);
-  const priceHTML = p => { const top = p.priceTo || p.priceFrom; return `<div class="price ${top ? '' : 'na'}"><div><small>${top ? 'Up to' : 'Price'}</small><b>${top ? esc(top) : 'Call for best price'}</b></div><a class="price-note" href="tel:9246607214" onclick="event.stopPropagation()">Best price · GV Sathyanarayana<br>9246607214 · 9704157350</a></div>`; };
+  const priceHTML = () => `<div class="price contact"><div><small>For price, contact</small><b>G V Sathyanarayana</b></div><div class="price-tels" onclick="event.stopPropagation()"><a href="tel:9246607214">9246607214</a><a href="tel:9704157350">9704157350</a></div></div>`;
   const short = v => (v || '—').replace(/\s*\([^)]*\)/g, '').replace(/^up to\s*/i, '≤ ').trim() || '—';
   function cardHTML(p) {
     return `<article class="pump-card glass" data-id="${p.id}" style="--brand:${(brandBySlug[p.brand] || {}).color || '#3ee0ff'}">
@@ -346,7 +349,7 @@
       ${row('Pump', p => `<b>${esc(p.name)}</b><br><small class="muted">${esc(p.brandName)}</small>`)}
       ${row('Category', p => esc(p.category))}${row('Type', p => esc(p.type))}${row('Power', p => esc(p.power || '—'))}
       ${row('Head', p => esc(p.head || '—'))}${row('Flow', p => esc(p.flow || '—'))}${row('Bore size', p => esc(p.bore || '—'))}${row('Phase', p => esc(p.phase || '—'))}
-      ${row('Price (up to)', p => `<b class="gold">${esc(p.priceTo || p.priceFrom || 'Call for best price')}</b>`)}${row('Models', p => (p.models || []).length || '—')}
+      ${row('Price', () => `<a class="gold" href="tel:9246607214">Contact G V Sathyanarayana</a>`)}${row('Models', p => (p.models || []).length || '—')}
       ${row('', p => `<button class="link-btn" data-rm="${p.id}">Remove</button>`)}
     </table></div><div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-gold btn-sm" id="cmpEnq">Enquire about these</button><button class="btn btn-ghost btn-sm" id="cmpClear">Clear all</button></div>`;
     $$('[data-rm]', $('#compareBody')).forEach(b => b.onclick = () => { toggleCompare(b.dataset.rm); renderCompare(); });
@@ -390,7 +393,7 @@
   function openPump(id) {
     const p = byId[id]; if (!p) return;
     const b = brandBySlug[p.brand] || {};
-    const waText = encodeURIComponent(`Hi, I'm interested in the ${p.name} (${p.brandName}). Please share the best price.`);
+    const waText = encodeURIComponent(`Hi, I'm interested in the ${p.name} (${p.brandName}). Please share the price.`);
     const models = (p.models || []).filter(m => m && (m.model || m.hp || m.kw));
     const cols = [['model', 'Model'], ['hp', 'HP'], ['kw', 'kW'], ['stages', 'Stages'], ['phase', 'Phase'], ['head_m', 'Head (m)'], ['flow_lpm', 'Flow (LPM)'], ['outlet', 'Outlet'], ['discharge_lpd', 'Discharge (LPD)'], ['spv_wp', 'Solar panel (Wp)']].filter(([k]) => models.some(m => m[k] !== undefined && m[k] !== ''));
     const mats = Object.entries(p.materials || {}).filter(([, v]) => v);
@@ -413,7 +416,7 @@
         ${(p.features?.length || p.highlights?.length) ? `<div class="pm-pane" data-p="feat"><ul class="ticks">${[...new Set([...(p.features || []), ...(p.highlights || [])])].map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>` : ''}
         ${(mats.length || p.motor || p.limits) ? `<div class="pm-pane" data-p="build"><table>${mats.map(([k, v]) => kv(k.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()), String(v))).join('')}${kv('Motor', p.motor)}${kv('Operating limits', p.limits)}</table></div>` : ''}
         <div class="btns">
-          <a class="btn btn-gold btn-sm" href="https://wa.me/919246607214?text=${waText}" target="_blank" rel="noopener"><i class="ico" data-ico="whatsapp"></i> Get best price</a>
+          <a class="btn btn-gold btn-sm" href="https://wa.me/919246607214?text=${waText}" target="_blank" rel="noopener"><i class="ico" data-ico="whatsapp"></i> Ask for price</a>
           <a class="btn btn-ghost btn-sm" href="tel:+919246607214"><i class="ico" data-ico="phone"></i> Call</a>
           <button class="btn btn-ghost btn-sm" id="pmEnq">${enquiry.has(p.id) ? '✓ In enquiry' : '+ Add to enquiry'}</button>
           <button class="btn btn-ghost btn-sm" id="pmCmp">${compare.has(p.id) ? '✓ Comparing' : '⇄ Compare'}</button>
