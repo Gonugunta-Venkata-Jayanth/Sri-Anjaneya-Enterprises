@@ -45,7 +45,7 @@
     if (/open\s*-?well|openwell|sump|\bwell\b(?!.*bore)|pond|river|canal/.test(t) && !/bore/.test(t)) q.open = true;
     if (/stainless|\bss\b|saline|salty|corros/.test(t)) q.ss = true;
     if ((m = t.match(/(?:under|below|budget|less than|within|upto|up to|max)\s*(?:rs\.?|₹|inr)?\s*([\d,.]+)\s*(k|thousand|lakh|lac)?/))) {
-      let v = +m[1].replace(/,/g, ''); if (/k|thousand/.test(m[2] || '')) v *= 1000; if (/lakh|lac/.test(m[2] || '')) v *= 100000; if (v > 500) q.budget = v;
+      let v = +m[1].replace(/,/g, ''); if (/k|thousand/.test(m[2] || '')) v *= 1000; if (/lakh|lac/.test(m[2] || '')) v *= 100000; if (v > 500) q.askedPrice = true;
     }
     return q;
   };
@@ -65,7 +65,7 @@
       if (q.depth && r.head) { if (r.head >= q.depth * 1.15) { s += 4; why.push(`head up to ${Math.round(r.head)} m`); } else if (r.head >= q.depth) s += 1; else s -= 5; }
       if (q.phase) { const ph = (r.p.phase || '').toLowerCase(); if (ph.includes('both') || ph.includes(q.phase) || (q.phase === 'three' && /3/.test(ph)) || (q.phase === 'single' && /1/.test(ph))) { s += 2; why.push(q.phase === 'single' ? 'runs on single phase' : 'three-phase'); } else if (ph) s -= 3; }
       if (q.ss && r.ss) { s += 3; why.push('stainless steel for hard / saline water'); }
-      if (q.budget) { if (r.price && r.price <= q.budget) { s += 3; why.push('within budget'); } else if (r.price) s -= 4; }
+      
       if (q.cat && r.p.category === q.cat) s += 1;
       if (r.p.models && r.p.models.length) s += .6;
       if (r.p.desc) s += .3;
@@ -106,7 +106,7 @@
       <div class="bot-body" aria-live="polite"></div>
       <div class="bot-chips"></div>
       <form class="bot-form"><input type="text" placeholder="Ask anything… e.g. 4 inch bore, 120 m, 3 phase" aria-label="Message" autocomplete="off" /><button aria-label="Send">➤</button></form>
-      <p class="bot-foot">AI answers are grounded in our catalogue but can be wrong. G V Sathyanarayana confirms the final model &amp; price.</p>
+      <p class="bot-foot">AI answers are grounded in our catalogue but can be wrong. G V Sathyanarayana gives prices and confirms the final model.</p>
     </section>`;
   document.body.appendChild(root);
   const $ = s => root.querySelector(s);
@@ -117,7 +117,7 @@
   const scroll = () => body.scrollTo({ top: body.scrollHeight, behavior: 'smooth' });
   const add = (html, who = 'ai') => { const d = document.createElement('div'); d.className = `bm ${who}`; d.innerHTML = html; body.appendChild(d); scroll(); return d; };
   const chips = list => { chipsBox.innerHTML = list.map(c => `<button type="button" data-q="${esc(c)}">${esc(c)}</button>`).join(''); };
-  const DEFAULT_CHIPS = ['🔍 Find my pump', '💰 Best price', '🌾 Agriculture pumps', '🏠 Home pumps', '☀️ Solar pumps', '🏷️ Brands we sell', '📍 Shop location', '📞 Talk to a person'];
+  const DEFAULT_CHIPS = ['🔍 Find my pump', '💰 Ask for price', '🌾 Agriculture pumps', '🏠 Home pumps', '☀️ Solar pumps', '🏷️ Brands we sell', '📍 Shop location', '📞 Talk to a person'];
   const say = (html, next) => new Promise(res => {
     const t = add('<span class="typing"><i></i><i></i><i></i></span>');
     setTimeout(() => { t.innerHTML = html; scroll(); if (next) chips(next); res(t); }, Math.min(900, 280 + html.length * 1.2));
@@ -130,18 +130,18 @@
       <div class="bc-b"><small>${esc(p.brandName)} · ${esc(p.type)}</small><b>${esc(p.name)}</b>
       <span class="bc-sp">${[p.power, p.head, r.bore ? r.bore + '″ bore' : (r.open ? 'Openwell' : '')].filter(Boolean).map(esc).join(' · ')}</span>
       ${r.why && r.why.length ? `<em>✓ ${esc(r.why.slice(0, 2).join(' · '))}</em>` : ''}
-      <span class="bc-pr">${price ? 'Up to ₹' + Number(price).toLocaleString('en-IN') : 'Price on request'}</span>
-      <div class="bc-act"><button type="button" data-view="${esc(p.id)}">View details</button><a href="${wa(`Hi, please share the best price for ${p.name}.`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Best price</a></div></div></div>`;
+      <span class="bc-pr">Price: call 92466 07214</span>
+      <div class="bc-act"><button type="button" data-view="${esc(p.id)}">View details</button><a href="${wa(`Hi, please share the price for ${p.name}.`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask for price</a></div></div></div>`;
   };
   const showRecs = async (q, intro) => {
     const recs = recommend(q);
     if (!recs.length) {
       return say(`I couldn't find an exact match for that combination in our catalogue. G V Sathyanarayana can check other models and stock for you.<div class="bm-act"><a href="${wa(`Hi, I need a pump: ${describe(q)}`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask on WhatsApp</a><a href="tel:${TEL1}">${I.phone || ''} Call</a></div>`, ['🔍 Find my pump', '🏷️ Brands we sell', '📞 Talk to a person']);
     }
-    await say(`${intro || 'Here are my top picks'} for <b>${esc(describe(q))}</b>:<div class="bcs">${recs.map(card).join('')}</div>Prices shown are upper market bands. Call for the final quote.`, ['Show more options', '💰 Best price', '🔍 Start over']);
+    await say(`${intro || 'Here are my top picks'} for <b>${esc(describe(q))}</b>:<div class="bcs">${recs.map(card).join('')}</div>For prices, call G V Sathyanarayana on 92466 07214 or 97041 57350.`, ['Show more options', '💰 Ask for price', '🔍 Start over']);
     ctx.last = q;
   };
-  const describe = q => [q.bore ? `${q.bore}″ borewell` : q.open ? 'open well / sump' : '', q.depth ? `${q.depth} m depth` : '', q.hp ? `${q.hp} HP` : '', q.phase ? `${q.phase} phase` : '', q.cat ? q.cat.toLowerCase() : '', q.solar ? 'solar' : '', q.ss ? 'stainless steel' : '', q.brand ? (D.brands.find(b => b.slug === q.brand) || {}).name : '', q.budget ? `under ₹${q.budget.toLocaleString('en-IN')}` : ''].filter(Boolean).join(', ') || 'your needs';
+  const describe = q => [q.bore ? `${q.bore}″ borewell` : q.open ? 'open well / sump' : '', q.depth ? `${q.depth} m depth` : '', q.hp ? `${q.hp} HP` : '', q.phase ? `${q.phase} phase` : '', q.cat ? q.cat.toLowerCase() : '', q.solar ? 'solar' : '', q.ss ? 'stainless steel' : '', q.brand ? (D.brands.find(b => b.slug === q.brand) || {}).name : ''].filter(Boolean).join(', ') || 'your needs';
 
   /* guided finder */
   const startFinder = async () => { flow = { step: 'bore', q: {} }; await say('Let\'s find the right pump. What is your <b>borewell size</b>? (Or choose open well / sump.)', ['3″', '4″', '5″', '6″', '7″', '8″', 'Open well / sump', 'Not sure']); };
@@ -173,7 +173,7 @@
   /* ---------- AI (LLM) layer ---------- */
   const AI_URL = 'https://text.pollinations.ai/openai';
   const history = [];
-  const compact = r => { const p = r.p; return `${p.id} | ${p.name} | ${p.brandName} | ${p.category || ''} | ${p.type} | power ${p.power || '-'} | head ${p.head || '-'} | flow ${p.flow || '-'} | bore ${p.bore || '-'} | phase ${p.phase || '-'} | price ${priceTop(p) ? 'up to Rs ' + priceTop(p) : 'on request'}`; };
+  const compact = r => { const p = r.p; return `${p.id} | ${p.name} | ${p.brandName} | ${p.category || ''} | ${p.type} | power ${p.power || '-'} | head ${p.head || '-'} | flow ${p.flow || '-'} | bore ${p.bore || '-'} | phase ${p.phase || '-'}`; };
   const candidates = text => {
     const q = parse(text), t = text.toLowerCase(), seen = new Set(), out = [];
     const push = r => { if (r && !seen.has(r.p.id) && out.length < 8) { seen.add(r.p.id); out.push(r); } };
@@ -188,7 +188,7 @@ Facts you may use:
 - Brands: ${brandList}. Own brand: Aqua Tide (coming soon).
 - Managing Director: G V Sathyanarayana. Phones: 92466 07214, 97041 57350. WhatsApp: +91 92466 07214. Email: sae.sathya@gmail.com.
 - Address: Plot No. 84 & 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad 500003. GSTIN 36ASFPG1225Q1ZM.
-- Prices on the site are upper market bands ("up to"). The best/final price is only given by G V Sathyanarayana on call or WhatsApp.
+- Prices are NOT published. Never state, estimate or compare any price or budget figure. For any price question, ask the customer to contact G V Sathyanarayana on 92466 07214 or 97041 57350 (call or WhatsApp).
 - Opening hours are not published: ask the customer to call before visiting.
 Rules:
 - Reply in the same language the customer writes in (English, Telugu or Hindi). Be warm, clear and brief: at most 110 words, short lines, no tables.
@@ -199,7 +199,7 @@ Rules:
 - Off-topic questions: answer in one short line if harmless, then offer pump help.
 - Last line must be exactly: IDS: <comma separated catalogue ids you recommend> or IDS: none`;
   const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/^\s*[-•*]\s+/gm, '• ').replace(/\n/g, '<br>');
-  window.__aiPayload = text => { const cands = candidates(text); return JSON.stringify({ model: 'openai', temperature: .4, messages: [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase | price):\n' + (cands.map(compact).join('\n') || '(none)') }, { role: 'user', content: text }] }); };
+  window.__aiPayload = text => { const cands = candidates(text); return JSON.stringify({ model: 'openai', temperature: .4, messages: [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase):\n' + (cands.map(compact).join('\n') || '(none)') }, { role: 'user', content: text }] }); };
   let lastAI = 0;
   const aiReply = async text => {
     const cands = candidates(text);
@@ -209,7 +209,7 @@ Rules:
     lastAI = Date.now();
     const ctrl = new AbortController(), timer = setTimeout(() => ctrl.abort(), 25000);
     try {
-      const messages = [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase | price):\n' + (cands.map(compact).join('\n') || '(no close matches for this message)') }, ...history.slice(-8), { role: 'user', content: text }];
+      const messages = [{ role: 'system', content: SYS() + '\n\nCATALOGUE (id | name | brand | use | type | power | head | flow | bore | phase):\n' + (cands.map(compact).join('\n') || '(no close matches for this message)') }, ...history.slice(-8), { role: 'user', content: text }];
       const r = await fetch(AI_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ model: 'openai', messages, temperature: .4 }), signal: ctrl.signal });
       if (!r.ok) throw new Error('http ' + r.status);
       const j = await r.json();
@@ -221,7 +221,7 @@ Rules:
       history.push({ role: 'user', content: text }, { role: 'assistant', content: out });
       if (recs.length) ctx.last = Object.assign({}, ctx.last || {}, parse(text));
       t.innerHTML = md(out) + (recs.length ? `<div class="bcs">${recs.map(card).join('')}</div>` : '') + `<div class="bm-act"><a href="${wa('Hi, ' + text)}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask our team</a></div>`;
-      t.classList.add('aim'); scroll(); chips(['🔍 Find my pump', '💰 Best price', '📞 Talk to a person']);
+      t.classList.add('aim'); scroll(); chips(['🔍 Find my pump', '💰 Ask for price', '📞 Talk to a person']);
     } catch (e) {
       t.remove(); return localReply(text);
     } finally { clearTimeout(timer); }
@@ -230,7 +230,7 @@ Rules:
   const localReply = async text => {
     const t = text.toLowerCase().replace(/[^\w\s"″.,₹+-]/g, ' ').trim();
     if (flow) return finderStep(text);
-    if (/^(hi|hello|hey|namaste|namaskaram|hai|hii+|good (morning|afternoon|evening))\b/.test(t)) return say('Namaste! 🙏 I\'m the Sri Anjaneya Enterprises assistant. I can find a pump for your borewell, compare brands, explain options or connect you to G V Sathyanarayana for the best price.', DEFAULT_CHIPS);
+    if (/^(hi|hello|hey|namaste|namaskaram|hai|hii+|good (morning|afternoon|evening))\b/.test(t)) return say('Namaste! 🙏 I\'m the Sri Anjaneya Enterprises assistant. I can find a pump for your borewell, compare brands, explain options or connect you to G V Sathyanarayana for the price.', DEFAULT_CHIPS);
     if (/thank|thanks|thx|super|great|ok thanks|dhanyavad/.test(t)) return say('Happy to help! Anything else? You can also call or WhatsApp us for the final quote.', DEFAULT_CHIPS);
     if (/start over|reset|find my pump|^find|suggest a pump|which pump|recommend|help me choose|choose a pump/.test(t) && !Object.keys(parse(text)).length) return startFinder();
     if (/show more/.test(t) && ctx.last) { const all = recommend({ ...ctx.last }); return say(`Want the full list? Open the catalogue filtered for you.<div class="bm-act"><a href="#pumps" data-goto="1">Open catalogue</a></div>`, DEFAULT_CHIPS); }
@@ -240,12 +240,12 @@ Rules:
     if (/where|location|address|shop|directions|map|visit|reach you/.test(t)) return say(`We're at <b>Plot No. 84 &amp; 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad – 500003</b>.<div class="bm-act"><a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent('Jeera Compound, Old Boiguda, Secunderabad, Telangana 500003')}" target="_blank" rel="noopener">${I.map || ''} Directions</a><a href="tel:${TEL1}">${I.phone || ''} Call before visiting</a></div>`, DEFAULT_CHIPS);
     if (/timing|hours|open today|opening|closing|close time|sunday/.test(t)) return say(`Please call before you visit so we can confirm today's timings and keep your pump ready: <a href="tel:${TEL1}">92466 07214</a>.`, DEFAULT_CHIPS);
     if (/brands?|which compan|what do you sell|dealer|authori[sz]ed/.test(t) && !parse(text).brand) return say(`We're dealers for ${esc(brandList)}, plus our own brand <b>Aqua Tide</b> (coming soon). Tap a brand logo on the page to see its full range.`, ['KSB pumps', 'Kirloskar pumps', 'Crompton pumps', 'Lubi pumps', '🔍 Find my pump']);
-    if (/price|cost|rate|quote|quotation|best price|discount|offer|how much/.test(t)) {
+    if (/price|cost|rate|quote|quotation|price|discount|offer|how much/.test(t)) {
       const q = parse(text);
-      if (Object.keys(q).length) return showRecs(q, 'Here are prices for');
-      return say(`Prices on the site are <b>upper market bands</b> ("Up to"). For your <b>best price</b>, call <b>G V Sathyanarayana</b> on <a href="tel:${TEL1}">92466 07214</a> or <a href="tel:${TEL2}">97041 57350</a>.<div class="bm-act"><a href="${wa('Hi, please share your best price for a pump.')}" target="_blank" rel="noopener">${I.whatsapp || ''} Get best price</a></div>`, ['🔍 Find my pump', '📞 Talk to a person']);
+      if (Object.keys(q).length) return showRecs(q, 'Here are options for');
+      return say(`Prices are not listed online. For the price of any motor, call <b>G V Sathyanarayana</b> on <a href="tel:${TEL1}">92466 07214</a> or <a href="tel:${TEL2}">97041 57350</a>.<div class="bm-act"><a href="${wa('Hi, please share your price for a pump.')}" target="_blank" rel="noopener">${I.whatsapp || ''} Ask for price</a></div>`, ['🔍 Find my pump', '📞 Talk to a person']);
     }
-    for (const [re, fn] of KB) if (re.test(t)) { const q = parse(text); if (re.source.startsWith('solar') && (q.bore || q.depth)) break; return say(fn(), ['🔍 Find my pump', '💰 Best price', '📞 Talk to a person']); }
+    for (const [re, fn] of KB) if (re.test(t)) { const q = parse(text); if (re.source.startsWith('solar') && (q.bore || q.depth)) break; return say(fn(), ['🔍 Find my pump', '💰 Ask for price', '📞 Talk to a person']); }
     if (/^(?:🌾\s*)?agriculture pumps?$/.test(t) || /^agriculture$/.test(t)) return showRecs({ cat: 'Agriculture' }, 'Popular agriculture pumps');
     if (/^(?:🏠\s*)?home pumps?$/.test(t)) return showRecs({ cat: 'Domestic' }, 'Popular home pumps');
     const q = parse(text);
@@ -254,7 +254,7 @@ Rules:
     return say(`I'm not sure about that one. I'm best with pumps: choosing one for your borewell, prices, brands and our shop. Shall I pass your question to G V Sathyanarayana?<div class="bm-act"><a href="${wa(`Hi, I have a question: ${text}`)}" target="_blank" rel="noopener">${I.whatsapp || ''} Send this on WhatsApp</a><a href="tel:${TEL1}">${I.phone || ''} Call</a></div>`, DEFAULT_CHIPS);
   };
 
-  const QUICK = /^(find my pump|best price|agriculture pumps|home pumps|solar pumps|brands we sell|shop location|talk to a person|start over|show more options|ksb pumps|kirloskar pumps|crompton pumps|lubi pumps)$/i;
+  const QUICK = /^(find my pump|price|agriculture pumps|home pumps|solar pumps|brands we sell|shop location|talk to a person|start over|show more options|ksb pumps|kirloskar pumps|crompton pumps|lubi pumps)$/i;
   const reply = text => (flow || QUICK.test(text) || !navigator.onLine) ? localReply(text) : aiReply(text);
   const send = text => { text = String(text || '').replace(/^[^\w"″\u0C00-\u0C7F\u0900-\u097F]+/u, '').trim(); if (!text) return; add(esc(text), 'me'); chipsBox.innerHTML = ''; reply(text); };
   const open = v => {

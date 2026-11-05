@@ -69,8 +69,7 @@ for b in BRANDS:
                 type=p.get("type",""), power=p.get("power_range",""), head=p.get("head_range",""),
                 flow=p.get("flow_range",""), bore=p.get("borewell_size",""), phase=p.get("phase",""),
                 highlights=p.get("highlights",[]), applications=p.get("applications",[]),
-                priceFrom=p.get("price_from","") if pf else "", priceTo=p.get("price_to","") if pt else "",
-                pf=pf, pt=pt, img=img, src=p.get("source_url",""),
+                 img=img, src=p.get("source_url",""),
                 desc=p.get("description",""), models=p.get("models",[]), features=p.get("features",[]),
                 materials=flat(p.get("materials",{}) or {}), motor=limits_str(p.get("motor","")), warranty=p.get("warranty",""),
                 limits=limits_str(p.get("operating_limits","")), sheet=(p.get("datasheet_url","") or "").replace(" ","%20"), sources=p.get("sources",[])))

@@ -481,8 +481,9 @@
       "price_from": "",
       "price_to": "",
       "price_source_url": "",
-      "image_file": "",
-      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+      "image_file": "images/products/crompton/6w-ultima.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf",
+      "image_source": "https://envmart.com"
     },
     {
       "name": "Crompton 6W Magna Series 6\" Borewell Submersible",
@@ -512,8 +513,9 @@
       "price_from": "₹ 64,144",
       "price_to": "₹ 1,13,279",
       "price_source_url": "https://www.industrybuying.com/borewell-submersible-pumps-crompton-FAM194415",
-      "image_file": "",
-      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+      "image_file": "images/products/crompton/6w-magna.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf",
+      "image_source": "https://envmart.com"
     },
     {
       "name": "Crompton 6W Series 6\" Borewell Submersible",
@@ -724,8 +726,9 @@
       "price_from": "",
       "price_to": "",
       "price_source_url": "",
-      "image_file": "",
-      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf"
+      "image_file": "images/products/crompton/crosvs.jpg",
+      "source_url": "https://mspcworld.com/wp-content/uploads/2025/09/Crompton-Agriculture.pdf",
+      "image_source": "https://envmart.com"
     },
     {
       "name": "Crompton DC Solar Submersible Pump (CSPM-DC)",

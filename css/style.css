@@ -901,3 +901,28 @@ html.has-cursor input,html.has-cursor textarea{cursor:text!important}
 @media (prefers-reduced-motion:reduce){.l-border,.l-orbits i,.l-pedestal i,.l-chip,.l-portrait,.l-portrait::after,.l-bridge .flow{animation:none!important}.l-in{transition:none}}
 .l-orbits i{border-width:2px;border-color:color-mix(in srgb,var(--acc) 85%,transparent);box-shadow:0 0 18px -2px color-mix(in srgb,var(--acc) 70%,transparent),inset 0 0 18px -2px color-mix(in srgb,var(--acc) 50%,transparent)}
 .lcard:hover .l-orbits i{animation-duration:4s}
+
+/* v9: price replaced by contact */
+.price.contact{align-items:center}
+.price.contact b{font-size:.9rem}
+.price-tels{display:flex;flex-direction:column;gap:3px;align-items:flex-end}
+.price-tels a{font-size:.8rem;font-weight:600;color:var(--cyan);text-decoration:none;padding:2px 0;white-space:nowrap}
+.price-tels a::before{content:"☎ ";opacity:.8}
+.price-tels a:hover{color:#fff}
+
+/* v9: mobile polish */
+@media (max-width:760px){
+  .to-top{display:none!important}
+  .bot-fab{transform:scale(.86);transform-origin:100% 100%}
+  .price-tels{flex-direction:row;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+  .price-tels a{padding:8px 10px;border-radius:10px;background:rgba(62,224,255,.1);border:1px solid rgba(62,224,255,.25);min-height:36px;display:inline-flex;align-items:center}
+  .price.contact{flex-direction:column;align-items:stretch}.price.contact .price-tels{justify-content:flex-start}
+  .seg button,.link-btn,.ty-tabs button{min-height:40px}
+  .price-banner a{display:inline-block;padding:6px 2px}
+  #contact .container{padding-bottom:70px}
+  footer{padding-bottom:90px}
+  .ty-view{height:360px}.ty-info{padding:22px}.ty-info h3{font-size:1.35rem}
+  .lcard{height:480px}.l-orbits i:nth-child(3){display:none}
+  .l-chip{font-size:.7rem;padding:5px 10px}
+  .sec-head h2{word-break:normal;overflow-wrap:anywhere}
+}
