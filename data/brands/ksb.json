@@ -2325,56 +2325,6 @@
       "image_file": "images/products/ksb/upa-200.jpg",
       "source_url": "https://www.ksb.com/en-in/lc/products/pump/submersible-borehole-pump/upa-200---upa-s-200/U17A",
       "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/U17A-UPA-200.png"
-    },
-    {
-      "name": "KSB Movitec Vertical Multistage Booster",
-      "series": "Movitec",
-      "category": "Domestic",
-      "type": "Vertical multistage booster",
-      "power_range": "",
-      "head_range": "up to 415 m",
-      "flow_range": "up to 192 m³/h",
-      "borewell_size": "",
-      "phase": "",
-      "highlights": [
-        "Vertical inline multistage",
-        "High-pressure boosting"
-      ],
-      "applications": [
-        "Buildings and apartments",
-        "Pressure boosting"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/ksb/movitec.jpg",
-      "source_url": "https://www.ksb.com/en-in/lc/products/pump/ring-section-pump/movitec/M12A",
-      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/Movitec2023-1-.png"
-    },
-    {
-      "name": "KSB Comeo Horizontal Multistage Booster",
-      "series": "Comeo",
-      "category": "Domestic",
-      "type": "Horizontal multistage booster",
-      "power_range": "",
-      "head_range": "up to 79.5 m",
-      "flow_range": "up to 10.8 m³/h",
-      "borewell_size": "",
-      "phase": "",
-      "highlights": [
-        "Horizontal multistage",
-        "Pressure boosting"
-      ],
-      "applications": [
-        "Buildings and apartments",
-        "Domestic water supply"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/ksb/comeo.jpg",
-      "source_url": "https://www.ksb.com/en-in/lc/products/pump/dry-installed-pump/comeo/C11A",
-      "image_source": "https://live-commerce-proxy-e2e-sales.ksb.com/medias/C11A-Comeo.png"
     }
   ]
 }

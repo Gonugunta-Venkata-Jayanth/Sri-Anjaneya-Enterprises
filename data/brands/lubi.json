@@ -2850,32 +2850,6 @@
       "image_source": "https://www.lubipumps.com/media/uploads/products/images/Lubi_High_Speed_Monoblock_Pump_LBH_-_1.webp"
     },
     {
-      "name": "Lubi End-Suction Centrifugal Close Coupled Pumps (LBI)",
-      "series": "LBI",
-      "category": "Agriculture",
-      "type": "End-suction close-coupled centrifugal",
-      "power_range": "1 phase – 2.20 to 3.70 kW & 3 phase – 1.50 to 22.0 kW",
-      "head_range": "up to 100 metres",
-      "flow_range": "up to 156 m³/h",
-      "borewell_size": "",
-      "phase": "",
-      "highlights": [
-        "1-phase 2.2–3.7 kW, 3-phase 1.5–22 kW",
-        "Rated speed 2900 rpm"
-      ],
-      "applications": [
-        "Agriculture",
-        "Industrial",
-        "Commercial"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/lubi/lbi.jpg",
-      "source_url": "https://www.lubipumps.com/product-category/centrifugal-monoblock-pumps/end-suction-centrifugal-close-coupled-pumps-lbi-series/",
-      "image_source": "https://www.lubipumps.com/media/uploads/products/images/End-Suction_Centrifugal_Close_Coupled_Pumps_LBI_-_1.webp"
-    },
-    {
       "name": "Lubi DC Solar Surface Pumps (LSY DC Solar Surface)",
       "series": "LSY DC Solar Surface",
       "category": "Agriculture",

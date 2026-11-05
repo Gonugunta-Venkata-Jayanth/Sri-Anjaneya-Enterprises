@@ -1439,56 +1439,6 @@
       "image_file": "images/products/falcon/pressure-booster.jpg",
       "source_url": "https://falconpumps.in/products/pressure-booster/",
       "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Pressure-Booster.png"
-    },
-    {
-      "name": "Falcon Vertical Multistage Pump",
-      "series": "Vertical Multistage",
-      "category": "Domestic",
-      "type": "Vertical multistage",
-      "power_range": "1.5–10 HP",
-      "head_range": "98–186 m",
-      "flow_range": "33–133 LPM",
-      "borewell_size": "",
-      "phase": "Three",
-      "highlights": [
-        "High-pressure vertical design"
-      ],
-      "applications": [
-        "High-rise buildings",
-        "Sprinkler irrigation",
-        "RO plants"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/falcon/vertical-multistage.jpg",
-      "source_url": "https://falconpumps.in/products/vertical-multistage-pump/",
-      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Verticle-Multistage-Pump.png"
-    },
-    {
-      "name": "Falcon Hydro Pneumatic System",
-      "series": "Hydro Pneumatic",
-      "category": "Domestic",
-      "type": "Hydro-pneumatic pressure system",
-      "power_range": "5–15 HP",
-      "head_range": "4–10 kg/cm²",
-      "flow_range": "18–60 m³/hr",
-      "borewell_size": "",
-      "phase": "Three",
-      "highlights": [
-        "Constant-pressure water system"
-      ],
-      "applications": [
-        "High-rise buildings",
-        "Hotels",
-        "Shopping complexes"
-      ],
-      "price_from": "",
-      "price_to": "",
-      "price_source_url": "",
-      "image_file": "images/products/falcon/hydro-pneumatic.jpg",
-      "source_url": "https://falconpumps.in/products/hydro-pneumatic-system/",
-      "image_source": "https://falconpumps.in/wp-content/uploads/2025/11/Hydro-Pneumatic-System.png"
     }
   ]
 }
