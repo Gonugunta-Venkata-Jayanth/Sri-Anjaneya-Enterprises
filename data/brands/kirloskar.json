@@ -966,6 +966,222 @@
       "price_source_url": "",
       "image_file": "images/products/kirloskar/solar-pumping-system.jpg",
       "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/solar-pumping-system-/"
+    },
+    {
+      "series": "Chhotu Ultra",
+      "name": "Kirloskar Chhotu Ultra self-priming mini pump",
+      "category": "Domestic",
+      "type": "Self-priming mini pump",
+      "power_range": "0.5–1 HP (0.37–0.75 kW)",
+      "head_range": "up to 24 m",
+      "flow_range": "up to 2650 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Thermal overload protector (TOP)",
+        "CED coating, brass impeller",
+        "Works on 180–260 V"
+      ],
+      "applications": [
+        "Overhead tank supply",
+        "Gardens / fountains",
+        "Feed water to RO plants"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/chhotu-ultra.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/chhotu-ultra/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2026/07/Chhotu-1-HP.jpg"
+    },
+    {
+      "series": "Jalraaj Ultra",
+      "name": "Kirloskar Jalraaj Ultra self-priming mini pump",
+      "category": "Domestic",
+      "type": "Self-priming mini pump",
+      "power_range": "0.5–1 HP (0.37–0.75 kW)",
+      "head_range": "6–30 m",
+      "flow_range": "up to 3350 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "High suction lift",
+        "Aluminium motor body with TOP",
+        "Handle for portability"
+      ],
+      "applications": [
+        "Overhead tank supply",
+        "Home pressure boosting",
+        "Lawn sprinklers"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/jalraaj-ultra.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/jalraaj-ultra/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2026/02/Jalraaj-Ultra.jpg"
+    },
+    {
+      "series": "Mini 40C",
+      "name": "Kirloskar Mini 40C / 40C ES self-priming mini pump",
+      "category": "Domestic",
+      "type": "Self-priming mini pump",
+      "power_range": "1 HP (0.75 kW)",
+      "head_range": "10–40 m",
+      "flow_range": "790–3010 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "CED coating",
+        "Wide voltage operation (180–260 V)",
+        "Thermal overload protector"
+      ],
+      "applications": [
+        "Overhead tank supply",
+        "Feed water to RO",
+        "Car washing"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/mini-40c.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/mini-40c-mini-40c-es/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2026/02/Mini-40C.jpg"
+    },
+    {
+      "series": "Star Galaxy",
+      "name": "Kirloskar Star Galaxy self-priming mini pump",
+      "category": "Domestic",
+      "type": "Self-priming mini pump",
+      "power_range": "0.5 HP (0.37 kW)",
+      "head_range": "6–28 m",
+      "flow_range": "450–2700 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "High suction lift",
+        "Aluminium motor body with TOP",
+        "Works on 180–240 V"
+      ],
+      "applications": [
+        "Overhead tank supply",
+        "Gardens / fountains",
+        "Domestic water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/star-galaxy.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/star-galaxy-/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2020/08/Star-Galaxy-min.jpg"
+    },
+    {
+      "series": "KJ",
+      "name": "Kirloskar KJ jet pump",
+      "category": "Domestic",
+      "type": "Jet pump (deep well)",
+      "power_range": "0.5–1.5 HP (0.37–1.1 kW)",
+      "head_range": "Depth to low water level up to 48 m",
+      "flow_range": "up to 3600 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Bronze jet unit, cast-iron body",
+        "Suits wells 50–115 mm",
+        "CED coating, IP44"
+      ],
+      "applications": [
+        "Domestic water supply",
+        "Overhead tank supply",
+        "Gardens / lawn sprinklers"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/kj.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kj-/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2018/03/KJ-1.png"
+    },
+    {
+      "series": "KDS (Single Phase)",
+      "name": "Kirloskar KDS single phase monoblock pump",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "0.5–5 HP (0.37–3.7 kW)",
+      "head_range": "up to 52 m",
+      "flow_range": "up to 28 LPS",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Wide voltage design (180–240 V)",
+        "Thermal overload protector",
+        "Automatic air release"
+      ],
+      "applications": [
+        "Gardening and small farm irrigation",
+        "Domestic and community water supply",
+        "High-rise building water supply"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/kds-single-phase.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kds-single-phase/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2020/07/KDS-Single-Phase-min.jpg"
+    },
+    {
+      "series": "KDS / GMC (Three Phase)",
+      "name": "Kirloskar KDS / GMC three phase monoblock pump",
+      "category": "Agriculture",
+      "type": "Centrifugal monoblock",
+      "power_range": "0.5–30 HP (0.37–22 kW)",
+      "head_range": "up to 76 m",
+      "flow_range": "up to 49 LPS",
+      "borewell_size": "",
+      "phase": "Three",
+      "highlights": [
+        "Flatter efficiency curve",
+        "Wide voltage design (300–440 V)",
+        "Replaceable wearing parts"
+      ],
+      "applications": [
+        "Irrigation in horticulture and agriculture",
+        "Clear water at high pressure",
+        "Cooling towers"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/kds-gmc-three-phase.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/kds-gmc-three-phase-/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2020/07/KDS-538-3PH-min.jpg"
+    },
+    {
+      "series": "K-Booster",
+      "name": "Kirloskar K-Booster pressure booster pump",
+      "category": "Domestic",
+      "type": "Pressure booster pump",
+      "power_range": "0.5 HP (0.37 kW)",
+      "head_range": "up to 28 m",
+      "flow_range": "up to 2050 LPH",
+      "borewell_size": "",
+      "phase": "Single",
+      "highlights": [
+        "Fully automatic with 2 L tank",
+        "Pressure up to 2.4 kg/cm²",
+        "Thermal overload protector, Y-strainer"
+      ],
+      "applications": [
+        "Bathroom showers",
+        "Washing machine / gas geyser",
+        "Multi-outlet pressure"
+      ],
+      "price_from": "",
+      "price_to": "",
+      "price_source_url": "",
+      "image_file": "images/products/kirloskar/k-booster.jpg",
+      "source_url": "https://www.kirloskarpumps.com/kirloskar-pumps/product/k-booster/",
+      "image_source": "https://www.kirloskarpumps.com/kirloskar-pumps/wp-content/uploads/2021/05/K-Booster.jpg"
     }
   ]
 }
