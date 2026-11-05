@@ -187,7 +187,7 @@
 Facts you may use:
 - Brands: ${brandList}. Own brand: Aqua Tide (coming soon).
 - Managing Director: G V Sathyanarayana. Phones: 92466 07214, 97041 57350. WhatsApp: +91 92466 07214. Email: sae.sathya@gmail.com.
-- Address: Plot No. 84 & 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad 500003. GSTIN 36ASFPG1225Q1ZM.
+- Address: 5-3-160, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad 500003. GSTIN 36ASFPG1225Q1ZM.
 - Prices are NOT published. Never state, estimate or compare any price or budget figure. For any price question, ask the customer to contact G V Sathyanarayana on 92466 07214 or 97041 57350 (call or WhatsApp).
 - Opening hours are not published: ask the customer to call before visiting.
 Rules:
@@ -237,7 +237,7 @@ Rules:
     if (/talk to|person|human|agent|call|phone|number|contact/.test(t)) return say(`You can reach <b>G V Sathyanarayana (MD)</b> directly:<div class="bm-act"><a href="tel:${TEL1}">${I.phone || ''} 92466 07214</a><a href="tel:${TEL2}">${I.phone || ''} 97041 57350</a><a href="${wa('Hi, I have a pump enquiry.')}" target="_blank" rel="noopener">${I.whatsapp || ''} WhatsApp</a><a href="${window.mailLink ? mailLink('Pump enquiry') : 'mailto:sae.sathya@gmail.com'}" target="_blank" rel="noopener">${I.gmail || ''} Gmail</a></div>`, DEFAULT_CHIPS);
     if (/whatsapp|watsapp|whats app/.test(t)) return say(`Tap to chat on WhatsApp:<div class="bm-act"><a href="${wa('Hi, I have a pump enquiry.')}" target="_blank" rel="noopener">${I.whatsapp || ''} Open WhatsApp</a></div>`, DEFAULT_CHIPS);
     if (/mail|gmail/.test(t)) return say(`Write to us at <b>sae.sathya@gmail.com</b>:<div class="bm-act"><a href="${window.mailLink ? mailLink('Pump enquiry') : 'mailto:sae.sathya@gmail.com'}" target="_blank" rel="noopener">${I.gmail || ''} Compose email</a></div>`, DEFAULT_CHIPS);
-    if (/where|location|address|shop|directions|map|visit|reach you/.test(t)) return say(`We're at <b>Plot No. 84 &amp; 5-3-273, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad – 500003</b>.<div class="bm-act"><a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent('Jeera Compound, Old Boiguda, Secunderabad, Telangana 500003')}" target="_blank" rel="noopener">${I.map || ''} Directions</a><a href="tel:${TEL1}">${I.phone || ''} Call before visiting</a></div>`, DEFAULT_CHIPS);
+    if (/where|location|address|shop|directions|map|visit|reach you/.test(t)) return say(`We're at <b>5-3-160, Ground Floor, Jeera Compound, Old Boiguda, Secunderabad – 500003</b>.<div class="bm-act"><a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent('Jeera Compound, Old Boiguda, Secunderabad, Telangana 500003')}" target="_blank" rel="noopener">${I.map || ''} Directions</a><a href="tel:${TEL1}">${I.phone || ''} Call before visiting</a></div>`, DEFAULT_CHIPS);
     if (/timing|hours|open today|opening|closing|close time|sunday/.test(t)) return say(`Please call before you visit so we can confirm today's timings and keep your pump ready: <a href="tel:${TEL1}">92466 07214</a>.`, DEFAULT_CHIPS);
     if (/brands?|which compan|what do you sell|dealer|authori[sz]ed/.test(t) && !parse(text).brand) return say(`We're dealers for ${esc(brandList)}, plus our own brand <b>Aqua Tide</b> (coming soon). Tap a brand logo on the page to see its full range.`, ['KSB pumps', 'Kirloskar pumps', 'Crompton pumps', 'Lubi pumps', '🔍 Find my pump']);
     if (/price|cost|rate|quote|quotation|price|discount|offer|how much/.test(t)) {
